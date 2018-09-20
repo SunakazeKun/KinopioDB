@@ -1,0 +1,44 @@
+{
+	"Categories":
+	{
+		"unknown": {
+			"Name": "Unknown"
+		},
+		"stagemodel": {
+			"Name": "Stage Models"
+		},
+		"stagepart": {
+			"Name": "Stage Parts"
+		},
+		"area": {
+			"Name": "Areas"
+		},
+		"effect": {
+			"Name": "Effects"
+		},
+		"decoration": {
+			"Name": "Decoration"
+		},
+		"enemy": {
+			"Name": "Enemies"
+		},
+		"boss": {
+			"Name": "Bosses"
+		},
+		"item": {
+			"Name": "Items"
+		},
+		"obstacle": {
+			"Name": "Obstacles"
+		},
+		"controller": {
+			"Name": "Controllers"
+		},
+		"cutscene": {
+			"Name": "Cutscenes"
+		},
+		"other": {
+			"Name": "Other"
+		}
+	}
+}

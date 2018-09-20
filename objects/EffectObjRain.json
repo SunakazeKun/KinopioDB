@@ -1,0 +1,11 @@
+{
+    "InternalName": "EffectObjRain",
+    "ClassName": "EffectObjAreaCube",
+    "Name": "EffectObjRain",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {},
+    "Models": [],
+    "Links": []
+}

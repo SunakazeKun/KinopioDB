@@ -1,0 +1,11 @@
+{
+    "InternalName": "PlayerColliderBDashSupportOffArea",
+    "ClassName": "Area",
+    "Name": "PlayerColliderBDashSupportOffArea",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {},
+    "Models": [],
+    "Links": []
+}

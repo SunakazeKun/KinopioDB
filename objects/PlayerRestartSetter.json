@@ -1,0 +1,14 @@
+{
+    "InternalName": "PlayerRestartSetter",
+    "ClassName": "PlayerRestartSetter",
+    "Name": "Respawn Controller",
+    "List": "CheckPointList",
+    "Category": "controller",
+    "Description": "Sets the respawn point when a certain switch is activated.",
+    "Properties": {},
+    "Models": [],
+    "Links": [
+        "PlayerRestartPos",
+        "SwitchStart"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "InternalName": "TruckRail",
+    "ClassName": "BlockRail",
+    "Name": "TruckRail",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {},
+    "Models": [],
+    "Links": []
+}

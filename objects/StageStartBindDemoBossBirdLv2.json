@@ -1,0 +1,11 @@
+{
+    "InternalName": "StageStartBindDemoBossBirdLv2",
+    "ClassName": "StageStartBindDemoBossBird",
+    "Name": "StageStartBindDemoBossBirdLv2",
+    "List": "DemoObjList",
+    "Category": "cutscene",
+    "Description": "",
+    "Properties": {},
+    "Models": [],
+    "Links": []
+}

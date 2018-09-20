@@ -1,0 +1,14 @@
+{
+    "InternalName": "Ukibo",
+    "ClassName": "Ukibo",
+    "Name": "Floating Goomba",
+    "List": "ObjectList",
+    "Category": "enemy",
+    "Description": "A Goomba wearing a life preserver; chilling and floating on water.",
+    "Properties": {
+        "IsOffCollide": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

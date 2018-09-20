@@ -1,0 +1,11 @@
+{
+    "InternalName": "EffectObjHaze",
+    "ClassName": "EffectObjAreaCube",
+    "Name": "EffectObjHaze",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {},
+    "Models": [],
+    "Links": []
+}

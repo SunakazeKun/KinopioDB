@@ -1,0 +1,14 @@
+{
+    "InternalName": "Bull",
+    "ClassName": "Bull",
+    "Name": "Chargin' Chuck",
+    "List": "ObjectList",
+    "Category": "enemy",
+    "Description": "A type of Koopa wearing American football gear. They attack by charging at the player. Using this attack it can destroy blocks as well.",
+    "Properties": {
+        "IsInMaze": "Boolean",
+        "IsPlayFindBgm": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

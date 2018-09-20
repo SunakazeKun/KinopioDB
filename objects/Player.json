@@ -1,0 +1,13 @@
+{
+    "InternalName": "Player",
+    "ClassName": "Player",
+    "Name": "Spawning Point",
+    "List": "PlayerList",
+    "Category": "other",
+    "Description": "The spawning point for the player character.",
+    "Properties": {
+        "IsNarrowPlace": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

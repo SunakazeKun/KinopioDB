@@ -1,0 +1,30 @@
+{
+    "InternalName": "SkyKinopio",
+    "ClassName": "Sky",
+    "Name": "SkyKinopio",
+    "List": "SkyList",
+    "Category": "other",
+    "Description": "The level backdrop. Model needs to be specified.",
+    "Properties": {
+        "IsOnlyCubeMap": "Boolean"
+    },
+    "Models": [
+        "SkyAnotherWorld",
+        "SkyBlueThunderhead",
+        "SkyBonusStage1Cherry",
+        "SkyBonusStage1Pickaxe",
+        "SkyBonusStage2",
+        "SkyBonusStage2PickAxe",
+        "SkyBonusStage3",
+        "SkyBonusStage3PickAxe",
+        "SkyBossBird1_1",
+        "SkyBossBird1_2",
+        "SkyBossBird2_1",
+        "SkyBossBird2_2",
+        "SkyDesertBlue",
+        "SkyFullMoon",
+        "SkyNightStardust",
+        "SkyPoison"
+    ],
+    "Links": []
+}

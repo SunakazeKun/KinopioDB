@@ -1,0 +1,24 @@
+{
+    "InternalName": "CollectItem",
+    "ClassName": "CollectItem",
+    "Name": "Super Gem",
+    "List": "ObjectList",
+    "Category": "item",
+    "Description": "Collectible diamonds serving the same purpose as Green Stars or Star Coins. Usually, a level has three of them.",
+    "Properties": {
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "GotAnimation": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableTouchAppear": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsInvalidClipping": "Boolean",
+        "ShadowLength": "Single",
+        "TouchPointOffsetX": "Single",
+        "TouchPointOffsetY": "Single",
+        "TouchPointOffsetZ": "Single",
+        "TouchPointRadius": "Single"
+    },
+    "Models": [],
+    "Links": []
+}

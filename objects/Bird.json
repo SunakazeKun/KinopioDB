@@ -1,0 +1,13 @@
+{
+    "InternalName": "Bird",
+    "ClassName": "Bird",
+    "Name": "Bird",
+    "List": "ObjectList",
+    "Category": "decoration",
+    "Description": "A decorative bird as seen in the scenery of some levels.",
+    "Properties": {
+        "IsPerch": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

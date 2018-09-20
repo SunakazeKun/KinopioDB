@@ -1,0 +1,15 @@
+{
+    "InternalName": "CoinStack",
+    "ClassName": "CoinStack",
+    "Name": "Coin Stack",
+    "List": "ObjectList",
+    "Category": "item",
+    "Description": "A stack of coins. Each single stack consists of five coins.",
+    "Properties": {
+        "CoinStackNum": "Int32",
+        "IsNoShadow": "Boolean",
+        "IsOnDrawClipping": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

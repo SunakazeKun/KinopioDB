@@ -1,0 +1,475 @@
+{
+	"Categories":
+	[
+		{
+			"Name": "Chapter 1",
+			"Levels":
+			[
+				{
+					"InternalName": "PullUpStage",
+					"Description": "Plucky Pass Beginnings"
+				},
+				{
+					"InternalName": "RevolverRuinsStage",
+					"Description": "Walleye Tumble Temple"
+				},
+				{
+					"InternalName": "TouchPuzzleMiniStage",
+					"Description": "Touchstone Trouble"
+				},
+				{
+					"InternalName": "FreshRuinsStage",
+					"Description": "Mushroom Mesa"
+				},
+				{
+					"InternalName": "DoubleCherryRuinsStage",
+					"Description": "Double Cherry Palace"
+				},
+				{
+					"InternalName": "HeyhoGardenStage",
+					"Description": "Shy Guy Heights"
+				},
+				{
+					"InternalName": "TouchRotateShelfStage",
+					"Description": "Spinwheel Library"
+				},
+				{
+					"InternalName": "TruckCaveStage",
+					"Description": "Mine Cart Tunnel Throwdown"
+				},
+				{
+					"InternalName": "TouchRotateFortressStage",
+					"Description": "Spinwheel Bullet Bill Base"
+				},
+				{
+					"InternalName": "BossFireStage",
+					"Description": "The King of Pyropuff Peak"
+				},
+				{
+					"InternalName": "PipePackunJungleStage",
+					"Description": "Piranha Creeper Cove"
+				},
+				{
+					"InternalName": "WaterCageStage",
+					"Description": "Briny Bowl Swimming Hole"
+				},
+				{
+					"InternalName": "PipePackunCannonStage",
+					"Description": "Turnip Cannon Jungle"
+				},
+				{
+					"InternalName": "PullUpHeyhoStage",
+					"Description": "Pop-Up Prairie Town"
+				},
+				{
+					"InternalName": "ChikuwaFallStage",
+					"Description": "Drop-Road Dash"
+				},
+				{
+					"InternalName": "MoveDoorHauntedHouseStage",
+					"Description": "Bizarre Doors of Boo Mansion"
+				},
+				{
+					"InternalName": "LongExpressStage",
+					"Description": "Blizzard on the Star Express"
+				},
+				{
+					"InternalName": "BossBird1Stage",
+					"Description": "Wingo's Watchtower"
+				}
+			]
+		},
+		{
+			"Name": "Chapter 2",
+			"Levels":
+			[
+				{
+					"InternalName": "LongSlideStage",
+					"Description": "Chute Scoot Slopes"
+				},
+				{
+					"InternalName": "LogBridgeStage",
+					"Description": "Stumper Sneakaround"
+				},
+				{
+					"InternalName": "TruckMountainStage",
+					"Description": "Mine Cart Sunset Rundown"
+				},
+				{
+					"InternalName": "BelieveSignboardStage",
+					"Description": "Sinister Street Signs"
+				},
+				{
+					"InternalName": "UkiboWaterParkStage",
+					"Description": "Floaty Fun Water Park"
+				},
+				{
+					"InternalName": "RaftRavineStage",
+					"Description": "Drift-Along Canyon"
+				},
+				{
+					"InternalName": "TwoSidePushPullStage",
+					"Description": "Sliding Slab Shuffle"
+				},
+				{
+					"InternalName": "TeresaDarkHouseStage",
+					"Description": "Spooky Specters at Shadow Manor"
+				},
+				{
+					"InternalName": "BossFire2Stage",
+					"Description": "Draggadon's Revenge"
+				},
+				{
+					"InternalName": "ScrewRuinsStage",
+					"Description": "Spinwheel Cog Ruins"
+				},
+				{
+					"InternalName": "GabonStairsStage",
+					"Description": "Windup Stairs"
+				},
+				{
+					"InternalName": "SwitchWallMazeStage",
+					"Description": "Up 'n' Down Terrace"
+				},
+				{
+					"InternalName": "RouteDokanJetStage",
+					"Description": "Clear Pipe Puzzleplex"
+				},
+				{
+					"InternalName": "GettonForestStage",
+					"Description": "Midnight in the Wandering Woods"
+				},
+				{
+					"InternalName": "CherryTowerStage",
+					"Description": "Double Cherry Spires"
+				},
+				{
+					"InternalName": "KillerTouchBlockStage",
+					"Description": "Bullet Bill's Touchy Trials"
+				},
+				{
+					"InternalName": "TouchRotateWallStage",
+					"Description": "Spinwheel Sky Fort"
+				},
+				{
+					"InternalName": "EnemyBattleStage",
+					"Description": "Battle Tower Blitz"
+				}
+			]
+		},
+		{
+			"Name": "Chapter 3",
+			"Levels":
+			[
+				{
+					"InternalName": "RotateHellStage",
+					"Description": "Rolling Inferno"
+				},
+				{
+					"InternalName": "SeesawNeedleBallStage",
+					"Description": "Seesaw Sizzle"
+				},
+				{
+					"InternalName": "ChikaChikaBrosStage",
+					"Description": "Beep Block Sky Plaza"
+				},
+				{
+					"InternalName": "PickaxeCaveStage",
+					"Description": "Pickax Cave Plummet"
+				},
+				{
+					"InternalName": "LogForestStage",
+					"Description": "Stumpy Springs Sanctuary"
+				},
+				{
+					"InternalName": "WatchYourStepStage",
+					"Description": "Biddybud Snow Stroll"
+				},
+				{
+					"InternalName": "WheelCageStage",
+					"Description": "Cagey Conkdor Caper"
+				},
+				{
+					"InternalName": "BlueBlockMazeStage",
+					"Description": "Up 'n' Down Desert"
+				},
+				{
+					"InternalName": "TruckTempleStage",
+					"Description": "Mine Cart Ruins Rumble"
+				},
+				{
+					"InternalName": "MokingDoubleCherryStage",
+					"Description": "Multi-Vator Mayhem"
+				},
+				{
+					"InternalName": "PatanPanelStage",
+					"Description": "Flip Panel Footpath"
+				},
+				{
+					"InternalName": "LauncherNormalStage",
+					"Description": "Rock Block Badlands"
+				},
+				{
+					"InternalName": "BossFire3Stage",
+					"Description": "Secret of the Golden Realm"
+				},
+				{
+					"InternalName": "HeyhoDarknessStage",
+					"Description": "Shy Guy Shadow Den"
+				},
+				{
+					"InternalName": "SlideParkStage",
+					"Description": "Razzle-Dazzle Slider"
+				},
+				{
+					"InternalName": "BazookaTouchLiftStage",
+					"Description": "Poison Canal Cannon Run"
+				},
+				{
+					"InternalName": "FreightTrainStage",
+					"Description": "Fright Train Flight"
+				},
+				{
+					"InternalName": "ClimbTowerStage",
+					"Description": "No Sleep at Magikoopa Keep"
+				},
+				{
+					"InternalName": "NeedleBallSlopeStage",
+					"Description": "Retro Ramp-Up"
+				},
+				{
+					"InternalName": "WheelPlanetStage",
+					"Description": "Twisty-Turny Planet"
+				},
+				{
+					"InternalName": "DarknessTrapStage",
+					"Description": "Ghost Gallery Gambit"
+				},
+				{
+					"InternalName": "TouchPuzzleTentenStage",
+					"Description": "Touchstone Turmoil"
+				},
+				{
+					"InternalName": "ClockDiscStage",
+					"Description": "Color Crate Carousel"
+				},
+				{
+					"InternalName": "TouchBlindNeedleBallStage",
+					"Description": "Trick-Track Hall"
+				},
+				{
+					"InternalName": "TuccondorRotateRoomStage",
+					"Description": "Deep-Space Gyromajig"
+				},
+				{
+					"InternalName": "MagmaRoadStage",
+					"Description": "Magma Road Marathon"
+				},
+				{
+					"InternalName": "NukkunSinkTowerStage",
+					"Description": "Scalding Scaffold Sinkhole"
+				},
+				{
+					"InternalName": "BossBird2Stage",
+					"Description": "Wingo's Whackdown"
+				}
+			]
+		},
+		{
+			"Name": "Extra Chapter",
+			"Levels":
+			[
+				{
+					"InternalName": "EnterCatMarioStage",
+					"Description": "Super Bell Hill"
+				},
+				{
+					"InternalName": "SideWaveDesertStage",
+					"Description": "Conkdor Canyon"
+				},
+				{
+					"InternalName": "ShadowTunnelStage",
+					"Description": "Shadow-Play Alley"
+				},
+				{
+					"InternalName": "RouteDokanTourStage",
+					"Description": "Clear Pipe Cruise"
+				},
+				{
+					"InternalName": "SandWorldStage",
+					"Description": "Secret of the Inverted Pyramid"
+				},
+				{
+					"InternalName": "WaterfallWorldStage",
+					"Description": "Mine Cart Cascade Crusade"
+				},
+				{
+					"InternalName": "CityWorldStage",
+					"Description": "Uptown, Downtown"
+				},
+				{
+					"InternalName": "LavaWorldStage",
+					"Description": "Cookatiel's Sizzling Sprint"
+				},
+				{
+					"InternalName": "ToadBrigadeFreshRuinsStage",
+					"Description": "Toad Brigade to Mushroom Mesa!"
+				},
+				{
+					"InternalName": "ToadBrigadeTouchBlindNeedleBallStage",
+					"Description": "Toad Brigade to Trick-Track Hall!"
+				},
+				{
+					"InternalName": "ToadBrigadeTouchRotateFortressStage",
+					"Description": "Toad Brigade to Bullet Bill Base!"
+				},
+				{
+					"InternalName": "ToadBrigadeClimbTowerStage",
+					"Description": "Toad Brigade to Magikoopa Keep!"
+				},
+				{
+					"InternalName": "GhostPlayerPatanPanelStage",
+					"Description": "Mummy-Me on Flip Panel Footpath"
+				},
+				{
+					"InternalName": "GhostPlayerChikuwaFallStage",
+					"Description": "Mummy-Me on Drop-Road Dash"
+				},
+				{
+					"InternalName": "GhostPlayerBossFireStage",
+					"Description": "Mummy-Me at Pyropuff Peak"
+				}
+			]
+		},
+		{
+			"Name": "Bonus Courses",
+			"Levels":
+			[
+				{
+					"InternalName": "GhostPlayerMaze1Stage",
+					"Description": "Mummy-Me Maze"
+				},
+				{
+					"InternalName": "GhostPlayerMaze2Stage",
+					"Description": "Mummy-Me Maze Returns"
+				},
+				{
+					"InternalName": "GhostPlayerMaze3Stage",
+					"Description": "Mummy-Me Maze Forever"
+				},
+				{
+					"InternalName": "BonusStage1",
+					"Description": "Coins Galore"
+				},
+				{
+					"InternalName": "BonusStage2",
+					"Description": "More Coins Galore"
+				},
+				{
+					"InternalName": "BonusStage3",
+					"Description": "Even More Coins Galore"
+				}
+			]
+		},
+		{
+			"Name": "Cutscenes",
+			"Levels":
+			[
+				{
+					"InternalName": "Season1OpeningStage",
+					"Description": "Episode 1 Prologue"
+				},
+				{
+					"InternalName": "Season1IntermissionStage",
+					"Description": "The Hunt for the Great Bird's Lair"
+				},
+				{
+					"InternalName": "Season2OpeningStage",
+					"Description": "Episode 2 Prologue"
+				},
+				{
+					"InternalName": "Season2IntermissionStage",
+					"Description": "On the Trail of the Great Bird"
+				},
+				{
+					"InternalName": "Season2DragonRideStage",
+					"Description": "Farewell, Pyropuff Peak"
+				},
+				{
+					"InternalName": "Season3OpeningStage",
+					"Description": "Episode 3 Prologue"
+				},
+				{
+					"InternalName": "Season3IntermissionStage",
+					"Description": "Captain Toad's Trials"
+				},
+				{
+					"InternalName": "Season3DragonRideStage",
+					"Description": "Reunited at Last?"
+				},
+				{
+					"InternalName": "DemoSeasonHalfStage",
+					"Description": "DemoSeasonHalfStage"
+				},
+				{
+					"InternalName": "Season1EndingDemoStage",
+					"Description": "Episode 1 Ending"
+				},
+				{
+					"InternalName": "DemoEndingSeason1Stage",
+					"Description": "Episode 1 Ending Cutscene"
+				},
+				{
+					"InternalName": "DemoSeason2HalfStage",
+					"Description": "DemoSeason2HalfStage"
+				},
+				{
+					"InternalName": "DemoSeason3HalfStage",
+					"Description": "DemoSeason3HalfStage"
+				},
+				{
+					"InternalName": "Season3EndingDemoStage",
+					"Description": "Episode 3 Ending"
+				},
+				{
+					"InternalName": "DemoEndingSeason3Stage",
+					"Description": "Episode 3 Ending Cutscene"
+				},
+				{
+					"InternalName": "DemoOpening3DWorldStage",
+					"Description": "DemoOpening3DWorldStage"
+				}
+			]
+		},
+		{
+			"Name": "Miscellaneous",
+			"Levels":
+			[
+				{
+					"InternalName": "GameOverStage",
+					"Description": "Game Over Cave"
+				},
+				{
+					"InternalName": "TrickArt2Stage",
+					"Description": "Title Screen (Fire Flower)"
+				},
+				{
+					"InternalName": "TrickArt1Stage",
+					"Description": "Title Screen (SMB 1-1)"
+				},
+				{
+					"InternalName": "TrialPullUpStage",
+					"Description": "Plucky Pass Beginnings (eShop Demo)"
+				},
+				{
+					"InternalName": "TrialFreshRuinsStage",
+					"Description": "Mushroom Mesa (eShop Demo)"
+				},
+				{
+					"InternalName": "TrialBossFireStage",
+					"Description": "The King of Pyropuff Peak (eShop Demo)"
+				}
+			]
+		}
+	]
+}

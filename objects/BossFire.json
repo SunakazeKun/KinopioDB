@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossFire",
+    "ClassName": "BossFire",
+    "Name": "Draggadon",
+    "List": "ObjectList",
+    "Category": "boss",
+    "Description": "A dragon that resides in a volcano. Attacks by spitting fire balls.",
+    "Properties": {
+        "Lv": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

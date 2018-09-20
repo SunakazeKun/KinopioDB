@@ -1,0 +1,20 @@
+{
+    "InternalName": "Crawler",
+    "ClassName": "Crawler",
+    "Name": "Ant Trooper",
+    "List": "ObjectList",
+    "Category": "enemy",
+    "Description": "Ant enemis debuting in 3D World. Their movement resembles marching and they usually walk on walls.",
+    "Properties": {
+        "CollectItemId": "Int32",
+        "ItemType": "String",
+        "KeyMoveOffset": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WalkDelay": "Int32",
+        "WalkSpeed": "Single"
+    },
+    "Models": [],
+    "Links": []
+}

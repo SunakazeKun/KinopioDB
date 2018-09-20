@@ -1,0 +1,25 @@
+{
+    "InternalName": "GoalItem",
+    "ClassName": "GoalItem",
+    "Name": "Power Star",
+    "List": "ObjectList",
+    "Category": "item",
+    "Description": "A Power Star serves as the goal in each level, waiting to be collected by Toad and Toadette.",
+    "Properties": {
+        "AppearAnimName": "String",
+        "ColorType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsDisableGetAtMove": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsInvalidClipping": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "ShadowLength": "Int32",
+        "UsingOccludedEffect": "Boolean"
+    },
+    "Models": [
+        "GoalItem",
+        "GreenStarGoalItem",
+        "ShineGoalItem"
+    ],
+    "Links": []
+}
