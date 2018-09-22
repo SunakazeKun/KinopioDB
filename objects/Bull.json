@@ -7,7 +7,8 @@
     "Description": "A type of Koopa wearing American football gear. They attack by charging at the player. Using this attack it can destroy blocks as well.",
     "Properties": {
         "IsInMaze": "Boolean",
-        "IsPlayFindBgm": "Boolean"
+        "IsPlayFindBgm": "Boolean",
+        "UsingDepthShadow": "Boolean"
     },
     "Models": [],
     "Links": []

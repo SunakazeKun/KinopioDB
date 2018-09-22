@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsDisableSeStop": "Boolean",
+        "IsOneTime": "Boolean",
+        "Priority": "Int32",
+        "SePlayName": "String"
+    },
     "Models": [],
     "Links": []
 }

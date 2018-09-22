@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsSearchCircle": "Boolean",
+        "IsTuccondorAttackShort": "Boolean",
+        "SearchAngleDegreeLeft": "Single",
+        "SearchAngleDegreeRight": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

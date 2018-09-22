@@ -5,7 +5,16 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "ActionName": "String",
+        "InterpolateType": "Int32",
+        "IsRideOnlyMove": "Boolean",
+        "KeyHitReactionName": "String",
+        "MoveAxis": "Int32",
+        "MoveSpeed": "Single",
+        "PartsInterval": "Single",
+        "StartRate": "Single"
+    },
     "Models": [],
     "Links": []
 }

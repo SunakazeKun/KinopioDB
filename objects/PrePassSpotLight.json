@@ -5,7 +5,20 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AfterCollisionCheckOffset": "Single",
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableCollisionCheck": "Boolean",
+        "IsEnableSpecular": "Boolean",
+        "KillFrame": "Int32",
+        "SpotLightAngleDamp": "Single",
+        "SpotLightDegree": "Single",
+        "SpotLightLength": "Single",
+        "UseShadow": "Int32"
+    },
     "Models": [],
     "Links": []
 }

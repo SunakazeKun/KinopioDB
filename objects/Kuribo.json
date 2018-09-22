@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsChangeBoxKuribo": "Boolean",
+        "IsEnableCliffCheck": "Boolean",
+        "IsNoUseShadowMask": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

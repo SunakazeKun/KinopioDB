@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "DelayAppearFrame": "Int32",
+        "Distance": "Single",
+        "GenerateFrame": "Int32"
+    },
     "Models": [],
     "Links": []
 }

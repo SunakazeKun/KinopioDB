@@ -101,3 +101,26 @@ def build_objects(dirpath, destpath):
     outf.close()
     
     print("-- Done")
+
+def update_objects(dirpath):
+    with open("_props.json", "r") as objfile:
+        updatedprops = json.load(objfile)
+    
+    for objdir in os.listdir(dirpath):
+        with open(dirpath + "/" + objdir, "r") as objfile:
+            obj = json.load(objfile)
+        
+        if not "InternalName" in obj:    # make sure we load objects
+            continue
+        
+        internalName = obj["InternalName"]
+        
+        if not internalName in updatedprops:
+            continue
+        
+        obj.update({"Properties": updatedprops[internalName]})
+        
+        with open(dirpath + "/" + objdir, "w") as objfile:
+            json.dump(obj, objfile, indent=4)
+
+update_objects("C:/Users/Aurum/Documents/GitHub/KinopioDatabase/objects")

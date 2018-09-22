@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "Action1": "String",
+        "Action2": "String",
+        "Action3": "String",
+        "FigureType": "Int32",
+        "SuffixName": "String"
+    },
     "Models": [],
     "Links": []
 }

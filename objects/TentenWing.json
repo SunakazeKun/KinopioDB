@@ -5,7 +5,21 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AttachItemWidthNum": "Int32",
+        "GreenStarId": "Int32",
+        "HeightNum": "Int32",
+        "IsInvalidTurn": "Boolean",
+        "IsSetSameColorAll": "Boolean",
+        "ItemType": "String",
+        "MoveSpeed": "Int32",
+        "OffsetHeight": "Single",
+        "OffsetWidth": "Single",
+        "ShadowMaskLength": "Int32",
+        "TentenColor": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32"
+    },
     "Models": [],
     "Links": []
 }

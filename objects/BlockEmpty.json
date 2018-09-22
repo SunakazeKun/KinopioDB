@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsNoDepthShadow": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32"
+    },
     "Models": [],
     "Links": []
 }

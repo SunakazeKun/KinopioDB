@@ -6,7 +6,8 @@
     "Category": "enemy",
     "Description": "A small bee-like enemy with a large stinger on its face. Albeit being unused in the ported versions, it functions as expected.",
     "Properties": {
-        "IsAlwaysChase": "Boolean"
+        "IsAlwaysChase": "Boolean",
+        "UsingDepthShadow": "Boolean"
     },
     "Models": [],
     "Links": []

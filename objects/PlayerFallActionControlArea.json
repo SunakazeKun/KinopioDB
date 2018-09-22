@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AnimStartFrame": "Int32",
+        "IsEnableCollisionHeightCheck": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

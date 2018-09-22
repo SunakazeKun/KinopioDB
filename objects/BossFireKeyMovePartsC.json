@@ -5,7 +5,19 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
     "Models": [],
     "Links": []
 }

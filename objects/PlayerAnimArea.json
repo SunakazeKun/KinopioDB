@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AnimStartFrame": "Int32",
+        "IntervalFrame": "Int32",
+        "PlayerAnimName": "String",
+        "Priority": "Int32"
+    },
     "Models": [],
     "Links": []
 }

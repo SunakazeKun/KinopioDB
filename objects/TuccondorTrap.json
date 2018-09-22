@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "InvalidateBodyAttackSensor": "Boolean",
+        "IsTuccondorAttackShort": "Boolean",
+        "ShadowLength": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

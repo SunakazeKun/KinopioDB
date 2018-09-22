@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "PermitDegree": "Single",
+        "RotateDegree1": "Single",
+        "RotateDegree2": "Single",
+        "RotateDegree3": "Single"
+    },
     "Models": [],
     "Links": []
 }

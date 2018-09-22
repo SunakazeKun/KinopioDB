@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AvoidDist": "Single",
+        "FishNum": "Int32"
+    },
     "Models": [],
     "Links": []
 }

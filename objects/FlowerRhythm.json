@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "FlowerPoinsettiaColor": "Int32",
+        "FlowerRhythmColor": "Int32",
+        "IsRhythmAnimReverse": "Boolean",
+        "IsRotateY": "Boolean",
+        "ItemType": "String"
+    },
     "Models": [],
     "Links": []
 }

@@ -6,6 +6,7 @@
     "Category": "other",
     "Description": "The spawning point for the player character.",
     "Properties": {
+        "CubeMapUnitName": "String",
         "IsNarrowPlace": "Boolean"
     },
     "Models": [],

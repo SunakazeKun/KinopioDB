@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDeath": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

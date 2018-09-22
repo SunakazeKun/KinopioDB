@@ -5,7 +5,9 @@
     "List": "ObjectList",
     "Category": "item",
     "Description": "A potted Piranha Plant that can be carried around to avoid obstacles. Does not work in the 3DS version due to missing models.",
-    "Properties": {},
+    "Properties": {
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

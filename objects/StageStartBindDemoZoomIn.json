@@ -5,7 +5,9 @@
     "List": "DemoObjList",
     "Category": "cutscene",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "StartAnimation": "String"
+    },
     "Models": [],
     "Links": []
 }

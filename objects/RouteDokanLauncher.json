@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsUseHostUpDir": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "ModelSuffix": "String",
+        "MoveSpeed": "Single"
+    },
     "Models": [],
     "Links": []
 }

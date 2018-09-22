@@ -5,7 +5,15 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsLimitJointMove": "Boolean",
+        "IsShowShadowMask": "Boolean",
+        "IsUseSmallClippingRadius": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
     "Models": [],
     "Links": []
 }

@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "BgmSituationNameOff": "String",
+        "BgmSituationNameOn": "String"
+    },
     "Models": [],
     "Links": []
 }

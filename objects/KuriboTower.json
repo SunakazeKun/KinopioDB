@@ -5,7 +5,16 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CollectItemId": "Int32",
+        "EnableObstacleCheck": "Boolean",
+        "IsNoUseShadowMask": "Boolean",
+        "IsValidSwitchingAttackSensor": "Boolean",
+        "ItemInsertPosition": "Int32",
+        "ItemType": "String",
+        "SleepEnemy": "Boolean",
+        "StackNum": "Int32"
+    },
     "Models": [],
     "Links": []
 }

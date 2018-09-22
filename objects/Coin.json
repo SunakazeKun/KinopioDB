@@ -7,6 +7,7 @@
     "Description": "Coins serve as the most common collectible item in any Mario game to date. They increase the coin score when collected.",
     "Properties": {
         "CollisionCheckDist": "Single",
+        "CubeMapUnitName": "String",
         "IsConnectToCollision": "Boolean",
         "IsDropShadowActorDown": "Boolean",
         "IsEnableTouchBack": "Boolean",

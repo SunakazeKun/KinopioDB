@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

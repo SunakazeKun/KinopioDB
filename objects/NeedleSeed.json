@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

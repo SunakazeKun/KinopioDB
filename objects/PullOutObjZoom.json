@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "ItemType": "String"
+    },
     "Models": [],
     "Links": []
 }

@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IndirectScrollSpeed": "Single",
+        "Priority": "Int32",
+        "sStepInterpolation": "Int32"
+    },
     "Models": [],
     "Links": []
 }

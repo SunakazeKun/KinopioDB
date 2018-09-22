@@ -1,0 +1,5075 @@
+{
+    "AchievementSwitchChecker": {},
+    "AllDeadWatcher": {
+        "SwitchOnDelayStep": "Int32"
+    },
+    "ArayaClockMapParts": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "ArayaFixParts": {
+        "CubeMapUnitName": "String"
+    },
+    "ArayaKeyMoveParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "AudioEffectChangeArea": {
+        "AudioEffectName": "String",
+        "Priority": "Int32"
+    },
+    "AudioListenerParamArea": {
+        "InteriorSize": "Single",
+        "InterpolateFrame": "Int32",
+        "MaxVolumeDistance": "Single",
+        "PoserName": "String",
+        "Priority": "Int32",
+        "UnitDistance": "Single"
+    },
+    "AudioSituationArea": {
+        "Priority": "Int32",
+        "SituationName": "String",
+        "SituationType": "Int32"
+    },
+    "BazookaTouchLiftPoisonA": {
+        "CubeMapUnitName": "String"
+    },
+    "BazookaTouchLiftSlidePartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "BazookaTouchLiftStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BelieveSignboardEchoPartsA": {},
+    "BelieveSignboardEchoPartsB": {},
+    "BelieveSignboardKeyMovePartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "BelieveSignboardKeyMovePartsB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "BelieveSignboardKeyMovePartsC": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "BelieveSignboardKeyMovePartsD": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "BelieveSignboardStep": {
+        "CubeMapUnitName": "String"
+    },
+    "BelieveSignboardVisibleParts": {
+        "CubeMapUnitName": "String"
+    },
+    "BgmChangeArea": {
+        "FadeOutFrame": "Int32",
+        "IsOneTime": "Boolean",
+        "Kind": "String",
+        "Priority": "Int32"
+    },
+    "BgmPlayObj": {
+        "BgmPlayName": "String",
+        "CurBgmFadeOutFrameNum": "Int32",
+        "FadeInFrameNum": "Int32",
+        "StartDelayFrameNum": "Int32"
+    },
+    "BgmRegionChangeArea": {
+        "BgmSituationName": "String",
+        "Priority": "Int32"
+    },
+    "BgmRegionChanger": {
+        "BgmSituationNameOff": "String",
+        "BgmSituationNameOn": "String"
+    },
+    "BgmStartArea": {
+        "FadeInFrame": "Int32",
+        "IsOneTime": "Boolean",
+        "Priority": "Int32",
+        "StartBgmName": "String",
+        "StartDelayFrame": "Int32"
+    },
+    "BgmStopArea": {
+        "FadeOutFrameNum": "Int32",
+        "IsOneTime": "Boolean",
+        "Priority": "Int32",
+        "StopBgmName": "String"
+    },
+    "BgmStopObj": {
+        "FadeOutFrameNum": "Int32",
+        "StopBgmName": "String"
+    },
+    "Bird": {
+        "IsPerch": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "BlockBrick": {
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsPlacedDarkStageBoxCoin": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ItemAppearAction": "String",
+        "ItemType": "String",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32"
+    },
+    "BlockBrickBreakable": {
+        "IsAppearBreakModel": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32",
+        "sendMsgNextBlock": "Boolean"
+    },
+    "BlockEmpty": {
+        "IsNoDepthShadow": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32"
+    },
+    "BlockHard": {
+        "IsConnectToCollision": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsUseZPrePass": "Boolean",
+        "ShadowMaskSetting": "Int32"
+    },
+    "BlockPow": {
+        "IsAppearBlockEmpty": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsWideRangeLight": "Boolean",
+        "ShadowMaskSetting": "Int32",
+        "WetType": "Int32"
+    },
+    "BlockQuestion": {
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsForceChangeItem": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ItemAppearAction": "String",
+        "ItemType": "String",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32"
+    },
+    "BlockRailMover": {
+        "BlockSpeed": "Single",
+        "BlockSpeedByTime": "Int32",
+        "DelayTime": "Int32",
+        "IsFixedDirection": "Boolean",
+        "RailBlockMoveType": "Int32",
+        "WaitTime": "Int32"
+    },
+    "BlockSwitch": {
+        "DisplayRotateX": "Single"
+    },
+    "BlockSwitchOneTime": {
+        "DisplayRotateX": "Single",
+        "IsUseDemoCamera": "Boolean"
+    },
+    "BlueBlockMazeStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Bonus1CherryZone": {},
+    "Bonus1PickaxeZone": {},
+    "Bonus2CherryZone": {},
+    "Bonus2PickaxeZone": {},
+    "Bonus3CherryZone": {},
+    "Bonus3PickaxeZone": {},
+    "BonusShuffler": {},
+    "BonusStage1CherryStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BonusStage1CherryStepB": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "BonusStage1CherryStepC": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "BonusStage1MainStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BonusStage1PickaxeStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BonusStage2CherryStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BonusStage2PickaxeStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BonusStage3BackHideMapPartsA": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BonusStage3CherryStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BonusStage3PickaxeStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBird": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBird1Gold": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBird1PullD": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "BossBird1PullE": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "BossBird1PullF": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "BossBird1StepB": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBird2Cloud": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBird2GoldA": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBird2StepC": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBirdCloud": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBirdLevel2": {
+        "CubeMapUnitName": "String"
+    },
+    "BossBirdWall1": {
+        "DelayFrame": "Int32"
+    },
+    "BossBirdWall2": {
+        "DelayFrame": "Int32"
+    },
+    "BossBirdWall3": {
+        "DelayFrame": "Int32"
+    },
+    "BossBirdWall4": {
+        "DelayFrame": "Int32"
+    },
+    "BossFire": {
+        "CubeMapUnitName": "String",
+        "Lv": "Int32"
+    },
+    "BossFire2StepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BossFire2StepB": {
+        "CubeMapUnitName": "String"
+    },
+    "BossFire2StepC": {
+        "CubeMapUnitName": "String"
+    },
+    "BossFire2WallRockA": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFire2WallRockB": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFire2WallRockC": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFire3StepA": {
+        "CubeMapUnitName": "String"
+    },
+    "BossFire3StepB": {
+        "CubeMapUnitName": "String"
+    },
+    "BossFire3TouchBrockA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "BossFire3TouchBrockB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "BossFire3TouchBrockC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "BossFire3TouchBrockD": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "BossFire3WallRockA": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFire3WallRockB": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFire3WallRockC": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFireKeyMovePartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "BossFireKeyMovePartsB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "BossFireKeyMovePartsC": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "BossFireStep": {
+        "CubeMapUnitName": "String"
+    },
+    "BossFireStepBreak1": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak1Lv2": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak1Lv3": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak2": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak2Lv2": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak2Lv3": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak3": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak3Lv2": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak3Lv3": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireStepBreak4": {
+        "DelayFrame": "Int32"
+    },
+    "BossFireWallRockA": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFireWallRockB": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "BossFireWallRockC": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "Bull": {
+        "IsInMaze": "Boolean",
+        "IsPlayFindBgm": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Bush": {
+        "Color": "Int32",
+        "ItemType": "String"
+    },
+    "CameraArea": {
+        "Priority": "Int32"
+    },
+    "CameraDirectionSwitchOnAreaWatcher": {},
+    "CameraIconDisplayArea": {},
+    "CameraNoRotateArea": {},
+    "CameraRailParallelArea": {
+        "Priority": "Int32"
+    },
+    "CameraRestrictedArea": {},
+    "CameraShake": {
+        "Delay": "Int32",
+        "EffectName": "String",
+        "LoopNum": "Int32",
+        "Power": "Int32",
+        "ShakeFrameNum": "Int32",
+        "SoundName": "String",
+        "StopFrameNum": "Int32"
+    },
+    "CameraShakeRandom": {
+        "EffectName": "String",
+        "LoopNum": "Int32",
+        "Power": "Int32",
+        "ShakeFrameMax": "Int32",
+        "ShakeFrameMin": "Int32",
+        "SoundName": "String",
+        "StopFrameMax": "Int32",
+        "StopFrameMin": "Int32"
+    },
+    "CameraStopLookAtArea": {
+        "IsValidSingleMode": "Boolean",
+        "Priority": "Int32"
+    },
+    "Candlestand": {
+        "IsConnectToCollision": "Boolean",
+        "IsEnableLightPrePass": "Boolean",
+        "IsLightFire": "Boolean",
+        "WetType": "Int32"
+    },
+    "CandlestandWatcher": {},
+    "CherryTowerCarpetA": {
+        "CubeMapUnitName": "String"
+    },
+    "CherryTowerCarpetB": {
+        "CubeMapUnitName": "String"
+    },
+    "CherryTowerKeyMovePartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CherryTowerKeyMovePartsB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CherryTowerKeyMovePartsC": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CherryTowerKeyMovePartsD": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CherryTowerKeyMovePartsE": {
+        "DelayFrame": "Int32"
+    },
+    "CherryTowerKeyMovePartsF": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CherryTowerStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "ChikaChikaBlockWatcher": {
+        "IsBgmMute": "Boolean",
+        "IsSyncBgm": "Boolean",
+        "SpeedMode": "Boolean"
+    },
+    "ChikaChikaBrosStep": {
+        "CubeMapUnitName": "String"
+    },
+    "ChikuwaBlock": {
+        "IsUseInvalidateSensor": "Boolean",
+        "WetType": "Int32"
+    },
+    "ChikuwaFallStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Chorobon": {
+        "GreenStarId": "Int32",
+        "ItemInsertPosition": "Int32",
+        "ItemType": "String",
+        "MoveSpeed": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32",
+        "isSetGuide": "Boolean"
+    },
+    "CityWorldCoverA": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldCoverB": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldCoverC": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldFlag": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldGatePartsA": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "CityWorldGotogoton": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CityWorldGroundSealA": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldGroundUnder": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldGroundUnderStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldKeyMovePartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CityWorldLiftA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "CityWorldManhole": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "CityWorldSpotLight": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldUnderPartsB": {
+        "CubeMapUnitName": "String"
+    },
+    "CityWorldUndergroundGlass": {
+        "CubeMapUnitName": "String"
+    },
+    "ClimbTowerLiftA": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "ClimbTowerPillar": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "ClimbTowerStep": {
+        "CubeMapUnitName": "String"
+    },
+    "ClockDiscClearParts": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "ClockDiscClockParts": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "ClockDiscStep": {
+        "CubeMapUnitName": "String"
+    },
+    "Cloud": {
+        "CubeMapUnitName": "String"
+    },
+    "Coin": {
+        "CollisionCheckDist": "Single",
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsDropShadowActorDown": "Boolean",
+        "IsEnableTouchBack": "Boolean",
+        "IsPlacementInRouteDokan": "Boolean",
+        "ShadowLength": "Single",
+        "ShadowType": "Int32"
+    },
+    "CoinBlowGenerator": {
+        "CoinBlowSpeed": "Single",
+        "CoinNum": "Int32"
+    },
+    "CoinCirclePlacement": {
+        "CoinNum": "Int32",
+        "CubeMapUnitName": "String",
+        "Speed": "Single"
+    },
+    "CoinLine": {
+        "CoinNum": "Int32",
+        "CubeMapUnitName": "String",
+        "DelayStep": "Int32",
+        "InvalidateClipping": "Boolean",
+        "IsInvalidPopUp": "Boolean",
+        "IsPlacementPoint": "Boolean",
+        "IsPlayCompleteSe": "Boolean",
+        "PlacementOffset": "Single"
+    },
+    "CoinRail": {
+        "CoinNum": "Int32",
+        "CoinSpeed": "Single",
+        "CubeMapUnitName": "String",
+        "Delay": "Int32",
+        "IsPlacementInRouteDokan": "Boolean",
+        "IsRailEqualInterval": "Boolean"
+    },
+    "CoinStack": {
+        "CoinStackNum": "Int32",
+        "CubeMapUnitName": "String",
+        "IsNoShadow": "Boolean",
+        "IsOnDrawClipping": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "CoinTransparent": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsInWater": "Boolean",
+        "IsPlacementInRouteDokan": "Boolean"
+    },
+    "CollectItem": {
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "CubeMapUnitName": "String",
+        "GotAnimation": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableTouchAppear": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsInvalidClipping": "Boolean",
+        "ShadowLength": "Single",
+        "TouchPointOffsetX": "Single",
+        "TouchPointOffsetY": "Single",
+        "TouchPointOffsetZ": "Single",
+        "TouchPointRadius": "Single"
+    },
+    "CommonKinopioBrigadeBase": {
+        "CubeMapUnitName": "String"
+    },
+    "CommonLeaf": {
+        "CubeMapUnitName": "String"
+    },
+    "CommonLeafB": {
+        "CubeMapUnitName": "String"
+    },
+    "CommonMiddleViewObj": {
+        "CubeMapUnitName": "String"
+    },
+    "CountDownTimer": {
+        "Count": "Int32",
+        "IsShowLayout": "Boolean"
+    },
+    "Crab": {
+        "ItemType": "String"
+    },
+    "Crawler": {
+        "CollectItemId": "Int32",
+        "ItemType": "String",
+        "KeyMoveOffset": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WalkDelay": "Int32",
+        "WalkSpeed": "Single"
+    },
+    "DarknessTrapFallPartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsC": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsD": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsE": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsF": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsG": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsH": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsI": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsJ": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsK": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsL": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsM": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsN": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsO": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsP": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsQ": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsR": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsS": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsT": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsU": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsV": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapFallPartsW": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapGas": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapGasB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapSeesawA": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "MaxDegree": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    },
+    "DarknessTrapSeesawB": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "MaxDegree": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    },
+    "DarknessTrapSeesawC": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "MaxDegree": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    },
+    "DarknessTrapSeesawD": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "MaxDegree": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    },
+    "DarknessTrapSeesawPoleA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapSeesawPoleB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapStep": {
+        "CubeMapUnitName": "String"
+    },
+    "DarknessTrapTower": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "DarknessTrapWallA": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "DarknessTrapWallB": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "DashPanel": {
+        "DashFrame": "Int32",
+        "IsShowShadowMask": "Boolean",
+        "NoConnectCollision": "Boolean"
+    },
+    "DeathArea": {
+        "Priority": "Int32"
+    },
+    "DebugWarpPoint": {
+        "Priority": "Int32"
+    },
+    "DemoActor": {
+        "Action1": "String",
+        "Action2": "String",
+        "Action3": "String",
+        "ColorFrame": "Int32",
+        "CubeMapUnitName": "String",
+        "DelayFrame1": "Int32",
+        "DelayFrame2": "Int32",
+        "DelayFrame3": "Int32",
+        "EnableWorldColorAnim": "Boolean",
+        "IsDrawClipping": "Boolean",
+        "ShowModelEndFrame": "Int32",
+        "ShowModelStartFrame": "Int32",
+        "SuffixName": "String"
+    },
+    "DemoActorPlayer": {
+        "Action1": "String",
+        "Action2": "String",
+        "Action3": "String",
+        "FigureType": "Int32",
+        "SuffixName": "String"
+    },
+    "DemoCamera": {
+        "Action1": "String",
+        "Action2": "String",
+        "Action3": "String",
+        "ArcName": "String"
+    },
+    "DemoMap": {
+        "Action1": "String",
+        "Action2": "String",
+        "Action3": "String",
+        "ColorFrame": "Int32",
+        "CubeMapUnitName": "String",
+        "DelayFrame1": "Int32",
+        "DelayFrame2": "Int32",
+        "DelayFrame3": "Int32",
+        "EnableWorldColorAnim": "Boolean",
+        "IsDrawClipping": "Boolean",
+        "ShowModelEndFrame": "Int32",
+        "ShowModelStartFrame": "Int32",
+        "SuffixName": "String"
+    },
+    "DemoStartPosition": {
+        "IsConnectToCollision": "Boolean"
+    },
+    "DemoStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "DemoStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "DemoStepC": {
+        "CubeMapUnitName": "String"
+    },
+    "DemoStepD": {
+        "CubeMapUnitName": "String"
+    },
+    "DepthOfFieldArea": {
+        "IndirectScrollSpeed": "Single",
+        "Priority": "Int32",
+        "sStepInterpolation": "Int32"
+    },
+    "DisappearDoorKeyArea": {},
+    "DokanSide": {
+        "CameraInterpolate": "Boolean",
+        "CubeMapUnitName": "String",
+        "IsBreakGiantMario": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "OutCameraPlayStep": "Int32",
+        "Type": "Int32"
+    },
+    "DoorLock": {},
+    "DoorOneWay": {
+        "ConnectCollision": "Boolean"
+    },
+    "Dossun": {
+        "IsAlwaysMove": "Boolean",
+        "ShadowMaskSetting": "Int32"
+    },
+    "DotKinopio": {
+        "FindBlendRate": "Single",
+        "HereVoiceMaxVolumeDistance": "Single",
+        "HereVoiceStartDistance": "Single",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableTwoSideTouch": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "RailMoveSpeed": "Single",
+        "TouchDisableFrame": "Int32",
+        "TouchRange": "Single"
+    },
+    "DoubleMario": {
+        "CubeMapUnitName": "String"
+    },
+    "DoubleZoneFlipKeyMoveParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "DoubleZoneFlipStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "DoubleZoneFlipStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "DoubleZoneFlipStepC": {
+        "CubeMapUnitName": "String"
+    },
+    "DummyBossBird": {},
+    "EdgeDrawArea": {
+        "BoundDepth": "Single",
+        "ColorOffsetB": "Single",
+        "ColorOffsetG": "Single",
+        "ColorOffsetR": "Single",
+        "EndDepth": "Single",
+        "IsConstColor": "Boolean",
+        "PowerMin": "Single",
+        "Priority": "Int32"
+    },
+    "EffectObjAurora": {},
+    "EffectObjBonfire": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjBonfireBlue": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjBonfireBlueS": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjBonfireS": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjButterfly": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjCandleFire": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjCandleFireL": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjCityWorldPoisonA": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjCityWorldSteam": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjCloud": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjDecorationSearchLight": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjDiamondDust": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjDust": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjFirefly": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjFireworksLoop": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjGoalMarkSandWorld": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjHaze": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjIcePillarAChill": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjIcePillarBChill": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjIcePillarCChill": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjIcePillarDChill": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjIcePillarDChillFar": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjIncidentLight": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjIncidentLightArea": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjLavaWorldBubbles": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjLavaWorldBubblesMound": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjLeafRed": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjLongExpressSmoke": {},
+    "EffectObjLongExpressSnow": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjLongExpressSteam": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjRain": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjRevolverRuinsBridgeHint": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjRouteDokanRippleWater": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjSaucepanBoil": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjScreenLensFlare": {},
+    "EffectObjScreenLensFlareRight": {},
+    "EffectObjSnowfall": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjSnowfallCylinder": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjSparks": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjSparksBlue": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjStarlitSky": {},
+    "EffectObjStarlitSkyAll": {},
+    "EffectObjThunder": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjUnderGroundChill": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWatchYourStepStageSnowfall": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldBirds": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldCameraWaterDrop": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldFossilAreaSplashA": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldFossilAreaSplashB": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldFossilAreaSplashC": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldFossilAreaSplashD": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldRay": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldRockLongAreaSplashA": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldRockLongAreaSplashB": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldRockLongAreaSplashC": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldValleyAreaSplashA": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldValleyAreaSplashB": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldValleyAreaSplashC": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWaterFallWorldValleyAreaSplashD": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWindFlower": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWindGrass": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EffectObjWindSand": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "EndingDemo": {},
+    "EnemyBattleBreakZone": {},
+    "EnemyBattleBridgeA": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "EnemyBattleBrosZone": {},
+    "EnemyBattleDoor": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "EnemyBattleKameckZone": {},
+    "EnemyBattleLauncherZone": {},
+    "EnemyBattleMagma": {
+        "CubeMapUnitName": "String"
+    },
+    "EnemyBattleShieldA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "EnemyBattleStepE": {
+        "CubeMapUnitName": "String"
+    },
+    "EnterCatMarioMiddleView": {
+        "CubeMapUnitName": "String"
+    },
+    "EnterCatMarioStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "EnterCatMarioStepAWater": {
+        "CubeMapUnitName": "String"
+    },
+    "EnterCatMarioStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "EnterCatMarioStepBCover": {
+        "CubeMapUnitName": "String"
+    },
+    "EnterCatMarioStepBWater": {
+        "CubeMapUnitName": "String"
+    },
+    "FallDurianGenerator": {
+        "DelayAppearFrame": "Int32",
+        "Distance": "Single",
+        "GenerateFrame": "Int32"
+    },
+    "FallFireBallGenerator": {
+        "DelayAppearFrame": "Int32",
+        "Distance": "Single",
+        "GenerateFrame": "Int32"
+    },
+    "FallRockGenerator": {
+        "DelayAppearFrame": "Int32",
+        "Distance": "Single",
+        "GenerateFrame": "Int32"
+    },
+    "Fish": {
+        "AvoidDist": "Single",
+        "FishNum": "Int32"
+    },
+    "FlipPanel": {},
+    "FlowerCactus": {
+        "Color": "Int32"
+    },
+    "FlowerRhythm": {
+        "FlowerPoinsettiaColor": "Int32",
+        "FlowerRhythmColor": "Int32",
+        "IsRhythmAnimReverse": "Boolean",
+        "IsRotateY": "Boolean",
+        "ItemType": "String"
+    },
+    "FogRequester": {
+        "FogColorBlue": "Single",
+        "FogColorGreen": "Single",
+        "FogColorRed": "Single",
+        "FogIntensity": "Single",
+        "FogInterp": "Int32",
+        "FogMulColorBlue": "Single",
+        "FogMulColorGreen": "Single",
+        "FogMulColorRed": "Single",
+        "FogPriority": "Int32",
+        "FogRangeEnd": "Single",
+        "FogRangeStart": "Single",
+        "FogShadowIntensity": "Single",
+        "YFogColorBlue": "Single",
+        "YFogColorGreen": "Single",
+        "YFogColorRed": "Single",
+        "YFogConnectAndMove": "Boolean",
+        "YFogFollowCamera": "Boolean",
+        "YFogIntensity": "Single",
+        "YFogInterp": "Int32",
+        "YFogMulColorBlue": "Single",
+        "YFogMulColorGreen": "Single",
+        "YFogMulColorRed": "Single",
+        "YFogPlacementRelative": "Boolean",
+        "YFogPriority": "Int32",
+        "YFogRangeEnd": "Single",
+        "YFogRangeStart": "Single",
+        "YFogShadowIntensity": "Single"
+    },
+    "FrameOutCtrlArea": {
+        "EnableHorizontalCheck": "Boolean",
+        "EnableVerticalCheck": "Boolean",
+        "ShowIconAtDisable": "Boolean"
+    },
+    "FreightTrainConveyerPartsA": {
+        "ActionName": "String",
+        "InterpolateType": "Int32",
+        "IsRideOnlyMove": "Boolean",
+        "KeyHitReactionName": "String",
+        "MoveAxis": "Int32",
+        "MoveSpeed": "Single",
+        "PartsInterval": "Single",
+        "StartRate": "Single"
+    },
+    "FreightTrainKeyMovePartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "FreightTrainKeyMovePartsB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "FreightTrainKeyMovePartsC": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "FreightTrainKeyMovePartsD": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "FreightTrainStep": {
+        "CubeMapUnitName": "String"
+    },
+    "FreightTrainStepCover": {
+        "CubeMapUnitName": "String"
+    },
+    "FreshRuinsStep": {
+        "CubeMapUnitName": "String"
+    },
+    "FreshRuinsTouchPartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "FreshRuinsTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "FreshRuinsTouchPartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "FreshRuinsTouchPartsD": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "Gabon": {
+        "GenerateDelay": "Int32",
+        "GenerateInterval": "Int32",
+        "MoveAccel": "Single",
+        "ThrowModel": "String",
+        "UsingDepthShadow": "Boolean"
+    },
+    "GabonStairsDoor": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "GabonStairsGlass": {
+        "CubeMapUnitName": "String"
+    },
+    "GabonStairsKeyMovePartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "GabonStairsKeyMovePartsB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "GabonStairsScrew": {
+        "CubeMapUnitName": "String"
+    },
+    "GabonStairsStep": {
+        "CubeMapUnitName": "String"
+    },
+    "GameOverStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Getton": {
+        "Delay": "Int32",
+        "Depth": "Int32",
+        "Height": "Int32",
+        "IsEnableZPrePass": "Boolean",
+        "WaitTime": "Int32",
+        "Width": "Int32"
+    },
+    "GhostPlayerMaze1Step": {
+        "CubeMapUnitName": "String"
+    },
+    "GhostPlayerMaze3StepB": {
+        "CubeMapUnitName": "String"
+    },
+    "GhostPlayerMaze3StepC": {
+        "CubeMapUnitName": "String"
+    },
+    "GhostPlayerMaze3StepD": {
+        "CubeMapUnitName": "String"
+    },
+    "GhostPlayerMaze3StepE": {
+        "CubeMapUnitName": "String"
+    },
+    "GoalAreaChecker": {},
+    "GoalPedestral": {
+        "CubeMapUnitName": "String",
+        "IsNoDepthShadow": "Boolean"
+    },
+    "GraphicsArea": {
+        "Priority": "Int32"
+    },
+    "Grass": {
+        "Color": "Int32",
+        "ItemType": "String"
+    },
+    "GrassControl": {
+        "BaseWindX": "Single",
+        "BaseWindZ": "Single",
+        "BendRate": "Single",
+        "SlideMax": "Single",
+        "TimeShift": "Single"
+    },
+    "GrassHigh": {
+        "UsingDepthShadow": "Boolean"
+    },
+    "GreenStarKinopioBrigade": {
+        "DisconnectWhenGot": "Boolean",
+        "GreenStarId": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsDropShadowActorDown": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsInvalidClipping": "Boolean",
+        "ShadowLength": "Single",
+        "UsingOccludedEffect": "Boolean"
+    },
+    "Ground": {
+        "CubeMapUnitName": "String"
+    },
+    "GroupClippingDummyTarget": {},
+    "GuideAppearPoint": {
+        "ConnectFace": "Int32",
+        "DegreeXZ": "Single",
+        "DegreeYZBottom": "Single",
+        "DegreeYZUp": "Single",
+        "DistanceToCamera": "Single",
+        "IconType": "Int32",
+        "IsAppearConnected": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "isJudgeDegreeYZ": "Boolean"
+    },
+    "GuideGameWindowPoint": {
+        "DegreeXZ": "Single",
+        "DegreeYZBottom": "Single",
+        "DegreeYZUp": "Single",
+        "HideStartCamera": "Boolean",
+        "isDisplayOnce": "Boolean",
+        "isJudgeDegreeYZ": "Boolean"
+    },
+    "Hacchin": {
+        "IsAlwaysChase": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "HammerBros": {
+        "ScaffoldType": "Int32",
+        "StackNum": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Heyho": {
+        "IsOnMovingGround": "Boolean",
+        "IsReactToLight": "Boolean",
+        "MemoryDist": "Single",
+        "MemoryNum": "Int32",
+        "WatchType": "Int32"
+    },
+    "HeyhoDarknessCoverA": {
+        "CubeMapUnitName": "String"
+    },
+    "HeyhoDarknessCoverB": {
+        "CubeMapUnitName": "String"
+    },
+    "HeyhoDarknessStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "HeyhoGardenLeafA": {
+        "CubeMapUnitName": "String"
+    },
+    "HeyhoGardenStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "HeyhoRail": {
+        "IsColliderOffAtRail": "Boolean",
+        "IsReactToLight": "Boolean",
+        "MemoryDist": "Single",
+        "MemoryNum": "Int32"
+    },
+    "HishinumaFixParts": {
+        "CubeMapUnitName": "String"
+    },
+    "HishinumaKeyMoveParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "HosonoFixParts": {
+        "CubeMapUnitName": "String"
+    },
+    "IllustItem": {
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsPlacementInRouteDokan": "Boolean",
+        "ShadowLength": "Int32"
+    },
+    "IshiokaFixParts": {
+        "CubeMapUnitName": "String"
+    },
+    "IshiokaKeyMoveParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "IwasaFixParts": {
+        "CubeMapUnitName": "String"
+    },
+    "IwasaToppleMapParts": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "Kameck": {
+        "NearestPoint": "Boolean",
+        "PlayerSearchOffsetY": "Single",
+        "SearchRange": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "KillerLauncher": {
+        "AccelFly": "Single",
+        "CubeMapUnitName": "String",
+        "IsConnectCollision": "Boolean",
+        "IsHideModel": "Boolean",
+        "IsKillerCollideOff": "Boolean",
+        "IsPlacedKinopioBrigade": "Boolean",
+        "IsShadowMaskLong": "Boolean",
+        "IsShootImmediatelySwitchOn": "Boolean",
+        "IsValidateCollision": "Boolean",
+        "ShockWaveRadius": "Single",
+        "StepDelay": "Int32",
+        "StepDisappear": "Int32",
+        "StepWait": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "KillerSearchLauncher": {
+        "AccelFly": "Single",
+        "CubeMapUnitName": "String",
+        "IsConnectCollision": "Boolean",
+        "IsHideModel": "Boolean",
+        "IsKillerCollideOff": "Boolean",
+        "IsPlacedKinopioBrigade": "Boolean",
+        "IsShadowMaskLong": "Boolean",
+        "IsShootImmediatelySwitchOn": "Boolean",
+        "IsValidateCollision": "Boolean",
+        "ShockWaveRadius": "Single",
+        "StepDelay": "Int32",
+        "StepDisappear": "Int32",
+        "StepWait": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "KillerTouchBlockMagma": {
+        "CubeMapUnitName": "String"
+    },
+    "KillerTouchBlockStep": {
+        "CubeMapUnitName": "String"
+    },
+    "KillerTouchBlockTouchSlidePartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "KillerTouchBlockTouchSlidePartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "KillerTouchBlockTouchSlidePartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "KillerTouchBlockTouchSlidePartsD": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "KinokoDeathArea": {
+        "Priority": "Int32"
+    },
+    "KinokoOneUp": {
+        "IsConnectToCollision": "Boolean",
+        "IsPlacementInRouteDokan": "Boolean",
+        "WetType": "Int32"
+    },
+    "KinokoSuper": {
+        "IsConnectToCollision": "Boolean",
+        "IsKillByDamageCode": "Boolean",
+        "WetType": "Int32"
+    },
+    "KinokoTreasure": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean"
+    },
+    "KinopioBrigadeChecker": {
+        "Clipping": "Boolean",
+        "IsClearAfterDemo": "Boolean",
+        "IsLastBeforeDemo": "Boolean"
+    },
+    "KinopioBrigadeConveyorParts": {
+        "ActionName": "String",
+        "InterpolateType": "Int32",
+        "IsRideOnlyMove": "Boolean",
+        "KeyHitReactionName": "String",
+        "MoveAxis": "Int32",
+        "MoveSpeed": "Single",
+        "PartsInterval": "Single",
+        "StartRate": "Single"
+    },
+    "KinopioBrigadeConveyorStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "KinopioBrigadeInfernoCloudStep": {
+        "CubeMapUnitName": "String"
+    },
+    "KinopioBrigadeInfernoFloaterParts": {
+        "IsEnableSlope": "Boolean"
+    },
+    "KinopioBrigadeInfernoLava": {
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsPlaySign": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "KinopioBrigadeInfernoStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "KinopioBrigadeTentenStep": {
+        "CubeMapUnitName": "String"
+    },
+    "KinopioBrigadeTeresaAssistBlockA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "KinopioBrigadeTeresaAssistBlockB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "KinopioBrigadeTeresaStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "KinopioBrigadeWaterBoardA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "KinopioBrigadeWaterBoardB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "KinopioBrigadeWaterBoardC": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "KinopioBrigadeWaterCube": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "KinopioBrigadeWaterStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "KinopioBrigadeZMask": {
+        "CubeMapUnitName": "String"
+    },
+    "KinopioMemberNpc": {
+        "CollectItemId": "Int32",
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableTurn": "Boolean",
+        "IsPutGlass": "Boolean",
+        "IsSleep": "Boolean",
+        "KinopioColor": "Int32",
+        "KinopioEyeHeight": "Single",
+        "KinopioMemberNpcAppearItem": "String",
+        "WetType": "Int32"
+    },
+    "KinopioMemberNpcWatcher": {},
+    "KinopioUFO": {
+        "CubeMapUnitName": "String"
+    },
+    "KitaharaAssistSlideParts": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "KitaharaFixParts": {
+        "CubeMapUnitName": "String"
+    },
+    "KitaharaKeyMoveParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "KoopaSignBoard": {},
+    "Koura": {},
+    "KouraGold": {
+        "CoinNum": "Int32",
+        "IsSlide": "Boolean"
+    },
+    "Kuribo": {
+        "CubeMapUnitName": "String",
+        "IsChangeBoxKuribo": "Boolean",
+        "IsEnableCliffCheck": "Boolean",
+        "IsNoUseShadowMask": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "KuriboClimbRail": {
+        "IsBodyAttackImmediately": "Boolean",
+        "IsControlShadowLength": "Boolean",
+        "IsPlacementSlope": "Boolean",
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    },
+    "KuriboTower": {
+        "CollectItemId": "Int32",
+        "EnableObstacleCheck": "Boolean",
+        "IsNoUseShadowMask": "Boolean",
+        "IsValidSwitchingAttackSensor": "Boolean",
+        "ItemInsertPosition": "Int32",
+        "ItemType": "String",
+        "SleepEnemy": "Boolean",
+        "StackNum": "Int32"
+    },
+    "KyoroHei": {
+        "IsMovePlus": "Boolean",
+        "IsNoHide": "Boolean",
+        "StartPosRate": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Ladder": {
+        "CubeMapUnitName": "String",
+        "IsEnablePlayerVoice": "Boolean",
+        "IsForbiddenAtMove": "Boolean",
+        "IsHideModel": "Boolean",
+        "LadderColor": "Int32",
+        "MtxConnectType": "Int32"
+    },
+    "LauncherNormal": {
+        "IsConnectToCollision": "Boolean",
+        "IsSkipMovement": "Boolean",
+        "IsUseObjectTVCamera": "Boolean"
+    },
+    "LauncherNormalStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "LavaWorldKeyMoveParts4x12A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMoveParts4x8A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMoveParts4x8C": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMoveParts4x8E": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsCurve12x12A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsCurve12x12B": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsDiagonal12x12A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsGuard4x12A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsGuard4x12B": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsGuard4x12C": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsGuard4x12F": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsGuard4x12G": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsGuard4x12H": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSeparate4x12A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSeparate4x12B": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSeparate4x12E": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSeparateUp4x12A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSeparateUp4x12B": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSeparateUp4x12C": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSlope4x12A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSlope4x8A": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSlope4x8B": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSlopeSlide4x12B": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSlopeSlide4x12C": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSlopeSlide4x12D": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldKeyMovePartsSlopeSlide4x12F": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LavaWorldLava": {
+        "CubeMapUnitName": "String"
+    },
+    "LavaWorldMiddleView": {
+        "IsOnlyCubeMap": "Boolean"
+    },
+    "LavaWorldMiddleViewTempleA": {
+        "CubeMapUnitName": "String"
+    },
+    "LavaWorldMiddleViewTempleB": {
+        "CubeMapUnitName": "String"
+    },
+    "LavaWorldStartStep": {
+        "CubeMapUnitName": "String"
+    },
+    "LavaWorldVolcano": {
+        "CubeMapUnitName": "String"
+    },
+    "LiftKeyMove": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "LiftColor": "Int32",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LiftMike": {
+        "GuideBalloonType": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "LiftMikeSlide": {},
+    "LogForestClockParts": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "LogForestStep": {
+        "CubeMapUnitName": "String"
+    },
+    "LogForestWater": {
+        "CubeMapUnitName": "String"
+    },
+    "LogForestWaterPillar": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "LongExpressDoorA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LongExpressDoorB": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "LongExpressGround": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressRail": {
+        "ActionName": "String",
+        "InterpolateType": "Int32",
+        "IsRideOnlyMove": "Boolean",
+        "KeyHitReactionName": "String",
+        "MoveAxis": "Int32",
+        "MoveSpeed": "Single",
+        "PartsInterval": "Single",
+        "StartRate": "Single"
+    },
+    "LongExpressStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepACover": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepAWheel": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepBCover": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepC": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepCCover": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepD": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressStepDCover": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressTouchPartsA": {
+        "CubeMapUnitName": "String"
+    },
+    "LongExpressTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "LongExpressTouchPartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "LongExpressTouchPartsD": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "LongExpressTouchPartsE": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "LongExpressWheelA": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "LongSlideStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "MagmaFish": {
+        "AppearSignTime": "Int32",
+        "IsKillOnce": "Boolean",
+        "Speed": "Single",
+        "WaitTime": "Int32"
+    },
+    "MagmaRoadLavaA": {
+        "CubeMapUnitName": "String"
+    },
+    "MagmaRoadStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "MagmaRoadStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "MagmaRoadStepC": {
+        "CubeMapUnitName": "String"
+    },
+    "MagmaRoadStepD": {
+        "CubeMapUnitName": "String"
+    },
+    "Maneck": {
+        "DelayTime": "Single",
+        "IsForceInvalid": "Boolean",
+        "IsSpeedArrange": "Boolean"
+    },
+    "ManeckInvalidArea": {},
+    "Maze": {
+        "Depth": "Int32",
+        "TopFloorNum": "Int32",
+        "Width": "Int32"
+    },
+    "Moamoa": {
+        "DepthNum": "Int32",
+        "HeightNum": "Int32",
+        "IsHideShadow": "Boolean",
+        "UsingDepthShadow": "Boolean",
+        "WeakWaitStep": "Int32",
+        "WidthNum": "Int32"
+    },
+    "MokingDoubleCherryPoisonA": {
+        "CubeMapUnitName": "String"
+    },
+    "MokingDoubleCherryStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "MokingLeader": {
+        "IsUseClipping": "Boolean"
+    },
+    "Mole": {
+        "CollectItemId": "Int32",
+        "ItemType": "String",
+        "MoveEndDistanceOffset": "Single",
+        "MoveSpeed": "Int32",
+        "MoveStartDistance": "Single",
+        "isEnableCheckStrikeArrow": "Boolean",
+        "isEnablePulloutCheckStrikeArrow": "Boolean"
+    },
+    "MoveDoorHauntedHouseBridge": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "MoveDoorHauntedHouseStep": {
+        "CubeMapUnitName": "String"
+    },
+    "MoveDoorHauntedHouseTouchPartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "MoveDoorHauntedHouseTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "MoveDoorHauntedHouseTouchPartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "MultiLift": {
+        "CubeMapUnitName": "String",
+        "InterpolateType": "Int32",
+        "IsAntiLightStrong": "Boolean",
+        "MoveType": "Int32",
+        "RideNum": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "NeedleBallBreakArea": {
+        "Priority": "Int32"
+    },
+    "NeedleBallSlopeStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "NeedleRollerBreakArea": {},
+    "NeedleSeed": {
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    },
+    "NeedleTrap": {
+        "AttackTime": "Int32",
+        "StandbyTime": "Int32",
+        "WaitTime": "Int32",
+        "WetType": "Int32"
+    },
+    "Nukkun": {
+        "DelayTime": "Int32",
+        "FixedAngle": "Int32",
+        "HideFrame": "Int32",
+        "IsSearch": "Boolean",
+        "MoveType": "Int32",
+        "OnColliderForce": "Boolean",
+        "WetType": "Int32"
+    },
+    "NukkunSinkTowerKeyMovePartsA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "NukkunSinkTowerMagmaA": {
+        "CubeMapUnitName": "String"
+    },
+    "OccludedEffectRequester": {
+        "DirectionParamLatitudeDegree": "Single",
+        "DirectionParamLongitudeDegree": "Single",
+        "FollowCameraDistance": "Single",
+        "InvalidateClipping": "Boolean",
+        "IsFollowCamera": "Boolean",
+        "OfxPresetName": "String"
+    },
+    "OneSideStep": {
+        "IsLimitJointMove": "Boolean",
+        "IsShowShadowMask": "Boolean",
+        "IsUseSmallClippingRadius": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "PackunFire": {
+        "IsRemainTrace": "Boolean",
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    },
+    "PackunFlower": {
+        "IsBlowBackDir": "Boolean",
+        "IsRemainTrace": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "PackunFlowerBig": {
+        "IsBlowBackDir": "Boolean",
+        "IsRemainTrace": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "PackunFlowerWithPot": {
+        "UsingDepthShadow": "Boolean"
+    },
+    "PatanPanel": {
+        "CloseFrame": "Int32",
+        "RotateFrame": "Int32"
+    },
+    "PatanPanelCarpetA": {
+        "CubeMapUnitName": "String"
+    },
+    "PatanPanelStarter": {},
+    "PatanPanelStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Peto": {
+        "Delay": "Int32",
+        "IsDropShadowActorDown": "Boolean",
+        "IsUseShadowMask": "Boolean",
+        "MoveSpeed": "Single",
+        "MoveType": "Int32",
+        "ScaleDownTime": "Int32",
+        "ScaleUpTime": "Int32"
+    },
+    "PickaxeCaveLift": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PickaxeCaveStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "PickaxeItem": {},
+    "PipePackun": {
+        "HoleModelName": "String",
+        "HoleModelPosCoord": "Single",
+        "IsDamageType2D": "Boolean",
+        "IsUpSideDown": "Boolean",
+        "MinCoord": "Single",
+        "MoveSpeed": "Single",
+        "MoveType": "Int32",
+        "StartPositionRate": "Single"
+    },
+    "PipePackunJungleBridge": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PipePackunJungleGrass": {
+        "CubeMapUnitName": "String"
+    },
+    "PipePackunJungleStep": {
+        "CubeMapUnitName": "String"
+    },
+    "PipePackunJungleStepWater": {
+        "CubeMapUnitName": "String"
+    },
+    "Player": {
+        "CubeMapUnitName": "String",
+        "IsNarrowPlace": "Boolean"
+    },
+    "PlayerAnimArea": {
+        "AnimStartFrame": "Int32",
+        "IntervalFrame": "Int32",
+        "PlayerAnimName": "String",
+        "Priority": "Int32"
+    },
+    "PlayerBindAnimObj": {
+        "KillIfPlayerBind": "Boolean",
+        "PlayerAnimName": "String"
+    },
+    "PlayerCeilingCheckOffArea": {},
+    "PlayerColliderBDashSupportOffArea": {
+        "Priority": "Int32"
+    },
+    "PlayerCollisionFallOutReturnPoint": {
+        "IsConnectToCollision": "Boolean"
+    },
+    "PlayerCollisionPartsGatherArea": {},
+    "PlayerFallActionControlArea": {
+        "AnimStartFrame": "Int32",
+        "IsEnableCollisionHeightCheck": "Boolean"
+    },
+    "PlayerFurOffArea": {
+        "Priority": "Int32"
+    },
+    "PlayerInvinciblePickaxeNoCollisionCheckArea": {},
+    "PlayerRestartSetter": {},
+    "PlayerWetArea": {
+        "Priority": "Int32"
+    },
+    "Poster": {
+        "IsConnectToCollision": "Boolean",
+        "PosterType": "Int32"
+    },
+    "PrePassLineLight": {
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsIndirectIllumination": "Boolean",
+        "KillFrame": "Int32",
+        "LightDistDamp": "Single",
+        "LineLightLength": "Single",
+        "Radius": "Single"
+    },
+    "PrePassPointLight": {
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableSpecular": "Boolean",
+        "IsIndirectIllumination": "Boolean",
+        "KillFrame": "Int32",
+        "LightShaderFunc": "Int32",
+        "PointLightDampPower": "Single",
+        "Radius": "Single",
+        "RandomCeil": "Single"
+    },
+    "PrePassProjLight": {
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableSpecular": "Boolean",
+        "IsEnableSpecularColor": "Boolean",
+        "KillFrame": "Int32",
+        "LightDistDamp": "Single",
+        "ProjLightAspect": "Single",
+        "ProjLightFar": "Single",
+        "ProjLightFovyDegree": "Single",
+        "ProjLightNear": "Single",
+        "ProjTex": "String",
+        "SpecularColorBlue": "Single",
+        "SpecularColorGreen": "Single",
+        "SpecularColorRed": "Single",
+        "UseShadow": "Int32"
+    },
+    "PrePassProjOrthoLight": {
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableSpecular": "Boolean",
+        "IsEnableSpecularColor": "Boolean",
+        "KillFrame": "Int32",
+        "LightDistDamp": "Single",
+        "ProjLightNear": "Single",
+        "ProjTex": "String",
+        "SpecularColorBlue": "Single",
+        "SpecularColorGreen": "Single",
+        "SpecularColorRed": "Single",
+        "TexScaleX": "Single",
+        "TexScaleY": "Single",
+        "TexSpeedX": "Single",
+        "TexSpeedY": "Single",
+        "UseShadow": "Int32"
+    },
+    "PrePassSpotLight": {
+        "AfterCollisionCheckOffset": "Single",
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableCollisionCheck": "Boolean",
+        "IsEnableSpecular": "Boolean",
+        "KillFrame": "Int32",
+        "SpotLightAngleDamp": "Single",
+        "SpotLightDegree": "Single",
+        "SpotLightLength": "Single",
+        "UseShadow": "Int32"
+    },
+    "Pukupuku": {
+        "MoveType": "Int32",
+        "SwimSpeed": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
+    "PullOutObj": {
+        "AppearNum": "Int32",
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
+        "IsKillByMaterialCode": "Boolean",
+        "IsPullOutInfinite": "Boolean",
+        "IsRestartAssist": "Boolean",
+        "IsSyncSwitchClipping": "Boolean",
+        "ItemType": "String",
+        "WetType": "Int32"
+    },
+    "PullOutObjAssist": {
+        "AppearNum": "Int32",
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
+        "IsKillByMaterialCode": "Boolean",
+        "IsPullOutInfinite": "Boolean",
+        "IsRestartAssist": "Boolean",
+        "IsSyncSwitchClipping": "Boolean",
+        "ItemType": "String",
+        "WetType": "Int32"
+    },
+    "PullOutObjTenCount": {
+        "AppearNum": "Int32",
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
+        "IsKillByMaterialCode": "Boolean",
+        "IsPullOutInfinite": "Boolean",
+        "IsRestartAssist": "Boolean",
+        "IsSyncSwitchClipping": "Boolean",
+        "ItemType": "String",
+        "WetType": "Int32"
+    },
+    "PullOutObjZoom": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "ItemType": "String"
+    },
+    "PullOutRadishBigEnableArea": {
+        "Priority": "Int32"
+    },
+    "PullUpHeyhoPullA": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpHeyhoPullB": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpHeyhoPullC": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpHeyhoPullD": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpHeyhoPullE": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpHeyhoPullF": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpHeyhoStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "PullUpKeyLiftA": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpKeyLiftB": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "PullUpStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "RadishColliderInvalidArea": {
+        "Priority": "Int32"
+    },
+    "RaftRavineLiftA": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "RaftRavineLiftB": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "RaftRavineLiftC": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "RaftRavineLiftD": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "RaftRavineLiftE": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "RaftRavinePoisonA": {
+        "CubeMapUnitName": "String"
+    },
+    "RaftRavineRaft": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "RaftRavineStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "RaftRavineStepACoverA": {
+        "CubeMapUnitName": "String"
+    },
+    "RaftRavineStepACoverB": {
+        "CubeMapUnitName": "String"
+    },
+    "RevolverRuinsBridge": {
+        "DelayFrame": "Int32"
+    },
+    "RevolverRuinsClockPartsA": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "RevolverRuinsClockPartsB": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "RevolverRuinsClockPartsC": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "RevolverRuinsClockPartsD": {
+        "ClockAngle": "Single",
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "RevolverRuinsConveyorParts": {
+        "ActionName": "String",
+        "InterpolateType": "Int32",
+        "IsRideOnlyMove": "Boolean",
+        "KeyHitReactionName": "String",
+        "MoveAxis": "Int32",
+        "MoveSpeed": "Single",
+        "PartsInterval": "Single",
+        "StartRate": "Single"
+    },
+    "RevolverRuinsLeaf": {
+        "CubeMapUnitName": "String"
+    },
+    "RevolverRuinsStep": {
+        "CubeMapUnitName": "String"
+    },
+    "RevolverRuinsStepCover": {
+        "CubeMapUnitName": "String"
+    },
+    "RevolverRuinsStepWater": {
+        "CubeMapUnitName": "String"
+    },
+    "RideDragon": {
+        "MoveRangeX": "Single",
+        "RailMoveSpeed": "Single",
+        "RideDragonLv": "Int32"
+    },
+    "RotateHellMagma": {
+        "CubeMapUnitName": "String"
+    },
+    "RotateHellRotateA": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "RotateHellRotateB": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "RotateHellRotateC": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "RotateHellRotateD": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "RotateHellRotateE": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "RotateHellStep": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokan": {
+        "ColorVariation": "Int32",
+        "MoveSpeed": "Single"
+    },
+    "RouteDokanBazooka": {
+        "CubeMapUnitName": "String",
+        "Gravity": "Single",
+        "IsConnectLand": "Boolean",
+        "IsDisplayGuideIcon": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "ModelSuffix": "String",
+        "MoveSpeed": "Single",
+        "ShootAngle": "Single",
+        "ShootSpeed": "Single",
+        "ShootType": "Int32"
+    },
+    "RouteDokanJetStep": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanJetStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanLauncher": {
+        "CubeMapUnitName": "String",
+        "IsUseHostUpDir": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "ModelSuffix": "String",
+        "MoveSpeed": "Single"
+    },
+    "RouteDokanTourBonusRoomA": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanTourBonusRoomB": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanTourBonusRoomC": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanTourGoal": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanTourMiddleView": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanTourStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanTourStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "RouteDokanTourStepC": {
+        "CubeMapUnitName": "String"
+    },
+    "Runner": {
+        "DelayTime": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsRunBack": "Boolean",
+        "IsSyncRingBeamer": "Boolean",
+        "Pitch": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "SampleGuardB": {
+        "CubeMapUnitName": "String"
+    },
+    "SampleGuardD": {
+        "CubeMapUnitName": "String"
+    },
+    "SampleStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "SampleStepE": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldCoverA": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldCoverB": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldCoverC": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldGround": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldGroundSeal": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldGroundUnder": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldIcePillarA": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldIcePillarB": {
+        "CubeMapUnitName": "String"
+    },
+    "SandWorldLift": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "SandWorldPyramid": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "SandWorldTouchPartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "SandWorldTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "SandWorldTouchPartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "SandWorldTouchPartsD": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "SandWorldTouchPartsE": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "SandWorldTouchPartsF": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "SandWorldTouchPartsG": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "ScrewRuinsStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "SePlayArea": {
+        "IsDisableSeStop": "Boolean",
+        "IsOneTime": "Boolean",
+        "Priority": "Int32",
+        "SePlayName": "String"
+    },
+    "SePlayObj": {
+        "ClippingRadius": "Single",
+        "IsValidClipping": "Boolean",
+        "SePlayName": "String"
+    },
+    "SePlayRail": {
+        "SePlayName": "String"
+    },
+    "Season1IntermissionStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Season1IntermissionStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "Season1IntermissionWater": {
+        "CubeMapUnitName": "String"
+    },
+    "Season1OpeningStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Season2DragonRideLave": {
+        "CubeMapUnitName": "String"
+    },
+    "Season2IntermissionStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Season2IntermissionStepALeaf": {
+        "CubeMapUnitName": "String"
+    },
+    "Season2IntermissionStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "Season2IntermissionStepBLeaf": {
+        "CubeMapUnitName": "String"
+    },
+    "Season3IntermissionStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Season3IntermissionStepAMashroom": {
+        "CubeMapUnitName": "String"
+    },
+    "Season3IntermissionStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "Season3OpeningEchoA": {},
+    "Season3OpeningStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Season3OpeningWaterA": {
+        "CubeMapUnitName": "String"
+    },
+    "Seaweed": {
+        "ColorFrame": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Seesaw": {
+        "IsConnectToCollision": "Boolean",
+        "JumpHeight": "Single",
+        "MaxDegree": "Single",
+        "MaxDegreeJump": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    },
+    "SeesawNeedleBallKeyMoveParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "SeesawNeedleBallMagma": {
+        "CubeMapUnitName": "String"
+    },
+    "SeesawNeedleBallStep": {
+        "CubeMapUnitName": "String"
+    },
+    "ShadowMask": {
+        "ColorAlpha": "Single",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "DistYBase": "Single",
+        "ProjTex": "String",
+        "ProjTex2ScrollDirection": "Single",
+        "ProjTex2ScrollSpeed": "Single",
+        "ProjTexScrollDirection": "Single",
+        "ProjTexScrollSpeed": "Single",
+        "ShadowMaskDrawCategory": "Int32",
+        "ShadowMaskDumpType": "Int32",
+        "ShadowMaskPow": "Single",
+        "ShadowMaskPowX": "Single",
+        "ShadowMaskPowY": "Single",
+        "ShadowMaskPowZ": "Single",
+        "TextureFixedScale": "Single",
+        "UseTex2nd": "Boolean"
+    },
+    "ShadowMaskSphere": {
+        "ColorAlpha": "Single",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "Radius": "Single",
+        "ShadowMaskDrawCategory": "Int32",
+        "ShadowMaskPow": "Single"
+    },
+    "ShadowTunnelBonusRoom": {
+        "CubeMapUnitName": "String"
+    },
+    "ShadowTunnelStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "ShadowTunnelStepACover": {
+        "CubeMapUnitName": "String"
+    },
+    "ShadowTunnelStepB": {
+        "CubeMapUnitName": "String"
+    },
+    "SideWaveDesertMiddleView": {
+        "CubeMapUnitName": "String"
+    },
+    "SideWaveDesertSlidePartsA": {
+        "DelayTime": "Int32",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "SurfaceHeight": "Single",
+        "WaitTime": "Int32"
+    },
+    "SideWaveDesertSlidePartsB": {
+        "DelayTime": "Int32",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "SurfaceHeight": "Single",
+        "WaitTime": "Int32"
+    },
+    "SideWaveDesertStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "SideWaveDesertStepAWater": {
+        "CubeMapUnitName": "String"
+    },
+    "SignBoardNormal": {
+        "IsConnectToCollision": "Boolean",
+        "IsSnowCover": "Boolean",
+        "WetType": "Int32"
+    },
+    "SignBoardWood": {
+        "IsConnectToCollision": "Boolean",
+        "IsSnowCover": "Boolean",
+        "WetType": "Int32"
+    },
+    "SignBoardWoodWall": {
+        "IsConnectToCollision": "Boolean",
+        "IsSnowCover": "Boolean",
+        "WetType": "Int32"
+    },
+    "SinkSandArea": {
+        "Priority": "Int32"
+    },
+    "SinkedItem": {
+        "IsEffectOn": "Boolean",
+        "ItemType": "String"
+    },
+    "SkyBlueA": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SkyBlueB": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SkyBlueSmall": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SkyForest": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SkyInsideWarm": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SkyKinopio": {
+        "IsOnlyCubeMap": "Boolean"
+    },
+    "SkyLava": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SkyNight": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SkySpace": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    },
+    "SlideParkClearParts": {
+        "CubeMapUnitName": "String"
+    },
+    "SlideParkStepA": {
+        "BeatOffset": "Int32",
+        "CubeMapUnitName": "String",
+        "IsSyncBgmForMclAnime": "Boolean",
+        "IsSyncBgmForMtsAnime": "Boolean",
+        "IsSyncBgmForSklAnime": "Boolean"
+    },
+    "SlideParkStepACoverA": {
+        "BeatOffset": "Int32",
+        "CubeMapUnitName": "String",
+        "IsSyncBgmForMclAnime": "Boolean",
+        "IsSyncBgmForMtsAnime": "Boolean",
+        "IsSyncBgmForSklAnime": "Boolean"
+    },
+    "SlideParkWall": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "StageEndEventSeasonHalfDemo": {},
+    "StageStartBindDemoBossBird": {},
+    "StageStartBindDemoBossBirdLv2": {},
+    "StageStartBindDemoKinopioBrigade": {},
+    "StageStartBindDemoZoomIn": {
+        "StartAnimation": "String"
+    },
+    "StageStartEventCamera": {
+        "Action1": "String",
+        "ArcName": "String"
+    },
+    "StageStartEventSound": {
+        "SoundName": "String"
+    },
+    "SugimotoFixParts": {
+        "CubeMapUnitName": "String"
+    },
+    "SwitchAnd": {},
+    "SwitchBlockWatcher": {},
+    "SwitchClippingDirector": {},
+    "SwitchKeepOnArea": {
+        "OnCondition": "Int32",
+        "Priority": "Int32"
+    },
+    "SwitchOnArea": {
+        "Priority": "Int32"
+    },
+    "SwitchPull": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "PullType": "Int32"
+    },
+    "SwitchRotateWatcher": {
+        "ClockAngle": "Single",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32"
+    },
+    "SwitchWallMazeStep": {
+        "CubeMapUnitName": "String"
+    },
+    "SyumockRailMove": {
+        "GreenStarId": "Int32",
+        "IsDropShadowActorDown": "Boolean",
+        "IsPlacedKinopioBrigade": "Boolean",
+        "IsUseLight": "Boolean",
+        "ItemType": "String",
+        "Speed": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Tenten": {
+        "AttachItemWidthNum": "Int32",
+        "GreenStarId": "Int32",
+        "IsSetSameColorAll": "Boolean",
+        "ItemType": "String",
+        "OffsetWidth": "Single",
+        "TentenColor": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32"
+    },
+    "TentenWing": {
+        "AttachItemWidthNum": "Int32",
+        "GreenStarId": "Int32",
+        "HeightNum": "Int32",
+        "IsInvalidTurn": "Boolean",
+        "IsSetSameColorAll": "Boolean",
+        "ItemType": "String",
+        "MoveSpeed": "Int32",
+        "OffsetHeight": "Single",
+        "OffsetWidth": "Single",
+        "ShadowMaskLength": "Int32",
+        "TentenColor": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32"
+    },
+    "Teren": {
+        "IsInvalidSilhouette": "Boolean",
+        "ShadowLength": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Teresa": {
+        "UsingDepthShadow": "Boolean"
+    },
+    "TeresaBig": {
+        "UsingDepthShadow": "Boolean"
+    },
+    "TeresaDarkHouseStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TeresaDarkHouseWallA": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "TeresaDarkHouseWallB": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "TeresaDarkHouseWallC": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "TeresaDarkHouseWallD": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "ThreeDWorldSlopeA": {
+        "CubeMapUnitName": "String"
+    },
+    "ThreeDWorldSlopeB": {
+        "CubeMapUnitName": "String"
+    },
+    "ThreeDWorldSlopeC": {
+        "CubeMapUnitName": "String"
+    },
+    "TimerStageSwitch": {
+        "Timer": "Int32"
+    },
+    "TouchBlindNeedleBallBreakPartsA": {},
+    "TouchBlindNeedleBallBreakPartsB": {},
+    "TouchBlindNeedleBallStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TouchBlindNeedleBallTouchSlidePartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchBlindNeedleBallTouchSlidePartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchBlindNeedleBallTouchSlidePartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchBlindNeedleBallTouchSlidePartsD": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchBlindNeedleBallTouchSlidePartsE": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchPuzzleMiniStep": {
+        "CubeMapUnitName": "String"
+    },
+    "TouchPuzzleMiniTouchPartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchPuzzleMiniTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchPuzzleTentenTouchPartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchPuzzleTentenTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TouchRotateFortressLava": {
+        "CubeMapUnitName": "String"
+    },
+    "TouchRotateFortressLiftA": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "TouchRotateFortressStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TouchRotatePanel": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDeath": "Boolean"
+    },
+    "TouchRotateShelfBook": {
+        "CubeMapUnitName": "String",
+        "IsEmitAtCollision": "Boolean",
+        "IsReverse": "Boolean",
+        "LimitDegreeLeft": "Single",
+        "LimitDegreeRight": "Single",
+        "RotateAxis": "Int32"
+    },
+    "TouchRotateShelfStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TouchRotateWallStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TrampleSwitch": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean"
+    },
+    "TrampleSwitchTogetherWatcher": {},
+    "TransparentWall": {},
+    "TransparentWallPlayerOnly": {},
+    "Tree": {
+        "IsRotateY": "Boolean",
+        "IsUseZPP": "Boolean",
+        "ItemType": "String",
+        "LightType": "Int32"
+    },
+    "TrickArt1StepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TrickArt2StepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TrickArt2Water": {
+        "CubeMapUnitName": "String"
+    },
+    "Truck": {
+        "Accel": "Single",
+        "BgmGetOffFadeinFrame": "Int32",
+        "BgmGetOffStartFrame": "Int32",
+        "BgmGetOnFadeoutFrame": "Int32",
+        "BgmNameGetOff": "String",
+        "BgmNameGetOn": "String",
+        "BgmSituationNameGetOff": "String",
+        "BgmSituationNameGetOn": "String",
+        "BulletMoveType": "Boolean",
+        "IsUseDepthShadow": "Boolean"
+    },
+    "TruckCaveStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "TruckCaveWater": {
+        "CubeMapUnitName": "String"
+    },
+    "TruckMountainStep": {
+        "CubeMapUnitName": "String"
+    },
+    "TruckRail": {
+        "RailColor": "Int32"
+    },
+    "TruckTempleStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "Tuccondor": {
+        "IsSearchCircle": "Boolean",
+        "IsTuccondorAttackShort": "Boolean",
+        "SearchAngleDegreeLeft": "Single",
+        "SearchAngleDegreeRight": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
+    "TuccondorTrap": {
+        "InvalidateBodyAttackSensor": "Boolean",
+        "IsTuccondorAttackShort": "Boolean",
+        "ShadowLength": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
+    "TwoSidePushPullStep": {
+        "CubeMapUnitName": "String"
+    },
+    "TwoSidePushPullTouchPartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TwoSidePushPullTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "TwoSidePushPullTouchPartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "Ukibo": {
+        "IsOffCollide": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
+    "UkiboWaterParkBridge": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "UkiboWaterParkFence": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "UkiboWaterParkGrass": {
+        "CubeMapUnitName": "String"
+    },
+    "UkiboWaterParkPedestral": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "UkiboWaterParkStep": {
+        "CubeMapUnitName": "String"
+    },
+    "UkiboWaterParkWater": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "UkiboWaterParkZMask": {
+        "CubeMapUnitName": "String"
+    },
+    "UndergroundTouchCaveLift": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "UndergroundTouchCaveStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "UndergroundTouchCaveTouchPartsA": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "UndergroundTouchCaveTouchPartsB": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "UndergroundTouchCaveTouchPartsC": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "UndergroundTouchCaveTouchPartsD": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "UndergroundTouchCaveTouchPartsE": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    },
+    "ViewCtrlArea": {
+        "Priority": "Int32"
+    },
+    "WarpCube": {
+        "IsBgmChangeWhenPieceComplete": "Boolean",
+        "IsBonus": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsOutSpeedZero": "Boolean",
+        "IsQuietAppear": "Boolean",
+        "IsUseGetPieceCamera": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "IsUseSwitchAppearCamera": "Boolean",
+        "OutCameraPlayStep": "Int32",
+        "Type": "Int32",
+        "WetType": "Int32"
+    },
+    "WarpDoor": {
+        "CameraInterpolate": "Boolean",
+        "ConnectCollision": "Boolean",
+        "GatherPlayer": "Boolean"
+    },
+    "WatchYourStepStep": {
+        "CubeMapUnitName": "String"
+    },
+    "WatchYourStepWall": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterArea": {
+        "Priority": "Int32"
+    },
+    "WaterAreaMoveModel": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "ModelType": "String",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "WaterCageFallParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "WaterCageRisePartsA": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "WaterCageRisePartsB": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "WaterCageStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterCageWater": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldCaveOutsideA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldFallRockLong": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "WaterfallWorldGoalStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldRockLongAreaStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldRockLongAreaWaterA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldRockLongAreaWaterfallA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldStartStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldStartStepASemiTransparent": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldValleyAreaStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "WaterfallWorldValleyAreaWaterfallA": {
+        "CubeMapUnitName": "String"
+    },
+    "WheelCageBackHidePartsA": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "WheelCageBackHidePartsB": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "WheelCageBackHidePartsC": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "WheelCageBackHidePartsD": {
+        "BackDir": "Int32",
+        "CubeMapUnitName": "String",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    },
+    "WheelCageKeyTuccondorBar": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "WheelCageStep": {
+        "CubeMapUnitName": "String"
+    },
+    "WheelCageWheelA": {
+        "MoveEndDegree": "Single",
+        "RotateAccel": "Single",
+        "RotateAxis": "Int32"
+    },
+    "WheelCageWheelB": {
+        "MoveEndDegree": "Single",
+        "RotateAccel": "Single",
+        "RotateAxis": "Int32"
+    },
+    "WheelMapPartsRotateWatcher": {
+        "PermitDegree": "Single",
+        "RotateDegree1": "Single",
+        "RotateDegree2": "Single",
+        "RotateDegree3": "Single"
+    },
+    "WheelPlanetStepA": {
+        "CubeMapUnitName": "String"
+    },
+    "WholeCakeCoverA": {
+        "CubeMapUnitName": "String"
+    },
+    "WholeCakeCoverB": {
+        "CubeMapUnitName": "String"
+    },
+    "WholeCakeKeyMoveParts": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    },
+    "WholeCakeStep": {
+        "CubeMapUnitName": "String"
+    },
+    "WholeCakeSwingPartsA": {
+        "DelayRate": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "OffsetRotate": "Single",
+        "RotateAxis": "Int32",
+        "StopTime": "Int32",
+        "SwingAngle": "Single",
+        "SwingCycle": "Int32"
+    },
+    "WholeCakeSwingPartsB": {
+        "DelayRate": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "OffsetRotate": "Single",
+        "RotateAxis": "Int32",
+        "StopTime": "Int32",
+        "SwingAngle": "Single",
+        "SwingCycle": "Int32"
+    },
+    "WindBoxWatcher": {},
+    "WoodBox": {
+        "IsSetTraceModel": "Boolean",
+        "IsUseBreakModel": "Boolean",
+        "IsUseZPrePass": "Boolean",
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    },
+    "Zombie": {
+        "InvalidateDepthShadow": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableLightSensor": "Boolean",
+        "checkStrikeLight": "Boolean"
+    },
+    "ZoomInvalidArea": {}
+}

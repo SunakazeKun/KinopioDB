@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsOnMovingGround": "Boolean",
+        "IsReactToLight": "Boolean",
+        "MemoryDist": "Single",
+        "MemoryNum": "Int32",
+        "WatchType": "Int32"
+    },
     "Models": [],
     "Links": []
 }

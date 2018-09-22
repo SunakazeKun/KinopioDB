@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "InvalidateDepthShadow": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableLightSensor": "Boolean",
+        "checkStrikeLight": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

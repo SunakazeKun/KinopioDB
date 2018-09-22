@@ -5,7 +5,14 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsEmitAtCollision": "Boolean",
+        "IsReverse": "Boolean",
+        "LimitDegreeLeft": "Single",
+        "LimitDegreeRight": "Single",
+        "RotateAxis": "Int32"
+    },
     "Models": [],
     "Links": []
 }

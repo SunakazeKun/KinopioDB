@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "FadeOutFrameNum": "Int32",
+        "StopBgmName": "String"
+    },
     "Models": [],
     "Links": []
 }

@@ -7,6 +7,7 @@
     "Description": "A dispenser that launched bullet-like projectiles.",
     "Properties": {
         "AccelFly": "Single",
+        "CubeMapUnitName": "String",
         "IsConnectCollision": "Boolean",
         "IsHideModel": "Boolean",
         "IsKillerCollideOff": "Boolean",
@@ -17,7 +18,8 @@
         "ShockWaveRadius": "Single",
         "StepDelay": "Int32",
         "StepDisappear": "Int32",
-        "StepWait": "Int32"
+        "StepWait": "Int32",
+        "UsingDepthShadow": "Boolean"
     },
     "Models": [
         "KillerLauncher"

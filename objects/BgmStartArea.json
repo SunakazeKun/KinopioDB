@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "FadeInFrame": "Int32",
+        "IsOneTime": "Boolean",
+        "Priority": "Int32",
+        "StartBgmName": "String",
+        "StartDelayFrame": "Int32"
+    },
     "Models": [],
     "Links": []
 }

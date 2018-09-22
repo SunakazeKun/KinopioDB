@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "DashFrame": "Int32",
+        "IsShowShadowMask": "Boolean",
+        "NoConnectCollision": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

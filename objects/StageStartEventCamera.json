@@ -5,7 +5,10 @@
     "List": "DemoObjList",
     "Category": "cutscene",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "Action1": "String",
+        "ArcName": "String"
+    },
     "Models": [],
     "Links": []
 }

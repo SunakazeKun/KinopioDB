@@ -6,6 +6,7 @@
     "Category": "boss",
     "Description": "A dragon that resides in a volcano. Attacks by spitting fire balls.",
     "Properties": {
+        "CubeMapUnitName": "String",
         "Lv": "Int32"
     },
     "Models": [],

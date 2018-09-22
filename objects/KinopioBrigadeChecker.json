@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "Clipping": "Boolean",
+        "IsClearAfterDemo": "Boolean",
+        "IsLastBeforeDemo": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

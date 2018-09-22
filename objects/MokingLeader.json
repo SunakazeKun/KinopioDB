@@ -5,7 +5,9 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsUseClipping": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

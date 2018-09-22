@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CloseFrame": "Int32",
+        "RotateFrame": "Int32"
+    },
     "Models": [],
     "Links": []
 }

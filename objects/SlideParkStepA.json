@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "BeatOffset": "Int32",
+        "CubeMapUnitName": "String",
+        "IsSyncBgmForMclAnime": "Boolean",
+        "IsSyncBgmForMtsAnime": "Boolean",
+        "IsSyncBgmForSklAnime": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

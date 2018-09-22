@@ -5,7 +5,16 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "InterpolateType": "Int32",
+        "IsAntiLightStrong": "Boolean",
+        "MoveType": "Int32",
+        "RideNum": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
     "Models": [],
     "Links": []
 }

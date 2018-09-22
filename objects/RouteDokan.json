@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "ColorVariation": "Int32",
+        "MoveSpeed": "Single"
+    },
     "Models": [],
     "Links": []
 }

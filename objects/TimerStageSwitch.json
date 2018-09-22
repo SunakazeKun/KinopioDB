@@ -5,7 +5,9 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "Timer": "Int32"
+    },
     "Models": [],
     "Links": []
 }

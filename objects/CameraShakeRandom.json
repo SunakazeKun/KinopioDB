@@ -5,7 +5,16 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "EffectName": "String",
+        "LoopNum": "Int32",
+        "Power": "Int32",
+        "ShakeFrameMax": "Int32",
+        "ShakeFrameMin": "Int32",
+        "SoundName": "String",
+        "StopFrameMax": "Int32",
+        "StopFrameMin": "Int32"
+    },
     "Models": [],
     "Links": []
 }

@@ -5,7 +5,9 @@
     "List": "DemoObjList",
     "Category": "cutscene",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "SoundName": "String"
+    },
     "Models": [],
     "Links": []
 }

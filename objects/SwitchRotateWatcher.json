@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "ClockAngle": "Single",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32"
+    },
     "Models": [],
     "Links": []
 }

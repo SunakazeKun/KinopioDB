@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "Depth": "Int32",
+        "TopFloorNum": "Int32",
+        "Width": "Int32"
+    },
     "Models": [],
     "Links": []
 }

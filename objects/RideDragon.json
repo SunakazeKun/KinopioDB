@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "MoveRangeX": "Single",
+        "RailMoveSpeed": "Single",
+        "RideDragonLv": "Int32"
+    },
     "Models": [],
     "Links": []
 }

@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsBgmMute": "Boolean",
+        "IsSyncBgm": "Boolean",
+        "SpeedMode": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

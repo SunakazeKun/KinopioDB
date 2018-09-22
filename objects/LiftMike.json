@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "GuideBalloonType": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

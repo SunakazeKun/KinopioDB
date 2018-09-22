@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsSkipMovement": "Boolean",
+        "IsUseObjectTVCamera": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

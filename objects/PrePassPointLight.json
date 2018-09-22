@@ -5,7 +5,19 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableSpecular": "Boolean",
+        "IsIndirectIllumination": "Boolean",
+        "KillFrame": "Int32",
+        "LightShaderFunc": "Int32",
+        "PointLightDampPower": "Single",
+        "Radius": "Single",
+        "RandomCeil": "Single"
+    },
     "Models": [],
     "Links": []
 }

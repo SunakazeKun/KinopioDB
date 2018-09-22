@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsSetTraceModel": "Boolean",
+        "IsUseBreakModel": "Boolean",
+        "IsUseZPrePass": "Boolean",
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

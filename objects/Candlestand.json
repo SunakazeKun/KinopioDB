@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsEnableLightPrePass": "Boolean",
+        "IsLightFire": "Boolean",
+        "WetType": "Int32"
+    },
     "Models": [],
     "Links": []
 }

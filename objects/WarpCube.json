@@ -5,7 +5,19 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsBgmChangeWhenPieceComplete": "Boolean",
+        "IsBonus": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsOutSpeedZero": "Boolean",
+        "IsQuietAppear": "Boolean",
+        "IsUseGetPieceCamera": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "IsUseSwitchAppearCamera": "Boolean",
+        "OutCameraPlayStep": "Int32",
+        "Type": "Int32",
+        "WetType": "Int32"
+    },
     "Models": [],
     "Links": []
 }

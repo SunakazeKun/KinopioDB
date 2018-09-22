@@ -1,3 +1,4 @@
+# Some unused leftovers from the Wii U version. There may be more, though...
 EnterCatMarioMiddleView (FixMapParts)
 EnterCatMarioStepA (FixMapParts)
 EnterCatMarioStepAWater (FixMapParts)

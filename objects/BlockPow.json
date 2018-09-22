@@ -5,7 +5,15 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsAppearBlockEmpty": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsWideRangeLight": "Boolean",
+        "ShadowMaskSetting": "Int32",
+        "WetType": "Int32"
+    },
     "Models": [],
     "Links": []
 }

@@ -5,7 +5,14 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CoinNum": "Int32",
+        "CoinSpeed": "Single",
+        "CubeMapUnitName": "String",
+        "Delay": "Int32",
+        "IsPlacementInRouteDokan": "Boolean",
+        "IsRailEqualInterval": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

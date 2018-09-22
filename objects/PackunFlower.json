@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsBlowBackDir": "Boolean",
+        "IsRemainTrace": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

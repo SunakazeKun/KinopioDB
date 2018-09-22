@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "MoveType": "Int32",
+        "SwimSpeed": "Single",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

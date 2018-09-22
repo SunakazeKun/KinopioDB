@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "NearestPoint": "Boolean",
+        "PlayerSearchOffsetY": "Single",
+        "SearchRange": "Int32",
+        "UsingDepthShadow": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

@@ -5,7 +5,16 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CoinNum": "Int32",
+        "CubeMapUnitName": "String",
+        "DelayStep": "Int32",
+        "InvalidateClipping": "Boolean",
+        "IsInvalidPopUp": "Boolean",
+        "IsPlacementPoint": "Boolean",
+        "IsPlayCompleteSe": "Boolean",
+        "PlacementOffset": "Single"
+    },
     "Models": [],
     "Links": []
 }

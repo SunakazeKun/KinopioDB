@@ -5,7 +5,14 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsEnablePlayerVoice": "Boolean",
+        "IsForbiddenAtMove": "Boolean",
+        "IsHideModel": "Boolean",
+        "LadderColor": "Int32",
+        "MtxConnectType": "Int32"
+    },
     "Models": [],
     "Links": []
 }

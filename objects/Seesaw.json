@@ -5,7 +5,14 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "JumpHeight": "Single",
+        "MaxDegree": "Single",
+        "MaxDegreeJump": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    },
     "Models": [],
     "Links": []
 }

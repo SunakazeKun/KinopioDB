@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsSnowCover": "Boolean",
+        "WetType": "Int32"
+    },
     "Models": [],
     "Links": []
 }

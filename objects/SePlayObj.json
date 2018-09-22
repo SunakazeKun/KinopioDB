@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "ClippingRadius": "Single",
+        "IsValidClipping": "Boolean",
+        "SePlayName": "String"
+    },
     "Models": [],
     "Links": []
 }

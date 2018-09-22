@@ -5,7 +5,9 @@
     "List": "ObjectList",
     "Category": "item",
     "Description": "When grabbing this item, a clone of the player appears. The original character's state is retained and the clone mimics any movement.",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
     "Models": [],
     "Links": []
 }

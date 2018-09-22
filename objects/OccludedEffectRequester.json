@@ -5,7 +5,14 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "DirectionParamLatitudeDegree": "Single",
+        "DirectionParamLongitudeDegree": "Single",
+        "FollowCameraDistance": "Single",
+        "InvalidateClipping": "Boolean",
+        "IsFollowCamera": "Boolean",
+        "OfxPresetName": "String"
+    },
     "Models": [],
     "Links": []
 }

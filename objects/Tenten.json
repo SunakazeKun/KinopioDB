@@ -5,7 +5,16 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AttachItemWidthNum": "Int32",
+        "GreenStarId": "Int32",
+        "IsSetSameColorAll": "Boolean",
+        "ItemType": "String",
+        "OffsetWidth": "Single",
+        "TentenColor": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32"
+    },
     "Models": [],
     "Links": []
 }

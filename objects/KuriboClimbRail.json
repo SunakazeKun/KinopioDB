@@ -9,7 +9,8 @@
         "IsBodyAttackImmediately": "Boolean",
         "IsControlShadowLength": "Boolean",
         "IsPlacementSlope": "Boolean",
-        "ItemType": "String"
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
     },
     "Models": [],
     "Links": []

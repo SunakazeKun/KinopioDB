@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "Count": "Int32",
+        "IsShowLayout": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

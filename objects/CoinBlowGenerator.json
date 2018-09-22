@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CoinBlowSpeed": "Single",
+        "CoinNum": "Int32"
+    },
     "Models": [],
     "Links": []
 }

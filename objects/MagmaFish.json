@@ -5,7 +5,12 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "AppearSignTime": "Int32",
+        "IsKillOnce": "Boolean",
+        "Speed": "Single",
+        "WaitTime": "Int32"
+    },
     "Models": [],
     "Links": []
 }

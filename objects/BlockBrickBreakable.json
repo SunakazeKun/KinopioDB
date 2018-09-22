@@ -5,7 +5,17 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsAppearBreakModel": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32",
+        "sendMsgNextBlock": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

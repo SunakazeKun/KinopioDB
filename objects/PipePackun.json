@@ -5,7 +5,16 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "HoleModelName": "String",
+        "HoleModelPosCoord": "Single",
+        "IsDamageType2D": "Boolean",
+        "IsUpSideDown": "Boolean",
+        "MinCoord": "Single",
+        "MoveSpeed": "Single",
+        "MoveType": "Int32",
+        "StartPositionRate": "Single"
+    },
     "Models": [],
     "Links": []
 }

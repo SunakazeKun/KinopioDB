@@ -12,6 +12,7 @@
         "MoveType": "Int32",
         "Speed": "Single",
         "SpeedByTime": "Int32",
+        "UsingDepthShadow": "Boolean",
         "WalkDelay": "Int32",
         "WalkSpeed": "Single"
     },

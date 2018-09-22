@@ -5,7 +5,17 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "FindBlendRate": "Single",
+        "HereVoiceMaxVolumeDistance": "Single",
+        "HereVoiceStartDistance": "Single",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableTwoSideTouch": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "RailMoveSpeed": "Single",
+        "TouchDisableFrame": "Int32",
+        "TouchRange": "Single"
+    },
     "Models": [],
     "Links": []
 }

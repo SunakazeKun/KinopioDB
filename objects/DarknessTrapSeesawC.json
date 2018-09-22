@@ -5,7 +5,13 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsConnectToCollision": "Boolean",
+        "MaxDegree": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    },
     "Models": [],
     "Links": []
 }

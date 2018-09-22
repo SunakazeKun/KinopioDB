@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "OnCondition": "Int32",
+        "Priority": "Int32"
+    },
     "Models": [],
     "Links": []
 }

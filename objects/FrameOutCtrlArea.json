@@ -5,7 +5,11 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "EnableHorizontalCheck": "Boolean",
+        "EnableVerticalCheck": "Boolean",
+        "ShowIconAtDisable": "Boolean"
+    },
     "Models": [],
     "Links": []
 }
