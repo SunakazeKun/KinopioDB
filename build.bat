@@ -1,3 +1,5 @@
+@echo off
+
 call :main > build\log.txt
 exit /b
 
