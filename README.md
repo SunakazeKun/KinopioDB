@@ -39,6 +39,7 @@ Each object has a corresponding JSON file storing its properties in a structured
 
 ### List
 The game utilizes the following types of object lists:
+
 | List | Description |
 | ---- | ----------- |
 | ObjectList | Any kind of object. |
