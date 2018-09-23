@@ -3,7 +3,7 @@
     "ClassName": "EffectObjAreaCube",
     "Name": "EffectObjWindGrass",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {
         "EffectEmitRatio": "Single",

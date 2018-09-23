@@ -10,5 +10,7 @@
         "MoveSpeed": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "Parts"
+    ]
 }

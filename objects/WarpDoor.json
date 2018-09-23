@@ -14,5 +14,8 @@
         "WarpDoorTeresaFrameOff",
         "WarpDoor"
     ],
-    "Links": []
+    "Links": [
+        "DestDoor",
+        "GroupClipping"
+    ]
 }

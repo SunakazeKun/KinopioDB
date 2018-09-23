@@ -1,10 +1,10 @@
 {
     "InternalName": "BlockEmpty",
     "ClassName": "BlockEmpty",
-    "Name": "BlockEmpty",
+    "Name": "Used Block",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "obstacle",
+    "Description": "An empty block.",
     "Properties": {
         "IsNoDepthShadow": "Boolean",
         "IsValidLightPrePass": "Boolean",

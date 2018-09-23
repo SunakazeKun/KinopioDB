@@ -18,5 +18,10 @@
         "ShootType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "Parts",
+        "TargetPos",
+        "ViewGroup"
+    ]
 }

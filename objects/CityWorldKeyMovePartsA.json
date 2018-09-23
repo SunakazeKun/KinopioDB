@@ -23,5 +23,11 @@
         "WaitTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "KeyMoveNext",
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchStart"
+    ]
 }

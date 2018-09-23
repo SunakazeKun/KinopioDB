@@ -11,5 +11,7 @@
         "WetType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

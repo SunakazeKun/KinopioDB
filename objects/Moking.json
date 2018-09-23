@@ -1,10 +1,10 @@
 {
     "InternalName": "Moking",
     "ClassName": "Moking",
-    "Name": "Moking",
+    "Name": "Flaptor Member",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A single Flaptor which should be linked to \"MokingLeader\". Look at that object for reference. This object needs a path to move on.",
     "Properties": {
         "GroundCheckLength": "Single",
         "IsForbiddenSideSlide": "Boolean",
@@ -12,5 +12,8 @@
         "ShadowMaskDropLength": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "Rail"
+    ]
 }

@@ -16,5 +16,8 @@
         "StackNum": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchDrawClippingOnOff"
+    ]
 }

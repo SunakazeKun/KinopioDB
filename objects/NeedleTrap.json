@@ -14,5 +14,7 @@
     "Models": [
         "NeedleTrap2x4M"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping"
+    ]
 }

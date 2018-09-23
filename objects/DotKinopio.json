@@ -17,5 +17,12 @@
         "TouchRange": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GoalDemoPoint",
+        "Rail",
+        "RailJump",
+        "SwitchTouchDisable",
+        "SwitchTouchOn",
+        "SwitchTouchValidate"
+    ]
 }

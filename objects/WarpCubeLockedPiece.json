@@ -10,5 +10,7 @@
         "ShadowLength": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

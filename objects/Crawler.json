@@ -17,5 +17,8 @@
         "WalkSpeed": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

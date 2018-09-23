@@ -14,5 +14,7 @@
         "isJudgeDegreeYZ": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GuideAppearArea"
+    ]
 }

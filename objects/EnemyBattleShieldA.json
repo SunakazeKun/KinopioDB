@@ -17,5 +17,8 @@
         "OnWaitTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchKill",
+        "ViewGroup"
+    ]
 }

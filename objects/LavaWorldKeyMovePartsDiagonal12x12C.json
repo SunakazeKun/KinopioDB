@@ -23,5 +23,7 @@
         "WaitTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "KeyMoveNext"
+    ]
 }

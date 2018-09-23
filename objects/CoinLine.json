@@ -16,5 +16,9 @@
         "PlacementOffset": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SwitchAppear"
+    ]
 }

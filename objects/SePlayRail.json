@@ -9,5 +9,7 @@
         "SePlayName": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "Rail"
+    ]
 }

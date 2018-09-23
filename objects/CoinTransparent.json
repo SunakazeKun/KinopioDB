@@ -12,5 +12,7 @@
         "IsPlacementInRouteDokan": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping"
+    ]
 }

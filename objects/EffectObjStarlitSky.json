@@ -3,9 +3,11 @@
     "ClassName": "EffectObjFollowCamera",
     "Name": "EffectObjStarlitSky",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear"
+    ]
 }

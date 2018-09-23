@@ -13,17 +13,11 @@
 		"area": {
 			"Name": "Areas"
 		},
-		"effect": {
-			"Name": "Effects"
-		},
 		"decoration": {
-			"Name": "Decoration"
+			"Name": "Decoration, Effects"
 		},
 		"enemy": {
-			"Name": "Enemies"
-		},
-		"boss": {
-			"Name": "Bosses"
+			"Name": "Enemies, Bosses"
 		},
 		"item": {
 			"Name": "Items"

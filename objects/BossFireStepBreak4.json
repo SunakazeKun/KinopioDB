@@ -9,5 +9,7 @@
         "DelayFrame": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchKill"
+    ]
 }

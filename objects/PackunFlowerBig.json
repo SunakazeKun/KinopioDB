@@ -11,5 +11,7 @@
         "UsingDepthShadow": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping"
+    ]
 }

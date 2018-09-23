@@ -15,5 +15,7 @@
         "AreaSphere",
         "AreaCylinder"
     ],
-    "Links": []
+    "Links": [
+        "SwitchKill"
+    ]
 }

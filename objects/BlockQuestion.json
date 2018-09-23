@@ -1,10 +1,10 @@
 {
     "InternalName": "BlockQuestion",
     "ClassName": "BlockQuestion",
-    "Name": "BlockQuestion",
+    "Name": "? Block",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "obstacle",
+    "Description": "A common block that contains items like coins or mushrooms.",
     "Properties": {
         "IsExpandClippingShadowLength": "Boolean",
         "IsForceChangeItem": "Boolean",
@@ -17,5 +17,8 @@
         "ShadowMaskSetting": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

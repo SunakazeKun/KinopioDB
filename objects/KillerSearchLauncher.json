@@ -24,5 +24,8 @@
     "Models": [
         "KillerLauncher"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchStart"
+    ]
 }

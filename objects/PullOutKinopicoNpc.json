@@ -7,5 +7,9 @@
     "Description": "",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "DemoAppearLastPosTarget",
+        "PlayerPos",
+        "SwitchPullOutSuccessOn"
+    ]
 }

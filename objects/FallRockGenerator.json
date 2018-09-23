@@ -13,5 +13,9 @@
     "Models": [
         "BossFireFallRock"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

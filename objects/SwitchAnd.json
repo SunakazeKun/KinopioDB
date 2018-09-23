@@ -7,5 +7,11 @@
     "Description": "",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "InputSwitchA",
+        "InputSwitchB",
+        "InputSwitchC",
+        "InputSwitchD",
+        "OutputSwitchOn"
+    ]
 }

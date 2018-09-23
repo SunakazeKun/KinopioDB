@@ -25,5 +25,8 @@
         "CloudSandWorld",
         "CloudWaterfallWorld"
     ],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

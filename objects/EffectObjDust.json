@@ -3,7 +3,7 @@
     "ClassName": "EffectObjAreaCube",
     "Name": "EffectObjDust",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {
         "EffectEmitRatio": "Single",

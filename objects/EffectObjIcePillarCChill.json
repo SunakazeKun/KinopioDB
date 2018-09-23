@@ -3,7 +3,7 @@
     "ClassName": "EffectObj",
     "Name": "EffectObjIcePillarCChill",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {
         "IsConnectCollision": "Boolean",

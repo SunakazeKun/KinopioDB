@@ -14,5 +14,9 @@
         "IsRailEqualInterval": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "ViewGroup"
+    ]
 }

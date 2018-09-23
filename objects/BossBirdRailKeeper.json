@@ -12,5 +12,9 @@
         "IsPriorSwitch": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "BossBirdBlowTarget",
+        "Rail",
+        "RailSwitchArea"
+    ]
 }

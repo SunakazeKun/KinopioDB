@@ -14,5 +14,9 @@
         "WaitTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SupportFreezeSyncGroup",
+        "SwitchStop"
+    ]
 }

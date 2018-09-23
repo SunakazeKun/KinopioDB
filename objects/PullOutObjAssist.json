@@ -1,10 +1,10 @@
 {
     "InternalName": "PullOutObjAssist",
     "ClassName": "PullOutObj",
-    "Name": "PullOutObjAssist",
+    "Name": "Pluck Patch (Assist Guide)",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "obstacle",
+    "Description": "A pluck patch that appears when the player loses a level too often.",
     "Properties": {
         "AppearNum": "Int32",
         "CollectItemId": "Int32",

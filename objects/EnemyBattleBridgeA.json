@@ -11,5 +11,9 @@
         "OpenTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "MoveNext",
+        "SwitchStart",
+        "ViewGroup"
+    ]
 }

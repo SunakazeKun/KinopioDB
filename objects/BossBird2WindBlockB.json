@@ -12,5 +12,7 @@
         "Speed": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "KeyMoveNext"
+    ]
 }

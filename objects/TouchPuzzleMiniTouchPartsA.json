@@ -17,5 +17,7 @@
         "OnWaitTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchStopForceOn"
+    ]
 }

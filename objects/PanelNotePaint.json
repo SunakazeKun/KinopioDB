@@ -13,5 +13,7 @@
     "Models": [
         "PanelNote000"
     ],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

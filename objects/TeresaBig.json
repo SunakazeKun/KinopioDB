@@ -9,5 +9,9 @@
         "UsingDepthShadow": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "PlayerCollisionFallOutObserveArea",
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

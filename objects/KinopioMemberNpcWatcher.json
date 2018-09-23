@@ -7,5 +7,10 @@
     "Description": "",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "KinopioMemberNpc",
+        "KinopioMemberNpcItemArea",
+        "KinopioNpcLeaveMultiLift",
+        "MultiLift"
+    ]
 }

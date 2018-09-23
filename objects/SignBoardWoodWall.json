@@ -13,5 +13,7 @@
     "Models": [
         "SignBoardWoodWallRight"
     ],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

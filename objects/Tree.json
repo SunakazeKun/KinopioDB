@@ -16,5 +16,9 @@
         "TreeLongC",
         "TreePalm"
     ],
-    "Links": []
+    "Links": [
+        "ClippingExpander",
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

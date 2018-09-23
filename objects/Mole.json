@@ -15,5 +15,9 @@
         "isEnablePulloutCheckStrikeArrow": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "CollectItem",
+        "MoleControlArea",
+        "StartPoint"
+    ]
 }

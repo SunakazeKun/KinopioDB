@@ -9,5 +9,13 @@
         "CubeMapUnitName": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "DemoBattleEndPosTarget",
+        "PlayerPos",
+        "PullOutKinopicoNpc",
+        "Rail",
+        "SwitchAppear",
+        "SwitchDeadOn",
+        "SwitchLastAttackHitOn"
+    ]
 }

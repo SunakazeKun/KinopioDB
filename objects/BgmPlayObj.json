@@ -12,5 +12,7 @@
         "StartDelayFrameNum": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchStart"
+    ]
 }

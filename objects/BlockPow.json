@@ -1,10 +1,10 @@
 {
     "InternalName": "BlockPow",
     "ClassName": "BlockPow",
-    "Name": "BlockPow",
+    "Name": "POW Block",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "obstacle",
+    "Description": "A blue block that causes a large earthquake once hit. Useful for killing enemies or destroying other obstacles.",
     "Properties": {
         "IsAppearBlockEmpty": "Boolean",
         "IsConnectToCollision": "Boolean",
@@ -15,5 +15,8 @@
         "WetType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

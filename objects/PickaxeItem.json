@@ -7,5 +7,7 @@
     "Description": "This power-up allows Toad to break obstacles and kill enemies. It grants invincibility for a short period of time as well.",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

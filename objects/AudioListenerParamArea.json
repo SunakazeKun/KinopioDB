@@ -19,5 +19,7 @@
         "AreaSphere",
         "AreaCylinder"
     ],
-    "Links": []
+    "Links": [
+        "SwitchAppear"
+    ]
 }

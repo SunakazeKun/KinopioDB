@@ -3,12 +3,15 @@
     "ClassName": "EffectObj",
     "Name": "EffectObjRouteDokanRippleWater",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {
         "IsConnectCollision": "Boolean",
         "IsConnectToCollision": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

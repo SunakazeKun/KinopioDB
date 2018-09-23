@@ -13,5 +13,9 @@
         "UsingDepthShadow": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchKill",
+        "ViewGroup"
+    ]
 }

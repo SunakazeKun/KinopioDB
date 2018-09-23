@@ -10,5 +10,8 @@
         "ItemType": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

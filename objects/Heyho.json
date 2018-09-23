@@ -13,5 +13,11 @@
         "WatchType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ChaseArea",
+        "GroupClipping",
+        "HeyhoWatchPoint",
+        "SwitchStart",
+        "ViewGroup"
+    ]
 }

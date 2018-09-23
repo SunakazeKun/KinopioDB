@@ -20,5 +20,7 @@
         "DokanBranch",
         "DokanStraight16M"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping"
+    ]
 }

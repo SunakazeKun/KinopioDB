@@ -9,5 +9,10 @@
         "SwitchOnDelayStep": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchDeadOn",
+        "SwitchKill",
+        "WatchTargetEnemy"
+    ]
 }

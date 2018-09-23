@@ -9,5 +9,10 @@
         "CubeMapUnitName": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "BossBirdRailKeeper",
+        "BossBirdSand",
+        "DemoBossBirdPosition",
+        "SwitchBossBirdUp"
+    ]
 }

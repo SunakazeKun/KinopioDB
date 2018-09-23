@@ -20,5 +20,7 @@
         "UseShadow": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear"
+    ]
 }

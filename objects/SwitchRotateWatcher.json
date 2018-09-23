@@ -11,5 +11,8 @@
         "RotateTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "RotateObjectLink",
+        "RotateSwitchLink"
+    ]
 }

@@ -10,5 +10,7 @@
         "IsShowLayout": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchStart"
+    ]
 }

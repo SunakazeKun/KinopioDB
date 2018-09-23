@@ -12,5 +12,7 @@
         "UsingDepthShadow": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

@@ -9,5 +9,8 @@
         "CubeMapUnitName": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchStart"
+    ]
 }

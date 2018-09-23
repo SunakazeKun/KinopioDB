@@ -16,5 +16,10 @@
         "ShadowType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchDeadOn",
+        "SwitchKill",
+        "ViewGroup"
+    ]
 }

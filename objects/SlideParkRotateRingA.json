@@ -10,5 +10,7 @@
         "RotateSpeed": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

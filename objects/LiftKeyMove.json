@@ -27,5 +27,10 @@
         "Lift4x4M",
         "Lift4x4M_mike"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "KeyMoveNext",
+        "SwitchStop",
+        "ViewGroup"
+    ]
 }

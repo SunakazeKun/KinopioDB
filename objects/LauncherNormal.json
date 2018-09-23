@@ -11,5 +11,10 @@
         "IsUseObjectTVCamera": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "BindCancelSwitch",
+        "GroupClipping",
+        "GuideAppearPoint",
+        "SwitchSubjectiveCameraOnOff"
+    ]
 }

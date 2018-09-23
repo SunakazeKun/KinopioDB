@@ -21,5 +21,8 @@
         "RouteDokanStraight8M",
         "RouteDokanStraight16M"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

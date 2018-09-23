@@ -12,5 +12,9 @@
         "ShadowMaskSetting": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchValidSensorOn",
+        "ViewGroup"
+    ]
 }

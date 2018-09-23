@@ -10,5 +10,7 @@
         "BgmSituationNameOn": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchChange"
+    ]
 }

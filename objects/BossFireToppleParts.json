@@ -7,5 +7,12 @@
     "Description": "",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "LinkGoalItemDummy",
+        "MoveNext",
+        "SwitchStart",
+        "SwitchStartBreakSignLv1",
+        "SwitchStartBreakSignLv2"
+    ]
 }

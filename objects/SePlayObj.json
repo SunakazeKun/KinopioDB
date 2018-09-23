@@ -11,5 +11,8 @@
         "SePlayName": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchKill",
+        "SwitchStart"
+    ]
 }

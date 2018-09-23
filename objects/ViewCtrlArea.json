@@ -14,5 +14,7 @@
         "AreaSphere",
         "AreaCylinder"
     ],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

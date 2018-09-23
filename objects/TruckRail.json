@@ -27,5 +27,8 @@
         "BlockRailSlope4x2M",
         "BlockRailCurve12x12M"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

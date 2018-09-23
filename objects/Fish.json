@@ -12,5 +12,8 @@
     "Models": [
         "FishA"
     ],
-    "Links": []
+    "Links": [
+        "Rail",
+        "SwimArea"
+    ]
 }

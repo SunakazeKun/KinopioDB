@@ -10,5 +10,7 @@
         "IsNarrowPlace": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

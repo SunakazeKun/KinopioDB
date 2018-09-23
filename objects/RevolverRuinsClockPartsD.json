@@ -14,5 +14,10 @@
         "WaitTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ChildStep",
+        "GroupClipping",
+        "SupportFreezeSyncGroup",
+        "SwitchStop"
+    ]
 }

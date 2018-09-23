@@ -9,5 +9,8 @@
         "SeType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "PanelNotePaint",
+        "SwitchTrampleOn"
+    ]
 }

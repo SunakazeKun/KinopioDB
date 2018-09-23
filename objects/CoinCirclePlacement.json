@@ -11,5 +11,8 @@
         "Speed": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

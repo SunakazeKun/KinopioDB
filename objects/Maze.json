@@ -11,5 +11,14 @@
         "Width": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ChildMaze",
+        "RangeFloorSet",
+        "RareItem",
+        "RecreateSwitch",
+        "ShuffleItem",
+        "SpecialFloorSet",
+        "SwitchAppear",
+        "TopFloorSwitchOn"
+    ]
 }

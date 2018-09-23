@@ -18,5 +18,9 @@
         "IsUseDepthShadow": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GetOffPoint",
+        "TruckRideOnOff",
+        "TruckWarpPoint"
+    ]
 }

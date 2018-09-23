@@ -10,5 +10,8 @@
         "IsConnectToCollision": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchKill"
+    ]
 }

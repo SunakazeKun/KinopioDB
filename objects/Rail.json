@@ -1,10 +1,10 @@
 {
     "InternalName": "Rail",
     "ClassName": "Rail",
-    "Name": "Rail",
+    "Name": "Path",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "other",
+    "Description": "The predetermined path for an object to move on. Add this as a link object.",
     "Properties": {
         "IsClosed": "Boolean",
         "IsLadder": "Boolean",

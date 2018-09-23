@@ -11,5 +11,9 @@
         "IsEnableDeath": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "RotateParts",
+        "TransParts",
+        "ViewGroup"
+    ]
 }

@@ -9,5 +9,13 @@
         "CubeMapUnitName": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "BossBirdThunderboltGenerator",
+        "DemoBattleEndPosTarget",
+        "PlayerPos",
+        "PullOutKinopicoNpc",
+        "Rail",
+        "SwitchAppear",
+        "SwitchDeadOn"
+    ]
 }

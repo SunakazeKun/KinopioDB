@@ -11,5 +11,11 @@
         "IsLastBeforeDemo": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "DemoStartPosition",
+        "GoalItem",
+        "PlayerNpc",
+        "SwitchGoalDemoStartOn",
+        "ViewGroup"
+    ]
 }

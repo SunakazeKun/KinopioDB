@@ -8,7 +8,10 @@
             "Priority": "Int32",
             "sStepInterpolation": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": [
             "AreaCubeBase",
             "AreaCylinder"
@@ -21,7 +24,9 @@
         "Properties": {
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -43,7 +48,9 @@
             "Radius": "Single",
             "RandomCeil": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "CameraArea": {
@@ -53,7 +60,11 @@
         "Properties": {
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear",
+            "NoDelete_RootArea"
+        ],
         "Models": [
             "AreaCubeBase",
             "AreaCylinder"
@@ -79,7 +90,11 @@
             "OnCondition": "Int32",
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAreaOn",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -104,7 +119,10 @@
             "PlayerAnimName": "String",
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase",
             "AreaCylinder"
@@ -119,7 +137,13 @@
             "IsClearAfterDemo": "Boolean",
             "IsLastBeforeDemo": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GoalItem",
+            "PlayerNpc",
+            "ViewGroup",
+            "DemoStartPosition",
+            "SwitchGoalDemoStartOn"
+        ],
         "Models": []
     },
     "GoalItem": {
@@ -138,7 +162,11 @@
             "ShadowLength": "Single",
             "UsingOccludedEffect": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "ViewGroup",
+            "SwitchGotOn"
+        ],
         "Models": [
             "GoalItem",
             "ShineGoalItem",
@@ -165,7 +193,11 @@
             "TouchPointOffsetZ": "Single",
             "TouchPointRadius": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "ViewGroup",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "RouteDokanBazooka": {
@@ -184,7 +216,12 @@
             "ShootSpeed": "Single",
             "ShootType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "Parts",
+            "TargetPos",
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "RouteDokanParts": {
@@ -195,7 +232,10 @@
             "CubeMapUnitName": "String",
             "ModelSuffix": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": [
             "RouteDokanCornerAir",
             "RouteDokanStraight1M",
@@ -216,7 +256,9 @@
         "Properties": {
             "Action": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "Coin": {
@@ -233,7 +275,12 @@
             "ShadowLength": "Single",
             "ShadowType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "ViewGroup",
+            "GroupClipping",
+            "SwitchDeadOn"
+        ],
         "Models": []
     },
     "DoubleMario": {
@@ -251,7 +298,10 @@
         "ClassName": "TrampleSwitchTogetherWatcher",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchTrampleAllOn",
+            "TrampleSwitchTogetherList"
+        ],
         "Models": []
     },
     "TrampleSwitchTogether": {
@@ -269,7 +319,9 @@
         "ClassName": "TransparentWall",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "GoalPedestral": {
@@ -280,7 +332,10 @@
             "CubeMapUnitName": "String",
             "IsNoDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "MultiLift": {
@@ -297,7 +352,9 @@
             "SpeedByTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "Candlestand": {
@@ -328,7 +385,11 @@
             "WidthNum": "Int32",
             "isSetGuide": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "GroupClipping": {
@@ -364,7 +425,9 @@
             "IsInWater": "Boolean",
             "IsPlacementInRouteDokan": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BazookaTouchLiftStepA": {
@@ -402,7 +465,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": [
             "CloudStorm",
             "CloudNightFullMoon",
@@ -429,7 +495,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "Ground": {
@@ -439,7 +507,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": [
             "GroundGridRock",
             "GroundGridDesert",
@@ -464,7 +535,9 @@
         "Properties": {
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "PlayerCollisionFallOutObserveArea"
+        ],
         "Models": []
     },
     "PlayerCollisionFallOutObserveArea": {
@@ -504,7 +577,10 @@
             "IsConnectToCollision": "Boolean",
             "isJudgeDegreeYZ": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GuideAppearArea",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "GuideAppearArea": {
@@ -547,7 +623,9 @@
             "IsConnectToCollision": "Boolean",
             "PosterType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDeadOn"
+        ],
         "Models": []
     },
     "DotKinopio": {
@@ -565,7 +643,14 @@
             "TouchDisableFrame": "Int32",
             "TouchRange": "Single"
         },
-        "Links": [],
+        "Links": [
+            "GoalDemoPoint",
+            "SwitchTouchValidate",
+            "Rail",
+            "SwitchTouchOn",
+            "RailJump",
+            "SwitchTouchDisable"
+        ],
         "Models": []
     },
     "DotKinopioGoalDemoPos": {
@@ -584,7 +669,9 @@
             "CubeMapUnitName": "String",
             "IsNarrowPlace": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SkyKinopio": {
@@ -594,7 +681,9 @@
         "Properties": {
             "IsOnlyCubeMap": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": [
             "SkyPoison",
             "SkyFullMoon",
@@ -639,7 +728,10 @@
             "IsValidClipping": "Boolean",
             "SePlayName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "PrePassLineLight": {
@@ -672,7 +764,10 @@
             "IsFollowCamera": "Boolean",
             "OfxPresetName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "SwitchOnArea": {
@@ -682,7 +777,11 @@
         "Properties": {
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAreaOn",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": [
             "AreaCubeBase",
             "AreaCubeCenter"
@@ -696,7 +795,11 @@
             "IsPerch": "Boolean",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart",
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "BelieveSignboardKeyMovePartsD": {
@@ -720,7 +823,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BelieveSignboardKeyMovePartsB": {
@@ -744,7 +850,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BelieveSignboardKeyMovePartsC": {
@@ -768,7 +877,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CoinStack": {
@@ -782,7 +894,11 @@
             "IsOnDrawClipping": "Boolean",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchKill",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "BelieveSignboardKeyMovePartsA": {
@@ -806,7 +922,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "RouteDokan": {
@@ -817,7 +936,9 @@
             "ColorVariation": "Int32",
             "MoveSpeed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "Parts"
+        ],
         "Models": []
     },
     "RouteDokanOpacityParts": {
@@ -828,7 +949,9 @@
             "CubeMapUnitName": "String",
             "ModelSuffix": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": [
             "DokanStraight1M",
             "DokanCornerAir",
@@ -860,7 +983,12 @@
             "ItemType": "String",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "GroupClipping",
+            "ViewGroup",
+            "GuideAppearPoint"
+        ],
         "Models": []
     },
     "BlockBrickBreakable": {
@@ -878,7 +1006,10 @@
             "ShadowMaskSetting": "Int32",
             "sendMsgNextBlock": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": [
             "BlockBrick"
         ]
@@ -891,7 +1022,10 @@
             "CubeMapUnitName": "String",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchTrampleOn",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "Zombie": {
@@ -904,7 +1038,16 @@
             "IsEnableLightSensor": "Boolean",
             "checkStrikeLight": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAllKillOn",
+            "SwitchAppear",
+            "ZombiePoint",
+            "GroupClipping",
+            "KillArea",
+            "SwitchKill",
+            "ViewGroup",
+            "SwitchKillForce"
+        ],
         "Models": []
     },
     "ZombiePoint": {
@@ -932,7 +1075,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "BelieveSignboardEchoPartsA": {
@@ -948,7 +1093,9 @@
         "ClassName": "EchoBlockMapParts",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "AllDeadWatcher": {
@@ -958,7 +1105,12 @@
         "Properties": {
             "SwitchOnDelayStep": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDeadOn",
+            "WatchTargetEnemy",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "Bull": {
@@ -970,7 +1122,11 @@
             "IsPlayFindBgm": "Boolean",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart",
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "AchievementSwitchChecker": {
@@ -978,7 +1134,9 @@
         "ClassName": "AchievementSwitchChecker",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchStart"
+        ],
         "Models": []
     },
     "TimerStageSwitch": {
@@ -988,7 +1146,10 @@
         "Properties": {
             "Timer": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart",
+            "SwitchTimerOn"
+        ],
         "Models": []
     },
     "BgmChangeArea": {
@@ -1001,7 +1162,9 @@
             "Kind": "String",
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -1029,7 +1192,9 @@
             "FadeInFrameNum": "Int32",
             "StartDelayFrameNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart"
+        ],
         "Models": []
     },
     "TransparentWallPlayerOnly": {
@@ -1037,7 +1202,10 @@
         "ClassName": "TransparentWall",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "SwitchBlockWatcher": {
@@ -1045,7 +1213,10 @@
         "ClassName": "SwitchBlockWatcher",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchBlock",
+            "SwitchBlockSwitch"
+        ],
         "Models": []
     },
     "BlueBlockMazeBlockA": {
@@ -1055,7 +1226,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "BlueBlockMazeBlockD": {
@@ -1065,7 +1238,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "BlueBlockMazeBlockB": {
@@ -1075,7 +1250,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "BlueBlockMazeBlockE": {
@@ -1085,7 +1262,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "BlueBlockMazeBlockC": {
@@ -1095,7 +1274,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "Nukkun": {
@@ -1111,7 +1292,10 @@
             "OnColliderForce": "Boolean",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BlueBlockMazeStepA": {
@@ -1144,7 +1328,9 @@
             "Count": "Int32",
             "IsShowLayout": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BonusStage1CherryStepA": {
@@ -1194,7 +1380,10 @@
             "ShadowLength": "Single",
             "ShadowMaskSetting": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BlockRailMover": {
@@ -1209,7 +1398,12 @@
             "RailBlockMoveType": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "BlockRailMove",
+            "Rail",
+            "GroupClipping",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BlockPow": {
@@ -1225,7 +1419,10 @@
             "ShadowMaskSetting": "Int32",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "BonusStage1PickaxeStepA": {
@@ -1243,7 +1440,9 @@
         "ClassName": "PickaxeItem",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "BonusShuffler": {
@@ -1251,7 +1450,9 @@
         "ClassName": "BonusShuffler",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "BonusShuffleGroup"
+        ],
         "Models": []
     },
     "BonusShuffleGroup": {
@@ -1259,7 +1460,9 @@
         "ClassName": "BonusShuffleGroup",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "Member"
+        ],
         "Models": []
     },
     "ZoomInvalidArea": {
@@ -1291,7 +1494,10 @@
             "ItemType": "String",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BonusStage2CherryStepA": {
@@ -1335,7 +1541,10 @@
             "CubeMapUnitName": "String",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BonusStage2PickaxeStepA": {
@@ -1367,7 +1576,10 @@
             "IsShowShadowMask": "Boolean",
             "NoConnectCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "SkyBlueB": {
@@ -1402,7 +1614,10 @@
             "ShadowLength": "Single",
             "ShadowMaskSetting": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": [
             "BlockBrick"
         ]
@@ -1487,7 +1702,10 @@
             "KinopioMemberNpcAppearItem": "String",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "KinopioMemberNpcTakeOutItemArea"
+        ],
         "Models": []
     },
     "WarpCube": {
@@ -1507,7 +1725,14 @@
             "Type": "Int32",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "DestCube",
+            "SwitchObjectCameraKeepOn",
+            "SwitchKill",
+            "SwitchAppear",
+            "ViewGroup",
+            "WarpCubeLockedPiece"
+        ],
         "Models": []
     },
     "BonusStage1MainStepA": {
@@ -1541,7 +1766,10 @@
             "IsRotateY": "Boolean",
             "ItemType": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": [
             "FlowerDandelion",
             "FlowerRhythm"
@@ -1573,7 +1801,9 @@
             "Priority": "Int32",
             "SePlayName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -1609,7 +1839,9 @@
         "ClassName": "EffectObjFollowCamera",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "Bonus3PickaxeZone": {
@@ -1647,7 +1879,9 @@
         "Properties": {
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -1657,7 +1891,10 @@
         "ClassName": "PlayerRestartSetter",
         "List": "CheckPointList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "PlayerRestartPos",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "StageStartBindDemoBossBird": {
@@ -1665,7 +1902,9 @@
         "ClassName": "StageStartBindDemoBossBird",
         "List": "DemoObjList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "BossBirdOpening"
+        ],
         "Models": []
     },
     "BossBirdOpening": {
@@ -1675,7 +1914,12 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "BossBirdRailKeeper",
+            "BossBirdSand",
+            "DemoBossBirdPosition",
+            "SwitchBossBirdUp"
+        ],
         "Models": []
     },
     "BossBirdRailKeeper": {
@@ -1688,7 +1932,11 @@
             "IsNotRailMove": "Boolean",
             "IsPriorSwitch": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "RailSwitchArea",
+            "BossBirdBlowTarget"
+        ],
         "Models": []
     },
     "DemoBossBirdPosition": {
@@ -1706,7 +1954,11 @@
         "Properties": {
             "isHaveHeadLight": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "Rail"
+        ],
         "Models": [
             "KinopicoNpc",
             "KinopioNpc"
@@ -1719,7 +1971,15 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "DemoBattleEndPosTarget",
+            "PlayerPos",
+            "PullOutKinopicoNpc",
+            "Rail",
+            "SwitchAppear",
+            "SwitchDeadOn",
+            "SwitchLastAttackHitOn"
+        ],
         "Models": []
     },
     "PullOutKinopicoNpc": {
@@ -1727,7 +1987,11 @@
         "ClassName": "PullOutKinopicoNpc",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "DemoAppearLastPosTarget",
+            "PlayerPos",
+            "SwitchPullOutSuccessOn"
+        ],
         "Models": []
     },
     "Ladder": {
@@ -1742,7 +2006,13 @@
             "LadderColor": "Int32",
             "MtxConnectType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "LadderLink",
+            "SwitchValidate",
+            "GroupClipping",
+            "SwitchKill",
+            "ViewGroup"
+        ],
         "Models": [
             "Normal50CM"
         ]
@@ -1756,7 +2026,12 @@
             "IsConnectToCollision": "Boolean",
             "PullType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchPullOn",
+            "ViewGroup",
+            "GroupClipping",
+            "GuideAppearPoint"
+        ],
         "Models": []
     },
     "WindBoxWatcher": {
@@ -1764,7 +2039,10 @@
         "ClassName": "WindBoxWatcher",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "WindBox",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "WindBox": {
@@ -1777,7 +2055,10 @@
             "MoveType": "Int32",
             "Speed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BossBird1StepB": {
@@ -1787,7 +2068,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "SwitchClippingDirector": {
@@ -1795,7 +2078,10 @@
         "ClassName": "SwitchClippingDirector",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "ClippingTarget",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossBird1StepA": {
@@ -1817,7 +2103,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossBird1PullC": {
@@ -1829,7 +2118,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossBird1PullA": {
@@ -1841,7 +2133,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossBird1PullG": {
@@ -1853,7 +2148,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossBird1PullD": {
@@ -1865,7 +2163,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossBird1PullE": {
@@ -1877,7 +2178,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossBird1PullF": {
@@ -1889,7 +2193,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossBirdWindCycleA": {
@@ -1912,7 +2219,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BossBird1Gold": {
@@ -1930,7 +2239,9 @@
         "ClassName": "GroupClippingDummyTarget",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BgmStopArea": {
@@ -1965,7 +2276,9 @@
         "ClassName": "StageStartBindDemoBossBird",
         "List": "DemoObjList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "BossBirdOpening"
+        ],
         "Models": []
     },
     "BossBirdOpeningLv2": {
@@ -1975,7 +2288,13 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "BossBirdRailKeeper",
+            "BossBirdRain",
+            "DemoBossBirdPosition",
+            "SwitchBossBirdUp",
+            "SwitchDrawClipping"
+        ],
         "Models": []
     },
     "EffectObjRain": {
@@ -2000,7 +2319,9 @@
             "MoveType": "Int32",
             "Speed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "TouchRotatePanel": {
@@ -2012,7 +2333,11 @@
             "IsConnectToCollision": "Boolean",
             "IsEnableDeath": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "RotateParts",
+            "TransParts",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "BossBird2RotatePartsA": {
@@ -2037,7 +2362,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BossBirdLevel2": {
@@ -2047,7 +2374,15 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "BossBirdThunderboltGenerator",
+            "DemoBattleEndPosTarget",
+            "PlayerPos",
+            "PullOutKinopicoNpc",
+            "Rail",
+            "SwitchAppear",
+            "SwitchDeadOn"
+        ],
         "Models": []
     },
     "BossBirdThunderboltGenerator": {
@@ -2055,7 +2390,9 @@
         "ClassName": "BossBirdThunderboltGenerator",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "BossBirdThunderbolt"
+        ],
         "Models": []
     },
     "BossBirdThunderbolt": {
@@ -2075,7 +2412,9 @@
             "IsKillByDamageCode": "Boolean",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "BossBird2WindBlockB": {
@@ -2088,7 +2427,9 @@
             "MoveType": "Int32",
             "Speed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "PullOutObjZoom": {
@@ -2101,7 +2442,10 @@
             "IsEnableDepthShadow": "Boolean",
             "ItemType": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BossBirdWall1": {
@@ -2111,7 +2455,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossBirdWall2": {
@@ -2121,7 +2467,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossBirdWall3": {
@@ -2131,7 +2479,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossBirdWall4": {
@@ -2141,7 +2491,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossBird2StepC": {
@@ -2171,7 +2523,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BossBird2GoldA": {
@@ -2189,7 +2543,10 @@
         "ClassName": "CameraDirectionSwitchOnAreaWatcher",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "CameraDirectionSwitchOnArea",
+            "SwitchCameraDirectionOnOff"
+        ],
         "Models": []
     },
     "CameraDirectionSwitchOnArea": {
@@ -2215,7 +2572,9 @@
         "Properties": {
             "StartAnimation": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDeadOn"
+        ],
         "Models": []
     },
     "BossFire": {
@@ -2226,7 +2585,22 @@
             "CubeMapUnitName": "String",
             "Lv": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "EndDemoPlayerReturnPos",
+            "LinkBossFireDown",
+            "LinkBossFireSyncMap",
+            "LinkBossFireToppleParts",
+            "PlayerPos",
+            "StartDemoStartArea",
+            "SwitchDemoEndOn",
+            "SwitchEndDemoEndOn",
+            "SwitchStartDemoEndOn",
+            "SwitchStartDemoStartOn",
+            "SwitchStartPressDownSign",
+            "SwitchStartRoar",
+            "UpperLimit",
+            "SwitchRoarEndOn"
+        ],
         "Models": []
     },
     "BossFireDown": {
@@ -2252,7 +2626,12 @@
             "SpeedByTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossFireToppleParts": {
@@ -2260,7 +2639,14 @@
         "ClassName": "BossFireToppleParts",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "LinkGoalItemDummy",
+            "MoveNext",
+            "SwitchStart",
+            "SwitchStartBreakSignLv1",
+            "SwitchStartBreakSignLv2",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BossFire2TouchRotatePartsA": {
@@ -2275,7 +2661,9 @@
             "LimitDegreeRight": "Single",
             "RotateAxis": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFire2TouchRotatePartsB": {
@@ -2300,7 +2688,9 @@
         "Properties": {
             "TransType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "TouchTransParts"
+        ],
         "Models": []
     },
     "CoinCirclePlacement": {
@@ -2312,7 +2702,10 @@
             "CubeMapUnitName": "String",
             "Speed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "FallFireBallGenerator": {
@@ -2324,7 +2717,10 @@
             "Distance": "Single",
             "GenerateFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "CoinRail": {
@@ -2339,7 +2735,11 @@
             "IsPlacementInRouteDokan": "Boolean",
             "IsRailEqualInterval": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BossFire2StepA": {
@@ -2349,7 +2749,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFire2WallRockA": {
@@ -2362,7 +2764,10 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "BossFire2WallRockB": {
@@ -2375,7 +2780,10 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "BossFire2WallRockC": {
@@ -2388,7 +2796,9 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BossFire2StepB": {
@@ -2398,7 +2808,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFire2StepC": {
@@ -2433,7 +2845,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStop",
+            "ViewGroup"
+        ],
         "Models": [
             "Lift4x4M",
             "Lift4x4M_mike"
@@ -2446,7 +2863,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStepBreak2Lv2": {
@@ -2456,7 +2875,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStepBreak3Lv2": {
@@ -2466,7 +2887,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "FallRockGenerator": {
@@ -2478,7 +2901,11 @@
             "Distance": "Single",
             "GenerateFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear",
+            "GroupClipping"
+        ],
         "Models": [
             "BossFireFallRock"
         ]
@@ -2510,7 +2937,12 @@
             "SpeedByTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BossFire3TouchBrockA": {
@@ -2558,7 +2990,10 @@
             "ConnectCollision": "Boolean",
             "GatherPlayer": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "DestDoor",
+            "GroupClipping"
+        ],
         "Models": [
             "WarpDoorTeresaFrameOff",
             "WarpDoor"
@@ -2608,7 +3043,10 @@
             "CloseFrame": "Int32",
             "RotateFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ChildPatanPanel",
+            "OpenSwitchOff"
+        ],
         "Models": [
             "PatanPanel",
             "PatanPanelSlope"
@@ -2619,7 +3057,9 @@
         "ClassName": "PatanPanelStarter",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "StartSwitchOn"
+        ],
         "Models": []
     },
     "ChikuwaBlock": {
@@ -2630,7 +3070,9 @@
             "IsUseInvalidateSensor": "Boolean",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": [
             "ChikuwaBlock2x4M"
         ]
@@ -2642,7 +3084,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BossFire3WallRockA": {
@@ -2655,7 +3099,10 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "BossFire3WallRockB": {
@@ -2668,7 +3115,10 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "BossFire3WallRockC": {
@@ -2681,7 +3131,10 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "BossFire3StepB": {
@@ -2691,7 +3144,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BossFireStepBreak1Lv3": {
@@ -2701,7 +3157,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStepBreak2Lv3": {
@@ -2711,7 +3169,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStepBreak3Lv3": {
@@ -2721,7 +3181,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStep": {
@@ -2731,7 +3193,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BossFireKeyMovePartsA": {
@@ -2751,7 +3216,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "BossFireKeyMovePartsB": {
@@ -2771,7 +3238,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossFireKeyMovePartsC": {
@@ -2791,7 +3262,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireWallRockB": {
@@ -2804,7 +3278,12 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "SwitchStartHide",
+            "SwitchStartHideSub"
+        ],
         "Models": []
     },
     "BossFireWallRockA": {
@@ -2817,7 +3296,11 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "BossFireWallRockC": {
@@ -2830,7 +3313,10 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "CameraShakeRandom": {
@@ -2847,7 +3333,10 @@
             "StopFrameMax": "Int32",
             "StopFrameMin": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossFireStepBreak1": {
@@ -2857,7 +3346,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStepBreak2": {
@@ -2867,7 +3358,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStepBreak3": {
@@ -2877,7 +3370,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "BossFireStepBreak4": {
@@ -2887,7 +3382,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "DisappearDoorKeyArea": {
@@ -2922,7 +3419,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CherryTowerKeyMovePartsA": {
@@ -2946,7 +3446,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CherryTowerKeyMovePartsD": {
@@ -2970,7 +3473,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CherryTowerKeyMovePartsC": {
@@ -2994,7 +3500,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CherryTowerStepA": {
@@ -3022,7 +3532,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "CherryTowerCarpetA": {
@@ -3032,7 +3544,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "CherryTowerKeyMovePartsF": {
@@ -3056,7 +3570,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CherryTowerCarpetB": {
@@ -3066,7 +3583,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "PlayerFallActionControlArea": {
@@ -3077,7 +3596,9 @@
             "AnimStartFrame": "Int32",
             "IsEnableCollisionHeightCheck": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -3091,7 +3612,9 @@
             "IsSyncBgm": "Boolean",
             "SpeedMode": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SyncBlock"
+        ],
         "Models": []
     },
     "ChikaChikaBlock": {
@@ -3143,7 +3666,11 @@
             "UsingDepthShadow": "Boolean",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "ViewCtrlArea": {
@@ -3153,7 +3680,9 @@
         "Properties": {
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -3175,7 +3704,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "TentenWing": {
@@ -3197,7 +3728,15 @@
             "UsingDepthShadow": "Boolean",
             "WidthNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SupportFreezeSyncGroup",
+            "SwitchAllDeadOn",
+            "ViewGroup",
+            "SwitchAnyDeadOn",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "GroupSupportFreezeSync": {
@@ -3238,7 +3777,9 @@
             "SpotLightLength": "Single",
             "UseShadow": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "CityWorldLiftA": {
@@ -3262,7 +3803,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CityWorldKeyMovePartsA": {
@@ -3286,7 +3831,13 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "SignBoardNormal": {
@@ -3320,7 +3871,10 @@
             "MoveType": "Int32",
             "OnWaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BlockHard": {
@@ -3333,7 +3887,11 @@
             "IsUseZPrePass": "Boolean",
             "ShadowMaskSetting": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchValidSensorOn",
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "CityWorldGatePartsA": {
@@ -3345,7 +3903,13 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchKill",
+            "SwitchStart",
+            "ViewGroup",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "CityWorldCoverC": {
@@ -3355,7 +3919,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "CityWorldGroundUnder": {
@@ -3365,7 +3931,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CityWorldGotogoton": {
@@ -3389,7 +3958,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CityWorldCoverB": {
@@ -3399,7 +3971,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "CityWorldCoverA": {
@@ -3409,7 +3984,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "CityWorldFlag": {
@@ -3480,7 +4057,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "CityWorldLiftB": {
@@ -3495,7 +4074,10 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "CityWorldGroundUnderSealA": {
@@ -3551,7 +4133,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "CityWorldBuildingC": {
@@ -3561,7 +4145,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "CityWorldStepA": {
@@ -3591,7 +4177,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "CityWorldUnderPartsA": {
@@ -3601,7 +4190,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "CityWorldGround": {
@@ -3645,7 +4236,9 @@
             "isDisplayOnce": "Boolean",
             "isJudgeDegreeYZ": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GuideAppearArea"
+        ],
         "Models": []
     },
     "HammerBros": {
@@ -3657,7 +4250,11 @@
             "StackNum": "Int32",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "BrosMovePoint": {
@@ -3668,7 +4265,10 @@
             "ScaffoldType": "Int32",
             "StackNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "PipePackun": {
@@ -3685,7 +4285,11 @@
             "MoveType": "Int32",
             "StartPositionRate": "Single"
         },
-        "Links": [],
+        "Links": [
+            "BodyNext",
+            "GroupClipping",
+            "SwitchStart"
+        ],
         "Models": [
             "PipePackunBodyPartsStraight",
             "PipePackunBodyPartsCorner"
@@ -3717,7 +4321,11 @@
             "SearchRange": "Int32",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "PackunFlower": {
@@ -3729,7 +4337,10 @@
             "IsRemainTrace": "Boolean",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "ClimbTowerPillar": {
@@ -3741,7 +4352,11 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "Getton": {
@@ -3756,7 +4371,10 @@
             "WaitTime": "Int32",
             "Width": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "Rail"
+        ],
         "Models": []
     },
     "ClimbTowerStep": {
@@ -3766,7 +4384,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "EffectObjBonfireS": {
@@ -3799,7 +4419,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LauncherNormal": {
@@ -3811,7 +4433,12 @@
             "IsSkipMovement": "Boolean",
             "IsUseObjectTVCamera": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "BindCancelSwitch",
+            "GuideAppearPoint",
+            "SwitchSubjectiveCameraOnOff",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "ClimbTowerLiftA": {
@@ -3823,7 +4450,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "AudioListenerParamArea": {
@@ -3838,7 +4468,9 @@
             "Priority": "Int32",
             "UnitDistance": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -3855,7 +4487,10 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SupportFreezeSyncGroup",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "ClockDiscClearParts": {
@@ -3870,7 +4505,10 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SupportFreezeSyncGroup",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "ClockDiscStep": {
@@ -3943,7 +4581,10 @@
             "YFogRangeStart": "Single",
             "YFogShadowIntensity": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "DarknessTrapStep": {
@@ -3969,7 +4610,12 @@
             "SpeedByTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart",
+            "SwitchStopPartsAnim"
+        ],
         "Models": []
     },
     "DarknessTrapSeesawA": {
@@ -3983,7 +4629,9 @@
             "RotateAccelOff": "Single",
             "RotateAccelOn": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "Teresa": {
@@ -3993,7 +4641,10 @@
         "Properties": {
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "DarknessTrapSeesawB": {
@@ -4007,7 +4658,9 @@
             "RotateAccelOff": "Single",
             "RotateAccelOn": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "DarknessTrapSeesawC": {
@@ -4021,7 +4674,9 @@
             "RotateAccelOff": "Single",
             "RotateAccelOn": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "DarknessTrapSeesawD": {
@@ -4035,7 +4690,9 @@
             "RotateAccelOff": "Single",
             "RotateAccelOn": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "TeresaBig": {
@@ -4045,7 +4702,11 @@
         "Properties": {
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill",
+            "PlayerCollisionFallOutObserveArea"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsR": {
@@ -4065,7 +4726,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsL": {
@@ -4085,7 +4751,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsP": {
@@ -4105,7 +4776,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsH": {
@@ -4125,7 +4800,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsN": {
@@ -4145,7 +4824,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsM": {
@@ -4165,7 +4848,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsI": {
@@ -4185,7 +4872,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsJ": {
@@ -4205,7 +4896,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsF": {
@@ -4225,7 +4920,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsE": {
@@ -4245,7 +4944,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsD": {
@@ -4265,7 +4968,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsC": {
@@ -4285,7 +4992,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsB": {
@@ -4305,7 +5016,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsA": {
@@ -4325,7 +5040,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsQ": {
@@ -4345,7 +5064,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsW": {
@@ -4365,7 +5088,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsV": {
@@ -4385,7 +5112,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsG": {
@@ -4405,7 +5137,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "Teren": {
@@ -4417,7 +5153,12 @@
             "ShadowLength": "Int32",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "SwitchAppear",
+            "SwitchKill",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "CoinLine": {
@@ -4434,7 +5175,11 @@
             "IsPlayCompleteSe": "Boolean",
             "PlacementOffset": "Single"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "SwitchAppear",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsU": {
@@ -4454,7 +5199,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsK": {
@@ -4474,7 +5224,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsO": {
@@ -4494,7 +5248,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsT": {
@@ -4514,7 +5273,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapFallPartsS": {
@@ -4534,7 +5297,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "DarknessTrapWallB": {
@@ -4547,7 +5314,9 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "DarknessTrapWallA": {
@@ -4576,7 +5345,11 @@
             "SpeedByTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "DarknessTrapSeesawPoleA": {
@@ -4596,7 +5369,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "DarknessTrapGasB": {
@@ -4620,7 +5397,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "DarknessTrapSeesawPoleB": {
@@ -4640,7 +5421,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PlayerBindAnimObj": {
@@ -4651,7 +5436,9 @@
             "KillIfPlayerBind": "Boolean",
             "PlayerAnimName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "BgmStopObj": {
@@ -4662,7 +5449,9 @@
             "FadeOutFrameNum": "Int32",
             "StopBgmName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart"
+        ],
         "Models": []
     },
     "DemoCamera": {
@@ -4860,7 +5649,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SkyLava": {
@@ -4907,7 +5698,10 @@
             "MoveType": "Int32",
             "OnWaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnemyBattleDoor": {
@@ -4931,7 +5725,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "EnemyBattleStepB": {
@@ -4941,7 +5739,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnemyBattleBridgeA": {
@@ -4953,7 +5753,11 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnemyBattleStepC": {
@@ -4963,7 +5767,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "PlayerCeilingCheckOffArea": {
@@ -4990,7 +5796,10 @@
             "SleepEnemy": "Boolean",
             "StackNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchDrawClippingOnOff"
+        ],
         "Models": []
     },
     "Kuribo": {
@@ -5004,7 +5813,11 @@
             "IsNoUseShadowMask": "Boolean",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchWait",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "HammerBrosAllDeadWatcher": {
@@ -5012,7 +5825,9 @@
         "ClassName": "HammerBrosAllDeadWatcher",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "HammerBros"
+        ],
         "Models": []
     },
     "EnemyBattleMagma": {
@@ -5032,7 +5847,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnemyBattleStepA": {
@@ -5042,7 +5859,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnemyBattleBrosZone": {
@@ -5113,7 +5932,9 @@
         "Properties": {
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "NoDelete_FollowMtxTarget"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -5182,7 +6003,10 @@
             "ModelSuffix": "String",
             "MoveSpeed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "Parts",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SignBoardWood": {
@@ -5194,7 +6018,9 @@
             "IsSnowCover": "Boolean",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": [
             "SignBoardWoodRight",
             "SignBoardWoodLeft",
@@ -5211,7 +6037,11 @@
             "ItemType": "String",
             "LightType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ClippingExpander",
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": [
             "TreeLongC",
             "TreeLongA",
@@ -5237,7 +6067,11 @@
             "ItemType": "String",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "Bush": {
@@ -5248,7 +6082,10 @@
             "Color": "Int32",
             "ItemType": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "WoodBox": {
@@ -5262,7 +6099,10 @@
             "ItemType": "String",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "SwitchDeadOn"
+        ],
         "Models": []
     },
     "Crab": {
@@ -5272,7 +6112,10 @@
         "Properties": {
             "ItemType": "String"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnterCatMarioStepA": {
@@ -5292,7 +6135,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SignBoardWoodWall": {
@@ -5304,7 +6149,9 @@
             "IsSnowCover": "Boolean",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": [
             "SignBoardWoodWallRight"
         ]
@@ -5316,7 +6163,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EffectObjScreenLensFlareRight": {
@@ -5345,7 +6195,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnterCatMarioMiddleView": {
@@ -5376,7 +6228,10 @@
             "Color": "Int32",
             "ItemType": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "SinkedItem": {
@@ -5397,7 +6252,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "ThreeDWorldSlopeB": {
@@ -5431,7 +6288,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "FreightTrainKeyMovePartsA": {
@@ -5455,7 +6317,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "FreightTrainConveyerPartsA": {
@@ -5472,7 +6339,10 @@
             "PartsInterval": "Single",
             "StartRate": "Single"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "FreightTrainKeyMovePartsC": {
@@ -5496,7 +6366,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "ZombieKillArea": {
@@ -5518,7 +6393,10 @@
         "Properties": {
             "IsUseClipping": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "LinkMoking"
+        ],
         "Models": []
     },
     "Moking": {
@@ -5531,7 +6409,10 @@
             "IsOffColliderAtRail": "Boolean",
             "ShadowMaskDropLength": "Single"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "Rail"
+        ],
         "Models": []
     },
     "FreightTrainStep": {
@@ -5559,7 +6440,9 @@
             "MoveType": "Int32",
             "OnWaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchSlideOn"
+        ],
         "Models": []
     },
     "KinokoOneUp": {
@@ -5571,7 +6454,10 @@
             "IsPlacementInRouteDokan": "Boolean",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "EffectObjLongExpressSmoke": {
@@ -5603,7 +6489,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SwitchAnd": {
@@ -5611,7 +6501,13 @@
         "ClassName": "SwitchAnd",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "InputSwitchA",
+            "InputSwitchB",
+            "InputSwitchC",
+            "OutputSwitchOn",
+            "InputSwitchD"
+        ],
         "Models": []
     },
     "FreightTrainStepCover": {
@@ -5621,7 +6517,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "LongExpressStepAWheel": {
@@ -5631,7 +6529,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EffectObjLongExpressSteam": {
@@ -5658,7 +6558,10 @@
             "SoundName": "String",
             "StopFrameNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "HeyhoRail": {
@@ -5671,7 +6574,12 @@
             "MemoryDist": "Single",
             "MemoryNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ChaseArea",
+            "Rail",
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EnemyChaseArea": {
@@ -5779,7 +6687,9 @@
             "SlideMax": "Single",
             "TimeShift": "Single"
         },
-        "Links": [],
+        "Links": [
+            "GrassObj"
+        ],
         "Models": []
     },
     "FreshRuinsGrassA": {
@@ -5833,7 +6743,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "GabonStairsDoor": {
@@ -5857,7 +6769,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "Gabon": {
@@ -5871,7 +6786,9 @@
             "ThrowModel": "String",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "GabonStairsKeyMovePartsB": {
@@ -5895,7 +6812,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "GabonStairsScrew": {
@@ -5923,7 +6842,9 @@
         "ClassName": "GoalAreaChecker",
         "List": "GoalList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "GoalArea"
+        ],
         "Models": []
     },
     "GoalArea": {
@@ -5933,7 +6854,9 @@
         "Properties": {
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -5953,7 +6876,10 @@
         "ClassName": "ManeckInvalidArea",
         "List": "AreaList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -5967,7 +6893,10 @@
             "IsForceInvalid": "Boolean",
             "IsSpeedArrange": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "Maze": {
@@ -5979,7 +6908,16 @@
             "TopFloorNum": "Int32",
             "Width": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "RareItem",
+            "RecreateSwitch",
+            "ShuffleItem",
+            "ChildMaze",
+            "RangeFloorSet",
+            "SpecialFloorSet",
+            "SwitchAppear",
+            "TopFloorSwitchOn"
+        ],
         "Models": []
     },
     "MazeItemGroup": {
@@ -5987,7 +6925,9 @@
         "ClassName": "MazeItemGroup",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "Member"
+        ],
         "Models": []
     },
     "GhostPlayerMaze1Step": {
@@ -6011,7 +6951,13 @@
             "MemoryNum": "Int32",
             "WatchType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "HeyhoWatchPoint",
+            "SwitchStart",
+            "ChaseArea",
+            "ViewGroup",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "HeyhoWatchPoint": {
@@ -6063,7 +7009,10 @@
             "Value": "Int32",
             "Value2": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "RareItem",
+            "ShuffleItem"
+        ],
         "Models": []
     },
     "PackunFire": {
@@ -6075,7 +7024,10 @@
             "ItemType": "String",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart",
+            "GroupClipping"
+        ],
         "Models": []
     },
     "KillerLauncher": {
@@ -6098,7 +7050,11 @@
             "StepWait": "Int32",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchStart",
+            "SwitchKill"
+        ],
         "Models": [
             "KillerLauncher",
             "KillerLauncherR",
@@ -6112,7 +7068,10 @@
         "Properties": {
             "Value": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "RareItem",
+            "ShuffleItem"
+        ],
         "Models": []
     },
     "GhostPlayerMaze3StepB": {
@@ -6150,7 +7109,10 @@
         "ClassName": "CandlestandWatcher",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "LinkCandlestand",
+            "SwitchFireAllOn"
+        ],
         "Models": []
     },
     "HeyhoDarknessCoverB": {
@@ -6160,7 +7122,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "HeyhoDarknessCoverA": {
@@ -6170,7 +7134,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "HeyhoDarknessStepA": {
@@ -6195,7 +7161,9 @@
             "OutCameraPlayStep": "Int32",
             "Type": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "DestDokan"
+        ],
         "Models": []
     },
     "EffectObjDust": {
@@ -6252,7 +7220,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "KillerTouchBlockMagma": {
@@ -6379,7 +7349,9 @@
         "Properties": {
             "TransType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "TouchTransParts"
+        ],
         "Models": []
     },
     "KillerSearchLauncher": {
@@ -6402,7 +7374,10 @@
             "StepWait": "Int32",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SwitchStart"
+        ],
         "Models": [
             "KillerLauncher"
         ]
@@ -6414,7 +7389,9 @@
         "Properties": {
             "TransType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "TouchTransParts"
+        ],
         "Models": []
     },
     "LauncherNormalStepA": {
@@ -6424,7 +7401,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "LavaWorldVolcano": {
@@ -6434,7 +7413,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsGuard4x12C": {
@@ -6458,7 +7439,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsGuard4x12H": {
@@ -6482,7 +7465,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsGuard4x12B": {
@@ -6506,7 +7491,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsGuard4x12G": {
@@ -6530,7 +7517,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x12A": {
@@ -6554,7 +7543,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparate4x12A": {
@@ -6578,7 +7570,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsCurve12x12A": {
@@ -6602,7 +7597,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x8A": {
@@ -6626,7 +7624,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlope4x8A": {
@@ -6650,7 +7651,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlope4x8B": {
@@ -6674,7 +7678,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparate4x12B": {
@@ -6698,7 +7705,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparate4x12E": {
@@ -6722,7 +7732,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparateUp4x12C": {
@@ -6746,7 +7759,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparateUp4x12B": {
@@ -6770,7 +7785,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsGuard4x12A": {
@@ -6794,7 +7811,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x8E": {
@@ -6818,7 +7837,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparateUp4x12A": {
@@ -6842,7 +7864,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "FallDurianGenerator": {
@@ -6854,7 +7878,10 @@
             "Distance": "Single",
             "GenerateFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsDiagonal12x12A": {
@@ -6878,7 +7905,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlopeSlide4x12C": {
@@ -6902,7 +7931,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlopeSlide4x12F": {
@@ -6926,7 +7957,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlopeSlide4x12B": {
@@ -6950,7 +7983,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlope4x12A": {
@@ -6974,7 +8010,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlopeSlide4x12D": {
@@ -6998,7 +8036,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldStartStep": {
@@ -7008,7 +8048,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldLava": {
@@ -7042,7 +8084,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsCurve12x12B": {
@@ -7066,7 +8112,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x12B": {
@@ -7090,7 +8139,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsGuard4x12D": {
@@ -7114,7 +8167,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsCurve12x12D": {
@@ -7138,7 +8195,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsCurve12x12C": {
@@ -7162,7 +8223,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparate4x12C": {
@@ -7186,7 +8251,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x8D": {
@@ -7210,7 +8279,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x8C": {
@@ -7234,7 +8307,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x12C": {
@@ -7258,7 +8335,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparate4x12F": {
@@ -7282,7 +8363,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSeparate4x12D": {
@@ -7306,7 +8391,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsGuard4x12E": {
@@ -7330,7 +8419,11 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "BossMagma": {
@@ -7340,7 +8433,10 @@
         "Properties": {
             "AppearOnStart": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "RailBossMagma",
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "RailBossMagma": {
@@ -7379,7 +8475,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMoveParts4x8B": {
@@ -7403,7 +8501,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlope4x12B": {
@@ -7427,7 +8527,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlopeSlide4x12A": {
@@ -7451,7 +8553,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsSlopeSlide4x12E": {
@@ -7475,7 +8579,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsDiagonal12x12C": {
@@ -7499,7 +8605,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldKeyMovePartsDiagonal12x12D": {
@@ -7523,7 +8631,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "LavaWorldMiddleView": {
@@ -7543,7 +8653,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldMiddleViewTempleB": {
@@ -7553,7 +8665,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldSaucePan": {
@@ -7563,7 +8677,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LavaWorldGoalStep": {
@@ -7624,7 +8741,10 @@
             "WalkDelay": "Int32",
             "WalkSpeed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LogForestWaterPillar": {
@@ -7642,7 +8762,9 @@
             "SpeedByTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LogForestStep": {
@@ -7667,7 +8789,9 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStart"
+        ],
         "Models": []
     },
     "UkiboWaterParkZMask": {
@@ -7731,7 +8855,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LongExpressStepDCover": {
@@ -7741,7 +8867,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "LongExpressStepB": {
@@ -7761,7 +8889,10 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LongExpressRail": {
@@ -7778,7 +8909,10 @@
             "PartsInterval": "Single",
             "StartRate": "Single"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LongExpressWheelA": {
@@ -7799,7 +8933,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "LongExpressStepACover": {
@@ -7809,7 +8945,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "LongExpressTouchPartsD": {
@@ -7837,7 +8975,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "LongExpressTouchPartsE": {
@@ -7917,7 +9057,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "LongExpressDoorB": {
@@ -7941,7 +9084,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "Tenten": {
@@ -7958,7 +9104,11 @@
             "UsingDepthShadow": "Boolean",
             "WidthNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SupportFreezeSyncGroup"
+        ],
         "Models": []
     },
     "LongExpressGround": {
@@ -7968,7 +9118,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "EffectObjLongExpressSnow": {
@@ -8073,7 +9225,11 @@
             "Speed": "Single",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "GroupClipping",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "MagmaRoadLavaA": {
@@ -8103,7 +9259,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "MagmaRoadStepC": {
@@ -8113,7 +9271,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "MagmaRoadStepD": {
@@ -8123,7 +9283,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "MokingDoubleCherryStepA": {
@@ -8133,7 +9295,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "MokingDoubleCherryPoisonA": {
@@ -8143,7 +9307,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "MoveDoorHauntedHouseTouchPartsA": {
@@ -8209,7 +9375,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "MoveDoorHauntedHouseStep": {
@@ -8241,7 +9410,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "EdgeDrawArea": {
@@ -8270,7 +9441,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "Seesaw": {
@@ -8285,7 +9458,10 @@
             "RotateAccelOff": "Single",
             "RotateAccelOn": "Single"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SeesawJumpPoint"
+        ],
         "Models": [
             "Seesaw6M",
             "Seesaw8M"
@@ -8332,7 +9508,12 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart",
+            "SwitchStop"
+        ],
         "Models": []
     },
     "NukkunSinkTowerMagmaA": {
@@ -8355,7 +9536,9 @@
             "WaitTime": "Int32",
             "WetType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": [
             "NeedleTrap2x4M"
         ]
@@ -8395,7 +9578,10 @@
             "AvoidDist": "Single",
             "FishNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "SwimArea"
+        ],
         "Models": [
             "FishA"
         ]
@@ -8421,7 +9607,11 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PipePackunJungleStep": {
@@ -8431,7 +9621,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "Seaweed": {
@@ -8488,7 +9680,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpHeyhoPullA": {
@@ -8500,7 +9695,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpHeyhoPullB": {
@@ -8512,7 +9710,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpHeyhoPullD": {
@@ -8524,7 +9725,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpHeyhoPullE": {
@@ -8536,7 +9740,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpHeyhoPullF": {
@@ -8548,7 +9755,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpHeyhoStepA": {
@@ -8570,7 +9780,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpKeyLiftB": {
@@ -8582,7 +9795,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "PullUpStepA": {
@@ -8592,7 +9808,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "PullUpGrassA": {
@@ -8612,7 +9830,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "RaftRavineRaft": {
@@ -8636,7 +9856,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "RaftRavineLiftA": {
@@ -8648,7 +9871,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "RaftRavineStepACoverB": {
@@ -8658,7 +9884,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "RaftRavineLiftB": {
@@ -8670,7 +9898,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "RaftRavineStepACoverA": {
@@ -8680,7 +9911,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "Mole": {
@@ -8696,7 +9929,11 @@
             "isEnableCheckStrikeArrow": "Boolean",
             "isEnablePulloutCheckStrikeArrow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "CollectItem",
+            "MoleControlArea",
+            "StartPoint"
+        ],
         "Models": []
     },
     "MoleControlArea": {
@@ -8716,7 +9953,9 @@
         "ClassName": "MoleRoutePoint",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "NextPoint"
+        ],
         "Models": []
     },
     "RaftRavineLiftD": {
@@ -8728,7 +9967,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "RaftRavineLiftC": {
@@ -8740,7 +9982,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "RaftRavineLiftE": {
@@ -8752,7 +9997,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "RaftRavinePoisonA": {
@@ -8762,7 +10010,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "RevolverRuinsConveyorParts": {
@@ -8779,7 +10029,9 @@
             "PartsInterval": "Single",
             "StartRate": "Single"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "RevolverRuinsClockPartsB": {
@@ -8794,7 +10046,11 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SupportFreezeSyncGroup",
+            "SwitchStop"
+        ],
         "Models": []
     },
     "RevolverRuinsClockPartsC": {
@@ -8809,7 +10065,11 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SupportFreezeSyncGroup",
+            "SwitchStop"
+        ],
         "Models": []
     },
     "RevolverRuinsClockPartsD": {
@@ -8824,7 +10084,12 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ChildStep",
+            "GroupClipping",
+            "SupportFreezeSyncGroup",
+            "SwitchStop"
+        ],
         "Models": []
     },
     "RevolverRuinsClockPartsDParts": {
@@ -8849,7 +10114,11 @@
             "RotateTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "SupportFreezeSyncGroup",
+            "SwitchStop"
+        ],
         "Models": []
     },
     "KyoroHei": {
@@ -8862,7 +10131,11 @@
             "StartPosRate": "Single",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "MoveNext",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "RevolverRuinsStep": {
@@ -8882,7 +10155,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "RevolverRuinsStepWater": {
@@ -8913,7 +10188,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "RevolverRuinsBridge": {
@@ -8923,7 +10200,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "RevolverRuinsGrass": {
@@ -8943,7 +10222,9 @@
         "Properties": {
             "SePlayName": "String"
         },
-        "Links": [],
+        "Links": [
+            "Rail"
+        ],
         "Models": []
     },
     "RotateHellStep": {
@@ -9029,7 +10310,10 @@
             "ItemType": "String",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "RouteDokanJetStep": {
@@ -9039,7 +10323,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "RouteDokanJetStepB": {
@@ -9060,7 +10346,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "FrameOutCtrlArea": {
@@ -9085,7 +10373,9 @@
             "IsValidSingleMode": "Boolean",
             "Priority": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "TargetPos"
+        ],
         "Models": [
             "AreaCubeBase"
         ]
@@ -9098,7 +10388,9 @@
             "IsAppearRise": "Boolean",
             "ShadowLength": "Single"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "PackunFlowerWithPot": {
@@ -9108,7 +10400,9 @@
         "Properties": {
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "OneSideStep": {
@@ -9124,7 +10418,11 @@
             "SpeedByTime": "Int32",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup",
+            "KeyMoveNext"
+        ],
         "Models": [
             "OneSideStep6x6M",
             "OneSideStep4x4M",
@@ -9340,7 +10638,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "SandWorldLift": {
@@ -9364,7 +10665,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "SandWorldGround": {
@@ -9384,7 +10688,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "SandWorldCoverA": {
@@ -9394,7 +10700,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "SandWorldTouchPartsG": {
@@ -9422,7 +10730,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "SandWorldIcePillarA": {
@@ -9432,7 +10742,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "SandWorldIcePillarB": {
@@ -9474,7 +10786,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "SandWorldGroundSeal": {
@@ -9506,7 +10820,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "EffectObjIcePillarCChill": {
@@ -9602,7 +10918,9 @@
         "ClassName": "EffectObjFollowCamera",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "StageEndEventSeasonHalfDemo": {
@@ -9676,7 +10994,10 @@
             "RailMoveSpeed": "Single",
             "RideDragonLv": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "Rail",
+            "SwitchEndDemoGoalOn"
+        ],
         "Models": []
     },
     "Season2DragonRideLave": {
@@ -9686,7 +11007,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "Season2IntermissionStepA": {
@@ -9891,7 +11214,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "SeesawNeedleBallStep": {
@@ -9944,7 +11270,9 @@
             "IsRemainTrace": "Boolean",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "KoopaSignBoard": {
@@ -9952,7 +11280,9 @@
         "ClassName": "KoopaSignBoard",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "ShadowTunnelStepACover": {
@@ -9962,7 +11292,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "Moamoa": {
@@ -10036,7 +11368,10 @@
             "SurfaceHeight": "Single",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SideWaveDesertStepAWater": {
@@ -10062,7 +11397,9 @@
             "SurfaceHeight": "Single",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping"
+        ],
         "Models": []
     },
     "Tuccondor": {
@@ -10076,7 +11413,10 @@
             "SearchAngleDegreeRight": "Single",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": []
     },
     "TuccondorTrap": {
@@ -10089,7 +11429,9 @@
             "ShadowLength": "Single",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "Hacchin": {
@@ -10100,7 +11442,9 @@
             "IsAlwaysChase": "Boolean",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SideWaveDesertStepA": {
@@ -10121,7 +11465,9 @@
             "CoinBlowSpeed": "Single",
             "CoinNum": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "SideWaveDesertMiddleView": {
@@ -10131,7 +11477,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "FlowerCactus": {
@@ -10158,7 +11506,9 @@
             "SkyTexMtxV": "Single",
             "SkyTexMtxVUnder": "Single"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "SlideParkRotateRingC": {
@@ -10180,7 +11530,9 @@
             "RotateAxis": "Int32",
             "RotateSpeed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SlideParkRotateRingB": {
@@ -10191,7 +11543,9 @@
             "RotateAxis": "Int32",
             "RotateSpeed": "Single"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "PanelNotePaintGroup": {
@@ -10201,7 +11555,10 @@
         "Properties": {
             "SeType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "PanelNotePaint",
+            "SwitchTrampleOn"
+        ],
         "Models": []
     },
     "PanelNotePaint": {
@@ -10213,7 +11570,9 @@
             "IsConnectToCollision": "Boolean",
             "IsPush": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": [
             "PanelNote000"
         ]
@@ -10228,7 +11587,9 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "SlideParkWall": {
@@ -10252,7 +11613,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "SlideParkStepA": {
@@ -10280,7 +11644,9 @@
             "IsSyncBgmForMtsAnime": "Boolean",
             "IsSyncBgmForSklAnime": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "SlideParkClearParts": {
@@ -10290,7 +11656,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "EffectObjFireworksLoop": {
@@ -10312,7 +11680,9 @@
             "BgmSituationNameOff": "String",
             "BgmSituationNameOn": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchChange"
+        ],
         "Models": []
     },
     "SwitchWallMazeSwitchWallB": {
@@ -10322,7 +11692,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "SwitchWallMazeSwitchWallC": {
@@ -10332,7 +11704,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "SwitchWallMazeSwitchWallA": {
@@ -10342,7 +11716,9 @@
         "Properties": {
             "MoveType": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "SwitchWallMazeStep": {
@@ -10390,7 +11766,9 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "TeresaDarkHouseWallA": {
@@ -10403,7 +11781,9 @@
             "HideAngle": "Single",
             "SwitchHideFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStartHide"
+        ],
         "Models": []
     },
     "TeresaDarkHouseWallD": {
@@ -10437,7 +11817,12 @@
         "ClassName": "KinopioMemberNpcWatcher",
         "List": "ObjectList",
         "Properties": {},
-        "Links": [],
+        "Links": [
+            "KinopioMemberNpc",
+            "KinopioNpcLeaveMultiLift",
+            "MultiLift",
+            "KinopioMemberNpcItemArea"
+        ],
         "Models": []
     },
     "KinopioMemberNpcItem": {
@@ -10693,7 +12078,9 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext"
+        ],
         "Models": []
     },
     "TouchRotateFortressRotatePartsE": {
@@ -10764,7 +12151,9 @@
             "MoveType": "Int32",
             "OnWaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchStopForceOn"
+        ],
         "Models": []
     },
     "TouchPuzzleMiniStep": {
@@ -10934,7 +12323,11 @@
             "BulletMoveType": "Boolean",
             "IsUseDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GetOffPoint",
+            "TruckWarpPoint",
+            "TruckRideOnOff"
+        ],
         "Models": []
     },
     "TruckGetOffPoint": {
@@ -10955,7 +12348,10 @@
         "Properties": {
             "RailColor": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
         "Models": [
             "BlockRailSlope8x4M",
             "BlockRailStraight8M",
@@ -11013,7 +12409,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "TruckMountainGoal": {
@@ -11023,7 +12421,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "ViewGroup"
+        ],
         "Models": []
     },
     "TruckTempleStepA": {
@@ -11095,7 +12495,10 @@
             "RotateAxis": "Int32",
             "RotateTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "RotateObjectLink",
+            "RotateSwitchLink"
+        ],
         "Models": []
     },
     "TuccondorRotateRoomStepA": {
@@ -11201,7 +12604,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "UkiboWaterParkStep": {
@@ -11235,7 +12641,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "UkiboWaterParkPedestral": {
@@ -11259,7 +12668,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "UkiboWaterParkBridge": {
@@ -11283,7 +12695,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "UkiboWaterParkGrass": {
@@ -11304,7 +12719,10 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
         "Models": []
     },
     "Pukupuku": {
@@ -11316,7 +12734,11 @@
             "SwimSpeed": "Single",
             "UsingDepthShadow": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SupportFreezeSyncGroup"
+        ],
         "Models": []
     },
     "EffectObjIncidentLightArea": {
@@ -11359,7 +12781,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchDisappear"
+        ],
         "Models": []
     },
     "EffectObjSnowfall": {
@@ -11382,7 +12806,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "WatchYourStepBreakPartsB": {
@@ -11392,7 +12818,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "WatchYourStepBreakPartsA": {
@@ -11402,7 +12830,9 @@
         "Properties": {
             "DelayFrame": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "WaterCageFallParts": {
@@ -11426,7 +12856,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "WaterCageRisePartsB": {
@@ -11438,7 +12871,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "WaterCageRisePartsA": {
@@ -11450,7 +12886,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "WaterCageWater": {
@@ -11482,7 +12921,10 @@
             "HitReactionCount": "Int32",
             "OpenTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "MoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "WaterfallWorldStartStepA": {
@@ -11492,7 +12934,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "WaterfallWorldValleyAreaStepA": {
@@ -11502,7 +12946,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "WaterfallWorldGoalStepA": {
@@ -11512,7 +12958,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "WaterfallWorldCaveOutsideA": {
@@ -11522,7 +12970,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "WaterfallWorldRockLongAreaStepA": {
@@ -11532,7 +12982,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "WaterfallWorldRockLongAreaWaterfallA": {
@@ -11542,7 +12994,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "WaterfallWorldRockLongAreaWaterA": {
@@ -11562,7 +13016,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "EffectObjWaterFallWorldValleyAreaSplashA": {
@@ -11595,7 +13051,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "WaterfallWorldStartStepASemiTransparent": {
@@ -11605,7 +13063,9 @@
         "Properties": {
             "CubeMapUnitName": "String"
         },
-        "Links": [],
+        "Links": [
+            "SwitchKill"
+        ],
         "Models": []
     },
     "WaterfallWorldFossilAreaStepA": {
@@ -11691,7 +13151,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "EffectObjWaterFallWorldRockLongAreaSplashB": {
@@ -11733,7 +13195,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "EffectObjWaterFallWorldRockLongAreaSplashC": {
@@ -11766,7 +13230,9 @@
             "IsConnectCollision": "Boolean",
             "IsConnectToCollision": "Boolean"
         },
-        "Links": [],
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": []
     },
     "WheelCageWheelB": {
@@ -11778,7 +13244,9 @@
             "RotateAccel": "Single",
             "RotateAxis": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "Rail"
+        ],
         "Models": []
     },
     "WheelCageWheelA": {
@@ -11814,7 +13282,10 @@
             "SuffixName": "String",
             "WaitTime": "Int32"
         },
-        "Links": [],
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
         "Models": []
     },
     "WheelCageStep": {
@@ -11899,7 +13370,11 @@
             "RotateDegree2": "Single",
             "RotateDegree3": "Single"
         },
-        "Links": [],
+        "Links": [
+            "WheelMapParts1",
+            "WheelMapParts2",
+            "WheelMapParts3"
+        ],
         "Models": []
     },
     "WheelPlanetWheelPartsA": {

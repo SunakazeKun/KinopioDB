@@ -7,5 +7,8 @@
     "Description": "",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchTrampleAllOn",
+        "TrampleSwitchTogetherList"
+    ]
 }

@@ -11,5 +11,8 @@
         "GenerateFrame": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

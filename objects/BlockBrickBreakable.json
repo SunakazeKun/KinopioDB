@@ -19,5 +19,8 @@
     "Models": [
         "BlockBrick"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ]
 }

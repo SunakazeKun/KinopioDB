@@ -9,5 +9,7 @@
         "IsConnectToCollision": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "PlayerCollisionFallOutObserveArea"
+    ]
 }

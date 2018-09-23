@@ -16,5 +16,7 @@
         "StartRate": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "KeyMoveNext"
+    ]
 }

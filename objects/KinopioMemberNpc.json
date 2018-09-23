@@ -18,5 +18,8 @@
         "WetType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "KinopioMemberNpcTakeOutItemArea",
+        "SwitchKill"
+    ]
 }

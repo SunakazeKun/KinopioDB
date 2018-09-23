@@ -12,5 +12,9 @@
         "RotateDegree3": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "WheelMapParts1",
+        "WheelMapParts2",
+        "WheelMapParts3"
+    ]
 }

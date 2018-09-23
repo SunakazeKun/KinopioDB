@@ -1,10 +1,10 @@
 {
     "InternalName": "PullOutObj",
     "ClassName": "PullOutObj",
-    "Name": "PullOutObj",
+    "Name": "Pluck Patch",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "obstacle",
+    "Description": "Plant patches that the player can pull out to obtain its contents. Can contain all sorts of items.",
     "Properties": {
         "AppearNum": "Int32",
         "CollectItemId": "Int32",
@@ -21,5 +21,10 @@
         "WetType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "GuideAppearPoint",
+        "SwitchKill",
+        "ViewGroup"
+    ]
 }

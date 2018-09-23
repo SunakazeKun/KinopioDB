@@ -3,7 +3,7 @@
     "ClassName": "Sky",
     "Name": "SkyKinopio",
     "List": "SkyList",
-    "Category": "other",
+    "Category": "decoration",
     "Description": "The level backdrop. Model needs to be specified.",
     "Properties": {
         "IsOnlyCubeMap": "Boolean"
@@ -42,5 +42,7 @@
         "SkyTwoSide",
         "SkyWaterfallWorld"
     ],
-    "Links": []
+    "Links": [
+        "SwitchAppear"
+    ]
 }

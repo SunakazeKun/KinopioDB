@@ -3,7 +3,7 @@
     "ClassName": "EffectObj",
     "Name": "EffectObjBonfireS",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {
         "IsConnectCollision": "Boolean",

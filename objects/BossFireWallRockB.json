@@ -12,5 +12,10 @@
         "SwitchHideFrame": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear",
+        "SwitchStartHide",
+        "SwitchStartHideSub"
+    ]
 }

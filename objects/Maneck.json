@@ -11,5 +11,8 @@
         "IsSpeedArrange": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

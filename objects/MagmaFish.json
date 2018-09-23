@@ -12,5 +12,9 @@
         "WaitTime": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SwitchStart"
+    ]
 }

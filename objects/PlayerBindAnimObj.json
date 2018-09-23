@@ -10,5 +10,7 @@
         "PlayerAnimName": "String"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear"
+    ]
 }

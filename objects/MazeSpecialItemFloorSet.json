@@ -9,5 +9,8 @@
         "Value": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "RareItem",
+        "ShuffleItem"
+    ]
 }

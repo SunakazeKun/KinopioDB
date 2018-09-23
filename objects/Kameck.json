@@ -12,5 +12,9 @@
         "UsingDepthShadow": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "Rail",
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

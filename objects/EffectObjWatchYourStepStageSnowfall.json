@@ -3,12 +3,14 @@
     "ClassName": "EffectObj",
     "Name": "EffectObjWatchYourStepStageSnowfall",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {
         "IsConnectCollision": "Boolean",
         "IsConnectToCollision": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear"
+    ]
 }

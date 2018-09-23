@@ -1,13 +1,16 @@
 {
     "InternalName": "MokingLeader",
     "ClassName": "MokingLeader",
-    "Name": "MokingLeader",
+    "Name": "Flaptor Group",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A group of Flaptors, bird-like enemies. If it detects the player, it will try to slam him from above. The individual Flaptors are linked through \"LinkMoking\".",
     "Properties": {
         "IsUseClipping": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "LinkMoking"
+    ]
 }

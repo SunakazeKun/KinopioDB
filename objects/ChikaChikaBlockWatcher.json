@@ -11,5 +11,7 @@
         "SpeedMode": "Boolean"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SyncBlock"
+    ]
 }

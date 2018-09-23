@@ -16,5 +16,9 @@
         "WidthNum": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SupportFreezeSyncGroup"
+    ]
 }

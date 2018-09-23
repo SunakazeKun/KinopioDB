@@ -3,7 +3,7 @@
     "ClassName": "EffectObj",
     "Name": "EffectObjWaterFallWorldFossilAreaSplashB",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "decoration",
     "Description": "",
     "Properties": {
         "IsConnectCollision": "Boolean",

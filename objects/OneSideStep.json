@@ -19,5 +19,9 @@
         "OneSideStep4x4M",
         "WheelPlanetOneSideStep"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "KeyMoveNext",
+        "ViewGroup"
+    ]
 }

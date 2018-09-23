@@ -17,5 +17,8 @@
         "Seesaw6M",
         "Seesaw8M"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SeesawJumpPoint"
+    ]
 }

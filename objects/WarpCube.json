@@ -19,5 +19,12 @@
         "WetType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "DestCube",
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchObjectCameraKeepOn",
+        "ViewGroup",
+        "WarpCubeLockedPiece"
+    ]
 }

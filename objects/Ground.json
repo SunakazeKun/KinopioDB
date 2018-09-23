@@ -24,5 +24,8 @@
         "GroundGridDesertRed",
         "DistantViewWaterfallWorld"
     ],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

@@ -1,10 +1,10 @@
 {
     "InternalName": "SePlayArea",
     "ClassName": "SePlayArea",
-    "Name": "SePlayArea",
+    "Name": "SFX Play Area",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
+    "Description": "Plays the specified sound effect when entered.",
     "Properties": {
         "IsDisableSeStop": "Boolean",
         "IsOneTime": "Boolean",
@@ -17,5 +17,7 @@
         "AreaSphere",
         "AreaCylinder"
     ],
-    "Links": []
+    "Links": [
+        "SwitchKill"
+    ]
 }

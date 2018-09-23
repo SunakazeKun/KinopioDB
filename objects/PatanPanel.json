@@ -13,5 +13,8 @@
         "PatanPanel",
         "PatanPanelSlope"
     ],
-    "Links": []
+    "Links": [
+        "ChildPatanPanel",
+        "OpenSwitchOff"
+    ]
 }

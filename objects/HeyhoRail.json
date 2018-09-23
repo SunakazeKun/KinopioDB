@@ -12,5 +12,10 @@
         "MemoryNum": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "ChaseArea",
+        "GroupClipping",
+        "Rail",
+        "ViewGroup"
+    ]
 }

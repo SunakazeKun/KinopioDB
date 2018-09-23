@@ -14,5 +14,9 @@
         "AreaSphere",
         "AreaCylinder"
     ],
-    "Links": []
+    "Links": [
+        "NoDelete_RootArea",
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

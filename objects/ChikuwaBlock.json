@@ -12,5 +12,7 @@
     "Models": [
         "ChikuwaBlock2x4M"
     ],
-    "Links": []
+    "Links": [
+        "ViewGroup"
+    ]
 }

@@ -35,5 +35,8 @@
         "YFogShadowIntensity": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ]
 }

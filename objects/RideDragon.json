@@ -11,5 +11,8 @@
         "RideDragonLv": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "Rail",
+        "SwitchEndDemoGoalOn"
+    ]
 }

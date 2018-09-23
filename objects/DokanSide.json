@@ -14,5 +14,7 @@
         "Type": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "DestDokan"
+    ]
 }

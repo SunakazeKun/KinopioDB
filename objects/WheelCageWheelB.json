@@ -11,5 +11,7 @@
         "RotateAxis": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "Rail"
+    ]
 }

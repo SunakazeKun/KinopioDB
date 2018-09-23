@@ -11,5 +11,10 @@
         "PullType": "Int32"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "GuideAppearPoint",
+        "SwitchPullOn",
+        "ViewGroup"
+    ]
 }

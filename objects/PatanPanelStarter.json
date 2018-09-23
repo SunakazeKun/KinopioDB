@@ -7,5 +7,7 @@
     "Description": "",
     "Properties": {},
     "Models": [],
-    "Links": []
+    "Links": [
+        "StartSwitchOn"
+    ]
 }

@@ -13,5 +13,7 @@
         "TimeShift": "Single"
     },
     "Models": [],
-    "Links": []
+    "Links": [
+        "GrassObj"
+    ]
 }

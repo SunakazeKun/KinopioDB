@@ -26,5 +26,9 @@
         "KillerLauncherR",
         "KillerLauncherL"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "SwitchKill",
+        "SwitchStart"
+    ]
 }

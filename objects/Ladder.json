@@ -16,5 +16,11 @@
     "Models": [
         "Normal50CM"
     ],
-    "Links": []
+    "Links": [
+        "GroupClipping",
+        "LadderLink",
+        "SwitchKill",
+        "SwitchValidate",
+        "ViewGroup"
+    ]
 }
