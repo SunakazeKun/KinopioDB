@@ -2,13 +2,18 @@
     "InternalName": "CameraStopLookAtArea",
     "ClassName": "CameraStopLookAtArea",
     "Name": "CameraStopLookAtArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "IsValidSingleMode": "Boolean",
         "Priority": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

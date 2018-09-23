@@ -1,0 +1,13 @@
+{
+    "InternalName": "CityWorldGroundUnderSealA",
+    "ClassName": "FixMapParts",
+    "Name": "CityWorldGroundUnderSealA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

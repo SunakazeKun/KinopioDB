@@ -1,0 +1,16 @@
+{
+    "InternalName": "Moking",
+    "ClassName": "Moking",
+    "Name": "Moking",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "GroundCheckLength": "Single",
+        "IsForbiddenSideSlide": "Boolean",
+        "IsOffColliderAtRail": "Boolean",
+        "ShadowMaskDropLength": "Single"
+    },
+    "Models": [],
+    "Links": []
+}

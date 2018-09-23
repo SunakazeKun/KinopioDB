@@ -1,0 +1,13 @@
+{
+    "InternalName": "PanelNotePaintGroup",
+    "ClassName": "PanelNotePaintGroup",
+    "Name": "PanelNotePaintGroup",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "SeType": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

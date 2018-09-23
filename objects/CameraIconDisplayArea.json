@@ -2,10 +2,15 @@
     "InternalName": "CameraIconDisplayArea",
     "ClassName": "CameraIconDisplayArea",
     "Name": "CameraIconDisplayArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {},
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

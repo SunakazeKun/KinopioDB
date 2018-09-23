@@ -15,6 +15,9 @@
         "MoveType": "Int32",
         "StartPositionRate": "Single"
     },
-    "Models": [],
+    "Models": [
+        "PipePackunBodyPartsStraight",
+        "PipePackunBodyPartsCorner"
+    ],
     "Links": []
 }

@@ -1,0 +1,13 @@
+{
+    "InternalName": "BlueBlockMazeBlockC",
+    "ClassName": "TestSwitchBlock",
+    "Name": "BlueBlockMazeBlockC",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "MoveType": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

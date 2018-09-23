@@ -16,6 +16,8 @@
         "ShadowLength": "Single",
         "ShadowMaskSetting": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "BlockBrick"
+    ],
     "Links": []
 }

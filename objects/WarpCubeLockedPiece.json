@@ -5,7 +5,10 @@
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsAppearRise": "Boolean",
+        "ShadowLength": "Single"
+    },
     "Models": [],
     "Links": []
 }

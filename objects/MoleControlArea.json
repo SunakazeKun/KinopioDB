@@ -1,0 +1,18 @@
+{
+    "InternalName": "MoleControlArea",
+    "ClassName": "MoleControlArea",
+    "Name": "MoleControlArea",
+    "List": "AreaList",
+    "Category": "area",
+    "Description": "",
+    "Properties": {
+        "Priority": "Int32"
+    },
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Links": []
+}

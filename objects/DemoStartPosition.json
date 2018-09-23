@@ -1,0 +1,13 @@
+{
+    "InternalName": "DemoStartPosition",
+    "ClassName": "DemoStartPosition",
+    "Name": "DemoStartPosition",
+    "List": "DemoObjList",
+    "Category": "cutscene",
+    "Description": "",
+    "Properties": {
+        "IsConnectToCollision": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

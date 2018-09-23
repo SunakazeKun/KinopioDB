@@ -1,0 +1,15 @@
+{
+    "InternalName": "BossBird1PullB",
+    "ClassName": "GateMapParts",
+    "Name": "BossBird1PullB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

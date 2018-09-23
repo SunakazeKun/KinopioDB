@@ -2,14 +2,19 @@
     "InternalName": "FrameOutCtrlArea",
     "ClassName": "FrameOutCtrlArea",
     "Name": "FrameOutCtrlArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "EnableHorizontalCheck": "Boolean",
         "EnableVerticalCheck": "Boolean",
         "ShowIconAtDisable": "Boolean"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

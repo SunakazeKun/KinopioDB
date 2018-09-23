@@ -8,6 +8,21 @@
     "Properties": {
         "CubeMapUnitName": "String"
     },
-    "Models": [],
+    "Models": [
+        "GroundGridRock",
+        "GroundGridDesert",
+        "GroundGridSea",
+        "GroundGridDarkBlue",
+        "GroundGridDarkGreen",
+        "DistantViewCityWorld",
+        "GroundGridForest",
+        "GroundGridLavaBlue",
+        "GroundGridBlue",
+        "GroundGridPurple",
+        "GroundGridLavaRed",
+        "GroundGridRouteDokanJet",
+        "GroundGridDesertRed",
+        "DistantViewWaterfallWorld"
+    ],
     "Links": []
 }

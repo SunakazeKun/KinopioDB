@@ -1,0 +1,13 @@
+{
+    "InternalName": "DarknessTrapStep",
+    "ClassName": "FixMapParts",
+    "Name": "DarknessTrapStep",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

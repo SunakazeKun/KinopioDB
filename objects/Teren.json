@@ -1,10 +1,10 @@
 {
     "InternalName": "Teren",
     "ClassName": "Teren",
-    "Name": "Teren",
+    "Name": "Peepa",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A Boo subspecies. These ghostly enemies move on specified paths.",
     "Properties": {
         "IsInvalidSilhouette": "Boolean",
         "ShadowLength": "Int32",

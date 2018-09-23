@@ -1,10 +1,10 @@
 {
     "InternalName": "Tenten",
     "ClassName": "TentenGeneratorNormal",
-    "Name": "Tenten",
+    "Name": "Biddybud",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "Ladybug-esque enemies that move in groups. They resemble Goombas, though they act more passive and don't chase the player.",
     "Properties": {
         "AttachItemWidthNum": "Int32",
         "GreenStarId": "Int32",

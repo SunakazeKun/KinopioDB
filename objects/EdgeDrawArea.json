@@ -2,8 +2,8 @@
     "InternalName": "EdgeDrawArea",
     "ClassName": "EdgeDrawArea",
     "Name": "EdgeDrawArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "BoundDepth": "Single",
@@ -15,6 +15,11 @@
         "PowerMin": "Single",
         "Priority": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

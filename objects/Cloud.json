@@ -8,6 +8,22 @@
     "Properties": {
         "CubeMapUnitName": "String"
     },
-    "Models": [],
+    "Models": [
+        "CloudStorm",
+        "CloudNightFullMoon",
+        "CloudRefresh",
+        "CloudSpaceNebula",
+        "CloudLong",
+        "CloudHighPlace",
+        "CloudCityWorld",
+        "CloudNightThunderhead",
+        "CloudEnterCatMario",
+        "CloudGhost",
+        "CloudLavaWorld",
+        "CloudThunderhead",
+        "CloudCotton",
+        "CloudSandWorld",
+        "CloudWaterfallWorld"
+    ],
     "Links": []
 }

@@ -1,3 +1,4 @@
+from time import gmtime, strftime
 import os
 import json
 
@@ -54,10 +55,12 @@ def init_objects(filepath):
 #----------------------------------------------------------------------------------
 def build_objects(dirpath, destpath):
     data = {
+        "Statistics": {},                # some statistics on the object database
         "Objects": {},                   # contains every object structure
         "Categories": {}                 # categorizes every object alphabetically
         }
     
+    statistics = data["Statistics"]
     objects = data["Objects"]
     categories = data["Categories"]
     
@@ -94,6 +97,10 @@ def build_objects(dirpath, destpath):
     # Sort category objects, just to be safe
     for catname, catdict in categories.items():
         catdict["Objects"].sort()
+    
+    statistics.update({"BuildDate": strftime("%Y-%m-%d %H:%M:%S", gmtime())})
+    statistics.update({"NumObjects": len(objects)})
+    statistics.update({"NumCategories": len(categories)})
     
     # Finally, store all the data
     outf = open(destpath, "w")

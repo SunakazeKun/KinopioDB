@@ -1,0 +1,13 @@
+{
+    "InternalName": "CityWorldStepA",
+    "ClassName": "FixMapParts",
+    "Name": "CityWorldStepA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

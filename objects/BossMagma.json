@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossMagma",
+    "ClassName": "BossMagma",
+    "Name": "Cookatiel",
+    "List": "ObjectList",
+    "Category": "boss",
+    "Description": "The gigantic bird boss of the Luncheon Kingdom. Requires a couple of links and other objects in order to function.",
+    "Properties": {
+        "AppearOnStart": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -1,10 +1,10 @@
 {
     "InternalName": "PackunFlowerBig",
     "ClassName": "PackunFlower",
-    "Name": "PackunFlowerBig",
+    "Name": "Big Piranha Plant",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A larger Piranha Plant. Despite being unused in the ports, it can be used there as well.",
     "Properties": {
         "IsBlowBackDir": "Boolean",
         "IsRemainTrace": "Boolean",

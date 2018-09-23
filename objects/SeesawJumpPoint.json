@@ -1,0 +1,13 @@
+{
+    "InternalName": "SeesawJumpPoint",
+    "ClassName": "TargetPos",
+    "Name": "SeesawJumpPoint",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "Action": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

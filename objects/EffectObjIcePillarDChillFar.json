@@ -1,0 +1,14 @@
+{
+    "InternalName": "EffectObjIcePillarDChillFar",
+    "ClassName": "EffectObj",
+    "Name": "EffectObjIcePillarDChillFar",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

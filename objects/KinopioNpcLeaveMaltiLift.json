@@ -1,0 +1,18 @@
+{
+    "InternalName": "KinopioNpcLeaveMaltiLift",
+    "ClassName": "KinopioNpcLeaveMaltiLift",
+    "Name": "KinopioNpcLeaveMaltiLift",
+    "List": "AreaList",
+    "Category": "area",
+    "Description": "",
+    "Properties": {
+        "Priority": "Int32"
+    },
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Links": []
+}

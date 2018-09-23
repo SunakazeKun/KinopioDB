@@ -1,0 +1,13 @@
+{
+    "InternalName": "LavaWorldStartStep",
+    "ClassName": "FixMapParts",
+    "Name": "LavaWorldStartStep",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

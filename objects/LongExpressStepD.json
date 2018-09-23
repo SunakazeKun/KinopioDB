@@ -1,0 +1,13 @@
+{
+    "InternalName": "LongExpressStepD",
+    "ClassName": "FixMapParts",
+    "Name": "LongExpressStepD",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

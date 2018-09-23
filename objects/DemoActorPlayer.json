@@ -2,8 +2,8 @@
     "InternalName": "DemoActorPlayer",
     "ClassName": "DemoActorPlayer",
     "Name": "DemoActorPlayer",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "DemoObjList",
+    "Category": "cutscene",
     "Description": "",
     "Properties": {
         "Action1": "String",
@@ -12,6 +12,13 @@
         "FigureType": "Int32",
         "SuffixName": "String"
     },
-    "Models": [],
+    "Models": [
+        "Kinopico",
+        "Kinopio",
+        "Luigi",
+        "Mario",
+        "KinopioBlue",
+        "Peach"
+    ],
     "Links": []
 }

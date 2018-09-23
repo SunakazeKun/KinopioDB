@@ -1,0 +1,13 @@
+{
+    "InternalName": "FreshRuinsGrassA",
+    "ClassName": "FixMapParts",
+    "Name": "FreshRuinsGrassA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

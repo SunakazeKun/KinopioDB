@@ -2,8 +2,8 @@
     "InternalName": "BgmStopArea",
     "ClassName": "BgmStopArea",
     "Name": "BgmStopArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "FadeOutFrameNum": "Int32",
@@ -11,6 +11,11 @@
         "Priority": "Int32",
         "StopBgmName": "String"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

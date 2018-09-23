@@ -13,6 +13,9 @@
         "RotateAccelOff": "Single",
         "RotateAccelOn": "Single"
     },
-    "Models": [],
+    "Models": [
+        "Seesaw6M",
+        "Seesaw8M"
+    ],
     "Links": []
 }

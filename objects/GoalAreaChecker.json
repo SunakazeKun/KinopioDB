@@ -2,7 +2,7 @@
     "InternalName": "GoalAreaChecker",
     "ClassName": "GoalAreaChecker",
     "Name": "GoalAreaChecker",
-    "List": "ObjectList",
+    "List": "GoalList",
     "Category": "unknown",
     "Description": "",
     "Properties": {},

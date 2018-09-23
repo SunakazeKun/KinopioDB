@@ -1,0 +1,14 @@
+{
+    "InternalName": "SlideParkRotateRingB",
+    "ClassName": "RotateMapParts",
+    "Name": "SlideParkRotateRingB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    },
+    "Models": [],
+    "Links": []
+}

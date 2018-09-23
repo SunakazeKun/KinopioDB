@@ -1,10 +1,10 @@
 {
     "InternalName": "TuccondorTrap",
     "ClassName": "TuccondorTrap",
-    "Name": "TuccondorTrap",
+    "Name": "Conkdor Trap",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A variant of Conkdor which does not rotate.",
     "Properties": {
         "InvalidateBodyAttackSensor": "Boolean",
         "IsTuccondorAttackShort": "Boolean",

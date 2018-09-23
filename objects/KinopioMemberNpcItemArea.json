@@ -1,0 +1,16 @@
+{
+    "InternalName": "KinopioMemberNpcItemArea",
+    "ClassName": "KinopioMemberNpcItemArea",
+    "Name": "KinopioMemberNpcItemArea",
+    "List": "AreaList",
+    "Category": "area",
+    "Description": "",
+    "Properties": {},
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Links": []
+}

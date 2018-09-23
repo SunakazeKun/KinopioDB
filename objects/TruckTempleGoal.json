@@ -1,0 +1,13 @@
+{
+    "InternalName": "TruckTempleGoal",
+    "ClassName": "FixMapParts",
+    "Name": "TruckTempleGoal",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

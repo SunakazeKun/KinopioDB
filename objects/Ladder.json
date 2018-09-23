@@ -13,6 +13,8 @@
         "LadderColor": "Int32",
         "MtxConnectType": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "Normal50CM"
+    ],
     "Links": []
 }

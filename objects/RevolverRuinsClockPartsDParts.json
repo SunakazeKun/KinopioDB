@@ -1,0 +1,13 @@
+{
+    "InternalName": "RevolverRuinsClockPartsDParts",
+    "ClassName": "FixMapParts",
+    "Name": "RevolverRuinsClockPartsDParts",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

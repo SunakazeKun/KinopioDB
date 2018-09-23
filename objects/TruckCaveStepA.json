@@ -1,0 +1,13 @@
+{
+    "InternalName": "TruckCaveStepA",
+    "ClassName": "FixMapParts",
+    "Name": "TruckCaveStepA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

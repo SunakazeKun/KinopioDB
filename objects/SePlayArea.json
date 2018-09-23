@@ -2,8 +2,8 @@
     "InternalName": "SePlayArea",
     "ClassName": "SePlayArea",
     "Name": "SePlayArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "IsDisableSeStop": "Boolean",
@@ -11,6 +11,11 @@
         "Priority": "Int32",
         "SePlayName": "String"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

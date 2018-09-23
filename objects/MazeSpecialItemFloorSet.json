@@ -1,0 +1,13 @@
+{
+    "InternalName": "MazeSpecialItemFloorSet",
+    "ClassName": "MazeSpecialItemFloorSet",
+    "Name": "MazeSpecialItemFloorSet",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "Value": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

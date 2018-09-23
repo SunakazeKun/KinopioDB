@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossBird2GoldA",
+    "ClassName": "FixMapParts",
+    "Name": "BossBird2GoldA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -3,9 +3,14 @@
     "ClassName": "ShadowBounds",
     "Name": "ShadowBounds",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "area",
     "Description": "",
     "Properties": {},
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

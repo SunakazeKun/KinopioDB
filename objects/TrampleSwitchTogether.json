@@ -1,0 +1,13 @@
+{
+    "InternalName": "TrampleSwitchTogether",
+    "ClassName": "TrampleSwitchTogether",
+    "Name": "TrampleSwitchTogether",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

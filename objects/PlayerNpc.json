@@ -1,0 +1,16 @@
+{
+    "InternalName": "PlayerNpc",
+    "ClassName": "PlayerNpc",
+    "Name": "PlayerNpc",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "isHaveHeadLight": "Boolean"
+    },
+    "Models": [
+        "KinopicoNpc",
+        "KinopioNpc"
+    ],
+    "Links": []
+}

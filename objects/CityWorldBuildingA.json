@@ -1,0 +1,13 @@
+{
+    "InternalName": "CityWorldBuildingA",
+    "ClassName": "FixMapParts",
+    "Name": "CityWorldBuildingA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

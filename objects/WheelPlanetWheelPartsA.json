@@ -1,0 +1,16 @@
+{
+    "InternalName": "WheelPlanetWheelPartsA",
+    "ClassName": "WheelMapPartsEffectObjAtCollision",
+    "Name": "WheelPlanetWheelPartsA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "IsEmitAtCollision": "Boolean",
+        "MoveEndDegree": "Single",
+        "RotateAccel": "Single",
+        "RotateAxis": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

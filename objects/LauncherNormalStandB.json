@@ -1,0 +1,13 @@
+{
+    "InternalName": "LauncherNormalStandB",
+    "ClassName": "TouchTransParts",
+    "Name": "LauncherNormalStandB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "TransType": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

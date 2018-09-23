@@ -1,10 +1,10 @@
 {
     "InternalName": "DebugWarpPoint",
     "ClassName": "DebugWarpPoint",
-    "Name": "DebugWarpPoint",
+    "Name": "Debug Warp Point",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "other",
+    "Description": "Unfortunately, this object is useless in retail versions, but it is used by developers for fast access.",
     "Properties": {
         "Priority": "Int32"
     },

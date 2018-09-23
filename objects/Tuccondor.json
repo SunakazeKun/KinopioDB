@@ -1,10 +1,10 @@
 {
     "InternalName": "Tuccondor",
     "ClassName": "Tuccondor",
-    "Name": "Tuccondor",
+    "Name": "Conkdor",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "Blue and white condors with long necks. Does not move from its spot. Instead, it tries to hit the player by slamming its beak.",
     "Properties": {
         "IsSearchCircle": "Boolean",
         "IsTuccondorAttackShort": "Boolean",

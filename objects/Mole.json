@@ -1,0 +1,19 @@
+{
+    "InternalName": "Mole",
+    "ClassName": "Mole",
+    "Name": "Mole",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CollectItemId": "Int32",
+        "ItemType": "String",
+        "MoveEndDistanceOffset": "Single",
+        "MoveSpeed": "Int32",
+        "MoveStartDistance": "Single",
+        "isEnableCheckStrikeArrow": "Boolean",
+        "isEnablePulloutCheckStrikeArrow": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

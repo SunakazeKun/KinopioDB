@@ -1,0 +1,13 @@
+{
+    "InternalName": "TargetPos",
+    "ClassName": "TargetPos",
+    "Name": "TargetPos",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "Action": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -1,10 +1,10 @@
 {
     "InternalName": "KuriboTower",
     "ClassName": "KuriboTower",
-    "Name": "KuriboTower",
+    "Name": "Goomba Tower",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A stack of multiple Goombas.",
     "Properties": {
         "CollectItemId": "Int32",
         "EnableObstacleCheck": "Boolean",

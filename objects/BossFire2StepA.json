@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossFire2StepA",
+    "ClassName": "FixMapParts",
+    "Name": "BossFire2StepA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

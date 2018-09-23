@@ -1,0 +1,13 @@
+{
+    "InternalName": "SwitchWallMazeSwitchWallB",
+    "ClassName": "TestSwitchBlock",
+    "Name": "SwitchWallMazeSwitchWallB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "MoveType": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

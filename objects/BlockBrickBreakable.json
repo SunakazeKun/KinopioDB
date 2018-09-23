@@ -16,6 +16,8 @@
         "ShadowMaskSetting": "Int32",
         "sendMsgNextBlock": "Boolean"
     },
-    "Models": [],
+    "Models": [
+        "BlockBrick"
+    ],
     "Links": []
 }

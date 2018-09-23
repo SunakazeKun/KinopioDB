@@ -2,8 +2,8 @@
     "InternalName": "DemoMap",
     "ClassName": "DemoActor",
     "Name": "DemoMap",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "DemoObjList",
+    "Category": "cutscene",
     "Description": "",
     "Properties": {
         "Action1": "String",
@@ -20,6 +20,17 @@
         "ShowModelStartFrame": "Int32",
         "SuffixName": "String"
     },
-    "Models": [],
+    "Models": [
+        "DemoSeason3EndingStepF",
+        "DemoSeason3EndingStepD",
+        "DemoSeason3EndingStepC",
+        "DemoSeason3EndingStepB",
+        "DemoSeason3EndingStepBParts",
+        "DemoSeason3EndingStepEOdyssey",
+        "DemoObjectDemoOpening3DWorldGround",
+        "DemoObjectDemoOpening3DWorld",
+        "DemoOpeningSeason1AStep",
+        "Season1OpeningStep"
+    ],
     "Links": []
 }

@@ -9,6 +9,8 @@
         "ColorFrame": "Int32",
         "UsingDepthShadow": "Boolean"
     },
-    "Models": [],
+    "Models": [
+        "SeaweedA"
+    ],
     "Links": []
 }

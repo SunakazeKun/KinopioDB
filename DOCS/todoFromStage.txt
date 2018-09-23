@@ -1,8 +1,0 @@
-# These stage archives were not used to create the list of objects due
-# to them crashing the editor. The missing objects from these need to
-# be added later on...
-DoubleCherryRuinsStageMap
-GettonForestStageMap
-LogBridgeStageMap
-PickaxeCaveStageMap
-PipePackunCannonStageMap

@@ -1,0 +1,18 @@
+{
+    "InternalName": "TouchRotateWallRotatePartsB",
+    "ClassName": "TouchRotateParts",
+    "Name": "TouchRotateWallRotatePartsB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "IsEmitAtCollision": "Boolean",
+        "IsReverse": "Boolean",
+        "LimitDegreeLeft": "Single",
+        "LimitDegreeRight": "Single",
+        "RotateAxis": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

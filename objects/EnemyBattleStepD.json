@@ -1,0 +1,13 @@
+{
+    "InternalName": "EnemyBattleStepD",
+    "ClassName": "FixMapParts",
+    "Name": "EnemyBattleStepD",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

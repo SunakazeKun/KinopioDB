@@ -2,8 +2,8 @@
     "InternalName": "DemoCamera",
     "ClassName": "DemoCamera",
     "Name": "DemoCamera",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "DemoObjList",
+    "Category": "cutscene",
     "Description": "",
     "Properties": {
         "Action1": "String",

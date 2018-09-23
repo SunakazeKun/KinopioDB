@@ -1,10 +1,10 @@
 {
     "InternalName": "Kuribo",
     "ClassName": "Kuribo",
-    "Name": "Kuribo",
+    "Name": "Goomba",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "Goombas are the most common enemy species of the Mario franchise. These brown mushrooms can be defeated with ease.",
     "Properties": {
         "CubeMapUnitName": "String",
         "IsChangeBoxKuribo": "Boolean",

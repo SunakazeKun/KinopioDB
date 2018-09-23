@@ -1,0 +1,21 @@
+{
+    "InternalName": "BossFireMagmaKeyMoveParts",
+    "ClassName": "BossFireMagmaKeyMoveMapParts",
+    "Name": "BossFireMagmaKeyMoveParts",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsAppearAtFirst": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -22,7 +22,9 @@
         "UsingDepthShadow": "Boolean"
     },
     "Models": [
-        "KillerLauncher"
+        "KillerLauncher",
+        "KillerLauncherR",
+        "KillerLauncherL"
     ],
     "Links": []
 }

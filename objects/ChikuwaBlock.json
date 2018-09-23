@@ -9,6 +9,8 @@
         "IsUseInvalidateSensor": "Boolean",
         "WetType": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "ChikuwaBlock2x4M"
+    ],
     "Links": []
 }

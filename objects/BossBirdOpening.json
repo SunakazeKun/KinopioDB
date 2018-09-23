@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossBirdOpening",
+    "ClassName": "BossBirdOpening",
+    "Name": "BossBirdOpening",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

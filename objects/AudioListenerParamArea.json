@@ -2,8 +2,8 @@
     "InternalName": "AudioListenerParamArea",
     "ClassName": "AudioListenerParamArea",
     "Name": "AudioListenerParamArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "InteriorSize": "Single",
@@ -13,6 +13,11 @@
         "Priority": "Int32",
         "UnitDistance": "Single"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

@@ -9,6 +9,9 @@
         "CloseFrame": "Int32",
         "RotateFrame": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "PatanPanel",
+        "PatanPanelSlope"
+    ],
     "Links": []
 }

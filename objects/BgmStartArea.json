@@ -2,8 +2,8 @@
     "InternalName": "BgmStartArea",
     "ClassName": "BgmStartArea",
     "Name": "BgmStartArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "FadeInFrame": "Int32",
@@ -12,6 +12,11 @@
         "StartBgmName": "String",
         "StartDelayFrame": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

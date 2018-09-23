@@ -1,10 +1,10 @@
 {
     "InternalName": "MagmaFish",
     "ClassName": "MagmaFish",
-    "Name": "MagmaFish",
+    "Name": "Charvaargh",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "Charvaargh are large magma fish that attack by jumping out of lava.",
     "Properties": {
         "AppearSignTime": "Int32",
         "IsKillOnce": "Boolean",

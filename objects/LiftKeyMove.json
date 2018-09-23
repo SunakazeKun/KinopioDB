@@ -23,6 +23,9 @@
         "SuffixName": "String",
         "WaitTime": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "Lift4x4M",
+        "Lift4x4M_mike"
+    ],
     "Links": []
 }

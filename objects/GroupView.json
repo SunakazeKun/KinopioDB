@@ -1,0 +1,13 @@
+{
+    "InternalName": "GroupView",
+    "ClassName": "GroupView",
+    "Name": "GroupView",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CommonId": "String"
+    },
+    "Models": [],
+    "Links": []
+}

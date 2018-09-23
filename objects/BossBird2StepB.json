@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossBird2StepB",
+    "ClassName": "FixMapParts",
+    "Name": "BossBird2StepB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

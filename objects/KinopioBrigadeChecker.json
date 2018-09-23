@@ -2,7 +2,7 @@
     "InternalName": "KinopioBrigadeChecker",
     "ClassName": "KinopioBrigadeChecker",
     "Name": "KinopioBrigadeChecker",
-    "List": "ObjectList",
+    "List": "GoalList",
     "Category": "unknown",
     "Description": "",
     "Properties": {

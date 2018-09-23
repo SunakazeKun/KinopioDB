@@ -1,0 +1,13 @@
+{
+    "InternalName": "LongExpressStepDCover",
+    "ClassName": "VisibleSwitchMapParts",
+    "Name": "LongExpressStepDCover",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

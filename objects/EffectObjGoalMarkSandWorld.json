@@ -1,0 +1,14 @@
+{
+    "InternalName": "EffectObjGoalMarkSandWorld",
+    "ClassName": "EffectObj",
+    "Name": "EffectObjGoalMarkSandWorld",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

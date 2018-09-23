@@ -1,11 +1,14 @@
 {
-    "InternalName": "EffectObjSaucePanBoil",
+    "InternalName": "EffectObjSaucepanBoil",
     "ClassName": "EffectObj",
-    "Name": "EffectObjSaucePanBoil",
+    "Name": "EffectObjSaucepanBoil",
     "List": "ObjectList",
     "Category": "unknown",
     "Description": "",
-    "Properties": {},
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
     "Models": [],
     "Links": []
 }

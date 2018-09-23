@@ -3,9 +3,14 @@
     "ClassName": "ForceZoomOutArea",
     "Name": "ForceZoomOutArea",
     "List": "ObjectList",
-    "Category": "unknown",
+    "Category": "area",
     "Description": "",
     "Properties": {},
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

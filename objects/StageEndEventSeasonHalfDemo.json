@@ -6,6 +6,10 @@
     "Category": "cutscene",
     "Description": "",
     "Properties": {},
-    "Models": [],
+    "Models": [
+        "DemoSeasonHalfStage",
+        "DemoSeason2HalfStage",
+        "DemoSeason3HalfStage"
+    ],
     "Links": []
 }

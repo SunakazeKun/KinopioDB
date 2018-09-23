@@ -1,0 +1,16 @@
+{
+    "InternalName": "BossBirdRailKeeper",
+    "ClassName": "BossBirdRailKeeper",
+    "Name": "BossBirdRailKeeper",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "DestRailPointNo": "Int32",
+        "IsFollowPlayerY": "Boolean",
+        "IsNotRailMove": "Boolean",
+        "IsPriorSwitch": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

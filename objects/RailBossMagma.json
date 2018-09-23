@@ -1,0 +1,18 @@
+{
+    "InternalName": "RailBossMagma",
+    "ClassName": "RailBossMagma",
+    "Name": "RailBossMagma",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "Attack": "Boolean",
+        "IsClosed": "Boolean",
+        "IsLadder": "Boolean",
+        "RailPoints": "List",
+        "RailType": "String",
+        "Speed": "Single"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -11,6 +11,8 @@
         "IsLightFire": "Boolean",
         "WetType": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "Candlestand"
+    ],
     "Links": []
 }

@@ -10,6 +10,8 @@
         "IsSnowCover": "Boolean",
         "WetType": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "SignBoardWoodWallRight"
+    ],
     "Links": []
 }

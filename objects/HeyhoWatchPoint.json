@@ -1,0 +1,14 @@
+{
+    "InternalName": "HeyhoWatchPoint",
+    "ClassName": "HeyhoWatchPoint",
+    "Name": "HeyhoWatchPoint",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "HeyhoWatchId": "Int32",
+        "sTurnWaitFrame": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -1,10 +1,10 @@
 {
     "InternalName": "PackunFlower",
     "ClassName": "PackunFlower",
-    "Name": "PackunFlower",
+    "Name": "Piranha Plant",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A large and aggressive plant. They can be defeated by throwing turnips at them.",
     "Properties": {
         "IsBlowBackDir": "Boolean",
         "IsRemainTrace": "Boolean",

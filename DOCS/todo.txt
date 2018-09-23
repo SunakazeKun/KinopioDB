@@ -1,0 +1,44 @@
+# Some stage archives were not used to create the list of objects due
+# to them crashing the tools. The missing objects from these need to
+# be added later on...
+DoubleCherryRuinsStageMap
+GettonForestStageMap
+LogBridgeStageMap
+PickaxeCaveStageMap
+PipePackunCannonStageMap
+
+# These area objects are not used, but do they actually work?
+BalanceTruckBreakArea
+BobsledGoalArea
+CameraAreaActivatedAllPlayer
+CameraInSwitchOnArea
+CameraNoRotateArea
+CameraPoserKinopioBrigadeObserveArea
+CameraRailParallelArea
+ClearKillArea
+ClippingFarArea
+CoinBlowConnectGroundArea
+CoinFallBoundArea
+EnemyWalkPlaneArea
+HeadgearWidenStickXSnapArea
+KinopioBrigadeWaveArea
+MaterialCodeArea
+MirrorArea
+NeonArea
+PanelNotePaintRoomCheckArea
+PlayerAllInCheckArea
+PlayerBattleArea
+PlayerBugFixAreaForceReleaseIfNotSpace
+PlayerCollisionYPlaneArea
+PlayerControlOffArea
+PlayerInclinedControlArea
+PlayerNoAirFollowArea
+PlayerRestrictedPlane
+PlayerWaterDoubleCheckArea
+PlayerWidenStickXSnapArea
+RaidonFallTriggeredArea
+RaidonNoInputArea
+SkipperTrampolineInvalidateArea
+StickSnapOffArea
+WorldClipArea
+WorldDetectArea

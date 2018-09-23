@@ -1,0 +1,13 @@
+{
+    "InternalName": "GroupClipping",
+    "ClassName": "GroupClipping",
+    "Name": "GroupClipping",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CommonId": "String"
+    },
+    "Models": [],
+    "Links": []
+}

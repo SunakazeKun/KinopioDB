@@ -1,0 +1,13 @@
+{
+    "InternalName": "LavaWorldGoalStep",
+    "ClassName": "FixMapParts",
+    "Name": "LavaWorldGoalStep",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

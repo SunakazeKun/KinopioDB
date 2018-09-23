@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossFire2TouchTransPartsA",
+    "ClassName": "TouchTransParts",
+    "Name": "BossFire2TouchTransPartsA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "TransType": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

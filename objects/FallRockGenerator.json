@@ -10,6 +10,8 @@
         "Distance": "Single",
         "GenerateFrame": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "BossFireFallRock"
+    ],
     "Links": []
 }

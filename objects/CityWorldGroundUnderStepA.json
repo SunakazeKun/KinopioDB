@@ -1,0 +1,13 @@
+{
+    "InternalName": "CityWorldGroundUnderStepA",
+    "ClassName": "FixMapParts",
+    "Name": "CityWorldGroundUnderStepA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

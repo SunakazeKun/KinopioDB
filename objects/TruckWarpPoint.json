@@ -1,0 +1,13 @@
+{
+    "InternalName": "TruckWarpPoint",
+    "ClassName": "TruckWarpPoint",
+    "Name": "TruckWarpPoint",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "WarpOrder": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

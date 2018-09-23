@@ -1,10 +1,10 @@
 {
     "InternalName": "Gabon",
     "ClassName": "Gabon",
-    "Name": "Gabon",
+    "Name": "Spike",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A Koopa subspecies that throws spike balls.",
     "Properties": {
         "GenerateDelay": "Int32",
         "GenerateInterval": "Int32",

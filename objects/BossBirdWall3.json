@@ -1,0 +1,13 @@
+{
+    "InternalName": "BossBirdWall3",
+    "ClassName": "BreakMapPartsSwitchOnly",
+    "Name": "BossBirdWall3",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "DelayFrame": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

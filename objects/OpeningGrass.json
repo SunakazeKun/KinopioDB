@@ -1,0 +1,13 @@
+{
+    "InternalName": "OpeningGrass",
+    "ClassName": "FixMapParts",
+    "Name": "OpeningGrass",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

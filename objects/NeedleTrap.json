@@ -11,6 +11,8 @@
         "WaitTime": "Int32",
         "WetType": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "NeedleTrap2x4M"
+    ],
     "Links": []
 }

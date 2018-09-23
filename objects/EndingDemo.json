@@ -2,10 +2,13 @@
     "InternalName": "EndingDemo",
     "ClassName": "StageStartEventDemo",
     "Name": "EndingDemo",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "DemoObjList",
+    "Category": "cutscene",
     "Description": "",
     "Properties": {},
-    "Models": [],
+    "Models": [
+        "DemoEndingSeason1Stage",
+        "DemoEndingSeason3Stage"
+    ],
     "Links": []
 }

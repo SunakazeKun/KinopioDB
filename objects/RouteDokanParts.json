@@ -1,0 +1,25 @@
+{
+    "InternalName": "RouteDokanParts",
+    "ClassName": "RouteDokanParts",
+    "Name": "RouteDokanParts",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "ModelSuffix": "String"
+    },
+    "Models": [
+        "RouteDokanCornerAir",
+        "RouteDokanStraight1M",
+        "RouteDokanStraight50CM",
+        "RouteDokanCorner",
+        "RouteDokanStraight2M",
+        "RouteDokanStraight4M",
+        "RouteDokanBranch",
+        "RouteDokanCross",
+        "RouteDokanStraight8M",
+        "RouteDokanStraight16M"
+    ],
+    "Links": []
+}

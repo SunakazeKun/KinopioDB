@@ -1,0 +1,13 @@
+{
+    "InternalName": "MoveDoorHauntedHouseGrass",
+    "ClassName": "FixMapParts",
+    "Name": "MoveDoorHauntedHouseGrass",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

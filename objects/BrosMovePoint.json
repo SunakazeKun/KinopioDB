@@ -1,0 +1,14 @@
+{
+    "InternalName": "BrosMovePoint",
+    "ClassName": "BrosMovePoint",
+    "Name": "BrosMovePoint",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "ScaffoldType": "Int32",
+        "StackNum": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

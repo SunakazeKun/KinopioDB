@@ -10,6 +10,9 @@
         "ConnectCollision": "Boolean",
         "GatherPlayer": "Boolean"
     },
-    "Models": [],
+    "Models": [
+        "WarpDoorTeresaFrameOff",
+        "WarpDoor"
+    ],
     "Links": []
 }

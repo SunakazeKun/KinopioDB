@@ -2,10 +2,17 @@
     "InternalName": "EnemyChaseArea",
     "ClassName": "EnemyChaseArea",
     "Name": "EnemyChaseArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
-    "Properties": {},
-    "Models": [],
+    "Properties": {
+        "Priority": "Int32"
+    },
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

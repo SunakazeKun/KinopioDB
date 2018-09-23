@@ -8,16 +8,18 @@
     "Properties": {
         "AppearAnimName": "String",
         "ColorType": "Int32",
+        "CubeMapUnitName": "String",
         "IsConnectToCollision": "Boolean",
         "IsDisableGetAtMove": "Boolean",
         "IsExpandClippingShadowLength": "Boolean",
         "IsInvalidClipping": "Boolean",
         "IsNoDepthShadow": "Boolean",
-        "ShadowLength": "Int32",
+        "ShadowLength": "Single",
         "UsingOccludedEffect": "Boolean"
     },
     "Models": [
         "GoalItem",
+        "GoalItemCrown",
         "GreenStarGoalItem",
         "ShineGoalItem"
     ],

@@ -1,0 +1,13 @@
+{
+    "InternalName": "TuccondorRotateRoomStepA",
+    "ClassName": "FixMapParts",
+    "Name": "TuccondorRotateRoomStepA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

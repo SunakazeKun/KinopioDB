@@ -1,0 +1,14 @@
+{
+    "InternalName": "EffectObjBonfireBlueS",
+    "ClassName": "EffectObj",
+    "Name": "EffectObjBonfireBlueS",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

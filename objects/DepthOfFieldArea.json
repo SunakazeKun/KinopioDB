@@ -2,14 +2,19 @@
     "InternalName": "DepthOfFieldArea",
     "ClassName": "DepthOfFieldArea",
     "Name": "DepthOfFieldArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "IndirectScrollSpeed": "Single",
         "Priority": "Int32",
         "sStepInterpolation": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

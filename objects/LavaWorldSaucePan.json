@@ -1,0 +1,13 @@
+{
+    "InternalName": "LavaWorldSaucePan",
+    "ClassName": "LavaWorldSaucePan",
+    "Name": "LavaWorldSaucePan",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

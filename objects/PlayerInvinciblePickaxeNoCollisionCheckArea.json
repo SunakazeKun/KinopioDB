@@ -2,10 +2,15 @@
     "InternalName": "PlayerInvinciblePickaxeNoCollisionCheckArea",
     "ClassName": "PlayerInvinciblePickaxeNoCollisionCheckArea",
     "Name": "PlayerInvinciblePickaxeNoCollisionCheckArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {},
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

@@ -1,0 +1,14 @@
+{
+    "InternalName": "KinopioMemberNpcItem",
+    "ClassName": "KinopioMemberNpcItem",
+    "Name": "KinopioMemberNpcItem",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "KinopioMemberNpcItemColor": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -10,6 +10,10 @@
         "IsSnowCover": "Boolean",
         "WetType": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "SignBoardNormalDown",
+        "SignBoardNormalLeft",
+        "SignBoardNormalRight"
+    ],
     "Links": []
 }

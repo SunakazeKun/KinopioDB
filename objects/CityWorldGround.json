@@ -1,0 +1,13 @@
+{
+    "InternalName": "CityWorldGround",
+    "ClassName": "FixMapParts",
+    "Name": "CityWorldGround",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -1,10 +1,10 @@
 {
     "InternalName": "KyoroHei",
     "ClassName": "KyoroHei",
-    "Name": "KyoroHei",
+    "Name": "Walleye",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "Small Whomp-like enemies that move from side to side to attempt to hinder the player from walking past them.",
     "Properties": {
         "IsMovePlus": "Boolean",
         "IsNoHide": "Boolean",

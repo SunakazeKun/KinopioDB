@@ -1,0 +1,13 @@
+{
+    "InternalName": "CherryTowerKeyMovePartsE",
+    "ClassName": "BreakMapPartsSwitchOnly",
+    "Name": "CherryTowerKeyMovePartsE",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "DelayFrame": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

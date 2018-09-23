@@ -1,10 +1,10 @@
 {
     "InternalName": "TeresaBig",
     "ClassName": "Teresa",
-    "Name": "TeresaBig",
+    "Name": "Big Boo",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": "A bigger variant of Boo.",
     "Properties": {
         "UsingDepthShadow": "Boolean"
     },

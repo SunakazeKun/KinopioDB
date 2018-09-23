@@ -1,0 +1,16 @@
+{
+    "InternalName": "WindBox",
+    "ClassName": "WindBox",
+    "Name": "WindBox",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "InterpolateType": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -1,0 +1,13 @@
+{
+    "InternalName": "RevolverRuinsBridge",
+    "ClassName": "BreakMapPartsSwitchOnly",
+    "Name": "RevolverRuinsBridge",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "DelayFrame": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

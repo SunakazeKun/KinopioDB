@@ -1,0 +1,16 @@
+{
+    "InternalName": "BossBird2WindBlockB",
+    "ClassName": "WindBox",
+    "Name": "BossBird2WindBlockB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "InterpolateType": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single"
+    },
+    "Models": [],
+    "Links": []
+}

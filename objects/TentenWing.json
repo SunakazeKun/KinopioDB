@@ -1,10 +1,10 @@
 {
     "InternalName": "TentenWing",
     "ClassName": "TentenGenerator",
-    "Name": "TentenWing",
+    "Name": "Para-Biddybud",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": "",
+    "Category": "enemy",
+    "Description": " a flying variant of Biddybud.",
     "Properties": {
         "AttachItemWidthNum": "Int32",
         "GreenStarId": "Int32",

@@ -1,0 +1,24 @@
+{
+    "InternalName": "RouteDokanOpacityParts",
+    "ClassName": "RouteDokanParts",
+    "Name": "RouteDokanOpacityParts",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String",
+        "ModelSuffix": "String"
+    },
+    "Models": [
+        "DokanStraight1M",
+        "DokanCornerAir",
+        "DokanStraight4M",
+        "DokanCorner",
+        "DokanStraight8M",
+        "DokanStraight2M",
+        "DokanStraight50CM",
+        "DokanBranch",
+        "DokanStraight16M"
+    ],
+    "Links": []
+}

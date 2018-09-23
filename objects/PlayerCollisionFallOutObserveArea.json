@@ -1,0 +1,18 @@
+{
+    "InternalName": "PlayerCollisionFallOutObserveArea",
+    "ClassName": "PlayerCollisionFallOutObserveArea",
+    "Name": "PlayerCollisionFallOutObserveArea",
+    "List": "AreaList",
+    "Category": "area",
+    "Description": "",
+    "Properties": {
+        "IsConnectToCollision": "Boolean"
+    },
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Links": []
+}

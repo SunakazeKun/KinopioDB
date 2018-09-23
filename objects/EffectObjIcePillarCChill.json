@@ -1,0 +1,14 @@
+{
+    "InternalName": "EffectObjIcePillarCChill",
+    "ClassName": "EffectObj",
+    "Name": "EffectObjIcePillarCChill",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}

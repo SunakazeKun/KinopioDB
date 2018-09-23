@@ -1,0 +1,13 @@
+{
+    "InternalName": "WaterfallWorldRockLongAreaWaterfallA",
+    "ClassName": "FixMapParts",
+    "Name": "WaterfallWorldRockLongAreaWaterfallA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

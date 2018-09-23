@@ -2,13 +2,18 @@
     "InternalName": "SwitchKeepOnArea",
     "ClassName": "SwitchKeepOnArea",
     "Name": "SwitchKeepOnArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "OnCondition": "Int32",
         "Priority": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

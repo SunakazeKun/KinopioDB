@@ -12,6 +12,9 @@
         "IsRotateY": "Boolean",
         "ItemType": "String"
     },
-    "Models": [],
+    "Models": [
+        "FlowerDandelion",
+        "FlowerRhythm"
+    ],
     "Links": []
 }

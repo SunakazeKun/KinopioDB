@@ -2,14 +2,19 @@
     "InternalName": "AudioSituationArea",
     "ClassName": "AudioSituationArea",
     "Name": "AudioSituationArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "Priority": "Int32",
         "SituationName": "String",
         "SituationType": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

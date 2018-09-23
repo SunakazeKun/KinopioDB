@@ -1,0 +1,13 @@
+{
+    "InternalName": "TruckTempleStepB",
+    "ClassName": "FixMapParts",
+    "Name": "TruckTempleStepB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

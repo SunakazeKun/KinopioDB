@@ -8,6 +8,8 @@
     "Properties": {
         "CubeMapUnitName": "String"
     },
-    "Models": [],
+    "Models": [
+        "CommonLeafA"
+    ],
     "Links": []
 }

@@ -2,10 +2,15 @@
     "InternalName": "ZoomInvalidArea",
     "ClassName": "ZoomInvalidArea",
     "Name": "ZoomInvalidArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {},
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

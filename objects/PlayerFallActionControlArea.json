@@ -2,13 +2,18 @@
     "InternalName": "PlayerFallActionControlArea",
     "ClassName": "PlayerFallActionControlArea",
     "Name": "PlayerFallActionControlArea",
-    "List": "ObjectList",
-    "Category": "unknown",
+    "List": "AreaList",
+    "Category": "area",
     "Description": "",
     "Properties": {
         "AnimStartFrame": "Int32",
         "IsEnableCollisionHeightCheck": "Boolean"
     },
-    "Models": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
     "Links": []
 }

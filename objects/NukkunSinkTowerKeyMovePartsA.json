@@ -1,6 +1,6 @@
 {
     "InternalName": "NukkunSinkTowerKeyMovePartsA",
-    "ClassName": "FixMapParts",
+    "ClassName": "KeyMoveMapParts",
     "Name": "NukkunSinkTowerKeyMovePartsA",
     "List": "ObjectList",
     "Category": "unknown",

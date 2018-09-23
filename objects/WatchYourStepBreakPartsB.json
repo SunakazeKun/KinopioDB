@@ -1,0 +1,13 @@
+{
+    "InternalName": "WatchYourStepBreakPartsB",
+    "ClassName": "BreakMapPartsSwitchOnly",
+    "Name": "WatchYourStepBreakPartsB",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "DelayFrame": "Int32"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -1,0 +1,13 @@
+{
+    "InternalName": "RevolverRuinsGrass",
+    "ClassName": "FixMapParts",
+    "Name": "RevolverRuinsGrass",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

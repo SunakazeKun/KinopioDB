@@ -9,6 +9,8 @@
         "AvoidDist": "Single",
         "FishNum": "Int32"
     },
-    "Models": [],
+    "Models": [
+        "FishA"
+    ],
     "Links": []
 }

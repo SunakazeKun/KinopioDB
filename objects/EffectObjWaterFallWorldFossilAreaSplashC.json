@@ -1,0 +1,14 @@
+{
+    "InternalName": "EffectObjWaterFallWorldFossilAreaSplashC",
+    "ClassName": "EffectObj",
+    "Name": "EffectObjWaterFallWorldFossilAreaSplashC",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    },
+    "Models": [],
+    "Links": []
+}
