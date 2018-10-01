@@ -75,7 +75,7 @@ Properties can be of the following supported value types:
 * **Int32**
 * **UInt32**
 * **Single**
-* **In64**
+* **Int64**
 * **UInt64**
 * **Double**
 * **String**
@@ -86,19 +86,26 @@ Properties can be of the following supported value types:
 A couple of properties and link types are shared by every object and may not be included as part of object definitions.
 
 ### Properties
-| Property | Type |
-| -------- | ---- |
-| Comment | String |
-| Id | String |
-| IsLinkDest | Boolean |
-| LayerConfigName | String |
-| Links | Dictionary |
-| ModelName | String |
-| Rotate | Dictionary |
-| Scale | Dictionary |
-| Translate | Dictionary |
-| UnitConfig | Dictionary |
-| UnitConfigName | String |
+| Property | Type | Used |
+| -------- | ---- | ---- |
+| Comment | String | no |
+| Id | String | yes |
+| IsLinkDest | Boolean | no |
+| LayerConfigName | String | no |
+| Links | Dictionary | yes |
+| ModelName | String | yes |
+| Rotate | Dictionary | yes |
+| Scale | Dictionary | yes |
+| Translate | Dictionary | yes |
+| UnitConfig | Dictionary | yes |
+| UnitConfig:DisplayName | String | yes |
+| UnitConfig:DisplayRotate | Dictionary | no |
+| UnitConfig:DisplayScale | Dictionary | no |
+| UnitConfig:DisplayTranslate | Dictionary | yes |
+| UnitConfig:GenerateCategory | String | no |
+| UnitConfig:ParameterConfigName | String | yes |
+| UnitConfig:PlacementTargetFile | String | no |
+| UnitConfigName | String | yes |
 
 ### Links
 * **GroupClipping**
