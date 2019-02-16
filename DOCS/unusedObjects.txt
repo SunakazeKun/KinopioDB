@@ -1,4 +1,5 @@
-# Some unused leftovers from the Wii U version. There may be more, though...
+# Some unused leftovers from the Wii U version. Of course, there are many more
+# scattered around ObjectData and unused levels.
 EnterCatMarioMiddleView (FixMapParts)
 EnterCatMarioStepA (FixMapParts)
 EnterCatMarioStepAWater (FixMapParts)

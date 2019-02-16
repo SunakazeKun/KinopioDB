@@ -105,6 +105,7 @@ def build_objects(dirpath, destpath):
     # Finally, store all the data
     outf = open(destpath, "w")
     outf.write(json.dumps(data, indent=4))
+    outf.flush()
     outf.close()
     
     print("-- Done")

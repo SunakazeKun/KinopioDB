@@ -1,0 +1,13 @@
+{
+    "InternalName": "GettonWatcher",
+    "ClassName": "GettonWatcher",
+    "Name": "GettonWatcher",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {},
+    "Models": [],
+    "Links": [
+        "Getton"
+    ]
+}

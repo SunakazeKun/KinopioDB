@@ -1,0 +1,13 @@
+{
+    "InternalName": "PipePackunCannonStep",
+    "ClassName": "FixMapParts",
+    "Name": "PipePackunCannonStep",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

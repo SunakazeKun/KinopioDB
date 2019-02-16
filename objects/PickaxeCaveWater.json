@@ -1,0 +1,13 @@
+{
+    "InternalName": "PickaxeCaveWater",
+    "ClassName": "FixMapParts",
+    "Name": "PickaxeCaveWater",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

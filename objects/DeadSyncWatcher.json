@@ -1,0 +1,13 @@
+{
+    "InternalName": "DeadSyncWatcher",
+    "ClassName": "DeadSyncWatcher",
+    "Name": "DeadSyncWatcher",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {},
+    "Models": [],
+    "Links": [
+        "WatchTargetObj"
+    ]
+}

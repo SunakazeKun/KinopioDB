@@ -1,0 +1,13 @@
+{
+    "InternalName": "GettonForestPoisonA",
+    "ClassName": "FixMapParts",
+    "Name": "GettonForestPoisonA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

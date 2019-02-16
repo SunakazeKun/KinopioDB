@@ -2,7 +2,7 @@
     "InternalName": "LightArea",
     "ClassName": "LightArea",
     "Name": "LightArea",
-    "List": "ObjectList",
+    "List": "AreaList",
     "Category": "area",
     "Description": "",
     "Properties": {},

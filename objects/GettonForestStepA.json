@@ -1,0 +1,13 @@
+{
+    "InternalName": "GettonForestStepA",
+    "ClassName": "FixMapParts",
+    "Name": "GettonForestStepA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

@@ -1,7 +1,7 @@
 {
     "InternalName": "SkyKinopio",
     "ClassName": "Sky",
-    "Name": "SkyKinopio",
+    "Name": "Backdrop",
     "List": "SkyList",
     "Category": "decoration",
     "Description": "The level backdrop. Model needs to be specified.",

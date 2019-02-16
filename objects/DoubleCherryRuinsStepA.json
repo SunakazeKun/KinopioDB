@@ -1,0 +1,13 @@
+{
+    "InternalName": "DoubleCherryRuinsStepA",
+    "ClassName": "FixMapParts",
+    "Name": "DoubleCherryRuinsStepA",
+    "List": "ObjectList",
+    "Category": "unknown",
+    "Description": "",
+    "Properties": {
+        "CubeMapUnitName": "String"
+    },
+    "Models": [],
+    "Links": []
+}

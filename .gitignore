@@ -1,2 +1,4 @@
 /build/
 /tools/_pycache_/
+build_objs.log
+Objects.json

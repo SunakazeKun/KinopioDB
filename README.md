@@ -1,8 +1,9 @@
+
 # KinopioDB
-A public modding database for **Captain Toad Treasure Tracker** (Switch and 3DS ports). Here, we collect information regarding every object or stage in the game. The tools require **Python3.X**.
+A public modding database for **Captain Toad Treasure Tracker** (Switch and 3DS ports). Here, we collect information regarding every object, stage and more in the game. The tools require **Python 3**.
 
 # Objects
-Each object has a corresponding JSON file storing its properties in a structured style. These files are rather simple to set up and edit. Here's an example of *Moamoa*:
+Each object has an associated JSON file storing information about its properties. These files are rather simple to set-up and edit. Here's an example of *Moamoa*:
 ```
 {
     "InternalName": "Moamoa",
@@ -38,23 +39,23 @@ Each object has a corresponding JSON file storing its properties in a structured
 | Links | List of compatible links |
 
 ### List
-The game utilizes the following types of object lists:
+The game uses lists to order objects. The following lists are supported:
 
 | List | Description |
 | ---- | ----------- |
-| ObjectList | Any kind of object. |
-| SkyList | Level backdrops. |
-| AreaList | Area controllers. |
+| ObjectList | Any kind of object |
+| SkyList | Level backdrops |
+| AreaList | Area controllers |
 | PlayerList | Player spawn points, etc. |
-| CheckPointList | Player respawn controllers. |
-| GoalList | Power stars and related objects. |
-| DemoObjList | Cutscene objects. |
-| ZoneList | Locations of level chunks. |
-| Objs | Unknown. Always empty. |
-| Rails | Paths. Always empty. |
+| CheckPointList | Player respawn controllers |
+| GoalList | Power stars and related objects |
+| DemoObjList | Cutscene objects |
+| ZoneList | Locations of level chunks |
+| Objs | Unknown; always empty |
+| Rails | Paths; always empty |
 
 ### Categories
-Object categories are defined in **objects/_Categories.json**. The key is usually referenced in the object's *Category* field. When compiled, it is assigned the list *Objects* which stores the name of every object it categorizes. The format is rather simple and self-explanatory; here are some examples:
+Object categories are defined in **objects/_Categories.json**. The key is usually referenced in the object's *Category* field. When building the object database it is assigned the list *Objects* which stores the name of every object it categorizes. As usual, the format is self-explanatory; here are some examples:
 ```
 ...
 	"enemy": {
@@ -75,7 +76,7 @@ Properties can be of the following supported value types:
 * **Int32**
 * **UInt32**
 * **Single**
-* **In64**
+* **Int64**
 * **UInt64**
 * **Double**
 * **String**
@@ -83,22 +84,29 @@ Properties can be of the following supported value types:
 * **Dictionary**
 
 ## Common Properties & Links
-A couple of properties and link types are shared by every object and may not be included as part of object definitions.
+A handful of properties and link types are shared by every object and may not be included as part of object definitions.
 
 ### Properties
-| Property | Type |
-| -------- | ---- |
-| Comment | String |
-| Id | String |
-| IsLinkDest | Boolean |
-| LayerConfigName | String |
-| Links | Dictionary |
-| ModelName | String |
-| Rotate | Dictionary |
-| Scale | Dictionary |
-| Translate | Dictionary |
-| UnitConfig | Dictionary |
-| UnitConfigName | String |
+| Property | Type | Used |
+| -------- | ---- | ---- |
+| Comment | String | no |
+| Id | String | yes |
+| IsLinkDest | Boolean | no |
+| LayerConfigName | String | no |
+| Links | Dictionary | yes |
+| ModelName | String | yes |
+| Rotate | Dictionary | yes |
+| Scale | Dictionary | yes |
+| Translate | Dictionary | yes |
+| UnitConfig | Dictionary | yes |
+| UnitConfig:DisplayName | String | yes |
+| UnitConfig:DisplayRotate | Dictionary | ? |
+| UnitConfig:DisplayScale | Dictionary | ? |
+| UnitConfig:DisplayTranslate | Dictionary | yes |
+| UnitConfig:GenerateCategory | String | no |
+| UnitConfig:ParameterConfigName | String | yes |
+| UnitConfig:PlacementTargetFile | String | no |
+| UnitConfigName | String | yes |
 
 ### Links
 * **GroupClipping**
