@@ -1,0 +1,28 @@
+Internal name        Challenge                       Time Trial    "IsGhostBusterStage"
+----------------------------------------------------------------------------------------
+Chapter5_1                                                         
+DockingDioramaStage  Took down 3 posters             28            false
+DockingDioramaStage  Found the hidden Gold Mushroom! 24            false
+DockingDioramaStage  [SPECIAL]                       20            true
+DockingDioramaStage  Collected 200 coins!            75            false
+DockingDioramaStage  Cleared course in 9 touches!    21            false
+DockingDioramaStage  [SPECIAL]                       21            true
+DockingDioramaStage  Collected 200 coins!            118           false
+Chapter5_1                                                         
+DockingDioramaStage  Found the hidden Gold Mushroom! 40            false
+DockingDioramaStage  Used switches 4 times to clear! 32            false
+DockingDioramaStage  [SPECIAL]                       50            true
+DockingDioramaStage  Didn't take any damage!         69            false
+DockingDioramaStage  Didn't take any damage!         30            false
+DockingDioramaStage  [SPECIAL]                       45            true
+DockingDioramaStage  Collected 100 coins!            42            false
+DockingDioramaStage  [SPECIAL]                       45            true
+DockingDioramaStage  Didn't take any damage!         65            false
+Chapter5_3                                                         
+DockingDioramaStage  Didn't take any damage!         50            true
+DockingDioramaStage  Didn't take any damage!         110           false
+BonusStage1                                          0	           false
+BonusStage1                                          0	           false
+BonusStage2                                          0	           false
+BonusStage3                                          0	           false
+GameOverStage                                        0	           false

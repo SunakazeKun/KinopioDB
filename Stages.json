@@ -96,7 +96,9 @@
 	},
 	{
 		"Name": "Special Episode",
-		"Stages": {}
+		"Stages": {
+			"DockingDioramaStage": "Shifty Shrine"
+		}
 	},
 	{
 		"Name": "Bonus Courses",

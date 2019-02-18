@@ -1,0 +1,21 @@
+Internal name             Name            References
+----------------------------------------------------------------------------------------------------
+* 100% confirmed thanks to StageList and GraphicsQualityStageParam
+
+DockingDioramaStage       Shifty Shrine   StageList, ObjectData, LocalizeData, SeDataBase, LightPreset, EffectObjDataBase
+RisingDangerStage         n/a             GraphicsQualityStageParam, SeDataBase, LightPreset
+ShipwreckStage            n/a             GraphicsQualityStageParam, SeDataBase, LightPreset, EffectObjDataBase
+TruckNukkunSinkTowerStage n/a             GraphicsQualityStageParam, EffectObjDataBase
+
+
+* Derived from several asset names, probably not 100% accurate
+
+"SwitchDoorDarkStage"     n/a             SeDataBase
+"SeesawWheelClimbStage"   n/a             SeDataBase
+"ShoppingMallStage"       n/a             SeDataBase
+"BigWheelStage"           n/a             SeDataBase, LightPreset, EffectObjDataBase
+"HeyhoGardenGhostStage"   n/a             LightPreset
+"MoleMazeStage"           n/a             LightPreset
+"MokingGhostStage"        n/a             LightPreset
+"PatanGabonStage"         n/a             LightPreset
+"DoubleBossBirdStage"     n/a             EffectObjDataBase
