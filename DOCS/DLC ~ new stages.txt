@@ -3,6 +3,7 @@ Internal name             Name            References
 * 100% confirmed thanks to StageList and GraphicsQualityStageParam
 
 DockingDioramaStage       Shifty Shrine   StageList, ObjectData, LocalizeData, SeDataBase, LightPreset, EffectObjDataBase
+DoubleBossBirdStage       n/a             EffectObjDataBase, main executable
 RisingDangerStage         n/a             GraphicsQualityStageParam, SeDataBase, LightPreset
 ShipwreckStage            n/a             GraphicsQualityStageParam, SeDataBase, LightPreset, EffectObjDataBase
 TruckNukkunSinkTowerStage n/a             GraphicsQualityStageParam, EffectObjDataBase
@@ -18,4 +19,3 @@ TruckNukkunSinkTowerStage n/a             GraphicsQualityStageParam, EffectObjDa
 "MoleMazeStage"           n/a             LightPreset
 "MokingGhostStage"        n/a             LightPreset
 "PatanGabonStage"         n/a             LightPreset
-"DoubleBossBirdStage"     n/a             EffectObjDataBase
