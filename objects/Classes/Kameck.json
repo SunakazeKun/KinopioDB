@@ -1,0 +1,15 @@
+{
+    "ClassName": "Kameck",
+    "Links": [
+        "Rail",
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "NearestPoint": "Boolean",
+        "PlayerSearchOffsetY": "Single",
+        "SearchRange": "Int32",
+        "UsingDepthShadow": "Boolean"
+    }
+}

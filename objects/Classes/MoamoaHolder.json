@@ -1,0 +1,13 @@
+{
+    "ClassName": "MoamoaHolder",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "DepthNum": "Int32",
+        "HeightNum": "Int32",
+        "IsHideShadow": "Boolean",
+        "UsingDepthShadow": "Boolean",
+        "WeakWaitStep": "Int32",
+        "WidthNum": "Int32"
+    }
+}

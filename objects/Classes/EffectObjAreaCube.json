@@ -1,0 +1,12 @@
+{
+    "ClassName": "EffectObjAreaCube",
+    "Links": [
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "EffectEmitRatio": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    }
+}

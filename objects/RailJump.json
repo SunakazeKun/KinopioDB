@@ -4,13 +4,5 @@
     "Name": "RailJump",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsClosed": "Boolean",
-        "IsLadder": "Boolean",
-        "RailPoints": "List",
-        "RailType": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

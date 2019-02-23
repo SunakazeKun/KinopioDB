@@ -4,16 +4,5 @@
     "Name": "Fish",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "AvoidDist": "Single",
-        "FishNum": "Int32"
-    },
-    "Models": [
-        "FishA"
-    ],
-    "Links": [
-        "Rail",
-        "SwimArea"
-    ]
+    "Description": ""
 }

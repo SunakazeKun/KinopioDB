@@ -1,0 +1,17 @@
+{
+    "ClassName": "CameraDirectionSwitchOnArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "HorizontalAngleMax": "Single",
+        "HorizontalAngleMin": "Single",
+        "IsEnableZoomOnly": "Boolean",
+        "VerticalAngleMax": "Single",
+        "VerticalAngleMin": "Single"
+    }
+}

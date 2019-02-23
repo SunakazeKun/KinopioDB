@@ -4,21 +4,5 @@
     "Name": "Fire Bro",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A Koopa subspecies that throws fire balls.",
-    "Properties": {
-        "EnableObstacleCheck": "Boolean",
-        "InitRotate": "Single",
-        "IsKillStepKuribo": "Boolean",
-        "ItemType": "String",
-        "ScaffoldType": "Int32",
-        "StackNum": "Int32",
-        "UsingDepthShadow": "Boolean",
-        "WetType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchKill",
-        "SwitchStart"
-    ]
+    "Description": "A Koopa subspecies that throws fire balls."
 }

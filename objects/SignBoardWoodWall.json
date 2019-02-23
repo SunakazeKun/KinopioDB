@@ -4,16 +4,5 @@
     "Name": "SignBoardWoodWall",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsConnectToCollision": "Boolean",
-        "IsSnowCover": "Boolean",
-        "WetType": "Int32"
-    },
-    "Models": [
-        "SignBoardWoodWallRight"
-    ],
-    "Links": [
-        "ViewGroup"
-    ]
+    "Description": ""
 }

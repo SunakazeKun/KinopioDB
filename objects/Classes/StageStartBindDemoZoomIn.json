@@ -1,0 +1,10 @@
+{
+    "ClassName": "StageStartBindDemoZoomIn",
+    "Links": [
+        "SwitchDeadOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "StartAnimation": "String"
+    }
+}

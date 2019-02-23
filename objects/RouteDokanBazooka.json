@@ -4,24 +4,5 @@
     "Name": "RouteDokanBazooka",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "Gravity": "Single",
-        "IsConnectLand": "Boolean",
-        "IsDisplayGuideIcon": "Boolean",
-        "IsUseObjectCamera": "Boolean",
-        "ModelSuffix": "String",
-        "MoveSpeed": "Single",
-        "ShootAngle": "Single",
-        "ShootSpeed": "Single",
-        "ShootType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Parts",
-        "TargetPos",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

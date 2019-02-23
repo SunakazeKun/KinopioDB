@@ -1,0 +1,8 @@
+{
+    "ClassName": "PickaxeItem",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {}
+}

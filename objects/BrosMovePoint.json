@@ -4,14 +4,5 @@
     "Name": "BrosMovePoint",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ScaffoldType": "Int32",
-        "StackNum": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "KeyMoveNext"
-    ]
+    "Description": ""
 }

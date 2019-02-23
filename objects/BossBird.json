@@ -4,18 +4,5 @@
     "Name": "BossBird",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "DemoBattleEndPosTarget",
-        "PlayerPos",
-        "PullOutKinopicoNpc",
-        "Rail",
-        "SwitchAppear",
-        "SwitchDeadOn",
-        "SwitchLastAttackHitOn"
-    ]
+    "Description": ""
 }

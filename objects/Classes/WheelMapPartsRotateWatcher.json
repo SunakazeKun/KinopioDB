@@ -1,0 +1,15 @@
+{
+    "ClassName": "WheelMapPartsRotateWatcher",
+    "Links": [
+        "WheelMapParts1",
+        "WheelMapParts2",
+        "WheelMapParts3"
+    ],
+    "Models": [],
+    "Properties": {
+        "PermitDegree": "Single",
+        "RotateDegree1": "Single",
+        "RotateDegree2": "Single",
+        "RotateDegree3": "Single"
+    }
+}

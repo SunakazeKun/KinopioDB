@@ -4,16 +4,5 @@
     "Name": "Spike",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A Koopa subspecies that throws spike balls.",
-    "Properties": {
-        "GenerateDelay": "Int32",
-        "GenerateInterval": "Int32",
-        "MoveAccel": "Single",
-        "ThrowModel": "String",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping"
-    ]
+    "Description": "A Koopa subspecies that throws spike balls."
 }

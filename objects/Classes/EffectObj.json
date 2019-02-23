@@ -1,0 +1,14 @@
+{
+    "ClassName": "EffectObj",
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear",
+        "SwitchKill",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "ClassName": "WindRotateParts",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "SpinFrame": "Int32",
+        "SpinFrameRate": "Single",
+        "SpinSpeedDownFrame": "Int32"
+    }
+}

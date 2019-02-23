@@ -1,0 +1,21 @@
+{
+    "ClassName": "RouteDokanBazooka",
+    "Links": [
+        "GroupClipping",
+        "Parts",
+        "TargetPos",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "Gravity": "Single",
+        "IsConnectLand": "Boolean",
+        "IsDisplayGuideIcon": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "ModelSuffix": "String",
+        "MoveSpeed": "Single",
+        "ShootAngle": "Single",
+        "ShootSpeed": "Single",
+        "ShootType": "Int32"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "ClassName": "BlockEmpty",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "IsNoDepthShadow": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32"
+    }
+}

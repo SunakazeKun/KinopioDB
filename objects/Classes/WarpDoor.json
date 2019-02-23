@@ -1,0 +1,16 @@
+{
+    "ClassName": "WarpDoor",
+    "Links": [
+        "DestDoor",
+        "GroupClipping"
+    ],
+    "Models": [
+        "WarpDoor",
+        "WarpDoorTeresaFrameOff"
+    ],
+    "Properties": {
+        "CameraInterpolate": "Boolean",
+        "ConnectCollision": "Boolean",
+        "GatherPlayer": "Boolean"
+    }
+}

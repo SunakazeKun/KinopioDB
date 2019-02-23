@@ -4,10 +4,5 @@
     "Name": "StageStartBindDemoBossBird",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "BossBirdOpening"
-    ]
+    "Description": ""
 }

@@ -4,10 +4,5 @@
     "Name": "KoopaSignBoard",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "GroupClipping"
-    ]
+    "Description": ""
 }

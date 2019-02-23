@@ -1,0 +1,16 @@
+{
+    "ClassName": "Area",
+    "Links": [
+        "NoDelete_FollowMtxTarget",
+        "SwitchAppear"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

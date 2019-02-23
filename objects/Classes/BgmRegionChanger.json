@@ -1,0 +1,11 @@
+{
+    "ClassName": "BgmRegionChanger",
+    "Links": [
+        "SwitchChange"
+    ],
+    "Models": [],
+    "Properties": {
+        "BgmSituationNameOff": "String",
+        "BgmSituationNameOn": "String"
+    }
+}

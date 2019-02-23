@@ -1,0 +1,20 @@
+{
+    "ClassName": "BossFireMagmaKeyMoveMapParts",
+    "Links": [
+        "KeyMoveNext",
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsAppearAtFirst": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    }
+}

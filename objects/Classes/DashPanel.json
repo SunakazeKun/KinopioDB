@@ -1,0 +1,13 @@
+{
+    "ClassName": "DashPanel",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "DashFrame": "Int32",
+        "IsShowShadowMask": "Boolean",
+        "NoConnectCollision": "Boolean"
+    }
+}

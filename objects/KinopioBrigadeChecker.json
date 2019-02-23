@@ -4,18 +4,5 @@
     "Name": "KinopioBrigadeChecker",
     "List": "GoalList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "Clipping": "Boolean",
-        "IsClearAfterDemo": "Boolean",
-        "IsLastBeforeDemo": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "DemoStartPosition",
-        "GoalItem",
-        "PlayerNpc",
-        "SwitchGoalDemoStartOn",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

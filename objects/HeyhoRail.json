@@ -4,18 +4,5 @@
     "Name": "HeyhoRail",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsColliderOffAtRail": "Boolean",
-        "IsReactToLight": "Boolean",
-        "MemoryDist": "Single",
-        "MemoryNum": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "ChaseArea",
-        "GroupClipping",
-        "Rail",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

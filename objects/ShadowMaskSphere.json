@@ -4,16 +4,5 @@
     "Name": "ShadowMaskSphere",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ColorAlpha": "Single",
-        "ColorBlue": "Single",
-        "ColorGreen": "Single",
-        "ColorRed": "Single",
-        "Radius": "Single",
-        "ShadowMaskDrawCategory": "Int32",
-        "ShadowMaskPow": "Single"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

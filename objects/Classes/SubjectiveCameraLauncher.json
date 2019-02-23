@@ -1,0 +1,15 @@
+{
+    "ClassName": "SubjectiveCameraLauncher",
+    "Links": [
+        "BindCancelSwitch",
+        "GroupClipping",
+        "GuideAppearPoint",
+        "SwitchSubjectiveCameraOnOff"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsSkipMovement": "Boolean",
+        "IsUseObjectTVCamera": "Boolean"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "ClassName": "CollectItem",
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "GotAnimation": "Int32",
+        "Is2ndCollectItem": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableTouchAppear": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsInvalidClipping": "Boolean",
+        "ShadowLength": "Single",
+        "TouchPointOffsetX": "Single",
+        "TouchPointOffsetY": "Single",
+        "TouchPointOffsetZ": "Single",
+        "TouchPointRadius": "Single"
+    }
+}

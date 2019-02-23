@@ -1,0 +1,19 @@
+{
+    "ClassName": "GuideAppearPoint",
+    "Links": [
+        "GuideAppearArea",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "ConnectFace": "Int32",
+        "DegreeXZ": "Single",
+        "DegreeYZBottom": "Single",
+        "DegreeYZUp": "Single",
+        "DistanceToCamera": "Single",
+        "IconType": "Int32",
+        "IsAppearConnected": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "isJudgeDegreeYZ": "Boolean"
+    }
+}

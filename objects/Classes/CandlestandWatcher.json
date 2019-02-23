@@ -1,0 +1,9 @@
+{
+    "ClassName": "CandlestandWatcher",
+    "Links": [
+        "LinkCandlestand",
+        "SwitchFireAllOn"
+    ],
+    "Models": [],
+    "Properties": {}
+}

@@ -1,0 +1,11 @@
+{
+    "ClassName": "KinopioMemberNpcTakeOutItemArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

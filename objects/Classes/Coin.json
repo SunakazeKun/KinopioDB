@@ -1,0 +1,19 @@
+{
+    "ClassName": "Coin",
+    "Links": [
+        "GroupClipping",
+        "SwitchDeadOn",
+        "SwitchKill",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "CollisionCheckDist": "Single",
+        "IsConnectToCollision": "Boolean",
+        "IsDropShadowActorDown": "Boolean",
+        "IsEnableTouchBack": "Boolean",
+        "IsPlacementInRouteDokan": "Boolean",
+        "ShadowLength": "Single",
+        "ShadowType": "Int32"
+    }
+}

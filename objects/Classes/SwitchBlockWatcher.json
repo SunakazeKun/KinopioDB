@@ -1,0 +1,9 @@
+{
+    "ClassName": "SwitchBlockWatcher",
+    "Links": [
+        "SwitchBlock",
+        "SwitchBlockSwitch"
+    ],
+    "Models": [],
+    "Properties": {}
+}

@@ -4,17 +4,5 @@
     "Name": "PlayerNpc",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "isHaveHeadLight": "Boolean"
-    },
-    "Models": [
-        "KinopicoNpc",
-        "KinopioNpc"
-    ],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "SwitchAppear"
-    ]
+    "Description": ""
 }

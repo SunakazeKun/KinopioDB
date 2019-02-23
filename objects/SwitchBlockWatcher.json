@@ -4,11 +4,5 @@
     "Name": "SwitchBlockWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "SwitchBlock",
-        "SwitchBlockSwitch"
-    ]
+    "Description": ""
 }

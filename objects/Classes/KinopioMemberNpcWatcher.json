@@ -1,0 +1,11 @@
+{
+    "ClassName": "KinopioMemberNpcWatcher",
+    "Links": [
+        "KinopioMemberNpc",
+        "KinopioMemberNpcItemArea",
+        "KinopioNpcLeaveMultiLift",
+        "MultiLift"
+    ],
+    "Models": [],
+    "Properties": {}
+}

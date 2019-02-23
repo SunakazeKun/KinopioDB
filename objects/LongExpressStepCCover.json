@@ -4,12 +4,5 @@
     "Name": "LongExpressStepCCover",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchDisappear"
-    ]
+    "Description": ""
 }

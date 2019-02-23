@@ -1,0 +1,13 @@
+{
+    "ClassName": "SePlayObj",
+    "Links": [
+        "SwitchKill",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "ClippingRadius": "Single",
+        "IsValidClipping": "Boolean",
+        "SePlayName": "String"
+    }
+}

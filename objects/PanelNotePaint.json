@@ -4,16 +4,5 @@
     "Name": "PanelNotePaint",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "Color": "Int32",
-        "IsConnectToCollision": "Boolean",
-        "IsPush": "Boolean"
-    },
-    "Models": [
-        "PanelNote000"
-    ],
-    "Links": [
-        "ViewGroup"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,19 @@
+{
+    "ClassName": "Seesaw",
+    "Links": [
+        "GroupClipping",
+        "SeesawJumpPoint"
+    ],
+    "Models": [
+        "Seesaw6M",
+        "Seesaw8M"
+    ],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "JumpHeight": "Single",
+        "MaxDegree": "Single",
+        "MaxDegreeJump": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "ClassName": "DoorLock",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "IsConnectCollision": "Boolean"
+    }
+}

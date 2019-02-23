@@ -1,0 +1,9 @@
+{
+    "ClassName": "CameraDirectionSwitchOnAreaWatcher",
+    "Links": [
+        "CameraDirectionSwitchOnArea",
+        "SwitchCameraDirectionOnOff"
+    ],
+    "Models": [],
+    "Properties": {}
+}

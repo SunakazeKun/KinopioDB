@@ -4,11 +4,5 @@
     "Name": "WindBoxWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "SwitchKill",
-        "WindBox"
-    ]
+    "Description": ""
 }

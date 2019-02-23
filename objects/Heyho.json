@@ -4,20 +4,5 @@
     "Name": "Heyho",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsOnMovingGround": "Boolean",
-        "IsReactToLight": "Boolean",
-        "MemoryDist": "Single",
-        "MemoryNum": "Int32",
-        "WatchType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "ChaseArea",
-        "GroupClipping",
-        "HeyhoWatchPoint",
-        "SwitchStart",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,13 @@
+{
+    "ClassName": "BossFireToppleParts",
+    "Links": [
+        "GroupClipping",
+        "LinkGoalItemDummy",
+        "MoveNext",
+        "SwitchStart",
+        "SwitchStartBreakSignLv1",
+        "SwitchStartBreakSignLv2"
+    ],
+    "Models": [],
+    "Properties": {}
+}

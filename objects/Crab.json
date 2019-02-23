@@ -4,13 +4,5 @@
     "Name": "Crab",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ItemType": "String"
-    },
-    "Models": [],
-    "Links": [
-        "MoveNext",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

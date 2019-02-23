@@ -1,0 +1,12 @@
+{
+    "ClassName": "CoinChameleon",
+    "Links": [
+        "GroupClipping"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsInWater": "Boolean",
+        "IsPlacementInRouteDokan": "Boolean"
+    }
+}

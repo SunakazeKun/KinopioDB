@@ -4,14 +4,5 @@
     "Name": "ChikaChikaBlockWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsBgmMute": "Boolean",
-        "IsSyncBgm": "Boolean",
-        "SpeedMode": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "SyncBlock"
-    ]
+    "Description": ""
 }

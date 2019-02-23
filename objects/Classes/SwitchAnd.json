@@ -1,0 +1,12 @@
+{
+    "ClassName": "SwitchAnd",
+    "Links": [
+        "InputSwitchA",
+        "InputSwitchB",
+        "InputSwitchC",
+        "InputSwitchD",
+        "OutputSwitchOn"
+    ],
+    "Models": [],
+    "Properties": {}
+}

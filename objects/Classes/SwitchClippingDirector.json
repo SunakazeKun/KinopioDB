@@ -1,0 +1,9 @@
+{
+    "ClassName": "SwitchClippingDirector",
+    "Links": [
+        "ClippingTarget",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {}
+}

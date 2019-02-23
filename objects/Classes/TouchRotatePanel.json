@@ -1,0 +1,13 @@
+{
+    "ClassName": "TouchRotatePanel",
+    "Links": [
+        "RotateParts",
+        "TransParts",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDeath": "Boolean"
+    }
+}

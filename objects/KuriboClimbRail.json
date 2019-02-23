@@ -4,18 +4,5 @@
     "Name": "Cat Goomba",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A cute variant of Goomba. Albeit exclusive to the Wii U version, it functions in the ported versions as well.",
-    "Properties": {
-        "IsBodyAttackImmediately": "Boolean",
-        "IsControlShadowLength": "Boolean",
-        "IsPlacementSlope": "Boolean",
-        "ItemType": "String",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "ViewGroup"
-    ]
+    "Description": "A cute variant of Goomba. Albeit exclusive to the Wii U version, it functions in the ported versions as well."
 }

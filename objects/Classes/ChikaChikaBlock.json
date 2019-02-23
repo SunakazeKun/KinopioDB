@@ -1,0 +1,9 @@
+{
+    "ClassName": "ChikaChikaBlock",
+    "Links": [],
+    "Models": [
+        "ChikaChikaBlockA",
+        "ChikaChikaBlockB"
+    ],
+    "Properties": {}
+}

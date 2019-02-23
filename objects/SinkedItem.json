@@ -4,11 +4,5 @@
     "Name": "SinkedItem",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsEffectOn": "Boolean",
-        "ItemType": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

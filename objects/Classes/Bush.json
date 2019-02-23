@@ -1,0 +1,12 @@
+{
+    "ClassName": "Bush",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "Color": "Int32",
+        "ItemType": "String"
+    }
+}

@@ -4,15 +4,5 @@
     "Name": "AllDeadWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "SwitchOnDelayStep": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear",
-        "SwitchDeadOn",
-        "SwitchKill",
-        "WatchTargetEnemy"
-    ]
+    "Description": ""
 }

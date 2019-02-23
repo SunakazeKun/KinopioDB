@@ -1,0 +1,11 @@
+{
+    "ClassName": "RouteDokan",
+    "Links": [
+        "Parts"
+    ],
+    "Models": [],
+    "Properties": {
+        "ColorVariation": "Int32",
+        "MoveSpeed": "Single"
+    }
+}

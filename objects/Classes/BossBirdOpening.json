@@ -1,0 +1,13 @@
+{
+    "ClassName": "BossBirdOpening",
+    "Links": [
+        "BossBirdRailKeeper",
+        "BossBirdRain",
+        "BossBirdSand",
+        "DemoBossBirdPosition",
+        "SwitchBossBirdUp",
+        "SwitchDrawClipping"
+    ],
+    "Models": [],
+    "Properties": {}
+}

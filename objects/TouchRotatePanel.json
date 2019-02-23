@@ -4,16 +4,5 @@
     "Name": "TouchRotatePanel",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean",
-        "IsEnableDeath": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "RotateParts",
-        "TransParts",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

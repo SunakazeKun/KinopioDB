@@ -1,0 +1,16 @@
+{
+    "ClassName": "HeyhoRail",
+    "Links": [
+        "ChaseArea",
+        "GroupClipping",
+        "Rail",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsColliderOffAtRail": "Boolean",
+        "IsReactToLight": "Boolean",
+        "MemoryDist": "Single",
+        "MemoryNum": "Int32"
+    }
+}

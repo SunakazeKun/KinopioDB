@@ -4,12 +4,5 @@
     "Name": "CommonLeaf",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [
-        "CommonLeafA"
-    ],
-    "Links": []
+    "Description": ""
 }

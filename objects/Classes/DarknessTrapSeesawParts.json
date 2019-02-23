@@ -1,0 +1,13 @@
+{
+    "ClassName": "DarknessTrapSeesawParts",
+    "Links": [
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "MaxDegree": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    }
+}

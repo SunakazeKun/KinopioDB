@@ -1,0 +1,13 @@
+{
+    "ClassName": "ChikuwaBlock",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [
+        "ChikuwaBlock2x4M"
+    ],
+    "Properties": {
+        "IsUseInvalidateSensor": "Boolean",
+        "WetType": "Int32"
+    }
+}

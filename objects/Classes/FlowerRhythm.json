@@ -1,0 +1,18 @@
+{
+    "ClassName": "FlowerRhythm",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [
+        "FlowerDandelion",
+        "FlowerRhythm"
+    ],
+    "Properties": {
+        "FlowerPoinsettiaColor": "Int32",
+        "FlowerRhythmColor": "Int32",
+        "IsRhythmAnimReverse": "Boolean",
+        "IsRotateY": "Boolean",
+        "ItemType": "String"
+    }
+}

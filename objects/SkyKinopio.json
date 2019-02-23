@@ -4,45 +4,5 @@
     "Name": "Backdrop",
     "List": "SkyList",
     "Category": "decoration",
-    "Description": "The level backdrop. Model needs to be specified.",
-    "Properties": {
-        "IsOnlyCubeMap": "Boolean"
-    },
-    "Models": [
-        "SkyPoison",
-        "SkyFullMoon",
-        "SkyDesertBlue",
-        "SkyAnotherWorld",
-        "SkyNightStardust",
-        "SkyBlueSunny",
-        "SkyBlueUnderground",
-        "SkyBlack",
-        "SkyStorm",
-        "SkyEnterCatMario",
-        "SkyBossBird2",
-        "SkyLavaRed",
-        "SkyAnotherWorldDark",
-        "SkyCityWorld",
-        "SkyClockDisc",
-        "SkyCloudy",
-        "SkyCloudyDark",
-        "SkyOrangeTwilight",
-        "SkyDesertOrangeTwilight",
-        "SkyLavaBlue",
-        "SkyLavaWorld",
-        "SkyBlueThunderhead",
-        "SkyGhost",
-        "SkyForest",
-        "SkySpace",
-        "SkyRouteDokanTour",
-        "SkySandWorld",
-        "SkySandWorldNight",
-        "SkyMorningGlow",
-        "SkyBrownUnderground",
-        "SkyTwoSide",
-        "SkyWaterfallWorld"
-    ],
-    "Links": [
-        "SwitchAppear"
-    ]
+    "Description": "The level backdrop. Model needs to be specified."
 }

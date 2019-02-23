@@ -1,0 +1,14 @@
+{
+    "ClassName": "Pukupuku",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SupportFreezeSyncGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "MoveType": "Int32",
+        "SwimSpeed": "Single",
+        "UsingDepthShadow": "Boolean"
+    }
+}

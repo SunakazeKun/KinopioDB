@@ -1,0 +1,16 @@
+{
+    "ClassName": "PrePassLineLight",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsIndirectIllumination": "Boolean",
+        "KillFrame": "Int32",
+        "LightDistDamp": "Single",
+        "LineLightLength": "Single",
+        "Radius": "Single"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "ClassName": "BossFire",
+    "Links": [
+        "EndDemoPlayerReturnPos",
+        "LinkBossFireDown",
+        "LinkBossFireSyncMap",
+        "LinkBossFireToppleParts",
+        "PlayerPos",
+        "StartDemoStartArea",
+        "SwitchDemoEndOn",
+        "SwitchEndDemoEndOn",
+        "SwitchRoarEndOn",
+        "SwitchStartDemoEndOn",
+        "SwitchStartDemoStartOn",
+        "SwitchStartPressDownSign",
+        "SwitchStartRoar",
+        "UpperLimit"
+    ],
+    "Models": [],
+    "Properties": {
+        "Lv": "Int32"
+    }
+}

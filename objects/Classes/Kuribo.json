@@ -1,0 +1,15 @@
+{
+    "ClassName": "Kuribo",
+    "Links": [
+        "GroupClipping",
+        "SwitchWait",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsChangeBoxKuribo": "Boolean",
+        "IsEnableCliffCheck": "Boolean",
+        "IsNoUseShadowMask": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    }
+}

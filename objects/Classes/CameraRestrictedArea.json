@@ -1,0 +1,11 @@
+{
+    "ClassName": "CameraRestrictedArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

@@ -4,17 +4,5 @@
     "Name": "NeedleTrap",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "AttackTime": "Int32",
-        "StandbyTime": "Int32",
-        "WaitTime": "Int32",
-        "WetType": "Int32"
-    },
-    "Models": [
-        "NeedleTrap2x4M"
-    ],
-    "Links": [
-        "GroupClipping"
-    ]
+    "Description": ""
 }

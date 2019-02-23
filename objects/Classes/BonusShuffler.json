@@ -1,0 +1,8 @@
+{
+    "ClassName": "BonusShuffler",
+    "Links": [
+        "BonusShuffleGroup"
+    ],
+    "Models": [],
+    "Properties": {}
+}

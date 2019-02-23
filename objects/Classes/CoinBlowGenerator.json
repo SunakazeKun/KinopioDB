@@ -1,0 +1,11 @@
+{
+    "ClassName": "CoinBlowGenerator",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [],
+    "Properties": {
+        "CoinBlowSpeed": "Single",
+        "CoinNum": "Int32"
+    }
+}

@@ -1,0 +1,4106 @@
+{
+    "AchievementSwitchChecker": {
+        "ClassName": "AchievementSwitchChecker",
+        "Links": [
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "AllDeadWatcher": {
+        "ClassName": "AllDeadWatcher",
+        "Links": [
+            "SwitchAppear",
+            "SwitchDeadOn",
+            "SwitchKill",
+            "WatchTargetEnemy"
+        ],
+        "Models": [],
+        "Properties": {
+            "SwitchOnDelayStep": "Int32"
+        }
+    },
+    "Area": {
+        "ClassName": "Area",
+        "Links": [
+            "NoDelete_FollowMtxTarget",
+            "SwitchAppear"
+        ],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCylinder"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "AssistSlideMapParts": {
+        "ClassName": "AssistSlideMapParts",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchSlideOn",
+            "SwitchStopForceOn",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "GuideBalloonType": "Int32",
+            "IsConnectToCollision": "Boolean",
+            "IsEmitAtCollision": "Boolean",
+            "MoveAxis": "Int32",
+            "MoveDistance": "Single",
+            "MoveSpeed": "Single",
+            "MoveTime": "Int32",
+            "MoveType": "Int32",
+            "OnWaitTime": "Int32"
+        }
+    },
+    "AssistStopKeyMoveMapParts": {
+        "ClassName": "AssistStopKeyMoveMapParts",
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "InterpolateType": "Int32",
+            "IsFloorTouchStart": "Boolean",
+            "IsPlaySign": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "SuffixName": "String",
+            "WaitTime": "Int32"
+        }
+    },
+    "AudioEffectChangeArea": {
+        "ClassName": "AudioEffectChangeArea",
+        "Links": [
+            "NoDelete_FollowMtxTarget"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "AudioEffectName": "String",
+            "Priority": "Int32"
+        }
+    },
+    "AudioListenerParamArea": {
+        "ClassName": "AudioListenerParamArea",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "InteriorSize": "Single",
+            "InterpolateFrame": "Int32",
+            "MaxVolumeDistance": "Single",
+            "PoserName": "String",
+            "Priority": "Int32",
+            "UnitDistance": "Single"
+        }
+    },
+    "AudioSituationArea": {
+        "ClassName": "AudioSituationArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32",
+            "SituationName": "String",
+            "SituationType": "Int32"
+        }
+    },
+    "BackHideMapParts": {
+        "ClassName": "BackHideMapParts",
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "SwitchStartHide",
+            "SwitchStartHideSub",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "BackDir": "Int32",
+            "HideAngle": "Single",
+            "SwitchHideFrame": "Int32"
+        }
+    },
+    "BelieveSignboardKeyMoveParts": {
+        "ClassName": "BelieveSignboardKeyMoveParts",
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "EffectFrame": "Int32",
+            "EffectFramePart2": "Int32",
+            "EffectName": "String",
+            "InterpolateType": "Int32",
+            "IsFloorTouchStart": "Boolean",
+            "IsPlaySign": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "PlayEffect": "Boolean",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "SuffixName": "String",
+            "WaitTime": "Int32"
+        }
+    },
+    "BgmChangeArea": {
+        "ClassName": "BgmChangeArea",
+        "Links": [
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "FadeOutFrame": "Int32",
+            "IsOneTime": "Boolean",
+            "Kind": "String",
+            "Priority": "Int32"
+        }
+    },
+    "BgmPlayObj": {
+        "ClassName": "BgmPlayObj",
+        "Links": [
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "BgmPlayName": "String",
+            "CurBgmFadeOutFrameNum": "Int32",
+            "FadeInFrameNum": "Int32",
+            "StartDelayFrameNum": "Int32"
+        }
+    },
+    "BgmRegionChangeArea": {
+        "ClassName": "BgmRegionChangeArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "BgmSituationName": "String",
+            "Priority": "Int32"
+        }
+    },
+    "BgmRegionChanger": {
+        "ClassName": "BgmRegionChanger",
+        "Links": [
+            "SwitchChange"
+        ],
+        "Models": [],
+        "Properties": {
+            "BgmSituationNameOff": "String",
+            "BgmSituationNameOn": "String"
+        }
+    },
+    "BgmStartArea": {
+        "ClassName": "BgmStartArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "FadeInFrame": "Int32",
+            "IsOneTime": "Boolean",
+            "Priority": "Int32",
+            "StartBgmName": "String",
+            "StartDelayFrame": "Int32"
+        }
+    },
+    "BgmStopArea": {
+        "ClassName": "BgmStopArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "FadeOutFrameNum": "Int32",
+            "IsOneTime": "Boolean",
+            "Priority": "Int32",
+            "StopBgmName": "String"
+        }
+    },
+    "BgmStopObj": {
+        "ClassName": "BgmStopObj",
+        "Links": [
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "FadeOutFrameNum": "Int32",
+            "StopBgmName": "String"
+        }
+    },
+    "Bird": {
+        "ClassName": "Bird",
+        "Links": [
+            "GroupClipping",
+            "SwitchStart",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsPerch": "Boolean",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "BlockBrick": {
+        "ClassName": "BlockBrick",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [
+            "BlockBrick"
+        ],
+        "Properties": {
+            "IsExpandClippingShadowLength": "Boolean",
+            "IsNoDepthShadow": "Boolean",
+            "IsPlacedDarkStageBoxCoin": "Boolean",
+            "IsSnowCover": "Boolean",
+            "IsValidLightPrePass": "Boolean",
+            "ItemAppearAction": "String",
+            "ItemType": "String",
+            "ShadowLength": "Single",
+            "ShadowMaskSetting": "Int32"
+        }
+    },
+    "BlockBrickBreakable": {
+        "ClassName": "BlockBrickBreakable",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [
+            "BlockBrick"
+        ],
+        "Properties": {
+            "IsAppearBreakModel": "Boolean",
+            "IsConnectToCollision": "Boolean",
+            "IsExpandClippingShadowLength": "Boolean",
+            "IsNoDepthShadow": "Boolean",
+            "IsSnowCover": "Boolean",
+            "IsValidLightPrePass": "Boolean",
+            "ShadowLength": "Single",
+            "ShadowMaskSetting": "Int32",
+            "sendMsgNextBlock": "Boolean"
+        }
+    },
+    "BlockEmpty": {
+        "ClassName": "BlockEmpty",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsNoDepthShadow": "Boolean",
+            "IsValidLightPrePass": "Boolean",
+            "ShadowLength": "Single",
+            "ShadowMaskSetting": "Int32"
+        }
+    },
+    "BlockHard": {
+        "ClassName": "BlockHard",
+        "Links": [
+            "GroupClipping",
+            "SwitchBreakOn",
+            "SwitchValidSensorOn",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsNoDepthShadow": "Boolean",
+            "IsUseZPrePass": "Boolean",
+            "ShadowMaskSetting": "Int32"
+        }
+    },
+    "BlockPow": {
+        "ClassName": "BlockPow",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsAppearBlockEmpty": "Boolean",
+            "IsConnectToCollision": "Boolean",
+            "IsExpandClippingShadowLength": "Boolean",
+            "IsSnowCover": "Boolean",
+            "IsWideRangeLight": "Boolean",
+            "ShadowMaskSetting": "Int32",
+            "WetType": "Int32"
+        }
+    },
+    "BlockQuestion": {
+        "ClassName": "BlockQuestion",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsExpandClippingShadowLength": "Boolean",
+            "IsForceChangeItem": "Boolean",
+            "IsNoDepthShadow": "Boolean",
+            "IsSnowCover": "Boolean",
+            "IsValidLightPrePass": "Boolean",
+            "ItemAppearAction": "String",
+            "ItemType": "String",
+            "ShadowLength": "Single",
+            "ShadowMaskSetting": "Int32"
+        }
+    },
+    "BlockRail": {
+        "ClassName": "BlockRail",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [
+            "BlockRailCurve12x12M",
+            "BlockRailCurve12x12MNoModel",
+            "BlockRailCurve4x4MNoModel",
+            "BlockRailCurve8x8M",
+            "BlockRailCurve8x8MNoModel",
+            "BlockRailSlope4x2M",
+            "BlockRailSlope4x2MNoModel",
+            "BlockRailSlope8x4M",
+            "BlockRailSlope8x4MNoModel",
+            "BlockRailStraight1M",
+            "BlockRailStraight1MNoModel",
+            "BlockRailStraight4M",
+            "BlockRailStraight4MNoModel",
+            "BlockRailStraight8M",
+            "BlockRailStraight8MNoModel",
+            "BlockRailTerminater",
+            "BlockRailTerminaterNoModel"
+        ],
+        "Properties": {
+            "RailColor": "Int32"
+        }
+    },
+    "BlockRailMover": {
+        "ClassName": "BlockRailMover",
+        "Links": [
+            "BlockRailMove",
+            "GroupClipping",
+            "Rail",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "BlockSpeed": "Single",
+            "BlockSpeedByTime": "Int32",
+            "DelayTime": "Int32",
+            "IsFixedDirection": "Boolean",
+            "RailBlockMoveType": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "BonusShuffleGroup": {
+        "ClassName": "BonusShuffleGroup",
+        "Links": [
+            "Member"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "BonusShuffler": {
+        "ClassName": "BonusShuffler",
+        "Links": [
+            "BonusShuffleGroup"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "BossBird": {
+        "ClassName": "BossBird",
+        "Links": [
+            "BossBirdThunderboltGenerator",
+            "DemoBattleEndPosTarget",
+            "PlayerPos",
+            "PullOutKinopicoNpc",
+            "Rail",
+            "SwitchAppear",
+            "SwitchDeadOn",
+            "SwitchLastAttackHitOn"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "BossBirdOpening": {
+        "ClassName": "BossBirdOpening",
+        "Links": [
+            "BossBirdRailKeeper",
+            "BossBirdRain",
+            "BossBirdSand",
+            "DemoBossBirdPosition",
+            "SwitchBossBirdUp",
+            "SwitchDrawClipping"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "BossBirdRailKeeper": {
+        "ClassName": "BossBirdRailKeeper",
+        "Links": [
+            "BossBirdBlowTarget",
+            "Rail",
+            "RailSwitchArea"
+        ],
+        "Models": [],
+        "Properties": {
+            "DestRailPointNo": "Int32",
+            "IsFollowPlayerY": "Boolean",
+            "IsNotRailMove": "Boolean",
+            "IsPriorSwitch": "Boolean"
+        }
+    },
+    "BossBirdThunderbolt": {
+        "ClassName": "BossBirdThunderbolt",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "BossBirdThunderboltGenerator": {
+        "ClassName": "BossBirdThunderboltGenerator",
+        "Links": [
+            "BossBirdThunderbolt"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "BossFire": {
+        "ClassName": "BossFire",
+        "Links": [
+            "EndDemoPlayerReturnPos",
+            "LinkBossFireDown",
+            "LinkBossFireSyncMap",
+            "LinkBossFireToppleParts",
+            "PlayerPos",
+            "StartDemoStartArea",
+            "SwitchDemoEndOn",
+            "SwitchEndDemoEndOn",
+            "SwitchRoarEndOn",
+            "SwitchStartDemoEndOn",
+            "SwitchStartDemoStartOn",
+            "SwitchStartPressDownSign",
+            "SwitchStartRoar",
+            "UpperLimit"
+        ],
+        "Models": [],
+        "Properties": {
+            "Lv": "Int32"
+        }
+    },
+    "BossFireDown": {
+        "ClassName": "BossFireDown",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "BossFireMagmaKeyMoveMapParts": {
+        "ClassName": "BossFireMagmaKeyMoveMapParts",
+        "Links": [
+            "KeyMoveNext",
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "InterpolateType": "Int32",
+            "IsAppearAtFirst": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "BossFireToppleParts": {
+        "ClassName": "BossFireToppleParts",
+        "Links": [
+            "GroupClipping",
+            "LinkGoalItemDummy",
+            "MoveNext",
+            "SwitchStart",
+            "SwitchStartBreakSignLv1",
+            "SwitchStartBreakSignLv2"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "BossMagma": {
+        "ClassName": "BossMagma",
+        "Links": [
+            "RailBossMagma",
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {
+            "AppearOnStart": "Boolean"
+        }
+    },
+    "BreakMapPartsNeedleBall": {
+        "ClassName": "BreakMapPartsNeedleBall",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "BreakMapPartsSwitchOnly": {
+        "ClassName": "BreakMapPartsSwitchOnly",
+        "Links": [
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayFrame": "Int32"
+        }
+    },
+    "BrosMovePoint": {
+        "ClassName": "BrosMovePoint",
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext"
+        ],
+        "Models": [],
+        "Properties": {
+            "ScaffoldType": "Int32",
+            "StackNum": "Int32"
+        }
+    },
+    "Bull": {
+        "ClassName": "Bull",
+        "Links": [
+            "GroupClipping",
+            "SwitchStart",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsInMaze": "Boolean",
+            "IsPlayFindBgm": "Boolean",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "Bush": {
+        "ClassName": "Bush",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "Color": "Int32",
+            "ItemType": "String"
+        }
+    },
+    "CameraArea": {
+        "ClassName": "CameraArea",
+        "Links": [
+            "NoDelete_RootArea",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCylinder"
+        ],
+        "Properties": {
+            "Is2PHighPriority": "Boolean",
+            "Is2POnly": "Boolean",
+            "Priority": "Int32",
+            "RequiresOnePlayer": "Boolean"
+        }
+    },
+    "CameraDirectionSwitchOnArea": {
+        "ClassName": "CameraDirectionSwitchOnArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "HorizontalAngleMax": "Single",
+            "HorizontalAngleMin": "Single",
+            "IsEnableZoomOnly": "Boolean",
+            "VerticalAngleMax": "Single",
+            "VerticalAngleMin": "Single"
+        }
+    },
+    "CameraDirectionSwitchOnAreaWatcher": {
+        "ClassName": "CameraDirectionSwitchOnAreaWatcher",
+        "Links": [
+            "CameraDirectionSwitchOnArea",
+            "SwitchCameraDirectionOnOff"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "CameraIconDisplayArea": {
+        "ClassName": "CameraIconDisplayArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "CameraRestrictedArea": {
+        "ClassName": "CameraRestrictedArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "CameraShake": {
+        "ClassName": "CameraShake",
+        "Links": [
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "Delay": "Int32",
+            "EffectName": "String",
+            "LoopNum": "Int32",
+            "Power": "Int32",
+            "ShakeFrameNum": "Int32",
+            "SoundName": "String",
+            "StopFrameNum": "Int32"
+        }
+    },
+    "CameraShakeRandom": {
+        "ClassName": "CameraShakeRandom",
+        "Links": [
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "EffectName": "String",
+            "LoopNum": "Int32",
+            "Power": "Int32",
+            "ShakeFrameMax": "Int32",
+            "ShakeFrameMin": "Int32",
+            "SoundName": "String",
+            "StopFrameMax": "Int32",
+            "StopFrameMin": "Int32"
+        }
+    },
+    "CameraStopLookAtArea": {
+        "ClassName": "CameraStopLookAtArea",
+        "Links": [
+            "TargetPos"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "IsValidSingleMode": "Boolean",
+            "Priority": "Int32"
+        }
+    },
+    "Candlestand": {
+        "ClassName": "Candlestand",
+        "Links": [],
+        "Models": [
+            "Candlestand"
+        ],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsEnableLightPrePass": "Boolean",
+            "IsLightFire": "Boolean",
+            "WetType": "Int32"
+        }
+    },
+    "CandlestandWatcher": {
+        "ClassName": "CandlestandWatcher",
+        "Links": [
+            "LinkCandlestand",
+            "SwitchFireAllOn"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "ChikaChikaBlock": {
+        "ClassName": "ChikaChikaBlock",
+        "Links": [],
+        "Models": [
+            "ChikaChikaBlockA",
+            "ChikaChikaBlockB"
+        ],
+        "Properties": {}
+    },
+    "ChikaChikaBlockWatcher": {
+        "ClassName": "ChikaChikaBlockWatcher",
+        "Links": [
+            "SyncBlock"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsBgmMute": "Boolean",
+            "IsSyncBgm": "Boolean",
+            "SpeedMode": "Boolean"
+        }
+    },
+    "ChikuwaBlock": {
+        "ClassName": "ChikuwaBlock",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [
+            "ChikuwaBlock2x4M"
+        ],
+        "Properties": {
+            "IsUseInvalidateSensor": "Boolean",
+            "WetType": "Int32"
+        }
+    },
+    "ChorobonHolder": {
+        "ClassName": "ChorobonHolder",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "GreenStarId": "Int32",
+            "ItemInsertPosition": "Int32",
+            "ItemType": "String",
+            "MoveSpeed": "Int32",
+            "UsingDepthShadow": "Boolean",
+            "WidthNum": "Int32",
+            "isSetGuide": "Boolean"
+        }
+    },
+    "CityWorldGroundUnderPart": {
+        "ClassName": "CityWorldGroundUnderPart",
+        "Links": [
+            "SwitchAppear",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "ClippingExpander": {
+        "ClassName": "ClippingExpander",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "ClockMapParts": {
+        "ClassName": "ClockMapParts",
+        "Links": [
+            "ChildStep",
+            "GroupClipping",
+            "SupportFreezeSyncGroup",
+            "SwitchStart",
+            "SwitchStop"
+        ],
+        "Models": [],
+        "Properties": {
+            "ClockAngle": "Single",
+            "DelayTime": "Int32",
+            "RotateAxis": "Int32",
+            "RotateTime": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "Coin": {
+        "ClassName": "Coin",
+        "Links": [
+            "GroupClipping",
+            "SwitchDeadOn",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "CollisionCheckDist": "Single",
+            "IsConnectToCollision": "Boolean",
+            "IsDropShadowActorDown": "Boolean",
+            "IsEnableTouchBack": "Boolean",
+            "IsPlacementInRouteDokan": "Boolean",
+            "ShadowLength": "Single",
+            "ShadowType": "Int32"
+        }
+    },
+    "CoinBlowGenerator": {
+        "ClassName": "CoinBlowGenerator",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {
+            "CoinBlowSpeed": "Single",
+            "CoinNum": "Int32"
+        }
+    },
+    "CoinChameleon": {
+        "ClassName": "CoinChameleon",
+        "Links": [
+            "GroupClipping"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsInWater": "Boolean",
+            "IsPlacementInRouteDokan": "Boolean"
+        }
+    },
+    "CoinCirclePlacement": {
+        "ClassName": "CoinCirclePlacement",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "CoinNum": "Int32",
+            "Speed": "Single"
+        }
+    },
+    "CoinLine": {
+        "ClassName": "CoinLine",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {
+            "CoinNum": "Int32",
+            "DelayStep": "Int32",
+            "InvalidateClipping": "Boolean",
+            "IsInvalidPopUp": "Boolean",
+            "IsPlacementPoint": "Boolean",
+            "IsPlayCompleteSe": "Boolean",
+            "PlacementOffset": "Single"
+        }
+    },
+    "CoinRail": {
+        "ClassName": "CoinRail",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "CoinNum": "Int32",
+            "CoinSpeed": "Single",
+            "Delay": "Int32",
+            "IsPlacementInRouteDokan": "Boolean",
+            "IsRailEqualInterval": "Boolean"
+        }
+    },
+    "CoinStack": {
+        "ClassName": "CoinStack",
+        "Links": [
+            "GroupClipping",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "CoinStackNum": "Int32",
+            "IsNoShadow": "Boolean",
+            "IsOnDrawClipping": "Boolean",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "CollectItem": {
+        "ClassName": "CollectItem",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "CollectItemId": "Int32",
+            "ColorAnim": "Int32",
+            "GotAnimation": "Int32",
+            "Is2ndCollectItem": "Boolean",
+            "IsConnectToCollision": "Boolean",
+            "IsEnableTouchAppear": "Boolean",
+            "IsExpandClippingShadowLength": "Boolean",
+            "IsInvalidClipping": "Boolean",
+            "ShadowLength": "Single",
+            "TouchPointOffsetX": "Single",
+            "TouchPointOffsetY": "Single",
+            "TouchPointOffsetZ": "Single",
+            "TouchPointRadius": "Single"
+        }
+    },
+    "ConveyerMapParts": {
+        "ClassName": "ConveyerMapParts",
+        "Links": [
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "ActionName": "String",
+            "InterpolateType": "Int32",
+            "IsRideOnlyMove": "Boolean",
+            "KeyHitReactionName": "String",
+            "MoveAxis": "Int32",
+            "MoveSpeed": "Single",
+            "PartsInterval": "Single",
+            "StartRate": "Single"
+        }
+    },
+    "CountDownTimer": {
+        "ClassName": "CountDownTimer",
+        "Links": [
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "Count": "Int32",
+            "IsShowLayout": "Boolean"
+        }
+    },
+    "Crab": {
+        "ClassName": "Crab",
+        "Links": [
+            "MoveNext",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "ItemType": "String"
+        }
+    },
+    "Crawler": {
+        "ClassName": "Crawler",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "CollectItemId": "Int32",
+            "ItemType": "String",
+            "KeyMoveOffset": "Int32",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "UsingDepthShadow": "Boolean",
+            "WalkDelay": "Int32",
+            "WalkSpeed": "Single"
+        }
+    },
+    "DarknessTrapGas": {
+        "ClassName": "DarknessTrapGas",
+        "Links": [
+            "KeyMoveNext",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "InterpolateType": "Int32",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "DarknessTrapKeyMoveMapParts": {
+        "ClassName": "DarknessTrapKeyMoveMapParts",
+        "Links": [
+            "KeyMoveNext",
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "InterpolateType": "Int32",
+            "IsFloorTouchStart": "Boolean",
+            "IsPlaySign": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "SuffixName": "String",
+            "WaitTime": "Int32"
+        }
+    },
+    "DarknessTrapSeesawParts": {
+        "ClassName": "DarknessTrapSeesawParts",
+        "Links": [
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "MaxDegree": "Single",
+            "RotateAccelOff": "Single",
+            "RotateAccelOn": "Single"
+        }
+    },
+    "DarknessTrapTower": {
+        "ClassName": "DarknessTrapTower",
+        "Links": [
+            "KeyMoveNext",
+            "SwitchKill",
+            "SwitchStart",
+            "SwitchStopPartsAnim"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "InterpolateType": "Int32",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "DashPanel": {
+        "ClassName": "DashPanel",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "DashFrame": "Int32",
+            "IsShowShadowMask": "Boolean",
+            "NoConnectCollision": "Boolean"
+        }
+    },
+    "DeadSyncWatcher": {
+        "ClassName": "DeadSyncWatcher",
+        "Links": [
+            "WatchTargetObj"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "DebugWarpPoint": {
+        "ClassName": "DebugWarpPoint",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "DemoActor": {
+        "ClassName": "DemoActor",
+        "Links": [],
+        "Models": [
+            "BossBird",
+            "BottleOuter",
+            "Bull",
+            "Chorobon",
+            "Crawler",
+            "DemoBook",
+            "DemoEndingBossBirdFat",
+            "DemoEndingBossFire",
+            "DemoObjectDemoOpening3DWorld",
+            "DemoObjectDemoOpening3DWorldGround",
+            "DemoObjectDemoOpeningBalloon",
+            "DemoObjectDemoOpeningItem",
+            "DemoObjectEndingCutObjectA",
+            "DemoObjectEndingCutObjectB",
+            "DemoObjectEndingCutObjectC",
+            "DemoObjectRouteDokan",
+            "DemoOpeningSeason1AStep",
+            "DemoSeason3EndingStepB",
+            "DemoSeason3EndingStepBParts",
+            "DemoSeason3EndingStepC",
+            "DemoSeason3EndingStepD",
+            "DemoSeason3EndingStepEOdyssey",
+            "DemoSeason3EndingStepF",
+            "FairyPrincess01",
+            "FireBros",
+            "Gabon",
+            "GettonBody",
+            "GettonRoot",
+            "GoalItem",
+            "GreenStarGoalItem",
+            "HammerBros",
+            "Heyho",
+            "Kameck",
+            "Kidnapper",
+            "Killer",
+            "KillerSearch",
+            "Kinopico",
+            "KinopioMemberNPC",
+            "KoopaDemoOpening",
+            "Kuribo",
+            "KyoroHei",
+            "LuigiHummer",
+            "LuigiWrench",
+            "MagmaFish",
+            "MarioHummer",
+            "MarioWrench",
+            "Moking",
+            "Nukkun",
+            "NukkunHole",
+            "PackunFire",
+            "PackunFlower",
+            "Pukupuku",
+            "Season1OpeningStep",
+            "ShineTower",
+            "Tenten",
+            "TentenWing",
+            "Teren",
+            "Teresa",
+            "TeresaBig",
+            "Truck",
+            "TruckRadish",
+            "Tuccondor",
+            "Zombie"
+        ],
+        "Properties": {
+            "Action1": "String",
+            "Action2": "String",
+            "Action3": "String",
+            "ColorFrame": "Int32",
+            "DelayFrame1": "Int32",
+            "DelayFrame2": "Int32",
+            "DelayFrame3": "Int32",
+            "EnableWorldColorAnim": "Boolean",
+            "IsDrawClipping": "Boolean",
+            "ShowModelEndFrame": "Int32",
+            "ShowModelStartFrame": "Int32",
+            "SuffixName": "String"
+        }
+    },
+    "DemoActorPlayer": {
+        "ClassName": "DemoActorPlayer",
+        "Links": [],
+        "Models": [
+            "Kinopico",
+            "Kinopio",
+            "KinopioBlue",
+            "Luigi",
+            "Mario",
+            "Peach"
+        ],
+        "Properties": {
+            "Action1": "String",
+            "Action2": "String",
+            "Action3": "String",
+            "FigureType": "Int32",
+            "SuffixName": "String"
+        }
+    },
+    "DemoBossBirdPosition": {
+        "ClassName": "DemoBossBirdPosition",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "DemoCamera": {
+        "ClassName": "DemoCamera",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "Action1": "String",
+            "Action2": "String",
+            "Action3": "String",
+            "ArcName": "String"
+        }
+    },
+    "DemoStartPosition": {
+        "ClassName": "DemoStartPosition",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean"
+        }
+    },
+    "DepthOfFieldArea": {
+        "ClassName": "DepthOfFieldArea",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCylinder"
+        ],
+        "Properties": {
+            "IndirectScrollSpeed": "Single",
+            "Priority": "Int32",
+            "sStepInterpolation": "Int32"
+        }
+    },
+    "DisappearDoorKeyArea": {
+        "ClassName": "DisappearDoorKeyArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCylinder"
+        ],
+        "Properties": {}
+    },
+    "Dokan": {
+        "ClassName": "Dokan",
+        "Links": [
+            "DestDokan"
+        ],
+        "Models": [],
+        "Properties": {
+            "CameraInterpolate": "Boolean",
+            "IsBreakGiantMario": "Boolean",
+            "IsUseObjectCamera": "Boolean",
+            "OutCameraPlayStep": "Int32",
+            "Type": "Int32"
+        }
+    },
+    "DoorLock": {
+        "ClassName": "DoorLock",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsConnectCollision": "Boolean"
+        }
+    },
+    "DotKinopio": {
+        "ClassName": "DotKinopio",
+        "Links": [
+            "GoalDemoPoint",
+            "Rail",
+            "RailJump",
+            "SwitchTouchDisable",
+            "SwitchTouchOn",
+            "SwitchTouchValidate"
+        ],
+        "Models": [],
+        "Properties": {
+            "FindBlendRate": "Single",
+            "HereVoiceMaxVolumeDistance": "Single",
+            "HereVoiceStartDistance": "Single",
+            "IsConnectToCollision": "Boolean",
+            "IsEnableTwoSideTouch": "Boolean",
+            "IsUseObjectCamera": "Boolean",
+            "RailMoveSpeed": "Single",
+            "TouchDisableFrame": "Int32",
+            "TouchRange": "Single"
+        }
+    },
+    "DotKinopioGoalDemoPos": {
+        "ClassName": "DotKinopioGoalDemoPos",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "DoubleMario": {
+        "ClassName": "DoubleMario",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "DummyBossBird": {
+        "ClassName": "DummyBossBird",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "EchoBlockMapParts": {
+        "ClassName": "EchoBlockMapParts",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "EdgeDrawArea": {
+        "ClassName": "EdgeDrawArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "BoundDepth": "Single",
+            "ColorOffsetB": "Single",
+            "ColorOffsetG": "Single",
+            "ColorOffsetR": "Single",
+            "EndDepth": "Single",
+            "IsConstColor": "Boolean",
+            "PowerMin": "Single",
+            "Priority": "Int32"
+        }
+    },
+    "EffectObj": {
+        "ClassName": "EffectObj",
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectCollision": "Boolean",
+            "IsConnectToCollision": "Boolean"
+        }
+    },
+    "EffectObjAreaCube": {
+        "ClassName": "EffectObjAreaCube",
+        "Links": [
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "EffectEmitRatio": "Single",
+            "IsConnectCollision": "Boolean",
+            "IsConnectToCollision": "Boolean"
+        }
+    },
+    "EffectObjFollowCamera": {
+        "ClassName": "EffectObjFollowCamera",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "EffectObjLongExpress": {
+        "ClassName": "EffectObjLongExpress",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "EnemyChaseArea": {
+        "ClassName": "EnemyChaseArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "FallDurianGenerator": {
+        "ClassName": "FallDurianGenerator",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayAppearFrame": "Int32",
+            "Distance": "Single",
+            "GenerateFrame": "Int32"
+        }
+    },
+    "FallFireBallGenerator": {
+        "ClassName": "FallFireBallGenerator",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayAppearFrame": "Int32",
+            "Distance": "Single",
+            "GenerateFrame": "Int32"
+        }
+    },
+    "FallRockGenerator": {
+        "ClassName": "FallRockGenerator",
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [
+            "BossFireFallRock"
+        ],
+        "Properties": {
+            "DelayAppearFrame": "Int32",
+            "Distance": "Single",
+            "GenerateFrame": "Int32"
+        }
+    },
+    "FireBros": {
+        "ClassName": "FireBros",
+        "Links": [
+            "GroupClipping",
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "EnableObstacleCheck": "Boolean",
+            "InitRotate": "Single",
+            "IsKillStepKuribo": "Boolean",
+            "ItemType": "String",
+            "ScaffoldType": "Int32",
+            "StackNum": "Int32",
+            "UsingDepthShadow": "Boolean",
+            "WetType": "Int32"
+        }
+    },
+    "FishColony": {
+        "ClassName": "FishColony",
+        "Links": [
+            "Rail",
+            "SwimArea"
+        ],
+        "Models": [
+            "FishA"
+        ],
+        "Properties": {
+            "AvoidDist": "Single",
+            "FishNum": "Int32"
+        }
+    },
+    "FishSwimArea": {
+        "ClassName": "FishSwimArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "FixMapParts": {
+        "ClassName": "FixMapParts",
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [
+            "CloudCityWorld",
+            "CloudCotton",
+            "CloudEnterCatMario",
+            "CloudGhost",
+            "CloudHighPlace",
+            "CloudLavaWorld",
+            "CloudLong",
+            "CloudNightFullMoon",
+            "CloudNightThunderhead",
+            "CloudRefresh",
+            "CloudSandWorld",
+            "CloudSpaceNebula",
+            "CloudStorm",
+            "CloudThunderhead",
+            "CloudWaterfallWorld",
+            "CommonLeafA",
+            "DistantViewCityWorld",
+            "DistantViewWaterfallWorld",
+            "GroundGridBlue",
+            "GroundGridDarkBlue",
+            "GroundGridDarkGreen",
+            "GroundGridDesert",
+            "GroundGridDesertRed",
+            "GroundGridForest",
+            "GroundGridLavaBlue",
+            "GroundGridLavaRed",
+            "GroundGridPurple",
+            "GroundGridRock",
+            "GroundGridRouteDokanJet",
+            "GroundGridSea"
+        ],
+        "Properties": {}
+    },
+    "FixMapPartsCarpet": {
+        "ClassName": "FixMapPartsCarpet",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "FixMapPartsRhythm": {
+        "ClassName": "FixMapPartsRhythm",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "BeatOffset": "Int32",
+            "IsSyncBgmForMclAnime": "Boolean",
+            "IsSyncBgmForMtsAnime": "Boolean",
+            "IsSyncBgmForSklAnime": "Boolean"
+        }
+    },
+    "FixedMapParts": {
+        "ClassName": "FixedMapParts",
+        "Links": [],
+        "Models": [
+            "CloudRefresh",
+            "GroundGridForest"
+        ],
+        "Properties": {
+            "PlayAnimName": "String"
+        }
+    },
+    "FlowerCactus": {
+        "ClassName": "FlowerCactus",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "Color": "Int32"
+        }
+    },
+    "FlowerRhythm": {
+        "ClassName": "FlowerRhythm",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [
+            "FlowerDandelion",
+            "FlowerRhythm"
+        ],
+        "Properties": {
+            "FlowerPoinsettiaColor": "Int32",
+            "FlowerRhythmColor": "Int32",
+            "IsRhythmAnimReverse": "Boolean",
+            "IsRotateY": "Boolean",
+            "ItemType": "String"
+        }
+    },
+    "FogRequester": {
+        "ClassName": "FogRequester",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "FogColorBlue": "Single",
+            "FogColorGreen": "Single",
+            "FogColorRed": "Single",
+            "FogIntensity": "Single",
+            "FogInterp": "Int32",
+            "FogMulColorBlue": "Single",
+            "FogMulColorGreen": "Single",
+            "FogMulColorRed": "Single",
+            "FogPriority": "Int32",
+            "FogRangeEnd": "Single",
+            "FogRangeStart": "Single",
+            "FogShadowIntensity": "Single",
+            "YFogColorBlue": "Single",
+            "YFogColorGreen": "Single",
+            "YFogColorRed": "Single",
+            "YFogConnectAndMove": "Boolean",
+            "YFogFollowCamera": "Boolean",
+            "YFogIntensity": "Single",
+            "YFogInterp": "Int32",
+            "YFogMulColorBlue": "Single",
+            "YFogMulColorGreen": "Single",
+            "YFogMulColorRed": "Single",
+            "YFogPlacementRelative": "Boolean",
+            "YFogPriority": "Int32",
+            "YFogRangeEnd": "Single",
+            "YFogRangeStart": "Single",
+            "YFogShadowIntensity": "Single"
+        }
+    },
+    "FrameOutCtrlArea": {
+        "ClassName": "FrameOutCtrlArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "EnableHorizontalCheck": "Boolean",
+            "EnableVerticalCheck": "Boolean",
+            "ShowIconAtDisable": "Boolean"
+        }
+    },
+    "Gabon": {
+        "ClassName": "Gabon",
+        "Links": [
+            "GroupClipping"
+        ],
+        "Models": [],
+        "Properties": {
+            "GenerateDelay": "Int32",
+            "GenerateInterval": "Int32",
+            "MoveAccel": "Single",
+            "ThrowModel": "String",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "GateMapParts": {
+        "ClassName": "GateMapParts",
+        "Links": [
+            "GroupClipping",
+            "MoveNext",
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchStart",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "BoundRate": "Single",
+            "HitReactionCount": "Int32",
+            "OpenTime": "Int32"
+        }
+    },
+    "GettonHolder": {
+        "ClassName": "GettonHolder",
+        "Links": [
+            "GroupClipping",
+            "Rail"
+        ],
+        "Models": [],
+        "Properties": {
+            "Delay": "Int32",
+            "Depth": "Int32",
+            "Height": "Int32",
+            "IsEnableZPrePass": "Boolean",
+            "WaitTime": "Int32",
+            "Width": "Int32"
+        }
+    },
+    "GettonWatcher": {
+        "ClassName": "GettonWatcher",
+        "Links": [
+            "Getton"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "GoalArea": {
+        "ClassName": "GoalArea",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "GoalAreaChecker": {
+        "ClassName": "GoalAreaChecker",
+        "Links": [
+            "GoalArea"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "GoalItem": {
+        "ClassName": "GoalItem",
+        "Links": [
+            "SwitchAppear",
+            "SwitchGotOn",
+            "ViewGroup"
+        ],
+        "Models": [
+            "GoalItem",
+            "GoalItemCrown",
+            "GoalItemCrownDLC",
+            "GreenStarGoalItem",
+            "ShineGoalItem"
+        ],
+        "Properties": {
+            "AppearAnimName": "String",
+            "ColorType": "Int32",
+            "IsConnectToCollision": "Boolean",
+            "IsDisableGetAtMove": "Boolean",
+            "IsExpandClippingShadowLength": "Boolean",
+            "IsInvalidClipping": "Boolean",
+            "IsNoDepthShadow": "Boolean",
+            "ShadowLength": "Single",
+            "UsingOccludedEffect": "Boolean"
+        }
+    },
+    "GoalPedestral": {
+        "ClassName": "GoalPedestral",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsNoDepthShadow": "Boolean"
+        }
+    },
+    "GraphicsArea": {
+        "ClassName": "GraphicsArea",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "GraphicsObjShadowMaskCube": {
+        "ClassName": "GraphicsObjShadowMaskCube",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "ColorAlpha": "Single",
+            "ColorBlue": "Single",
+            "ColorGreen": "Single",
+            "ColorRed": "Single",
+            "DistYBase": "Single",
+            "ProjTex": "String",
+            "ProjTex2ScrollDirection": "Single",
+            "ProjTex2ScrollSpeed": "Single",
+            "ProjTexScrollDirection": "Single",
+            "ProjTexScrollSpeed": "Single",
+            "ShadowMaskDrawCategory": "Int32",
+            "ShadowMaskDumpType": "Int32",
+            "ShadowMaskPow": "Single",
+            "ShadowMaskPowX": "Single",
+            "ShadowMaskPowY": "Single",
+            "ShadowMaskPowZ": "Single",
+            "TextureFixedScale": "Single",
+            "UseTex2nd": "Boolean"
+        }
+    },
+    "GraphicsObjShadowMaskSphere": {
+        "ClassName": "GraphicsObjShadowMaskSphere",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "ColorAlpha": "Single",
+            "ColorBlue": "Single",
+            "ColorGreen": "Single",
+            "ColorRed": "Single",
+            "Radius": "Single",
+            "ShadowMaskDrawCategory": "Int32",
+            "ShadowMaskPow": "Single"
+        }
+    },
+    "GrassControl": {
+        "ClassName": "GrassControl",
+        "Links": [
+            "GrassObj"
+        ],
+        "Models": [],
+        "Properties": {
+            "BaseWindX": "Single",
+            "BaseWindZ": "Single",
+            "BendRate": "Single",
+            "SlideMax": "Single",
+            "TimeShift": "Single"
+        }
+    },
+    "GroupClipping": {
+        "ClassName": "GroupClipping",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "CommonId": "String"
+        }
+    },
+    "GroupClippingDummyTarget": {
+        "ClassName": "GroupClippingDummyTarget",
+        "Links": [
+            "GroupClipping"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "GroupSupportFreezeSync": {
+        "ClassName": "GroupSupportFreezeSync",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "GroupView": {
+        "ClassName": "GroupView",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "CommonId": "String"
+        }
+    },
+    "GuideAppearArea": {
+        "ClassName": "GuideAppearArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "GuideAppearPoint": {
+        "ClassName": "GuideAppearPoint",
+        "Links": [
+            "GuideAppearArea",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "ConnectFace": "Int32",
+            "DegreeXZ": "Single",
+            "DegreeYZBottom": "Single",
+            "DegreeYZUp": "Single",
+            "DistanceToCamera": "Single",
+            "IconType": "Int32",
+            "IsAppearConnected": "Boolean",
+            "IsConnectToCollision": "Boolean",
+            "isJudgeDegreeYZ": "Boolean"
+        }
+    },
+    "GuideGameWindowPoint": {
+        "ClassName": "GuideGameWindowPoint",
+        "Links": [
+            "GuideAppearArea"
+        ],
+        "Models": [],
+        "Properties": {
+            "DegreeXZ": "Single",
+            "DegreeYZBottom": "Single",
+            "DegreeYZUp": "Single",
+            "HideStartCamera": "Boolean",
+            "isDisplayOnce": "Boolean",
+            "isJudgeDegreeYZ": "Boolean"
+        }
+    },
+    "Hacchin": {
+        "ClassName": "Hacchin",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsAlwaysChase": "Boolean",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "HammerBros": {
+        "ClassName": "HammerBros",
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "ScaffoldType": "Int32",
+            "StackNum": "Int32",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "HammerBrosAllDeadWatcher": {
+        "ClassName": "HammerBrosAllDeadWatcher",
+        "Links": [
+            "HammerBros"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "Heyho": {
+        "ClassName": "Heyho",
+        "Links": [
+            "ChaseArea",
+            "GroupClipping",
+            "HeyhoWatchPoint",
+            "SwitchStart",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsOnMovingGround": "Boolean",
+            "IsReactToLight": "Boolean",
+            "MemoryDist": "Single",
+            "MemoryNum": "Int32",
+            "WatchType": "Int32"
+        }
+    },
+    "HeyhoRail": {
+        "ClassName": "HeyhoRail",
+        "Links": [
+            "ChaseArea",
+            "GroupClipping",
+            "Rail",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsColliderOffAtRail": "Boolean",
+            "IsReactToLight": "Boolean",
+            "MemoryDist": "Single",
+            "MemoryNum": "Int32"
+        }
+    },
+    "HeyhoWatchPoint": {
+        "ClassName": "HeyhoWatchPoint",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "HeyhoWatchId": "Int32",
+            "sTurnWaitFrame": "Int32"
+        }
+    },
+    "Kameck": {
+        "ClassName": "Kameck",
+        "Links": [
+            "Rail",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "NearestPoint": "Boolean",
+            "PlayerSearchOffsetY": "Single",
+            "SearchRange": "Int32",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "KeyMoveMapParts": {
+        "ClassName": "KeyMoveMapParts",
+        "Links": [
+            "FollowMtx",
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchStart",
+            "SwitchStop",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "EffectFrame": "Int32",
+            "EffectFramePart2": "Int32",
+            "EffectName": "String",
+            "InterpolateType": "Int32",
+            "IsCancelWithinWaitTime": "Boolean",
+            "IsDisableStaticTouchEffects": "Boolean",
+            "IsFloorTouchStart": "Boolean",
+            "IsIgnoreFirstWaitTime": "Boolean",
+            "IsPlaySign": "Boolean",
+            "IsReverseWhenSwitchOff": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "PlayEffect": "Boolean",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "SuffixName": "String",
+            "WaitTime": "Int32"
+        }
+    },
+    "KeyMoveMapPartsUpDown": {
+        "ClassName": "KeyMoveMapPartsUpDown",
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "EffectFrame": "Int32",
+            "EffectFramePart2": "Int32",
+            "EffectName": "String",
+            "InterpolateType": "Int32",
+            "IsFloorTouchStart": "Boolean",
+            "IsPlaySign": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "PlayEffect": "Boolean",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "SuffixName": "String",
+            "WaitTime": "Int32"
+        }
+    },
+    "KeyMoveStartAction": {
+        "ClassName": "KeyMoveStartAction",
+        "Links": [
+            "KeyMoveNext",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "EffectFrame": "Int32",
+            "EffectFramePart2": "Int32",
+            "EffectName": "String",
+            "InterpolateType": "Int32",
+            "IsFloorTouchStart": "Boolean",
+            "IsPlaySign": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "PlayEffect": "Boolean",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "SuffixName": "String",
+            "WaitTime": "Int32"
+        }
+    },
+    "KillerLauncher": {
+        "ClassName": "KillerLauncher",
+        "Links": [
+            "GroupClipping",
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [
+            "KillerLauncher",
+            "KillerLauncherL",
+            "KillerLauncherR"
+        ],
+        "Properties": {
+            "AccelFly": "Single",
+            "IsConnectCollision": "Boolean",
+            "IsHideModel": "Boolean",
+            "IsKillerCollideOff": "Boolean",
+            "IsPlacedKinopioBrigade": "Boolean",
+            "IsShadowMaskLong": "Boolean",
+            "IsShootImmediatelySwitchOn": "Boolean",
+            "IsValidateCollision": "Boolean",
+            "ShockWaveRadius": "Single",
+            "StepDelay": "Int32",
+            "StepDisappear": "Int32",
+            "StepWait": "Int32",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "KinokoOneUp": {
+        "ClassName": "KinokoOneUp",
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsPlacementInRouteDokan": "Boolean",
+            "WetType": "Int32"
+        }
+    },
+    "KinokoSuper": {
+        "ClassName": "KinokoSuper",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsKillByDamageCode": "Boolean",
+            "WetType": "Int32"
+        }
+    },
+    "KinokoTreasure": {
+        "ClassName": "KinokoTreasure",
+        "Links": [
+            "GroupClipping",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean"
+        }
+    },
+    "KinopicoDanceNpc": {
+        "ClassName": "KinopicoDanceNpc",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "KinopioBrigadeChecker": {
+        "ClassName": "KinopioBrigadeChecker",
+        "Links": [
+            "DemoStartPosition",
+            "GoalItem",
+            "PlayerNpc",
+            "SwitchGoalDemoStartOn",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "Clipping": "Boolean",
+            "Is2PPairWhenAlive": "Boolean",
+            "IsClearAfterDemo": "Boolean",
+            "IsLastBeforeDemo": "Boolean"
+        }
+    },
+    "KinopioMemberNpc": {
+        "ClassName": "KinopioMemberNpc",
+        "Links": [
+            "KinopioMemberNpcTakeOutItemArea",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "CollectItemId": "Int32",
+            "IsConnectToCollision": "Boolean",
+            "IsEnableTurn": "Boolean",
+            "IsPutGlass": "Boolean",
+            "IsSleep": "Boolean",
+            "KinopioColor": "Int32",
+            "KinopioEyeHeight": "Single",
+            "KinopioMemberNpcAppearItem": "String",
+            "WetType": "Int32"
+        }
+    },
+    "KinopioMemberNpcItem": {
+        "ClassName": "KinopioMemberNpcItem",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "KinopioMemberNpcItemColor": "Int32"
+        }
+    },
+    "KinopioMemberNpcItemArea": {
+        "ClassName": "KinopioMemberNpcItemArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "KinopioMemberNpcTakeOutItemArea": {
+        "ClassName": "KinopioMemberNpcTakeOutItemArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCylinder"
+        ],
+        "Properties": {}
+    },
+    "KinopioMemberNpcWatcher": {
+        "ClassName": "KinopioMemberNpcWatcher",
+        "Links": [
+            "KinopioMemberNpc",
+            "KinopioMemberNpcItemArea",
+            "KinopioNpcLeaveMultiLift",
+            "MultiLift"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "KinopioNpcLeaveMaltiLift": {
+        "ClassName": "KinopioNpcLeaveMaltiLift",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "KoopaSignBoard": {
+        "ClassName": "KoopaSignBoard",
+        "Links": [
+            "GroupClipping"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "Kuribo": {
+        "ClassName": "Kuribo",
+        "Links": [
+            "GroupClipping",
+            "SwitchWait",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsChangeBoxKuribo": "Boolean",
+            "IsEnableCliffCheck": "Boolean",
+            "IsNoUseShadowMask": "Boolean",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "KuriboClimbRail": {
+        "ClassName": "KuriboClimbRail",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsBodyAttackImmediately": "Boolean",
+            "IsControlShadowLength": "Boolean",
+            "IsPlacementSlope": "Boolean",
+            "ItemType": "String",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "KuriboTower": {
+        "ClassName": "KuriboTower",
+        "Links": [
+            "GroupClipping",
+            "SwitchDrawClippingOnOff"
+        ],
+        "Models": [],
+        "Properties": {
+            "CollectItemId": "Int32",
+            "EnableObstacleCheck": "Boolean",
+            "IsNoUseShadowMask": "Boolean",
+            "IsValidSwitchingAttackSensor": "Boolean",
+            "ItemInsertPosition": "Int32",
+            "ItemType": "String",
+            "SleepEnemy": "Boolean",
+            "StackNum": "Int32"
+        }
+    },
+    "KyoroHei": {
+        "ClassName": "KyoroHei",
+        "Links": [
+            "GroupClipping",
+            "MoveNext",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsMovePlus": "Boolean",
+            "IsNoHide": "Boolean",
+            "StartPosRate": "Single",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "Ladder": {
+        "ClassName": "Ladder",
+        "Links": [
+            "GroupClipping",
+            "LadderLink",
+            "SwitchKill",
+            "SwitchValidate",
+            "ViewGroup"
+        ],
+        "Models": [
+            "Normal50CM"
+        ],
+        "Properties": {
+            "IsEnablePlayerVoice": "Boolean",
+            "IsForbiddenAtMove": "Boolean",
+            "IsHideModel": "Boolean",
+            "LadderColor": "Int32",
+            "MtxConnectType": "Int32"
+        }
+    },
+    "LavaWorldSaucePan": {
+        "ClassName": "LavaWorldSaucePan",
+        "Links": [
+            "SwitchStart",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "Lift": {
+        "ClassName": "Lift",
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "SwitchStop",
+            "ViewGroup"
+        ],
+        "Models": [
+            "Lift4x4M",
+            "Lift4x4M_mike"
+        ],
+        "Properties": {
+            "DelayTime": "Int32",
+            "EffectFrame": "Int32",
+            "EffectFramePart2": "Int32",
+            "EffectName": "String",
+            "InterpolateType": "Int32",
+            "IsFloorTouchStart": "Boolean",
+            "IsPlaySign": "Boolean",
+            "IsStopKill": "Boolean",
+            "LiftColor": "Int32",
+            "MoveType": "Int32",
+            "PlayEffect": "Boolean",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "SuffixName": "String",
+            "WaitTime": "Int32"
+        }
+    },
+    "LogForestWaterPillar": {
+        "ClassName": "LogForestWaterPillar",
+        "Links": [
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "InterpolateType": "Int32",
+            "IsPlaySign": "Boolean",
+            "IsStopKill": "Boolean",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "LongExpressStepTop": {
+        "ClassName": "LongExpressStepTop",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "MagmaFish": {
+        "ClassName": "MagmaFish",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "AppearSignTime": "Int32",
+            "IsKillOnce": "Boolean",
+            "Speed": "Single",
+            "WaitTime": "Int32"
+        }
+    },
+    "Maneck": {
+        "ClassName": "Maneck",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Single",
+            "IsForceInvalid": "Boolean",
+            "IsSpeedArrange": "Boolean"
+        }
+    },
+    "ManeckInvalidArea": {
+        "ClassName": "ManeckInvalidArea",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "Maze": {
+        "ClassName": "Maze",
+        "Links": [
+            "ChildMaze",
+            "RangeFloorSet",
+            "RareItem",
+            "RecreateSwitch",
+            "ShuffleItem",
+            "SpecialFloorSet",
+            "SwitchAppear",
+            "TopFloorSwitchOn"
+        ],
+        "Models": [],
+        "Properties": {
+            "Depth": "Int32",
+            "TopFloorNum": "Int32",
+            "Width": "Int32"
+        }
+    },
+    "MazeItemGroup": {
+        "ClassName": "MazeItemGroup",
+        "Links": [
+            "Member"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "MazeRangeItemFloorSet": {
+        "ClassName": "MazeRangeItemFloorSet",
+        "Links": [
+            "RareItem",
+            "ShuffleItem"
+        ],
+        "Models": [],
+        "Properties": {
+            "Value": "Int32",
+            "Value2": "Int32"
+        }
+    },
+    "MazeSpecialItemFloorSet": {
+        "ClassName": "MazeSpecialItemFloorSet",
+        "Links": [
+            "RareItem",
+            "ShuffleItem"
+        ],
+        "Models": [],
+        "Properties": {
+            "Value": "Int32"
+        }
+    },
+    "MoamoaHolder": {
+        "ClassName": "MoamoaHolder",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "DepthNum": "Int32",
+            "HeightNum": "Int32",
+            "IsHideShadow": "Boolean",
+            "UsingDepthShadow": "Boolean",
+            "WeakWaitStep": "Int32",
+            "WidthNum": "Int32"
+        }
+    },
+    "Moking": {
+        "ClassName": "Moking",
+        "Links": [
+            "GroupClipping",
+            "Rail"
+        ],
+        "Models": [],
+        "Properties": {
+            "GroundCheckLength": "Single",
+            "IsForbiddenSideSlide": "Boolean",
+            "IsOffColliderAtRail": "Boolean",
+            "ShadowMaskDropLength": "Single"
+        }
+    },
+    "MokingLeader": {
+        "ClassName": "MokingLeader",
+        "Links": [
+            "GroupClipping",
+            "LinkMoking"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsUseClipping": "Boolean"
+        }
+    },
+    "Mole": {
+        "ClassName": "Mole",
+        "Links": [
+            "CollectItem",
+            "MoleControlArea",
+            "StartPoint"
+        ],
+        "Models": [],
+        "Properties": {
+            "CollectItemId": "Int32",
+            "ItemType": "String",
+            "MoveEndDistanceOffset": "Single",
+            "MoveSpeed": "Int32",
+            "MoveStartDistance": "Single",
+            "isEnableCheckStrikeArrow": "Boolean",
+            "isEnablePulloutCheckStrikeArrow": "Boolean"
+        }
+    },
+    "MoleControlArea": {
+        "ClassName": "MoleControlArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "MoleRoutePoint": {
+        "ClassName": "MoleRoutePoint",
+        "Links": [
+            "NextPoint"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "MultiLift": {
+        "ClassName": "MultiLift",
+        "Links": [
+            "KeyMoveNext"
+        ],
+        "Models": [],
+        "Properties": {
+            "InterpolateType": "Int32",
+            "IsAntiLightStrong": "Boolean",
+            "MoveType": "Int32",
+            "RideNum": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "NeedleBallBreakArea": {
+        "ClassName": "NeedleBallBreakArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "NeedleRollerBreakArea": {
+        "ClassName": "NeedleRollerBreakArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "NeedleSeed": {
+        "ClassName": "NeedleSeed",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "ItemType": "String",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "NeedleTrap": {
+        "ClassName": "NeedleTrap",
+        "Links": [
+            "GroupClipping"
+        ],
+        "Models": [
+            "NeedleTrap2x4M"
+        ],
+        "Properties": {
+            "AttackTime": "Int32",
+            "StandbyTime": "Int32",
+            "WaitTime": "Int32",
+            "WetType": "Int32"
+        }
+    },
+    "Nukkun": {
+        "ClassName": "Nukkun",
+        "Links": [
+            "GroupClipping",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "FixedAngle": "Int32",
+            "HideFrame": "Int32",
+            "IsHideShadowMaskUntilThrown": "Boolean",
+            "IsSearch": "Boolean",
+            "MoveType": "Int32",
+            "OnColliderForce": "Boolean",
+            "ShadowMaskDropLength": "Single",
+            "WetType": "Int32"
+        }
+    },
+    "OccludedEffectRequester": {
+        "ClassName": "OccludedEffectRequester",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "DirectionParamLatitudeDegree": "Single",
+            "DirectionParamLongitudeDegree": "Single",
+            "FollowCameraDistance": "Single",
+            "InvalidateClipping": "Boolean",
+            "IsFollowCamera": "Boolean",
+            "OfxPresetName": "String"
+        }
+    },
+    "OneSideStep": {
+        "ClassName": "OneSideStep",
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext",
+            "ViewGroup"
+        ],
+        "Models": [
+            "OneSideStep4x4M",
+            "OneSideStep6x6M",
+            "WheelPlanetOneSideStep"
+        ],
+        "Properties": {
+            "IsLimitJointMove": "Boolean",
+            "IsShowShadowMask": "Boolean",
+            "IsUseSmallClippingRadius": "Boolean",
+            "MoveType": "Int32",
+            "Speed": "Single",
+            "SpeedByTime": "Int32",
+            "WaitTime": "Int32"
+        }
+    },
+    "PackunFire": {
+        "ClassName": "PackunFire",
+        "Links": [
+            "GroupClipping",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsRemainTrace": "Boolean",
+            "ItemType": "String",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "PackunFlower": {
+        "ClassName": "PackunFlower",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsBlowBackDir": "Boolean",
+            "IsRemainTrace": "Boolean",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "PackunFlowerWithPot": {
+        "ClassName": "PackunFlowerWithPot",
+        "Links": [
+            "GroupClipping"
+        ],
+        "Models": [],
+        "Properties": {
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "PanelNotePaint": {
+        "ClassName": "PanelNotePaint",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [
+            "PanelNote000"
+        ],
+        "Properties": {
+            "Color": "Int32",
+            "IsConnectToCollision": "Boolean",
+            "IsPush": "Boolean"
+        }
+    },
+    "PanelNotePaintGroup": {
+        "ClassName": "PanelNotePaintGroup",
+        "Links": [
+            "PanelNotePaint",
+            "SwitchTrampleOn"
+        ],
+        "Models": [],
+        "Properties": {
+            "SeType": "Int32"
+        }
+    },
+    "PatanPanel": {
+        "ClassName": "PatanPanel",
+        "Links": [
+            "ChildPatanPanel",
+            "OpenSwitchOff"
+        ],
+        "Models": [
+            "PatanPanel",
+            "PatanPanelSlope"
+        ],
+        "Properties": {
+            "CloseFrame": "Int32",
+            "RotateFrame": "Int32"
+        }
+    },
+    "PatanPanelStarter": {
+        "ClassName": "PatanPanelStarter",
+        "Links": [
+            "StartSwitchOn"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "PickaxeItem": {
+        "ClassName": "PickaxeItem",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "PipePackun": {
+        "ClassName": "PipePackun",
+        "Links": [
+            "BodyNext",
+            "GroupClipping",
+            "SwitchDeadOn",
+            "SwitchStart"
+        ],
+        "Models": [
+            "PipePackunBodyPartsCorner",
+            "PipePackunBodyPartsStraight"
+        ],
+        "Properties": {
+            "HoleModelName": "String",
+            "HoleModelPosCoord": "Single",
+            "IsDamageType2D": "Boolean",
+            "IsUpSideDown": "Boolean",
+            "MinCoord": "Single",
+            "MoveSpeed": "Single",
+            "MoveType": "Int32",
+            "StartPositionRate": "Single"
+        }
+    },
+    "Player": {
+        "ClassName": "Player",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsDisableTouchCursor": "Boolean",
+            "IsEnableRope": "Boolean",
+            "IsNarrowPlace": "Boolean",
+            "MultiPlayerOn": "Boolean"
+        }
+    },
+    "PlayerAnimArea": {
+        "ClassName": "PlayerAnimArea",
+        "Links": [
+            "NoDelete_FollowMtxTarget",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCylinder"
+        ],
+        "Properties": {
+            "AnimStartFrame": "Int32",
+            "IntervalFrame": "Int32",
+            "PlayerAnimName": "String",
+            "Priority": "Int32"
+        }
+    },
+    "PlayerBindAnimObj": {
+        "ClassName": "PlayerBindAnimObj",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [
+            "AreaSphere"
+        ],
+        "Properties": {
+            "KillIfPlayerBind": "Boolean",
+            "PlayerAnimName": "String",
+            "UseAreaBoundsCheck": "Boolean"
+        }
+    },
+    "PlayerCeilingCheckOffArea": {
+        "ClassName": "PlayerCeilingCheckOffArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "PlayerCollisionFallOutObserveArea": {
+        "ClassName": "PlayerCollisionFallOutObserveArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "Priority": "Int32"
+        }
+    },
+    "PlayerCollisionFallOutReturnPoint": {
+        "ClassName": "PlayerCollisionFallOutReturnPoint",
+        "Links": [
+            "PlayerCollisionFallOutObserveArea"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "IsConnectToCollision": "Boolean"
+        }
+    },
+    "PlayerCollisionPartsGatherArea": {
+        "ClassName": "PlayerCollisionPartsGatherArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "PlayerFallActionControlArea": {
+        "ClassName": "PlayerFallActionControlArea",
+        "Links": [
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "AnimStartFrame": "Int32",
+            "IsEnableCollisionHeightCheck": "Boolean"
+        }
+    },
+    "PlayerFurOffArea": {
+        "ClassName": "PlayerFurOffArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "PlayerInvinciblePickaxeNoCollisionCheckArea": {
+        "ClassName": "PlayerInvinciblePickaxeNoCollisionCheckArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "PlayerNpc": {
+        "ClassName": "PlayerNpc",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SwitchAppear"
+        ],
+        "Models": [
+            "KinopicoNpc",
+            "KinopioNpc"
+        ],
+        "Properties": {
+            "isHaveHeadLight": "Boolean"
+        }
+    },
+    "PlayerRestartSetter": {
+        "ClassName": "PlayerRestartSetter",
+        "Links": [
+            "PlayerRestartPos",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "PlayerWetArea": {
+        "ClassName": "PlayerWetArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "Poster": {
+        "ClassName": "Poster",
+        "Links": [
+            "SwitchDeadOn"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "PosterType": "Int32"
+        }
+    },
+    "PrePassLineLight": {
+        "ClassName": "PrePassLineLight",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "AppearFrame": "Int32",
+            "ColorBlue": "Single",
+            "ColorGreen": "Single",
+            "ColorRed": "Single",
+            "IsIndirectIllumination": "Boolean",
+            "KillFrame": "Int32",
+            "LightDistDamp": "Single",
+            "LineLightLength": "Single",
+            "Radius": "Single"
+        }
+    },
+    "PrePassPointLight": {
+        "ClassName": "PrePassPointLight",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {
+            "AppearFrame": "Int32",
+            "ColorBlue": "Single",
+            "ColorGreen": "Single",
+            "ColorRed": "Single",
+            "IsEnableSpecular": "Boolean",
+            "IsIndirectIllumination": "Boolean",
+            "KillFrame": "Int32",
+            "LightShaderFunc": "Int32",
+            "PointLightDampPower": "Single",
+            "Radius": "Single",
+            "RandomCeil": "Single"
+        }
+    },
+    "PrePassProjLight": {
+        "ClassName": "PrePassProjLight",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "AppearFrame": "Int32",
+            "ColorBlue": "Single",
+            "ColorGreen": "Single",
+            "ColorRed": "Single",
+            "IsEnableSpecular": "Boolean",
+            "IsEnableSpecularColor": "Boolean",
+            "KillFrame": "Int32",
+            "LightDistDamp": "Single",
+            "ProjLightAspect": "Single",
+            "ProjLightFar": "Single",
+            "ProjLightFovyDegree": "Single",
+            "ProjLightNear": "Single",
+            "ProjTex": "String",
+            "SpecularColorBlue": "Single",
+            "SpecularColorGreen": "Single",
+            "SpecularColorRed": "Single",
+            "UseShadow": "Int32"
+        }
+    },
+    "PrePassProjOrthoLight": {
+        "ClassName": "PrePassProjOrthoLight",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "AppearFrame": "Int32",
+            "ColorBlue": "Single",
+            "ColorGreen": "Single",
+            "ColorRed": "Single",
+            "IsEnableSpecular": "Boolean",
+            "IsEnableSpecularColor": "Boolean",
+            "KillFrame": "Int32",
+            "LightDistDamp": "Single",
+            "ProjLightNear": "Single",
+            "ProjTex": "String",
+            "SpecularColorBlue": "Single",
+            "SpecularColorGreen": "Single",
+            "SpecularColorRed": "Single",
+            "TexScaleX": "Single",
+            "TexScaleY": "Single",
+            "TexSpeedX": "Single",
+            "TexSpeedY": "Single",
+            "UseShadow": "Int32"
+        }
+    },
+    "PrePassSpotLight": {
+        "ClassName": "PrePassSpotLight",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {
+            "AfterCollisionCheckOffset": "Single",
+            "AppearFrame": "Int32",
+            "ColorBlue": "Single",
+            "ColorGreen": "Single",
+            "ColorRed": "Single",
+            "IsEnableCollisionCheck": "Boolean",
+            "IsEnableSpecular": "Boolean",
+            "KillFrame": "Int32",
+            "SpotLightAngleDamp": "Single",
+            "SpotLightDegree": "Single",
+            "SpotLightLength": "Single",
+            "UseShadow": "Int32"
+        }
+    },
+    "Pukupuku": {
+        "ClassName": "Pukupuku",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SupportFreezeSyncGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "MoveType": "Int32",
+            "SwimSpeed": "Single",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "PullOutKinopicoNpc": {
+        "ClassName": "PullOutKinopicoNpc",
+        "Links": [
+            "DemoAppearLastPosTarget",
+            "PlayerPos",
+            "SwitchPullOutSuccessOn"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "PullOutObj": {
+        "ClassName": "PullOutObj",
+        "Links": [
+            "GroupClipping",
+            "GuideAppearPoint",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "AppearNum": "Int32",
+            "CollectItemId": "Int32",
+            "ColorAnim": "Int32",
+            "Is2ndCollectItem": "Boolean",
+            "IsConnectToCollision": "Boolean",
+            "IsEnableDepthShadow": "Boolean",
+            "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
+            "IsKillByMaterialCode": "Boolean",
+            "IsPullOutInfinite": "Boolean",
+            "IsRestartAssist": "Boolean",
+            "IsSyncSwitchClipping": "Boolean",
+            "ItemType": "String",
+            "WetType": "Int32"
+        }
+    },
+    "PullOutObjZoom": {
+        "ClassName": "PullOutObjZoom",
+        "Links": [
+            "GroupClipping",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsEnableDepthShadow": "Boolean",
+            "ItemType": "String"
+        }
+    },
+    "PullOutRadishBigEnableArea": {
+        "ClassName": "PullOutRadishBigEnableArea",
+        "Links": [],
+        "Models": [
+            "AreaCylinder"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "RadishColliderInvalidArea": {
+        "ClassName": "RadishColliderInvalidArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "Rail": {
+        "ClassName": "Rail",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsClosed": "Boolean",
+            "IsLadder": "Boolean",
+            "RailPoints": "list",
+            "RailType": "String"
+        }
+    },
+    "RailBossMagma": {
+        "ClassName": "RailBossMagma",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "Attack": "Boolean",
+            "IsClosed": "Boolean",
+            "IsLadder": "Boolean",
+            "RailPoints": "list",
+            "RailType": "String",
+            "Speed": "Single"
+        }
+    },
+    "RailJump": {
+        "ClassName": "RailJump",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsClosed": "Boolean",
+            "IsLadder": "Boolean",
+            "RailPoints": "list",
+            "RailType": "String"
+        }
+    },
+    "RideDragon": {
+        "ClassName": "RideDragon",
+        "Links": [
+            "Rail",
+            "SwitchEndDemoGoalOn"
+        ],
+        "Models": [],
+        "Properties": {
+            "MoveRangeX": "Single",
+            "RailMoveSpeed": "Single",
+            "RideDragonLv": "Int32"
+        }
+    },
+    "RotateMapParts": {
+        "ClassName": "RotateMapParts",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "RotateAxis": "Int32",
+            "RotateSpeed": "Single"
+        }
+    },
+    "RouteDokan": {
+        "ClassName": "RouteDokan",
+        "Links": [
+            "Parts"
+        ],
+        "Models": [],
+        "Properties": {
+            "ColorVariation": "Int32",
+            "MoveSpeed": "Single"
+        }
+    },
+    "RouteDokanBazooka": {
+        "ClassName": "RouteDokanBazooka",
+        "Links": [
+            "GroupClipping",
+            "Parts",
+            "TargetPos",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "Gravity": "Single",
+            "IsConnectLand": "Boolean",
+            "IsDisplayGuideIcon": "Boolean",
+            "IsUseObjectCamera": "Boolean",
+            "ModelSuffix": "String",
+            "MoveSpeed": "Single",
+            "ShootAngle": "Single",
+            "ShootSpeed": "Single",
+            "ShootType": "Int32"
+        }
+    },
+    "RouteDokanLauncher": {
+        "ClassName": "RouteDokanLauncher",
+        "Links": [
+            "Parts",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsUseHostUpDir": "Boolean",
+            "IsUseObjectCamera": "Boolean",
+            "ModelSuffix": "String",
+            "MoveSpeed": "Single"
+        }
+    },
+    "RouteDokanParts": {
+        "ClassName": "RouteDokanParts",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [
+            "DokanBranch",
+            "DokanCorner",
+            "DokanCornerAir",
+            "DokanStraight16M",
+            "DokanStraight1M",
+            "DokanStraight2M",
+            "DokanStraight4M",
+            "DokanStraight50CM",
+            "DokanStraight8M",
+            "RouteDokanBranch",
+            "RouteDokanCorner",
+            "RouteDokanCornerAir",
+            "RouteDokanCross",
+            "RouteDokanStraight16M",
+            "RouteDokanStraight1M",
+            "RouteDokanStraight2M",
+            "RouteDokanStraight4M",
+            "RouteDokanStraight50CM",
+            "RouteDokanStraight8M"
+        ],
+        "Properties": {
+            "ModelSuffix": "String"
+        }
+    },
+    "SePlayArea": {
+        "ClassName": "SePlayArea",
+        "Links": [
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "IsDisableSeStop": "Boolean",
+            "IsOneTime": "Boolean",
+            "Priority": "Int32",
+            "SePlayName": "String"
+        }
+    },
+    "SePlayObj": {
+        "ClassName": "SePlayObj",
+        "Links": [
+            "SwitchKill",
+            "SwitchStart"
+        ],
+        "Models": [],
+        "Properties": {
+            "ClippingRadius": "Single",
+            "IsValidClipping": "Boolean",
+            "SePlayName": "String"
+        }
+    },
+    "SePlayRail": {
+        "ClassName": "SePlayRail",
+        "Links": [
+            "Rail"
+        ],
+        "Models": [],
+        "Properties": {
+            "SePlayName": "String"
+        }
+    },
+    "Seaweed": {
+        "ClassName": "Seaweed",
+        "Links": [],
+        "Models": [
+            "SeaweedA"
+        ],
+        "Properties": {
+            "ColorFrame": "Int32",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "Seesaw": {
+        "ClassName": "Seesaw",
+        "Links": [
+            "GroupClipping",
+            "SeesawJumpPoint"
+        ],
+        "Models": [
+            "Seesaw6M",
+            "Seesaw8M"
+        ],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "JumpHeight": "Single",
+            "MaxDegree": "Single",
+            "MaxDegreeJump": "Single",
+            "RotateAccelOff": "Single",
+            "RotateAccelOn": "Single"
+        }
+    },
+    "SeesawMapParts": {
+        "ClassName": "SeesawMapParts",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "MaxDegree": "Single",
+            "RotateAccelOff": "Single",
+            "RotateAccelOn": "Single"
+        }
+    },
+    "SignBoard": {
+        "ClassName": "SignBoard",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [
+            "SignBoardNormalDown",
+            "SignBoardNormalLeft",
+            "SignBoardNormalRight",
+            "SignBoardWoodDown",
+            "SignBoardWoodLeft",
+            "SignBoardWoodRight",
+            "SignBoardWoodRightDown",
+            "SignBoardWoodWallRight"
+        ],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsSnowCover": "Boolean",
+            "WetType": "Int32"
+        }
+    },
+    "SinkedItem": {
+        "ClassName": "SinkedItem",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsEffectOn": "Boolean",
+            "ItemType": "String"
+        }
+    },
+    "Sky": {
+        "ClassName": "Sky",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [
+            "SkyAnotherWorld",
+            "SkyAnotherWorldDark",
+            "SkyBlack",
+            "SkyBlueSunny",
+            "SkyBlueThunderhead",
+            "SkyBlueUnderground",
+            "SkyBossBird2",
+            "SkyBrownUnderground",
+            "SkyCityWorld",
+            "SkyClockDisc",
+            "SkyCloudy",
+            "SkyCloudyDark",
+            "SkyDesertBlue",
+            "SkyDesertOrangeTwilight",
+            "SkyEnterCatMario",
+            "SkyForest",
+            "SkyFullMoon",
+            "SkyGettonForest",
+            "SkyGhost",
+            "SkyLavaBlue",
+            "SkyLavaRed",
+            "SkyLavaWorld",
+            "SkyMorningGlow",
+            "SkyNightStardust",
+            "SkyOrangeTwilight",
+            "SkyPoison",
+            "SkyRouteDokanTour",
+            "SkySandWorld",
+            "SkySandWorldNight",
+            "SkySpace",
+            "SkyStorm",
+            "SkyTwoSide",
+            "SkyWaterfallWorld"
+        ],
+        "Properties": {
+            "IsOnlyCubeMap": "Boolean"
+        }
+    },
+    "SkyProjection": {
+        "ClassName": "SkyProjection",
+        "Links": [
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {
+            "CloudTexMtxV": "Single",
+            "CloudTexMtxVUnder": "Single",
+            "IsEnableTexMtxSet": "Boolean",
+            "IsEnableTexMtxSetUnder": "Boolean",
+            "IsOnlyCubeMap": "Boolean",
+            "IsUseDemo": "Boolean",
+            "SkyTexMtxV": "Single",
+            "SkyTexMtxVUnder": "Single"
+        }
+    },
+    "SlideMapParts": {
+        "ClassName": "SlideMapParts",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "DelayTime": "Int32",
+            "MoveAxis": "Int32",
+            "MoveDistance": "Single",
+            "MoveSpeed": "Single",
+            "MoveTime": "Int32",
+            "SurfaceHeight": "Single",
+            "WaitTime": "Int32"
+        }
+    },
+    "StageEndEventSeasonHalfDemo": {
+        "ClassName": "StageEndEventSeasonHalfDemo",
+        "Links": [],
+        "Models": [
+            "DemoSeason2HalfStage",
+            "DemoSeason3HalfStage",
+            "DemoSeasonHalfStage"
+        ],
+        "Properties": {}
+    },
+    "StageStartBindDemoBossBird": {
+        "ClassName": "StageStartBindDemoBossBird",
+        "Links": [
+            "BossBirdOpening"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "StageStartBindDemoZoomIn": {
+        "ClassName": "StageStartBindDemoZoomIn",
+        "Links": [
+            "SwitchDeadOn"
+        ],
+        "Models": [],
+        "Properties": {
+            "StartAnimation": "String"
+        }
+    },
+    "StageStartEventCamera": {
+        "ClassName": "StageStartEventCamera",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "Action1": "String",
+            "ArcName": "String"
+        }
+    },
+    "StageStartEventDemo": {
+        "ClassName": "StageStartEventDemo",
+        "Links": [],
+        "Models": [
+            "DemoEndingSeason1Stage",
+            "DemoEndingSeason3Stage"
+        ],
+        "Properties": {}
+    },
+    "StageStartEventSound": {
+        "ClassName": "StageStartEventSound",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "SoundName": "String"
+        }
+    },
+    "StageSwitch": {
+        "ClassName": "StageSwitch",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "CommonId": "String"
+        }
+    },
+    "SubjectiveCameraLauncher": {
+        "ClassName": "SubjectiveCameraLauncher",
+        "Links": [
+            "BindCancelSwitch",
+            "GroupClipping",
+            "GuideAppearPoint",
+            "SwitchSubjectiveCameraOnOff"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsSkipMovement": "Boolean",
+            "IsUseObjectTVCamera": "Boolean"
+        }
+    },
+    "SwitchAnd": {
+        "ClassName": "SwitchAnd",
+        "Links": [
+            "InputSwitchA",
+            "InputSwitchB",
+            "InputSwitchC",
+            "InputSwitchD",
+            "OutputSwitchOn"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "SwitchBlock": {
+        "ClassName": "SwitchBlock",
+        "Links": [
+            "KeyMoveNext"
+        ],
+        "Models": [],
+        "Properties": {
+            "MoveType": "Int32"
+        }
+    },
+    "SwitchBlockWatcher": {
+        "ClassName": "SwitchBlockWatcher",
+        "Links": [
+            "SwitchBlock",
+            "SwitchBlockSwitch"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "SwitchClippingDirector": {
+        "ClassName": "SwitchClippingDirector",
+        "Links": [
+            "ClippingTarget",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "SwitchKeepOnArea": {
+        "ClassName": "SwitchKeepOnArea",
+        "Links": [
+            "NoDelete_FollowMtxTarget",
+            "SwitchAppear",
+            "SwitchAreaOn",
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "OnCondition": "Int32",
+            "Priority": "Int32"
+        }
+    },
+    "SwitchOnArea": {
+        "ClassName": "SwitchOnArea",
+        "Links": [
+            "SwitchAppear",
+            "SwitchAreaOn",
+            "SwitchKill"
+        ],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCubeCenter"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "SwitchPull": {
+        "ClassName": "SwitchPull",
+        "Links": [
+            "GroupClipping",
+            "GuideAppearPoint",
+            "SwitchPullOn",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "PullType": "Int32"
+        }
+    },
+    "SwitchRotateSwitch": {
+        "ClassName": "SwitchRotateSwitch",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "SwitchRotateWatcher": {
+        "ClassName": "SwitchRotateWatcher",
+        "Links": [
+            "RotateObjectLink",
+            "RotateSwitchLink"
+        ],
+        "Models": [],
+        "Properties": {
+            "ClockAngle": "Single",
+            "RotateAxis": "Int32",
+            "RotateTime": "Int32"
+        }
+    },
+    "TargetPos": {
+        "ClassName": "TargetPos",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "Action": "Int32"
+        }
+    },
+    "TentenGenerator": {
+        "ClassName": "TentenGenerator",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SupportFreezeSyncGroup",
+            "SwitchAllDeadOn",
+            "SwitchAnyDeadOn",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "AttachItemWidthNum": "Int32",
+            "GreenStarId": "Int32",
+            "HeightNum": "Int32",
+            "IsInvalidTurn": "Boolean",
+            "IsSetSameColorAll": "Boolean",
+            "ItemType": "String",
+            "MoveSpeed": "Int32",
+            "OffsetHeight": "Single",
+            "OffsetWidth": "Single",
+            "ShadowMaskLength": "Int32",
+            "TentenColor": "Int32",
+            "UsingDepthShadow": "Boolean",
+            "WidthNum": "Int32"
+        }
+    },
+    "TentenGeneratorNormal": {
+        "ClassName": "TentenGeneratorNormal",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SupportFreezeSyncGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "AttachItemWidthNum": "Int32",
+            "GreenStarId": "Int32",
+            "IsSetSameColorAll": "Boolean",
+            "ItemType": "String",
+            "OffsetWidth": "Single",
+            "TentenColor": "Int32",
+            "UsingDepthShadow": "Boolean",
+            "WidthNum": "Int32"
+        }
+    },
+    "Teren": {
+        "ClassName": "Teren",
+        "Links": [
+            "GroupClipping",
+            "Rail",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsInvalidSilhouette": "Boolean",
+            "ShadowLength": "Int32",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "Teresa": {
+        "ClassName": "Teresa",
+        "Links": [
+            "PlayerCollisionFallOutObserveArea",
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "TestSwitchBlock": {
+        "ClassName": "TestSwitchBlock",
+        "Links": [
+            "KeyMoveNext"
+        ],
+        "Models": [],
+        "Properties": {
+            "MoveType": "Int32"
+        }
+    },
+    "TimerStageSwitch": {
+        "ClassName": "TimerStageSwitch",
+        "Links": [
+            "SwitchStart",
+            "SwitchTimerOn"
+        ],
+        "Models": [],
+        "Properties": {
+            "Timer": "Int32"
+        }
+    },
+    "TouchRotatePanel": {
+        "ClassName": "TouchRotatePanel",
+        "Links": [
+            "RotateParts",
+            "TransParts",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean",
+            "IsEnableDeath": "Boolean"
+        }
+    },
+    "TouchRotateParts": {
+        "ClassName": "TouchRotateParts",
+        "Links": [
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsEmitAtCollision": "Boolean",
+            "IsReverse": "Boolean",
+            "LimitDegreeLeft": "Single",
+            "LimitDegreeRight": "Single",
+            "RotateAxis": "Int32"
+        }
+    },
+    "TouchTransParts": {
+        "ClassName": "TouchTransParts",
+        "Links": [
+            "TouchTransParts"
+        ],
+        "Models": [],
+        "Properties": {
+            "TransType": "Int32"
+        }
+    },
+    "TrampleSwitch": {
+        "ClassName": "TrampleSwitch",
+        "Links": [
+            "GroupClipping",
+            "SwitchTrampleOn"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean"
+        }
+    },
+    "TrampleSwitchTogether": {
+        "ClassName": "TrampleSwitchTogether",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "TrampleSwitchTogetherWatcher": {
+        "ClassName": "TrampleSwitchTogetherWatcher",
+        "Links": [
+            "SwitchTrampleAllOn",
+            "TrampleSwitchTogetherList"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "TransparentWall": {
+        "ClassName": "TransparentWall",
+        "Links": [
+            "SwitchAppear",
+            "SwitchKill"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "Tree": {
+        "ClassName": "Tree",
+        "Links": [
+            "ClippingExpander",
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [
+            "TreeLongA",
+            "TreeLongC",
+            "TreePalm"
+        ],
+        "Properties": {
+            "IsRotateY": "Boolean",
+            "IsUseZPP": "Boolean",
+            "ItemType": "String",
+            "LightType": "Int32"
+        }
+    },
+    "Truck": {
+        "ClassName": "Truck",
+        "Links": [
+            "GetOffPoint",
+            "TruckRideOnOff",
+            "TruckWarpPoint"
+        ],
+        "Models": [],
+        "Properties": {
+            "Accel": "Single",
+            "BgmGetOffFadeinFrame": "Int32",
+            "BgmGetOffStartFrame": "Int32",
+            "BgmGetOnFadeoutFrame": "Int32",
+            "BgmNameGetOff": "String",
+            "BgmNameGetOn": "String",
+            "BgmSituationNameGetOff": "String",
+            "BgmSituationNameGetOn": "String",
+            "BulletMoveType": "Boolean",
+            "IsUseDepthShadow": "Boolean"
+        }
+    },
+    "TruckGetOffPoint": {
+        "ClassName": "TruckGetOffPoint",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "JumpFrame": "Int32",
+            "JumpHeight": "Single"
+        }
+    },
+    "TruckWarpPoint": {
+        "ClassName": "TruckWarpPoint",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "WarpOrder": "Int32"
+        }
+    },
+    "Tuccondor": {
+        "ClassName": "Tuccondor",
+        "Links": [
+            "GroupClipping",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsSearchCircle": "Boolean",
+            "IsTuccondorAttackShort": "Boolean",
+            "SearchAngleDegreeLeft": "Single",
+            "SearchAngleDegreeRight": "Single",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "TuccondorTrap": {
+        "ClassName": "TuccondorTrap",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "InvalidateBodyAttackSensor": "Boolean",
+            "IsTuccondorAttackShort": "Boolean",
+            "ShadowLength": "Single",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "Ukibo": {
+        "ClassName": "Ukibo",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsOffCollide": "Boolean",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "ViewCtrlArea": {
+        "ClassName": "ViewCtrlArea",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "VisibleSwitchMapParts": {
+        "ClassName": "VisibleSwitchMapParts",
+        "Links": [
+            "SwitchAppear",
+            "SwitchDisappear",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "VisibleSwitchMapPartsRhythm": {
+        "ClassName": "VisibleSwitchMapPartsRhythm",
+        "Links": [
+            "SwitchDisappear"
+        ],
+        "Models": [],
+        "Properties": {
+            "BeatOffset": "Int32",
+            "IsSyncBgmForMclAnime": "Boolean",
+            "IsSyncBgmForMtsAnime": "Boolean",
+            "IsSyncBgmForSklAnime": "Boolean"
+        }
+    },
+    "WarpCube": {
+        "ClassName": "WarpCube",
+        "Links": [
+            "DestCube",
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchObjectCameraKeepOn",
+            "ViewGroup",
+            "WarpCubeLockedPiece"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsBgmChangeWhenPieceComplete": "Boolean",
+            "IsBonus": "Boolean",
+            "IsConnectToCollision": "Boolean",
+            "IsOutSpeedZero": "Boolean",
+            "IsQuietAppear": "Boolean",
+            "IsUseGetPieceCamera": "Boolean",
+            "IsUseObjectCamera": "Boolean",
+            "IsUseSwitchAppearCamera": "Boolean",
+            "OutCameraPlayStep": "Int32",
+            "Type": "Int32",
+            "WetType": "Int32"
+        }
+    },
+    "WarpCubeLockedPiece": {
+        "ClassName": "WarpCubeLockedPiece",
+        "Links": [
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsAppearRise": "Boolean",
+            "ShadowLength": "Single"
+        }
+    },
+    "WarpDoor": {
+        "ClassName": "WarpDoor",
+        "Links": [
+            "DestDoor",
+            "GroupClipping"
+        ],
+        "Models": [
+            "WarpDoor",
+            "WarpDoorTeresaFrameOff"
+        ],
+        "Properties": {
+            "CameraInterpolate": "Boolean",
+            "ConnectCollision": "Boolean",
+            "GatherPlayer": "Boolean"
+        }
+    },
+    "WheelMapParts": {
+        "ClassName": "WheelMapParts",
+        "Links": [
+            "Rail"
+        ],
+        "Models": [],
+        "Properties": {
+            "MoveEndDegree": "Single",
+            "RotateAccel": "Single",
+            "RotateAxis": "Int32"
+        }
+    },
+    "WheelMapPartsEffectObjAtCollision": {
+        "ClassName": "WheelMapPartsEffectObjAtCollision",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsEmitAtCollision": "Boolean",
+            "MoveEndDegree": "Single",
+            "RotateAccel": "Single",
+            "RotateAxis": "Int32"
+        }
+    },
+    "WheelMapPartsRotateWatcher": {
+        "ClassName": "WheelMapPartsRotateWatcher",
+        "Links": [
+            "WheelMapParts1",
+            "WheelMapParts2",
+            "WheelMapParts3"
+        ],
+        "Models": [],
+        "Properties": {
+            "PermitDegree": "Single",
+            "RotateDegree1": "Single",
+            "RotateDegree2": "Single",
+            "RotateDegree3": "Single"
+        }
+    },
+    "WindBox": {
+        "ClassName": "WindBox",
+        "Links": [
+            "GroupClipping",
+            "KeyMoveNext"
+        ],
+        "Models": [],
+        "Properties": {
+            "InterpolateType": "Int32",
+            "MoveType": "Int32",
+            "Speed": "Single"
+        }
+    },
+    "WindBoxWatcher": {
+        "ClassName": "WindBoxWatcher",
+        "Links": [
+            "SwitchKill",
+            "WindBox"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
+    "WindRotateParts": {
+        "ClassName": "WindRotateParts",
+        "Links": [],
+        "Models": [],
+        "Properties": {
+            "SpinFrame": "Int32",
+            "SpinFrameRate": "Single",
+            "SpinSpeedDownFrame": "Int32"
+        }
+    },
+    "WoodBox": {
+        "ClassName": "WoodBox",
+        "Links": [
+            "SwitchDeadOn",
+            "ViewGroup"
+        ],
+        "Models": [],
+        "Properties": {
+            "IsSetTraceModel": "Boolean",
+            "IsUseBreakModel": "Boolean",
+            "IsUseZPrePass": "Boolean",
+            "ItemType": "String",
+            "UsingDepthShadow": "Boolean"
+        }
+    },
+    "Zombie": {
+        "ClassName": "Zombie",
+        "Links": [
+            "GroupClipping",
+            "KillArea",
+            "SwitchAllKillOn",
+            "SwitchAppear",
+            "SwitchKill",
+            "SwitchKillForce",
+            "ViewGroup",
+            "ZombiePoint"
+        ],
+        "Models": [],
+        "Properties": {
+            "InvalidateDepthShadow": "Boolean",
+            "IsConnectToCollision": "Boolean",
+            "IsEnableLightSensor": "Boolean",
+            "checkStrikeLight": "Boolean"
+        }
+    },
+    "ZombieKillArea": {
+        "ClassName": "ZombieKillArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "ZombiePoint": {
+        "ClassName": "ZombiePoint",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "Zone": {
+        "ClassName": "Zone",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "ZoomInvalidArea": {
+        "ClassName": "ZoomInvalidArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    }
+}

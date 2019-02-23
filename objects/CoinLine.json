@@ -4,21 +4,5 @@
     "Name": "CoinLine",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CoinNum": "Int32",
-        "CubeMapUnitName": "String",
-        "DelayStep": "Int32",
-        "InvalidateClipping": "Boolean",
-        "IsInvalidPopUp": "Boolean",
-        "IsPlacementPoint": "Boolean",
-        "IsPlayCompleteSe": "Boolean",
-        "PlacementOffset": "Single"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "SwitchAppear"
-    ]
+    "Description": ""
 }

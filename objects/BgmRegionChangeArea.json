@@ -4,16 +4,5 @@
     "Name": "BgmRegionChangeArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "BgmSituationName": "String",
-        "Priority": "Int32"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": []
+    "Description": ""
 }

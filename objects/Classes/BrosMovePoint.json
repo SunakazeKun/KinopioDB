@@ -1,0 +1,12 @@
+{
+    "ClassName": "BrosMovePoint",
+    "Links": [
+        "GroupClipping",
+        "KeyMoveNext"
+    ],
+    "Models": [],
+    "Properties": {
+        "ScaffoldType": "Int32",
+        "StackNum": "Int32"
+    }
+}

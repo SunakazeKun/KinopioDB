@@ -1,0 +1,8 @@
+{
+    "ClassName": "DemoStartPosition",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean"
+    }
+}

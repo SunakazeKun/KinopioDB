@@ -1,0 +1,13 @@
+{
+    "ClassName": "RailBossMagma",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "Attack": "Boolean",
+        "IsClosed": "Boolean",
+        "IsLadder": "Boolean",
+        "RailPoints": "list",
+        "RailType": "String",
+        "Speed": "Single"
+    }
+}

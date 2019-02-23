@@ -1,0 +1,25 @@
+{
+    "ClassName": "PullOutObj",
+    "Links": [
+        "GroupClipping",
+        "GuideAppearPoint",
+        "SwitchKill",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "AppearNum": "Int32",
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "Is2ndCollectItem": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
+        "IsKillByMaterialCode": "Boolean",
+        "IsPullOutInfinite": "Boolean",
+        "IsRestartAssist": "Boolean",
+        "IsSyncSwitchClipping": "Boolean",
+        "ItemType": "String",
+        "WetType": "Int32"
+    }
+}

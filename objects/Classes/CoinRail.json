@@ -1,0 +1,16 @@
+{
+    "ClassName": "CoinRail",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "CoinNum": "Int32",
+        "CoinSpeed": "Single",
+        "Delay": "Int32",
+        "IsPlacementInRouteDokan": "Boolean",
+        "IsRailEqualInterval": "Boolean"
+    }
+}

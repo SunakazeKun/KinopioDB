@@ -4,8 +4,5 @@
     "Name": "Mud Trooper Member",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "The actual spawn point for one Mud Trooper. See \"Zombie\" for more information.",
-    "Properties": {},
-    "Models": [],
-    "Links": []
+    "Description": "The actual spawn point for one Mud Trooper. See \"Zombie\" for more information."
 }

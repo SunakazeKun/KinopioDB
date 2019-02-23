@@ -4,15 +4,5 @@
     "Name": "BossFireToppleParts",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "LinkGoalItemDummy",
-        "MoveNext",
-        "SwitchStart",
-        "SwitchStartBreakSignLv1",
-        "SwitchStartBreakSignLv2"
-    ]
+    "Description": ""
 }

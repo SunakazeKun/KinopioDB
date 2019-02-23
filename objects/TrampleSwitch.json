@@ -4,14 +4,5 @@
     "Name": "TrampleSwitch",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchTrampleOn"
-    ]
+    "Description": ""
 }

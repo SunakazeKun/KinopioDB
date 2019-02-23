@@ -1,0 +1,11 @@
+{
+    "ClassName": "MokingLeader",
+    "Links": [
+        "GroupClipping",
+        "LinkMoking"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsUseClipping": "Boolean"
+    }
+}

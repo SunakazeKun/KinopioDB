@@ -4,11 +4,5 @@
     "Name": "TransparentWallPlayerOnly",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

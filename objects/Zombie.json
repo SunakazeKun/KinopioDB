@@ -4,22 +4,5 @@
     "Name": "Mud Trooper Group",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A group of Mud Troopers, undead zombie-like creatures. The coordinates of each Mud Trooper is linked in \"ZombiePoint\". It also needs an appearance switch.",
-    "Properties": {
-        "InvalidateDepthShadow": "Boolean",
-        "IsConnectToCollision": "Boolean",
-        "IsEnableLightSensor": "Boolean",
-        "checkStrikeLight": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "KillArea",
-        "SwitchAllKillOn",
-        "SwitchAppear",
-        "SwitchKill",
-        "SwitchKillForce",
-        "ViewGroup",
-        "ZombiePoint"
-    ]
+    "Description": "A group of Mud Troopers, undead zombie-like creatures. The coordinates of each Mud Trooper is linked in \"ZombiePoint\". It also needs an appearance switch."
 }

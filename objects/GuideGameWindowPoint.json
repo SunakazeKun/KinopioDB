@@ -4,17 +4,5 @@
     "Name": "GuideGameWindowPoint",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "DegreeXZ": "Single",
-        "DegreeYZBottom": "Single",
-        "DegreeYZUp": "Single",
-        "HideStartCamera": "Boolean",
-        "isDisplayOnce": "Boolean",
-        "isJudgeDegreeYZ": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GuideAppearArea"
-    ]
+    "Description": ""
 }

@@ -4,17 +4,5 @@
     "Name": "SwitchPull",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean",
-        "PullType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "GuideAppearPoint",
-        "SwitchPullOn",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

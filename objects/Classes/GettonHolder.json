@@ -1,0 +1,16 @@
+{
+    "ClassName": "GettonHolder",
+    "Links": [
+        "GroupClipping",
+        "Rail"
+    ],
+    "Models": [],
+    "Properties": {
+        "Delay": "Int32",
+        "Depth": "Int32",
+        "Height": "Int32",
+        "IsEnableZPrePass": "Boolean",
+        "WaitTime": "Int32",
+        "Width": "Int32"
+    }
+}

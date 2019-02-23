@@ -1,0 +1,14 @@
+{
+    "ClassName": "Bull",
+    "Links": [
+        "GroupClipping",
+        "SwitchStart",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsInMaze": "Boolean",
+        "IsPlayFindBgm": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    }
+}

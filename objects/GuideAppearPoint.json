@@ -4,21 +4,5 @@
     "Name": "GuideAppearPoint",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ConnectFace": "Int32",
-        "DegreeXZ": "Single",
-        "DegreeYZBottom": "Single",
-        "DegreeYZUp": "Single",
-        "DistanceToCamera": "Single",
-        "IconType": "Int32",
-        "IsAppearConnected": "Boolean",
-        "IsConnectToCollision": "Boolean",
-        "isJudgeDegreeYZ": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GuideAppearArea",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

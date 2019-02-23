@@ -4,11 +4,5 @@
     "Name": "EffectObjIncidentLight",
     "List": "ObjectList",
     "Category": "decoration",
-    "Description": "",
-    "Properties": {
-        "IsConnectCollision": "Boolean",
-        "IsConnectToCollision": "Boolean"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

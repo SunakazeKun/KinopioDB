@@ -1,0 +1,29 @@
+{
+    "ClassName": "BlockRail",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [
+        "BlockRailCurve12x12M",
+        "BlockRailCurve12x12MNoModel",
+        "BlockRailCurve4x4MNoModel",
+        "BlockRailCurve8x8M",
+        "BlockRailCurve8x8MNoModel",
+        "BlockRailSlope4x2M",
+        "BlockRailSlope4x2MNoModel",
+        "BlockRailSlope8x4M",
+        "BlockRailSlope8x4MNoModel",
+        "BlockRailStraight1M",
+        "BlockRailStraight1MNoModel",
+        "BlockRailStraight4M",
+        "BlockRailStraight4MNoModel",
+        "BlockRailStraight8M",
+        "BlockRailStraight8MNoModel",
+        "BlockRailTerminater",
+        "BlockRailTerminaterNoModel"
+    ],
+    "Properties": {
+        "RailColor": "Int32"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "ClassName": "KeyMoveMapParts",
+    "Links": [
+        "FollowMtx",
+        "GroupClipping",
+        "KeyMoveNext",
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchStart",
+        "SwitchStop",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsCancelWithinWaitTime": "Boolean",
+        "IsDisableStaticTouchEffects": "Boolean",
+        "IsFloorTouchStart": "Boolean",
+        "IsIgnoreFirstWaitTime": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsReverseWhenSwitchOff": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    }
+}

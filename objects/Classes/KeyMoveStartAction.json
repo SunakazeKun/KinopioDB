@@ -1,0 +1,24 @@
+{
+    "ClassName": "KeyMoveStartAction",
+    "Links": [
+        "KeyMoveNext",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "EffectFrame": "Int32",
+        "EffectFramePart2": "Int32",
+        "EffectName": "String",
+        "InterpolateType": "Int32",
+        "IsFloorTouchStart": "Boolean",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "PlayEffect": "Boolean",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "SuffixName": "String",
+        "WaitTime": "Int32"
+    }
+}

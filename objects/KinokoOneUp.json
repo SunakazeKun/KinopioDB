@@ -4,15 +4,5 @@
     "Name": "1-Up Mushroom",
     "List": "ObjectList",
     "Category": "item",
-    "Description": "A mushroom that awards one additional life when collected.",
-    "Properties": {
-        "IsConnectToCollision": "Boolean",
-        "IsPlacementInRouteDokan": "Boolean",
-        "WetType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchAppear"
-    ]
+    "Description": "A mushroom that awards one additional life when collected."
 }

@@ -4,13 +4,5 @@
     "Name": "EffectObjGoalMarkSandWorld",
     "List": "ObjectList",
     "Category": "decoration",
-    "Description": "",
-    "Properties": {
-        "IsConnectCollision": "Boolean",
-        "IsConnectToCollision": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear"
-    ]
+    "Description": ""
 }

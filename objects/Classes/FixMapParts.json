@@ -1,0 +1,42 @@
+{
+    "ClassName": "FixMapParts",
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear",
+        "SwitchKill",
+        "ViewGroup"
+    ],
+    "Models": [
+        "CloudCityWorld",
+        "CloudCotton",
+        "CloudEnterCatMario",
+        "CloudGhost",
+        "CloudHighPlace",
+        "CloudLavaWorld",
+        "CloudLong",
+        "CloudNightFullMoon",
+        "CloudNightThunderhead",
+        "CloudRefresh",
+        "CloudSandWorld",
+        "CloudSpaceNebula",
+        "CloudStorm",
+        "CloudThunderhead",
+        "CloudWaterfallWorld",
+        "CommonLeafA",
+        "DistantViewCityWorld",
+        "DistantViewWaterfallWorld",
+        "GroundGridBlue",
+        "GroundGridDarkBlue",
+        "GroundGridDarkGreen",
+        "GroundGridDesert",
+        "GroundGridDesertRed",
+        "GroundGridForest",
+        "GroundGridLavaBlue",
+        "GroundGridLavaRed",
+        "GroundGridPurple",
+        "GroundGridRock",
+        "GroundGridRouteDokanJet",
+        "GroundGridSea"
+    ],
+    "Properties": {}
+}

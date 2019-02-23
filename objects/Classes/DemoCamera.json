@@ -1,0 +1,11 @@
+{
+    "ClassName": "DemoCamera",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "Action1": "String",
+        "Action2": "String",
+        "Action3": "String",
+        "ArcName": "String"
+    }
+}

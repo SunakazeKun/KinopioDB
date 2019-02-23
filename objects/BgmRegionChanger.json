@@ -4,13 +4,5 @@
     "Name": "BgmRegionChanger",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "BgmSituationNameOff": "String",
-        "BgmSituationNameOn": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchChange"
-    ]
+    "Description": ""
 }

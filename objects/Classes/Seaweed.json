@@ -1,0 +1,11 @@
+{
+    "ClassName": "Seaweed",
+    "Links": [],
+    "Models": [
+        "SeaweedA"
+    ],
+    "Properties": {
+        "ColorFrame": "Int32",
+        "UsingDepthShadow": "Boolean"
+    }
+}

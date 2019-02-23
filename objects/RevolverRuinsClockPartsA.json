@@ -4,19 +4,5 @@
     "Name": "RevolverRuinsClockPartsA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ClockAngle": "Single",
-        "CubeMapUnitName": "String",
-        "DelayTime": "Int32",
-        "RotateAxis": "Int32",
-        "RotateTime": "Int32",
-        "WaitTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SupportFreezeSyncGroup",
-        "SwitchStop"
-    ]
+    "Description": ""
 }

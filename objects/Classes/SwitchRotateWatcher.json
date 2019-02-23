@@ -1,0 +1,13 @@
+{
+    "ClassName": "SwitchRotateWatcher",
+    "Links": [
+        "RotateObjectLink",
+        "RotateSwitchLink"
+    ],
+    "Models": [],
+    "Properties": {
+        "ClockAngle": "Single",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32"
+    }
+}

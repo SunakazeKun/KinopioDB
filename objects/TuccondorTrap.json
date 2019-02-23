@@ -4,15 +4,5 @@
     "Name": "Conkdor Trap",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A variant of Conkdor which does not rotate.",
-    "Properties": {
-        "InvalidateBodyAttackSensor": "Boolean",
-        "IsTuccondorAttackShort": "Boolean",
-        "ShadowLength": "Single",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "ViewGroup"
-    ]
+    "Description": "A variant of Conkdor which does not rotate."
 }

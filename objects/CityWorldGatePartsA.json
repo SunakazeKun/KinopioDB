@@ -4,18 +4,5 @@
     "Name": "CityWorldGatePartsA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "BoundRate": "Single",
-        "HitReactionCount": "Int32",
-        "OpenTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "MoveNext",
-        "SwitchAppear",
-        "SwitchKill",
-        "SwitchStart",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

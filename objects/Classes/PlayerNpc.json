@@ -1,0 +1,15 @@
+{
+    "ClassName": "PlayerNpc",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SwitchAppear"
+    ],
+    "Models": [
+        "KinopicoNpc",
+        "KinopioNpc"
+    ],
+    "Properties": {
+        "isHaveHeadLight": "Boolean"
+    }
+}

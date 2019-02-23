@@ -1,0 +1,10 @@
+{
+    "ClassName": "TouchTransParts",
+    "Links": [
+        "TouchTransParts"
+    ],
+    "Models": [],
+    "Properties": {
+        "TransType": "Int32"
+    }
+}

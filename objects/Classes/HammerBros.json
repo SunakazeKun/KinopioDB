@@ -1,0 +1,14 @@
+{
+    "ClassName": "HammerBros",
+    "Links": [
+        "GroupClipping",
+        "KeyMoveNext",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "ScaffoldType": "Int32",
+        "StackNum": "Int32",
+        "UsingDepthShadow": "Boolean"
+    }
+}

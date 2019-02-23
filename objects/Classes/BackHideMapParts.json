@@ -1,0 +1,16 @@
+{
+    "ClassName": "BackHideMapParts",
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear",
+        "SwitchStartHide",
+        "SwitchStartHideSub",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "BackDir": "Int32",
+        "HideAngle": "Single",
+        "SwitchHideFrame": "Int32"
+    }
+}

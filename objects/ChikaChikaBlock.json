@@ -4,13 +4,5 @@
     "Name": "ChikaChikaBlock",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [
-        "ChikaChikaBlockB",
-        "ChikaChikaBlockA"
-    ],
-    "Links": []
+    "Description": ""
 }

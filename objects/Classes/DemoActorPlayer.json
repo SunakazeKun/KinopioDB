@@ -1,0 +1,19 @@
+{
+    "ClassName": "DemoActorPlayer",
+    "Links": [],
+    "Models": [
+        "Kinopico",
+        "Kinopio",
+        "KinopioBlue",
+        "Luigi",
+        "Mario",
+        "Peach"
+    ],
+    "Properties": {
+        "Action1": "String",
+        "Action2": "String",
+        "Action3": "String",
+        "FigureType": "Int32",
+        "SuffixName": "String"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ClassName": "WheelMapParts",
+    "Links": [
+        "Rail"
+    ],
+    "Models": [],
+    "Properties": {
+        "MoveEndDegree": "Single",
+        "RotateAccel": "Single",
+        "RotateAxis": "Int32"
+    }
+}

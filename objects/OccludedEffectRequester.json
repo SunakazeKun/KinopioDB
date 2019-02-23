@@ -4,18 +4,5 @@
     "Name": "OccludedEffectRequester",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "DirectionParamLatitudeDegree": "Single",
-        "DirectionParamLongitudeDegree": "Single",
-        "FollowCameraDistance": "Single",
-        "InvalidateClipping": "Boolean",
-        "IsFollowCamera": "Boolean",
-        "OfxPresetName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

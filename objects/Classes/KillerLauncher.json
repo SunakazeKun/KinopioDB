@@ -1,0 +1,28 @@
+{
+    "ClassName": "KillerLauncher",
+    "Links": [
+        "GroupClipping",
+        "SwitchKill",
+        "SwitchStart"
+    ],
+    "Models": [
+        "KillerLauncher",
+        "KillerLauncherL",
+        "KillerLauncherR"
+    ],
+    "Properties": {
+        "AccelFly": "Single",
+        "IsConnectCollision": "Boolean",
+        "IsHideModel": "Boolean",
+        "IsKillerCollideOff": "Boolean",
+        "IsPlacedKinopioBrigade": "Boolean",
+        "IsShadowMaskLong": "Boolean",
+        "IsShootImmediatelySwitchOn": "Boolean",
+        "IsValidateCollision": "Boolean",
+        "ShockWaveRadius": "Single",
+        "StepDelay": "Int32",
+        "StepDisappear": "Int32",
+        "StepWait": "Int32",
+        "UsingDepthShadow": "Boolean"
+    }
+}

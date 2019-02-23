@@ -4,10 +4,5 @@
     "Name": "Season1IntermissionStepA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

@@ -1,0 +1,22 @@
+{
+    "ClassName": "OneSideStep",
+    "Links": [
+        "GroupClipping",
+        "KeyMoveNext",
+        "ViewGroup"
+    ],
+    "Models": [
+        "OneSideStep4x4M",
+        "OneSideStep6x6M",
+        "WheelPlanetOneSideStep"
+    ],
+    "Properties": {
+        "IsLimitJointMove": "Boolean",
+        "IsShowShadowMask": "Boolean",
+        "IsUseSmallClippingRadius": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ClassName": "NeedleSeed",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    }
+}

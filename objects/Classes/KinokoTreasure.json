@@ -1,0 +1,11 @@
+{
+    "ClassName": "KinokoTreasure",
+    "Links": [
+        "GroupClipping",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean"
+    }
+}

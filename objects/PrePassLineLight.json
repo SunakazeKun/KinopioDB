@@ -4,18 +4,5 @@
     "Name": "PrePassLineLight",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "AppearFrame": "Int32",
-        "ColorBlue": "Single",
-        "ColorGreen": "Single",
-        "ColorRed": "Single",
-        "IsIndirectIllumination": "Boolean",
-        "KillFrame": "Int32",
-        "LightDistDamp": "Single",
-        "LineLightLength": "Single",
-        "Radius": "Single"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

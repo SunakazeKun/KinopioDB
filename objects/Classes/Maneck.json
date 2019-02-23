@@ -1,0 +1,13 @@
+{
+    "ClassName": "Maneck",
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Single",
+        "IsForceInvalid": "Boolean",
+        "IsSpeedArrange": "Boolean"
+    }
+}

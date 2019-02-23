@@ -4,18 +4,5 @@
     "Name": "BossBirdLevel2",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "BossBirdThunderboltGenerator",
-        "DemoBattleEndPosTarget",
-        "PlayerPos",
-        "PullOutKinopicoNpc",
-        "Rail",
-        "SwitchAppear",
-        "SwitchDeadOn"
-    ]
+    "Description": ""
 }

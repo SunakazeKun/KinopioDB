@@ -4,18 +4,5 @@
     "Name": "PlayerFallActionControlArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "AnimStartFrame": "Int32",
-        "IsEnableCollisionHeightCheck": "Boolean"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "SwitchKill"
-    ]
+    "Description": ""
 }

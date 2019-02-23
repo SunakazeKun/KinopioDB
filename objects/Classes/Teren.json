@@ -1,0 +1,15 @@
+{
+    "ClassName": "Teren",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsInvalidSilhouette": "Boolean",
+        "ShadowLength": "Int32",
+        "UsingDepthShadow": "Boolean"
+    }
+}

@@ -4,25 +4,5 @@
     "Name": "PullOutObjTenCount",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "AppearNum": "Int32",
-        "CollectItemId": "Int32",
-        "ColorAnim": "Int32",
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean",
-        "IsEnableDepthShadow": "Boolean",
-        "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
-        "IsKillByMaterialCode": "Boolean",
-        "IsPullOutInfinite": "Boolean",
-        "IsRestartAssist": "Boolean",
-        "IsSyncSwitchClipping": "Boolean",
-        "ItemType": "String",
-        "WetType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

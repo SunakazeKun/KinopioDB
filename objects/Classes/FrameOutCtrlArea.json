@@ -1,0 +1,15 @@
+{
+    "ClassName": "FrameOutCtrlArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "EnableHorizontalCheck": "Boolean",
+        "EnableVerticalCheck": "Boolean",
+        "ShowIconAtDisable": "Boolean"
+    }
+}

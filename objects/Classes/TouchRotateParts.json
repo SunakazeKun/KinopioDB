@@ -1,0 +1,14 @@
+{
+    "ClassName": "TouchRotateParts",
+    "Links": [
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsEmitAtCollision": "Boolean",
+        "IsReverse": "Boolean",
+        "LimitDegreeLeft": "Single",
+        "LimitDegreeRight": "Single",
+        "RotateAxis": "Int32"
+    }
+}

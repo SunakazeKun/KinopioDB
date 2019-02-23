@@ -4,21 +4,5 @@
     "Name": "PlayerAnimArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "AnimStartFrame": "Int32",
-        "IntervalFrame": "Int32",
-        "PlayerAnimName": "String",
-        "Priority": "Int32"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

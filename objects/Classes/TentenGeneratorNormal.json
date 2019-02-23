@@ -1,0 +1,19 @@
+{
+    "ClassName": "TentenGeneratorNormal",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SupportFreezeSyncGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "AttachItemWidthNum": "Int32",
+        "GreenStarId": "Int32",
+        "IsSetSameColorAll": "Boolean",
+        "ItemType": "String",
+        "OffsetWidth": "Single",
+        "TentenColor": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32"
+    }
+}

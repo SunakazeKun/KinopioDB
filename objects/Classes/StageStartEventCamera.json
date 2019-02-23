@@ -1,0 +1,9 @@
+{
+    "ClassName": "StageStartEventCamera",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "Action1": "String",
+        "ArcName": "String"
+    }
+}

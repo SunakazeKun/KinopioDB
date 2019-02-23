@@ -1,0 +1,13 @@
+{
+    "ClassName": "PackunFire",
+    "Links": [
+        "GroupClipping",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsRemainTrace": "Boolean",
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    }
+}

@@ -4,13 +4,5 @@
     "Name": "TeresaDarkHouseWallC",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "BackDir": "Int32",
-        "CubeMapUnitName": "String",
-        "HideAngle": "Single",
-        "SwitchHideFrame": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

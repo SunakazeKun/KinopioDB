@@ -4,16 +4,5 @@
     "Name": "GrassControl",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "BaseWindX": "Single",
-        "BaseWindZ": "Single",
-        "BendRate": "Single",
-        "SlideMax": "Single",
-        "TimeShift": "Single"
-    },
-    "Models": [],
-    "Links": [
-        "GrassObj"
-    ]
+    "Description": ""
 }

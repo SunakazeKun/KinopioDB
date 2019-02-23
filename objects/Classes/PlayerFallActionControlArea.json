@@ -1,0 +1,16 @@
+{
+    "ClassName": "PlayerFallActionControlArea",
+    "Links": [
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "AnimStartFrame": "Int32",
+        "IsEnableCollisionHeightCheck": "Boolean"
+    }
+}

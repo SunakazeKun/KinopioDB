@@ -1,0 +1,15 @@
+{
+    "ClassName": "BossBirdRailKeeper",
+    "Links": [
+        "BossBirdBlowTarget",
+        "Rail",
+        "RailSwitchArea"
+    ],
+    "Models": [],
+    "Properties": {
+        "DestRailPointNo": "Int32",
+        "IsFollowPlayerY": "Boolean",
+        "IsNotRailMove": "Boolean",
+        "IsPriorSwitch": "Boolean"
+    }
+}

@@ -4,13 +4,5 @@
     "Name": "Used Block",
     "List": "ObjectList",
     "Category": "obstacle",
-    "Description": "An empty block.",
-    "Properties": {
-        "IsNoDepthShadow": "Boolean",
-        "IsValidLightPrePass": "Boolean",
-        "ShadowLength": "Single",
-        "ShadowMaskSetting": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": "An empty block."
 }

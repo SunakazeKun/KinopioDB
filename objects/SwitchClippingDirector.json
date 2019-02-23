@@ -4,11 +4,5 @@
     "Name": "SwitchClippingDirector",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "ClippingTarget",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

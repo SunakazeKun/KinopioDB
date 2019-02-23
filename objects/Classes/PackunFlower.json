@@ -1,0 +1,13 @@
+{
+    "ClassName": "PackunFlower",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsBlowBackDir": "Boolean",
+        "IsRemainTrace": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    }
+}

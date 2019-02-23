@@ -4,10 +4,5 @@
     "Name": "Debug Warp Point",
     "List": "ObjectList",
     "Category": "other",
-    "Description": "Unfortunately, this object is useless in retail versions, but it is used by developers for fast access.",
-    "Properties": {
-        "Priority": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": "Unfortunately, this object is useless in retail versions, but it is used by developers for fast access."
 }

@@ -1,0 +1,25 @@
+{
+    "ClassName": "WarpCube",
+    "Links": [
+        "DestCube",
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchObjectCameraKeepOn",
+        "ViewGroup",
+        "WarpCubeLockedPiece"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsBgmChangeWhenPieceComplete": "Boolean",
+        "IsBonus": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsOutSpeedZero": "Boolean",
+        "IsQuietAppear": "Boolean",
+        "IsUseGetPieceCamera": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "IsUseSwitchAppearCamera": "Boolean",
+        "OutCameraPlayStep": "Int32",
+        "Type": "Int32",
+        "WetType": "Int32"
+    }
+}

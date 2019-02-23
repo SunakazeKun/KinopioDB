@@ -1,0 +1,14 @@
+{
+    "ClassName": "GrassControl",
+    "Links": [
+        "GrassObj"
+    ],
+    "Models": [],
+    "Properties": {
+        "BaseWindX": "Single",
+        "BaseWindZ": "Single",
+        "BendRate": "Single",
+        "SlideMax": "Single",
+        "TimeShift": "Single"
+    }
+}

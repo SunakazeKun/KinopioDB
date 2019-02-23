@@ -4,31 +4,5 @@
     "Name": "Bullet Bill Blaster",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A dispenser that launched bullet-like projectiles.",
-    "Properties": {
-        "AccelFly": "Single",
-        "CubeMapUnitName": "String",
-        "IsConnectCollision": "Boolean",
-        "IsHideModel": "Boolean",
-        "IsKillerCollideOff": "Boolean",
-        "IsPlacedKinopioBrigade": "Boolean",
-        "IsShadowMaskLong": "Boolean",
-        "IsShootImmediatelySwitchOn": "Boolean",
-        "IsValidateCollision": "Boolean",
-        "ShockWaveRadius": "Single",
-        "StepDelay": "Int32",
-        "StepDisappear": "Int32",
-        "StepWait": "Int32",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [
-        "KillerLauncher",
-        "KillerLauncherR",
-        "KillerLauncherL"
-    ],
-    "Links": [
-        "GroupClipping",
-        "SwitchKill",
-        "SwitchStart"
-    ]
+    "Description": "A dispenser that launched bullet-like projectiles."
 }

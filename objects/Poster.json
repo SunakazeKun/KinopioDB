@@ -4,13 +4,5 @@
     "Name": "Poster",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsConnectToCollision": "Boolean",
-        "PosterType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchDeadOn"
-    ]
+    "Description": ""
 }

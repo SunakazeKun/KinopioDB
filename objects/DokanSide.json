@@ -4,17 +4,5 @@
     "Name": "DokanSide",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CameraInterpolate": "Boolean",
-        "CubeMapUnitName": "String",
-        "IsBreakGiantMario": "Boolean",
-        "IsUseObjectCamera": "Boolean",
-        "OutCameraPlayStep": "Int32",
-        "Type": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "DestDokan"
-    ]
+    "Description": ""
 }

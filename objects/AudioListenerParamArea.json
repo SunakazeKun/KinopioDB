@@ -4,22 +4,5 @@
     "Name": "AudioListenerParamArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "InteriorSize": "Single",
-        "InterpolateFrame": "Int32",
-        "MaxVolumeDistance": "Single",
-        "PoserName": "String",
-        "Priority": "Int32",
-        "UnitDistance": "Single"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "SwitchAppear"
-    ]
+    "Description": ""
 }

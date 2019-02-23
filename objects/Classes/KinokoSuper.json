@@ -1,0 +1,12 @@
+{
+    "ClassName": "KinokoSuper",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsKillByDamageCode": "Boolean",
+        "WetType": "Int32"
+    }
+}

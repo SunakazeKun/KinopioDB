@@ -1,0 +1,9 @@
+{
+    "ClassName": "Ukibo",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "IsOffCollide": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    }
+}

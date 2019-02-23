@@ -1,0 +1,13 @@
+{
+    "ClassName": "TuccondorTrap",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "InvalidateBodyAttackSensor": "Boolean",
+        "IsTuccondorAttackShort": "Boolean",
+        "ShadowLength": "Single",
+        "UsingDepthShadow": "Boolean"
+    }
+}

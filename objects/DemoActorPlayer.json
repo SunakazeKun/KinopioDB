@@ -4,21 +4,5 @@
     "Name": "DemoActorPlayer",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {
-        "Action1": "String",
-        "Action2": "String",
-        "Action3": "String",
-        "FigureType": "Int32",
-        "SuffixName": "String"
-    },
-    "Models": [
-        "Kinopico",
-        "Kinopio",
-        "Luigi",
-        "Mario",
-        "KinopioBlue",
-        "Peach"
-    ],
-    "Links": []
+    "Description": ""
 }

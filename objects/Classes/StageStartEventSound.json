@@ -1,0 +1,8 @@
+{
+    "ClassName": "StageStartEventSound",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "SoundName": "String"
+    }
+}

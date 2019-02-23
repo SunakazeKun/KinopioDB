@@ -1,0 +1,18 @@
+{
+    "ClassName": "DarknessTrapTower",
+    "Links": [
+        "KeyMoveNext",
+        "SwitchKill",
+        "SwitchStart",
+        "SwitchStopPartsAnim"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    }
+}

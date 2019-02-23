@@ -4,15 +4,5 @@
     "Name": "Blurker",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A rare pink block-like enemy. It will temporarily disappear when pointed at. While exclusive to the Wii U version, it works just as fine in the ports.",
-    "Properties": {
-        "DepthNum": "Int32",
-        "HeightNum": "Int32",
-        "IsHideShadow": "Boolean",
-        "UsingDepthShadow": "Boolean",
-        "WeakWaitStep": "Int32",
-        "WidthNum": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": "A rare pink block-like enemy. It will temporarily disappear when pointed at. While exclusive to the Wii U version, it works just as fine in the ports."
 }

@@ -1,0 +1,13 @@
+{
+    "ClassName": "PullOutObjZoom",
+    "Links": [
+        "GroupClipping",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "ItemType": "String"
+    }
+}

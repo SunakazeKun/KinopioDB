@@ -4,10 +4,5 @@
     "Name": "BossBird2StepC",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

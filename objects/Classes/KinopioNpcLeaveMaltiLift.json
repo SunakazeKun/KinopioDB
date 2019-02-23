@@ -1,0 +1,10 @@
+{
+    "ClassName": "KinopioNpcLeaveMaltiLift",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

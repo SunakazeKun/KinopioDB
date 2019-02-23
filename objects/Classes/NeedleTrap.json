@@ -1,0 +1,15 @@
+{
+    "ClassName": "NeedleTrap",
+    "Links": [
+        "GroupClipping"
+    ],
+    "Models": [
+        "NeedleTrap2x4M"
+    ],
+    "Properties": {
+        "AttackTime": "Int32",
+        "StandbyTime": "Int32",
+        "WaitTime": "Int32",
+        "WetType": "Int32"
+    }
+}

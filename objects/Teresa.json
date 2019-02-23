@@ -4,13 +4,5 @@
     "Name": "Boo",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A common ghost enemy in the Mario franchise. When looked at, they will stop moving and hide themselves. They can be destroyed with the headlamp.",
-    "Properties": {
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": "A common ghost enemy in the Mario franchise. When looked at, they will stop moving and hide themselves. They can be destroyed with the headlamp."
 }

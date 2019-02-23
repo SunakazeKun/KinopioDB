@@ -1,0 +1,11 @@
+{
+    "ClassName": "BgmStopObj",
+    "Links": [
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "FadeOutFrameNum": "Int32",
+        "StopBgmName": "String"
+    }
+}

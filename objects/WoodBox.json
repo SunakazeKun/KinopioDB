@@ -4,17 +4,5 @@
     "Name": "WoodBox",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsSetTraceModel": "Boolean",
-        "IsUseBreakModel": "Boolean",
-        "IsUseZPrePass": "Boolean",
-        "ItemType": "String",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchDeadOn",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

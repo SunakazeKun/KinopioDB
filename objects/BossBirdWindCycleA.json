@@ -4,13 +4,5 @@
     "Name": "BossBirdWindCycleA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "SpinFrame": "Int32",
-        "SpinFrameRate": "Single",
-        "SpinSpeedDownFrame": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

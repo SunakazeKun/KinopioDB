@@ -1,0 +1,13 @@
+{
+    "ClassName": "AllDeadWatcher",
+    "Links": [
+        "SwitchAppear",
+        "SwitchDeadOn",
+        "SwitchKill",
+        "WatchTargetEnemy"
+    ],
+    "Models": [],
+    "Properties": {
+        "SwitchOnDelayStep": "Int32"
+    }
+}

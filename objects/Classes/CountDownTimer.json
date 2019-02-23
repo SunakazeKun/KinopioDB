@@ -1,0 +1,11 @@
+{
+    "ClassName": "CountDownTimer",
+    "Links": [
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "Count": "Int32",
+        "IsShowLayout": "Boolean"
+    }
+}

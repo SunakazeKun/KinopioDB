@@ -1,0 +1,10 @@
+{
+    "ClassName": "TargetPos",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "Action": "Int32"
+    }
+}

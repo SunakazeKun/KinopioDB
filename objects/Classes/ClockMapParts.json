@@ -1,0 +1,18 @@
+{
+    "ClassName": "ClockMapParts",
+    "Links": [
+        "ChildStep",
+        "GroupClipping",
+        "SupportFreezeSyncGroup",
+        "SwitchStart",
+        "SwitchStop"
+    ],
+    "Models": [],
+    "Properties": {
+        "ClockAngle": "Single",
+        "DelayTime": "Int32",
+        "RotateAxis": "Int32",
+        "RotateTime": "Int32",
+        "WaitTime": "Int32"
+    }
+}

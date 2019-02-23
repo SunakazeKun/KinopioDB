@@ -4,19 +4,5 @@
     "Name": "CoinRail",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CoinNum": "Int32",
-        "CoinSpeed": "Single",
-        "CubeMapUnitName": "String",
-        "Delay": "Int32",
-        "IsPlacementInRouteDokan": "Boolean",
-        "IsRailEqualInterval": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

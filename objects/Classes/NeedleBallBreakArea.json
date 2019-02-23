@@ -1,0 +1,13 @@
+{
+    "ClassName": "NeedleBallBreakArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

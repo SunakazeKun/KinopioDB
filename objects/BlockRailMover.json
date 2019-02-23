@@ -4,20 +4,5 @@
     "Name": "BlockRailMover",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "BlockSpeed": "Single",
-        "BlockSpeedByTime": "Int32",
-        "DelayTime": "Int32",
-        "IsFixedDirection": "Boolean",
-        "RailBlockMoveType": "Int32",
-        "WaitTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "BlockRailMove",
-        "GroupClipping",
-        "Rail",
-        "SwitchStart"
-    ]
+    "Description": ""
 }

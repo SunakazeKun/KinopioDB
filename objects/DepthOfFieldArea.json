@@ -4,20 +4,5 @@
     "Name": "DepthOfFieldArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "IndirectScrollSpeed": "Single",
-        "Priority": "Int32",
-        "sStepInterpolation": "Int32"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

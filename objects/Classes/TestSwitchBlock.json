@@ -1,0 +1,10 @@
+{
+    "ClassName": "TestSwitchBlock",
+    "Links": [
+        "KeyMoveNext"
+    ],
+    "Models": [],
+    "Properties": {
+        "MoveType": "Int32"
+    }
+}

@@ -4,20 +4,5 @@
     "Name": "Goomba Tower",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A stack of multiple Goombas.",
-    "Properties": {
-        "CollectItemId": "Int32",
-        "EnableObstacleCheck": "Boolean",
-        "IsNoUseShadowMask": "Boolean",
-        "IsValidSwitchingAttackSensor": "Boolean",
-        "ItemInsertPosition": "Int32",
-        "ItemType": "String",
-        "SleepEnemy": "Boolean",
-        "StackNum": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchDrawClippingOnOff"
-    ]
+    "Description": "A stack of multiple Goombas."
 }

@@ -1,0 +1,15 @@
+{
+    "ClassName": "AudioSituationArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Priority": "Int32",
+        "SituationName": "String",
+        "SituationType": "Int32"
+    }
+}

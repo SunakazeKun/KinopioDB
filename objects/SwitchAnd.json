@@ -4,14 +4,5 @@
     "Name": "SwitchAnd",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "InputSwitchA",
-        "InputSwitchB",
-        "InputSwitchC",
-        "InputSwitchD",
-        "OutputSwitchOn"
-    ]
+    "Description": ""
 }

@@ -4,27 +4,5 @@
     "Name": "PrePassProjOrthoLight",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "AppearFrame": "Int32",
-        "ColorBlue": "Single",
-        "ColorGreen": "Single",
-        "ColorRed": "Single",
-        "IsEnableSpecular": "Boolean",
-        "IsEnableSpecularColor": "Boolean",
-        "KillFrame": "Int32",
-        "LightDistDamp": "Single",
-        "ProjLightNear": "Single",
-        "ProjTex": "String",
-        "SpecularColorBlue": "Single",
-        "SpecularColorGreen": "Single",
-        "SpecularColorRed": "Single",
-        "TexScaleX": "Single",
-        "TexScaleY": "Single",
-        "TexSpeedX": "Single",
-        "TexSpeedY": "Single",
-        "UseShadow": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

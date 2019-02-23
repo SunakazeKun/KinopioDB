@@ -4,17 +4,5 @@
     "Name": "RouteDokanLauncher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "IsUseHostUpDir": "Boolean",
-        "IsUseObjectCamera": "Boolean",
-        "ModelSuffix": "String",
-        "MoveSpeed": "Single"
-    },
-    "Models": [],
-    "Links": [
-        "Parts",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

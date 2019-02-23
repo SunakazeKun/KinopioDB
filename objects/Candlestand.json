@@ -4,15 +4,5 @@
     "Name": "Candlestand",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsConnectToCollision": "Boolean",
-        "IsEnableLightPrePass": "Boolean",
-        "IsLightFire": "Boolean",
-        "WetType": "Int32"
-    },
-    "Models": [
-        "Candlestand"
-    ],
-    "Links": []
+    "Description": ""
 }

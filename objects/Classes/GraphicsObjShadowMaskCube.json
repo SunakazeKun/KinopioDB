@@ -1,0 +1,25 @@
+{
+    "ClassName": "GraphicsObjShadowMaskCube",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "ColorAlpha": "Single",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "DistYBase": "Single",
+        "ProjTex": "String",
+        "ProjTex2ScrollDirection": "Single",
+        "ProjTex2ScrollSpeed": "Single",
+        "ProjTexScrollDirection": "Single",
+        "ProjTexScrollSpeed": "Single",
+        "ShadowMaskDrawCategory": "Int32",
+        "ShadowMaskDumpType": "Int32",
+        "ShadowMaskPow": "Single",
+        "ShadowMaskPowX": "Single",
+        "ShadowMaskPowY": "Single",
+        "ShadowMaskPowZ": "Single",
+        "TextureFixedScale": "Single",
+        "UseTex2nd": "Boolean"
+    }
+}

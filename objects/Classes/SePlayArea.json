@@ -1,0 +1,18 @@
+{
+    "ClassName": "SePlayArea",
+    "Links": [
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "IsDisableSeStop": "Boolean",
+        "IsOneTime": "Boolean",
+        "Priority": "Int32",
+        "SePlayName": "String"
+    }
+}

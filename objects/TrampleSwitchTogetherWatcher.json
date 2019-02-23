@@ -4,11 +4,5 @@
     "Name": "TrampleSwitchTogetherWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "SwitchTrampleAllOn",
-        "TrampleSwitchTogetherList"
-    ]
+    "Description": ""
 }

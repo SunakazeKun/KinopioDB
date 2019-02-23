@@ -1,0 +1,37 @@
+# These area objects are not used, but do they actually work?
+BalanceTruckBreakArea
+BobsledGoalArea
+CameraAreaActivatedAllPlayer
+CameraInSwitchOnArea
+CameraNoRotateArea
+ClearKillArea
+CoinBlowConnectGroundArea
+CoinFallBoundArea
+EnemyWalkPlaneArea
+HeadgearWidenStickXSnapArea
+KinopioBrigadeWaveArea
+MirrorArea
+NeonArea
+PanelNotePaintRoomCheckArea
+PlayerAllInCheckArea
+PlayerBattleArea
+PlayerBugFixAreaForceReleaseIfNotSpace
+PlayerInclinedControlArea
+PlayerNoAirFollowArea
+PlayerRestrictedPlane
+PlayerWaterDoubleCheckArea
+PlayerWidenStickXSnapArea
+RaidonFallTriggeredArea
+RaidonNoInputArea
+SkipperTrampolineInvalidateArea
+StickSnapOffArea
+WorldDetectArea
+
+# These appear to have proper code
+CameraPoserKinopioBrigadeObserveArea
+CameraRailParallelArea
+ClippingFarArea
+MaterialCodeArea
+PlayerCollisionYPlaneArea
+PlayerControlOffArea
+WorldClipArea

@@ -4,10 +4,5 @@
     "Name": "AchievementSwitchChecker",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "SwitchStart"
-    ]
+    "Description": ""
 }

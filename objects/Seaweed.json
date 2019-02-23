@@ -4,13 +4,5 @@
     "Name": "Seaweed",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ColorFrame": "Int32",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [
-        "SeaweedA"
-    ],
-    "Links": []
+    "Description": ""
 }

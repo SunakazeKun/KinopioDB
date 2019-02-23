@@ -1,0 +1,11 @@
+{
+    "ClassName": "NeedleRollerBreakArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

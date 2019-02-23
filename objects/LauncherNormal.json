@@ -4,17 +4,5 @@
     "Name": "LauncherNormal",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsConnectToCollision": "Boolean",
-        "IsSkipMovement": "Boolean",
-        "IsUseObjectTVCamera": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "BindCancelSwitch",
-        "GroupClipping",
-        "GuideAppearPoint",
-        "SwitchSubjectiveCameraOnOff"
-    ]
+    "Description": ""
 }

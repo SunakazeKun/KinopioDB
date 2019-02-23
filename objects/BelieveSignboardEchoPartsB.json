@@ -4,10 +4,5 @@
     "Name": "BelieveSignboardEchoPartsB",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "SwitchAppear"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,13 @@
+{
+    "ClassName": "VisibleSwitchMapPartsRhythm",
+    "Links": [
+        "SwitchDisappear"
+    ],
+    "Models": [],
+    "Properties": {
+        "BeatOffset": "Int32",
+        "IsSyncBgmForMclAnime": "Boolean",
+        "IsSyncBgmForMtsAnime": "Boolean",
+        "IsSyncBgmForSklAnime": "Boolean"
+    }
+}

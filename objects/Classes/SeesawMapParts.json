@@ -1,0 +1,10 @@
+{
+    "ClassName": "SeesawMapParts",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "MaxDegree": "Single",
+        "RotateAccelOff": "Single",
+        "RotateAccelOn": "Single"
+    }
+}

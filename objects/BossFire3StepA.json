@@ -4,12 +4,5 @@
     "Name": "BossFire3StepA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping"
-    ]
+    "Description": ""
 }

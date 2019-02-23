@@ -4,22 +4,5 @@
     "Name": "Pluck Patch (Assist Guide)",
     "List": "ObjectList",
     "Category": "obstacle",
-    "Description": "A pluck patch that appears when the player loses a level too often.",
-    "Properties": {
-        "AppearNum": "Int32",
-        "CollectItemId": "Int32",
-        "ColorAnim": "Int32",
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean",
-        "IsEnableDepthShadow": "Boolean",
-        "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
-        "IsKillByMaterialCode": "Boolean",
-        "IsPullOutInfinite": "Boolean",
-        "IsRestartAssist": "Boolean",
-        "IsSyncSwitchClipping": "Boolean",
-        "ItemType": "String",
-        "WetType": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": "A pluck patch that appears when the player loses a level too often."
 }

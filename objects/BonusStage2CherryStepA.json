@@ -4,10 +4,5 @@
     "Name": "BonusStage2CherryStepA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

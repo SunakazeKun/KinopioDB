@@ -4,16 +4,5 @@
     "Name": "Hammer Bro",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A Koopa subspecies that throws hammers.",
-    "Properties": {
-        "ScaffoldType": "Int32",
-        "StackNum": "Int32",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "KeyMoveNext",
-        "SwitchStart"
-    ]
+    "Description": "A Koopa subspecies that throws hammers."
 }

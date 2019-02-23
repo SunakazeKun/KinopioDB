@@ -4,12 +4,5 @@
     "Name": "LauncherNormalStandA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "TransType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "TouchTransParts"
-    ]
+    "Description": ""
 }

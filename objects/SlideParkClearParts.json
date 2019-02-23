@@ -4,12 +4,5 @@
     "Name": "SlideParkClearParts",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchKill"
-    ]
+    "Description": ""
 }

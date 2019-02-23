@@ -4,13 +4,5 @@
     "Name": "BgmStopObj",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "FadeOutFrameNum": "Int32",
-        "StopBgmName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchStart"
-    ]
+    "Description": ""
 }

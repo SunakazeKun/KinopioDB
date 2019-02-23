@@ -1,0 +1,11 @@
+{
+    "ClassName": "TimerStageSwitch",
+    "Links": [
+        "SwitchStart",
+        "SwitchTimerOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "Timer": "Int32"
+    }
+}

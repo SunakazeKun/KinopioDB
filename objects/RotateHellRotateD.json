@@ -4,11 +4,5 @@
     "Name": "RotateHellRotateD",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "RotateAxis": "Int32",
-        "RotateSpeed": "Single"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

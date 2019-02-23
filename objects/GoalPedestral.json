@@ -4,14 +4,5 @@
     "Name": "GoalPedestral",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "IsNoDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

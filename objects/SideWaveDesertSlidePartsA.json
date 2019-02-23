@@ -4,18 +4,5 @@
     "Name": "SideWaveDesertSlidePartsA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "DelayTime": "Int32",
-        "MoveAxis": "Int32",
-        "MoveDistance": "Single",
-        "MoveSpeed": "Single",
-        "MoveTime": "Int32",
-        "SurfaceHeight": "Single",
-        "WaitTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping"
-    ]
+    "Description": ""
 }

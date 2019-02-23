@@ -4,21 +4,5 @@
     "Name": "Seesaw",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsConnectToCollision": "Boolean",
-        "JumpHeight": "Single",
-        "MaxDegree": "Single",
-        "MaxDegreeJump": "Single",
-        "RotateAccelOff": "Single",
-        "RotateAccelOn": "Single"
-    },
-    "Models": [
-        "Seesaw6M",
-        "Seesaw8M"
-    ],
-    "Links": [
-        "GroupClipping",
-        "SeesawJumpPoint"
-    ]
+    "Description": ""
 }

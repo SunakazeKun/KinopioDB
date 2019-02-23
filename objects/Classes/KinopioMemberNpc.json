@@ -1,0 +1,19 @@
+{
+    "ClassName": "KinopioMemberNpc",
+    "Links": [
+        "KinopioMemberNpcTakeOutItemArea",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "CollectItemId": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableTurn": "Boolean",
+        "IsPutGlass": "Boolean",
+        "IsSleep": "Boolean",
+        "KinopioColor": "Int32",
+        "KinopioEyeHeight": "Single",
+        "KinopioMemberNpcAppearItem": "String",
+        "WetType": "Int32"
+    }
+}

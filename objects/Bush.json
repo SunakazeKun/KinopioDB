@@ -4,14 +4,5 @@
     "Name": "Bush",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "Color": "Int32",
-        "ItemType": "String"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

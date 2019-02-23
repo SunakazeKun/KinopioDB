@@ -1,0 +1,16 @@
+{
+    "ClassName": "BgmStopArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "FadeOutFrameNum": "Int32",
+        "IsOneTime": "Boolean",
+        "Priority": "Int32",
+        "StopBgmName": "String"
+    }
+}

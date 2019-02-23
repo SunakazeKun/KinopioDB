@@ -91,35 +91,41 @@
 			"ToadBrigadeClimbTowerStage": "Toad Brigade to Magikoopa Keep!",
 			"GhostPlayerPatanPanelStage": "Mummy-Me on Flip Panel Footpath",
 			"GhostPlayerChikuwaFallStage": "Mummy-Me on Drop-Road Dash",
-			"GhostPlayerBossFireStage": "Mummy-Me at Pyropuff Peak"
+			"GhostPlayerBossFireStage": "Mummy-Me at Pyropuff Peak",
+			"Season1OpeningStage": "Episode 1 Prologue",
+			"Season2OpeningStage": "Episode 2 Prologue",
+			"Season3OpeningStage": "Episode 3 Prologue",
+			"GhostPlayerMaze3Stage": "Mummy-Me Maze Forever"
 		}
 	},
 	{
 		"Name": "Special Episode",
 		"Stages": {
-			"DockingDioramaStage": "Shifty Shrine"
+			"DockingDioramaStage": "Shifty Shrine",
+			"RisingDangerStage": "RisingDangerStage",
+			"ShipwreckStage": "ShipwreckStage",
+			"TruckNukkunSinkTowerStage": "TruckNukkunSinkTowerStage"
 		}
 	},
 	{
-		"Name": "Bonus Courses",
+		"Name": "Bonus",
 		"Stages": {
-			"GhostPlayerMaze1Stage": "Mummy-Me Maze",
-			"GhostPlayerMaze2Stage": "Mummy-Me Maze Returns",
-			"GhostPlayerMaze3Stage": "Mummy-Me Maze Forever",
 			"BonusStage1": "Coins Galore",
 			"BonusStage2": "More Coins Galore",
-			"BonusStage3": "Even More Coins Galore"
+			"BonusStage3": "Even More Coins Galore",
+			"GhostPlayerMaze1Stage": "Mummy-Me Maze",
+			"GhostPlayerMaze2Stage": "Mummy-Me Maze Returns",
+			"GameOverStage": "Game Over Cave",
+			"TrickArt1Stage": "Title Screen (SMB 1-1)",
+			"TrickArt2Stage": "Title Screen (Fire Flower)"
 		}
 	},
 	{
 		"Name": "Cutscenes",
 		"Stages": {
-			"Season1OpeningStage": "Episode 1 Prologue",
 			"Season1IntermissionStage": "The Hunt for the Great Bird's Lair",
-			"Season2OpeningStage": "Episode 2 Prologue",
 			"Season2IntermissionStage": "On the Trail of the Great Bird",
 			"Season2DragonRideStage": "Farewell, Pyropuff Peak",
-			"Season3OpeningStage": "Episode 3 Prologue",
 			"Season3IntermissionStage": "Captain Toad's Trials",
 			"Season3DragonRideStage": "Reunited at Last?",
 			"DemoSeasonHalfStage": "DemoSeasonHalfStage",
@@ -128,16 +134,7 @@
 			"DemoSeason2HalfStage": "DemoSeason2HalfStage",
 			"DemoSeason3HalfStage": "DemoSeason3HalfStage",
 			"Season3EndingDemoStage": "Episode 3 Ending",
-			"DemoEndingSeason3Stage": "Episode 3 Ending Cutscene",
-			"DemoOpening3DWorldStage": "DemoOpening3DWorldStage"
-		}
-	},
-	{
-		"Name": "Other",
-		"Stages": {
-			"GameOverStage": "Game Over Cave",
-			"TrickArt2Stage": "Title Screen (Fire Flower)",
-			"TrickArt1Stage": "Title Screen (SMB 1-1)"
+			"DemoEndingSeason3Stage": "Episode 3 Ending Cutscene"
 		}
 	},
 	{
@@ -160,6 +157,7 @@
 			"SinkShipEscapeStage": "SinkShipEscapeStage",
 			"UndergroundTouchCaveStage": "UndergroundTouchCaveStage",
 			"WholeCakeStage": "WholeCakeStage",
+			"DemoOpening3DWorldStage": "DemoOpening3DWorldStage",
 			"DemoE3DragonRider": "DemoE3DragonRider",
 			"E3MovieFreshRuinsStage": "E3MovieFreshRuinsStage",
 			"E3MovieLongExpressStage": "E3MovieLongExpressStage",

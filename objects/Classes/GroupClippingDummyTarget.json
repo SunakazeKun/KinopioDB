@@ -1,0 +1,8 @@
+{
+    "ClassName": "GroupClippingDummyTarget",
+    "Links": [
+        "GroupClipping"
+    ],
+    "Models": [],
+    "Properties": {}
+}

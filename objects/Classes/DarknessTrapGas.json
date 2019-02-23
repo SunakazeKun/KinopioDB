@@ -1,0 +1,17 @@
+{
+    "ClassName": "DarknessTrapGas",
+    "Links": [
+        "KeyMoveNext",
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    }
+}

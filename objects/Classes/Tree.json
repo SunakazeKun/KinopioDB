@@ -1,0 +1,19 @@
+{
+    "ClassName": "Tree",
+    "Links": [
+        "ClippingExpander",
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [
+        "TreeLongA",
+        "TreeLongC",
+        "TreePalm"
+    ],
+    "Properties": {
+        "IsRotateY": "Boolean",
+        "IsUseZPP": "Boolean",
+        "ItemType": "String",
+        "LightType": "Int32"
+    }
+}

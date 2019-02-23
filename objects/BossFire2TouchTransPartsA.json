@@ -4,12 +4,5 @@
     "Name": "BossFire2TouchTransPartsA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "TransType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "TouchTransParts"
-    ]
+    "Description": ""
 }

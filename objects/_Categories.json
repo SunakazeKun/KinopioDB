@@ -1,38 +1,35 @@
 {
-	"Categories":
-	{
-		"unknown": {
-			"Name": "Unknown"
-		},
-		"stagemodel": {
-			"Name": "Stage Models"
-		},
-		"stagepart": {
-			"Name": "Stage Parts"
-		},
-		"area": {
-			"Name": "Areas"
-		},
-		"decoration": {
-			"Name": "Decoration, Effects"
-		},
-		"enemy": {
-			"Name": "Enemies, Bosses"
-		},
-		"item": {
-			"Name": "Items"
-		},
-		"obstacle": {
-			"Name": "Obstacles"
-		},
-		"controller": {
-			"Name": "Controllers"
-		},
-		"cutscene": {
-			"Name": "Cutscenes"
-		},
-		"other": {
-			"Name": "Other"
-		}
+	"unknown": {
+		"Name": "Unknown"
+	},
+	"stagemodel": {
+		"Name": "Stage Models"
+	},
+	"stagepart": {
+		"Name": "Stage Parts"
+	},
+	"area": {
+		"Name": "Areas"
+	},
+	"decoration": {
+		"Name": "Decoration, Effects"
+	},
+	"enemy": {
+		"Name": "Enemies, Bosses"
+	},
+	"item": {
+		"Name": "Items"
+	},
+	"obstacle": {
+		"Name": "Obstacles"
+	},
+	"controller": {
+		"Name": "Controllers"
+	},
+	"cutscene": {
+		"Name": "Cutscenes"
+	},
+	"other": {
+		"Name": "Other"
 	}
 }

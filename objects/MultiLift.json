@@ -4,19 +4,5 @@
     "Name": "MultiLift",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "InterpolateType": "Int32",
-        "IsAntiLightStrong": "Boolean",
-        "MoveType": "Int32",
-        "RideNum": "Int32",
-        "Speed": "Single",
-        "SpeedByTime": "Int32",
-        "WaitTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "KeyMoveNext"
-    ]
+    "Description": ""
 }

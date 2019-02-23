@@ -1,0 +1,16 @@
+{
+    "ClassName": "MultiLift",
+    "Links": [
+        "KeyMoveNext"
+    ],
+    "Models": [],
+    "Properties": {
+        "InterpolateType": "Int32",
+        "IsAntiLightStrong": "Boolean",
+        "MoveType": "Int32",
+        "RideNum": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    }
+}

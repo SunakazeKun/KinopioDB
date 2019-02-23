@@ -4,16 +4,5 @@
     "Name": "PullOutObjZoom",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean",
-        "IsEnableDepthShadow": "Boolean",
-        "ItemType": "String"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

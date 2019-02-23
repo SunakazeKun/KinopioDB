@@ -1,0 +1,17 @@
+{
+    "ClassName": "LogForestWaterPillar",
+    "Links": [
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "InterpolateType": "Int32",
+        "IsPlaySign": "Boolean",
+        "IsStopKill": "Boolean",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "WaitTime": "Int32"
+    }
+}

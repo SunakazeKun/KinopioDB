@@ -1,0 +1,14 @@
+{
+    "ClassName": "Gabon",
+    "Links": [
+        "GroupClipping"
+    ],
+    "Models": [],
+    "Properties": {
+        "GenerateDelay": "Int32",
+        "GenerateInterval": "Int32",
+        "MoveAccel": "Single",
+        "ThrowModel": "String",
+        "UsingDepthShadow": "Boolean"
+    }
+}

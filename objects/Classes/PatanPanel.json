@@ -1,0 +1,15 @@
+{
+    "ClassName": "PatanPanel",
+    "Links": [
+        "ChildPatanPanel",
+        "OpenSwitchOff"
+    ],
+    "Models": [
+        "PatanPanel",
+        "PatanPanelSlope"
+    ],
+    "Properties": {
+        "CloseFrame": "Int32",
+        "RotateFrame": "Int32"
+    }
+}

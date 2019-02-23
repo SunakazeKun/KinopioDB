@@ -1,0 +1,19 @@
+{
+    "ClassName": "Maze",
+    "Links": [
+        "ChildMaze",
+        "RangeFloorSet",
+        "RareItem",
+        "RecreateSwitch",
+        "ShuffleItem",
+        "SpecialFloorSet",
+        "SwitchAppear",
+        "TopFloorSwitchOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "Depth": "Int32",
+        "TopFloorNum": "Int32",
+        "Width": "Int32"
+    }
+}

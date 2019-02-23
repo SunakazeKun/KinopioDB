@@ -1,0 +1,19 @@
+{
+    "ClassName": "Crawler",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "CollectItemId": "Int32",
+        "ItemType": "String",
+        "KeyMoveOffset": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single",
+        "SpeedByTime": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WalkDelay": "Int32",
+        "WalkSpeed": "Single"
+    }
+}

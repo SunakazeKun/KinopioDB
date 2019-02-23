@@ -1,0 +1,17 @@
+{
+    "ClassName": "SwitchOnArea",
+    "Links": [
+        "SwitchAppear",
+        "SwitchAreaOn",
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

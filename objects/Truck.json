@@ -4,23 +4,5 @@
     "Name": "Truck",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "Accel": "Single",
-        "BgmGetOffFadeinFrame": "Int32",
-        "BgmGetOffStartFrame": "Int32",
-        "BgmGetOnFadeoutFrame": "Int32",
-        "BgmNameGetOff": "String",
-        "BgmNameGetOn": "String",
-        "BgmSituationNameGetOff": "String",
-        "BgmSituationNameGetOn": "String",
-        "BulletMoveType": "Boolean",
-        "IsUseDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GetOffPoint",
-        "TruckRideOnOff",
-        "TruckWarpPoint"
-    ]
+    "Description": ""
 }

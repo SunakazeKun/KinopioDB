@@ -4,14 +4,5 @@
     "Name": "Big Boo",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A bigger variant of Boo.",
-    "Properties": {
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "PlayerCollisionFallOutObserveArea",
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": "A bigger variant of Boo."
 }

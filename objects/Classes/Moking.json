@@ -1,0 +1,14 @@
+{
+    "ClassName": "Moking",
+    "Links": [
+        "GroupClipping",
+        "Rail"
+    ],
+    "Models": [],
+    "Properties": {
+        "GroundCheckLength": "Single",
+        "IsForbiddenSideSlide": "Boolean",
+        "IsOffColliderAtRail": "Boolean",
+        "ShadowMaskDropLength": "Single"
+    }
+}

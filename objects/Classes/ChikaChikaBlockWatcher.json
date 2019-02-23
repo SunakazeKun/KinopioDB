@@ -1,0 +1,12 @@
+{
+    "ClassName": "ChikaChikaBlockWatcher",
+    "Links": [
+        "SyncBlock"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsBgmMute": "Boolean",
+        "IsSyncBgm": "Boolean",
+        "SpeedMode": "Boolean"
+    }
+}

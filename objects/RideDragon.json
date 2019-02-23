@@ -4,15 +4,5 @@
     "Name": "RideDragon",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "MoveRangeX": "Single",
-        "RailMoveSpeed": "Single",
-        "RideDragonLv": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "Rail",
-        "SwitchEndDemoGoalOn"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,13 @@
+{
+    "ClassName": "KinokoOneUp",
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsPlacementInRouteDokan": "Boolean",
+        "WetType": "Int32"
+    }
+}

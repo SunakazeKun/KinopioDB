@@ -1,0 +1,15 @@
+{
+    "ClassName": "GuideGameWindowPoint",
+    "Links": [
+        "GuideAppearArea"
+    ],
+    "Models": [],
+    "Properties": {
+        "DegreeXZ": "Single",
+        "DegreeYZBottom": "Single",
+        "DegreeYZUp": "Single",
+        "HideStartCamera": "Boolean",
+        "isDisplayOnce": "Boolean",
+        "isJudgeDegreeYZ": "Boolean"
+    }
+}

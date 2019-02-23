@@ -4,14 +4,5 @@
     "Name": "NeedleSeed",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ItemType": "String",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

@@ -4,11 +4,5 @@
     "Name": "TruckGetOffPoint",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "JumpFrame": "Int32",
-        "JumpHeight": "Single"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

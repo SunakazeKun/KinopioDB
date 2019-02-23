@@ -1,0 +1,19 @@
+{
+    "ClassName": "FireBros",
+    "Links": [
+        "GroupClipping",
+        "SwitchKill",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "EnableObstacleCheck": "Boolean",
+        "InitRotate": "Single",
+        "IsKillStepKuribo": "Boolean",
+        "ItemType": "String",
+        "ScaffoldType": "Int32",
+        "StackNum": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WetType": "Int32"
+    }
+}

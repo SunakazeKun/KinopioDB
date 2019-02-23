@@ -1,0 +1,8 @@
+{
+    "ClassName": "GroupView",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "CommonId": "String"
+    }
+}

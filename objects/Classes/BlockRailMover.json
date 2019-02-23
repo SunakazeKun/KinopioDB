@@ -1,0 +1,18 @@
+{
+    "ClassName": "BlockRailMover",
+    "Links": [
+        "BlockRailMove",
+        "GroupClipping",
+        "Rail",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "BlockSpeed": "Single",
+        "BlockSpeedByTime": "Int32",
+        "DelayTime": "Int32",
+        "IsFixedDirection": "Boolean",
+        "RailBlockMoveType": "Int32",
+        "WaitTime": "Int32"
+    }
+}

@@ -4,21 +4,5 @@
     "Name": "? Block",
     "List": "ObjectList",
     "Category": "obstacle",
-    "Description": "A common block that contains items like coins or mushrooms.",
-    "Properties": {
-        "IsExpandClippingShadowLength": "Boolean",
-        "IsForceChangeItem": "Boolean",
-        "IsNoDepthShadow": "Boolean",
-        "IsSnowCover": "Boolean",
-        "IsValidLightPrePass": "Boolean",
-        "ItemAppearAction": "String",
-        "ItemType": "String",
-        "ShadowLength": "Single",
-        "ShadowMaskSetting": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": "A common block that contains items like coins or mushrooms."
 }

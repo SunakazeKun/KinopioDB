@@ -1,0 +1,23 @@
+{
+    "ClassName": "PipePackun",
+    "Links": [
+        "BodyNext",
+        "GroupClipping",
+        "SwitchDeadOn",
+        "SwitchStart"
+    ],
+    "Models": [
+        "PipePackunBodyPartsCorner",
+        "PipePackunBodyPartsStraight"
+    ],
+    "Properties": {
+        "HoleModelName": "String",
+        "HoleModelPosCoord": "Single",
+        "IsDamageType2D": "Boolean",
+        "IsUpSideDown": "Boolean",
+        "MinCoord": "Single",
+        "MoveSpeed": "Single",
+        "MoveType": "Int32",
+        "StartPositionRate": "Single"
+    }
+}

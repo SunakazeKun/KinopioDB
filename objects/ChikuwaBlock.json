@@ -4,15 +4,5 @@
     "Name": "ChikuwaBlock",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsUseInvalidateSensor": "Boolean",
-        "WetType": "Int32"
-    },
-    "Models": [
-        "ChikuwaBlock2x4M"
-    ],
-    "Links": [
-        "ViewGroup"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,10 @@
+{
+    "ClassName": "StageEndEventSeasonHalfDemo",
+    "Links": [],
+    "Models": [
+        "DemoSeason2HalfStage",
+        "DemoSeason3HalfStage",
+        "DemoSeasonHalfStage"
+    ],
+    "Properties": {}
+}

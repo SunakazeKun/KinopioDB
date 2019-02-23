@@ -4,30 +4,5 @@
     "Name": "Para-Biddybud",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": " a flying variant of Biddybud.",
-    "Properties": {
-        "AttachItemWidthNum": "Int32",
-        "GreenStarId": "Int32",
-        "HeightNum": "Int32",
-        "IsInvalidTurn": "Boolean",
-        "IsSetSameColorAll": "Boolean",
-        "ItemType": "String",
-        "MoveSpeed": "Int32",
-        "OffsetHeight": "Single",
-        "OffsetWidth": "Single",
-        "ShadowMaskLength": "Int32",
-        "TentenColor": "Int32",
-        "UsingDepthShadow": "Boolean",
-        "WidthNum": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "SupportFreezeSyncGroup",
-        "SwitchAllDeadOn",
-        "SwitchAnyDeadOn",
-        "SwitchKill",
-        "ViewGroup"
-    ]
+    "Description": " a flying variant of Biddybud."
 }

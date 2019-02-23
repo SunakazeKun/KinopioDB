@@ -1,0 +1,22 @@
+{
+    "ClassName": "AssistSlideMapParts",
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchSlideOn",
+        "SwitchStopForceOn",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "GuideBalloonType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEmitAtCollision": "Boolean",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "MoveType": "Int32",
+        "OnWaitTime": "Int32"
+    }
+}

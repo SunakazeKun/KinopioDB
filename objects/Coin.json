@@ -4,22 +4,5 @@
     "Name": "Coin",
     "List": "ObjectList",
     "Category": "item",
-    "Description": "Coins serve as the most common collectible item in any Mario game to date. They increase the coin score when collected.",
-    "Properties": {
-        "CollisionCheckDist": "Single",
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean",
-        "IsDropShadowActorDown": "Boolean",
-        "IsEnableTouchBack": "Boolean",
-        "IsPlacementInRouteDokan": "Boolean",
-        "ShadowLength": "Single",
-        "ShadowType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchDeadOn",
-        "SwitchKill",
-        "ViewGroup"
-    ]
+    "Description": "Coins serve as the most common collectible item in any Mario game to date. They increase the coin score when collected."
 }

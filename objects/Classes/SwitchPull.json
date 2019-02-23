@@ -1,0 +1,14 @@
+{
+    "ClassName": "SwitchPull",
+    "Links": [
+        "GroupClipping",
+        "GuideAppearPoint",
+        "SwitchPullOn",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "PullType": "Int32"
+    }
+}

@@ -4,22 +4,5 @@
     "Name": "KinopioMemberNpc",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CollectItemId": "Int32",
-        "CubeMapUnitName": "String",
-        "IsConnectToCollision": "Boolean",
-        "IsEnableTurn": "Boolean",
-        "IsPutGlass": "Boolean",
-        "IsSleep": "Boolean",
-        "KinopioColor": "Int32",
-        "KinopioEyeHeight": "Single",
-        "KinopioMemberNpcAppearItem": "String",
-        "WetType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "KinopioMemberNpcTakeOutItemArea",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

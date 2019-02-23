@@ -4,22 +4,5 @@
     "Name": "EdgeDrawArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "BoundDepth": "Single",
-        "ColorOffsetB": "Single",
-        "ColorOffsetG": "Single",
-        "ColorOffsetR": "Single",
-        "EndDepth": "Single",
-        "IsConstColor": "Boolean",
-        "PowerMin": "Single",
-        "Priority": "Int32"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": []
+    "Description": ""
 }

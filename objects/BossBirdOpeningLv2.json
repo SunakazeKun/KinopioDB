@@ -4,16 +4,5 @@
     "Name": "BossBirdOpeningLv2",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "BossBirdRailKeeper",
-        "BossBirdRain",
-        "DemoBossBirdPosition",
-        "SwitchBossBirdUp",
-        "SwitchDrawClipping"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,11 @@
+{
+    "ClassName": "KinopioMemberNpcItemArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

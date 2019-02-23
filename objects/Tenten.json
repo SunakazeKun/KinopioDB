@@ -4,21 +4,5 @@
     "Name": "Biddybud",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "Ladybug-esque enemies that move in groups. They resemble Goombas, though they act more passive and don't chase the player.",
-    "Properties": {
-        "AttachItemWidthNum": "Int32",
-        "GreenStarId": "Int32",
-        "IsSetSameColorAll": "Boolean",
-        "ItemType": "String",
-        "OffsetWidth": "Single",
-        "TentenColor": "Int32",
-        "UsingDepthShadow": "Boolean",
-        "WidthNum": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "SupportFreezeSyncGroup"
-    ]
+    "Description": "Ladybug-esque enemies that move in groups. They resemble Goombas, though they act more passive and don't chase the player."
 }

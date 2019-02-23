@@ -1,0 +1,11 @@
+{
+    "ClassName": "FixedMapParts",
+    "Links": [],
+    "Models": [
+        "CloudRefresh",
+        "GroundGridForest"
+    ],
+    "Properties": {
+        "PlayAnimName": "String"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "ClassName": "RotateMapParts",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "RotateAxis": "Int32",
+        "RotateSpeed": "Single"
+    }
+}

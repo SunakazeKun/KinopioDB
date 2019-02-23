@@ -1,0 +1,15 @@
+{
+    "ClassName": "MagmaFish",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "AppearSignTime": "Int32",
+        "IsKillOnce": "Boolean",
+        "Speed": "Single",
+        "WaitTime": "Int32"
+    }
+}

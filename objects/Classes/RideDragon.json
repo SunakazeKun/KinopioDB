@@ -1,0 +1,13 @@
+{
+    "ClassName": "RideDragon",
+    "Links": [
+        "Rail",
+        "SwitchEndDemoGoalOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "MoveRangeX": "Single",
+        "RailMoveSpeed": "Single",
+        "RideDragonLv": "Int32"
+    }
+}

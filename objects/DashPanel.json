@@ -4,15 +4,5 @@
     "Name": "DashPanel",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "DashFrame": "Int32",
-        "IsShowShadowMask": "Boolean",
-        "NoConnectCollision": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

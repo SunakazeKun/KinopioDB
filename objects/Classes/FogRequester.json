@@ -1,0 +1,37 @@
+{
+    "ClassName": "FogRequester",
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "FogColorBlue": "Single",
+        "FogColorGreen": "Single",
+        "FogColorRed": "Single",
+        "FogIntensity": "Single",
+        "FogInterp": "Int32",
+        "FogMulColorBlue": "Single",
+        "FogMulColorGreen": "Single",
+        "FogMulColorRed": "Single",
+        "FogPriority": "Int32",
+        "FogRangeEnd": "Single",
+        "FogRangeStart": "Single",
+        "FogShadowIntensity": "Single",
+        "YFogColorBlue": "Single",
+        "YFogColorGreen": "Single",
+        "YFogColorRed": "Single",
+        "YFogConnectAndMove": "Boolean",
+        "YFogFollowCamera": "Boolean",
+        "YFogIntensity": "Single",
+        "YFogInterp": "Int32",
+        "YFogMulColorBlue": "Single",
+        "YFogMulColorGreen": "Single",
+        "YFogMulColorRed": "Single",
+        "YFogPlacementRelative": "Boolean",
+        "YFogPriority": "Int32",
+        "YFogRangeEnd": "Single",
+        "YFogRangeStart": "Single",
+        "YFogShadowIntensity": "Single"
+    }
+}

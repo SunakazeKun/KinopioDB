@@ -1,0 +1,16 @@
+{
+    "ClassName": "CameraStopLookAtArea",
+    "Links": [
+        "TargetPos"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "IsValidSingleMode": "Boolean",
+        "Priority": "Int32"
+    }
+}

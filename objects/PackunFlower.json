@@ -4,15 +4,5 @@
     "Name": "Piranha Plant",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A large and aggressive plant. They can be defeated by throwing turnips at them.",
-    "Properties": {
-        "IsBlowBackDir": "Boolean",
-        "IsRemainTrace": "Boolean",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": "A large and aggressive plant. They can be defeated by throwing turnips at them."
 }

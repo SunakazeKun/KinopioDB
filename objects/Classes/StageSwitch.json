@@ -1,0 +1,8 @@
+{
+    "ClassName": "StageSwitch",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "CommonId": "String"
+    }
+}

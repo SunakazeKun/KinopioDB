@@ -1,0 +1,16 @@
+{
+    "ClassName": "FallRockGenerator",
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [
+        "BossFireFallRock"
+    ],
+    "Properties": {
+        "DelayAppearFrame": "Int32",
+        "Distance": "Single",
+        "GenerateFrame": "Int32"
+    }
+}

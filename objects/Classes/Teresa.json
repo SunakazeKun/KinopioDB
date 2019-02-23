@@ -1,0 +1,12 @@
+{
+    "ClassName": "Teresa",
+    "Links": [
+        "PlayerCollisionFallOutObserveArea",
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "UsingDepthShadow": "Boolean"
+    }
+}

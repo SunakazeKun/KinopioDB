@@ -4,17 +4,5 @@
     "Name": "FrameOutCtrlArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "EnableHorizontalCheck": "Boolean",
-        "EnableVerticalCheck": "Boolean",
-        "ShowIconAtDisable": "Boolean"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": []
+    "Description": ""
 }

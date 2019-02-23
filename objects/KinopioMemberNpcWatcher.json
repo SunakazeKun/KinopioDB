@@ -4,13 +4,5 @@
     "Name": "KinopioMemberNpcWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "KinopioMemberNpc",
-        "KinopioMemberNpcItemArea",
-        "KinopioNpcLeaveMultiLift",
-        "MultiLift"
-    ]
+    "Description": ""
 }

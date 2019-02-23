@@ -1,0 +1,9 @@
+{
+    "ClassName": "PlayerRestartSetter",
+    "Links": [
+        "PlayerRestartPos",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {}
+}

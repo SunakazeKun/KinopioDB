@@ -4,19 +4,5 @@
     "Name": "BgmStartArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "FadeInFrame": "Int32",
-        "IsOneTime": "Boolean",
-        "Priority": "Int32",
-        "StartBgmName": "String",
-        "StartDelayFrame": "Int32"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": []
+    "Description": ""
 }

@@ -4,18 +4,5 @@
     "Name": "WarpDoor",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CameraInterpolate": "Boolean",
-        "ConnectCollision": "Boolean",
-        "GatherPlayer": "Boolean"
-    },
-    "Models": [
-        "WarpDoorTeresaFrameOff",
-        "WarpDoor"
-    ],
-    "Links": [
-        "DestDoor",
-        "GroupClipping"
-    ]
+    "Description": ""
 }

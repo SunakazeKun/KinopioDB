@@ -4,12 +4,5 @@
     "Name": "EffectObjRain",
     "List": "ObjectList",
     "Category": "decoration",
-    "Description": "",
-    "Properties": {
-        "EffectEmitRatio": "Single",
-        "IsConnectCollision": "Boolean",
-        "IsConnectToCollision": "Boolean"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

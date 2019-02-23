@@ -4,21 +4,5 @@
     "Name": "Maze",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "Depth": "Int32",
-        "TopFloorNum": "Int32",
-        "Width": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "ChildMaze",
-        "RangeFloorSet",
-        "RareItem",
-        "RecreateSwitch",
-        "ShuffleItem",
-        "SpecialFloorSet",
-        "SwitchAppear",
-        "TopFloorSwitchOn"
-    ]
+    "Description": ""
 }

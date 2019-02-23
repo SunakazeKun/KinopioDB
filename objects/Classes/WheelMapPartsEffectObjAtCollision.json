@@ -1,0 +1,11 @@
+{
+    "ClassName": "WheelMapPartsEffectObjAtCollision",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "IsEmitAtCollision": "Boolean",
+        "MoveEndDegree": "Single",
+        "RotateAccel": "Single",
+        "RotateAxis": "Int32"
+    }
+}

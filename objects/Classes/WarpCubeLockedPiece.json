@@ -1,0 +1,11 @@
+{
+    "ClassName": "WarpCubeLockedPiece",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsAppearRise": "Boolean",
+        "ShadowLength": "Single"
+    }
+}

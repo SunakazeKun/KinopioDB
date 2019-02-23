@@ -4,20 +4,5 @@
     "Name": "DarknessTrapGas",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "DelayTime": "Int32",
-        "InterpolateType": "Int32",
-        "MoveType": "Int32",
-        "Speed": "Single",
-        "SpeedByTime": "Int32",
-        "WaitTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "KeyMoveNext",
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

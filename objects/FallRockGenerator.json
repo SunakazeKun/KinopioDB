@@ -4,18 +4,5 @@
     "Name": "FallRockGenerator",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "DelayAppearFrame": "Int32",
-        "Distance": "Single",
-        "GenerateFrame": "Int32"
-    },
-    "Models": [
-        "BossFireFallRock"
-    ],
-    "Links": [
-        "GroupClipping",
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

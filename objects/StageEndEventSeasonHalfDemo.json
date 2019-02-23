@@ -4,12 +4,5 @@
     "Name": "StageEndEventSeasonHalfDemo",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {},
-    "Models": [
-        "DemoSeasonHalfStage",
-        "DemoSeason2HalfStage",
-        "DemoSeason3HalfStage"
-    ],
-    "Links": []
+    "Description": ""
 }

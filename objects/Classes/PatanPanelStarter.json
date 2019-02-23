@@ -1,0 +1,8 @@
+{
+    "ClassName": "PatanPanelStarter",
+    "Links": [
+        "StartSwitchOn"
+    ],
+    "Models": [],
+    "Properties": {}
+}

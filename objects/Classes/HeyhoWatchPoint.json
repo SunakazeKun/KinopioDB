@@ -1,0 +1,9 @@
+{
+    "ClassName": "HeyhoWatchPoint",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "HeyhoWatchId": "Int32",
+        "sTurnWaitFrame": "Int32"
+    }
+}

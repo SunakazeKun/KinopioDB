@@ -1,0 +1,24 @@
+{
+    "ClassName": "PrePassProjLight",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableSpecular": "Boolean",
+        "IsEnableSpecularColor": "Boolean",
+        "KillFrame": "Int32",
+        "LightDistDamp": "Single",
+        "ProjLightAspect": "Single",
+        "ProjLightFar": "Single",
+        "ProjLightFovyDegree": "Single",
+        "ProjLightNear": "Single",
+        "ProjTex": "String",
+        "SpecularColorBlue": "Single",
+        "SpecularColorGreen": "Single",
+        "SpecularColorRed": "Single",
+        "UseShadow": "Int32"
+    }
+}

@@ -4,33 +4,5 @@
     "Name": "DemoMap",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {
-        "Action1": "String",
-        "Action2": "String",
-        "Action3": "String",
-        "ColorFrame": "Int32",
-        "CubeMapUnitName": "String",
-        "DelayFrame1": "Int32",
-        "DelayFrame2": "Int32",
-        "DelayFrame3": "Int32",
-        "EnableWorldColorAnim": "Boolean",
-        "IsDrawClipping": "Boolean",
-        "ShowModelEndFrame": "Int32",
-        "ShowModelStartFrame": "Int32",
-        "SuffixName": "String"
-    },
-    "Models": [
-        "DemoSeason3EndingStepF",
-        "DemoSeason3EndingStepD",
-        "DemoSeason3EndingStepC",
-        "DemoSeason3EndingStepB",
-        "DemoSeason3EndingStepBParts",
-        "DemoSeason3EndingStepEOdyssey",
-        "DemoObjectDemoOpening3DWorldGround",
-        "DemoObjectDemoOpening3DWorld",
-        "DemoOpeningSeason1AStep",
-        "Season1OpeningStep"
-    ],
-    "Links": []
+    "Description": ""
 }

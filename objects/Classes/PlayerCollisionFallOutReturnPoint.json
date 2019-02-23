@@ -1,0 +1,12 @@
+{
+    "ClassName": "PlayerCollisionFallOutReturnPoint",
+    "Links": [
+        "PlayerCollisionFallOutObserveArea"
+    ],
+    "Models": [
+        "AreaCubeBase"
+    ],
+    "Properties": {
+        "IsConnectToCollision": "Boolean"
+    }
+}

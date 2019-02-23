@@ -4,17 +4,5 @@
     "Name": "PatanPanel",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CloseFrame": "Int32",
-        "RotateFrame": "Int32"
-    },
-    "Models": [
-        "PatanPanel",
-        "PatanPanelSlope"
-    ],
-    "Links": [
-        "ChildPatanPanel",
-        "OpenSwitchOff"
-    ]
+    "Description": ""
 }

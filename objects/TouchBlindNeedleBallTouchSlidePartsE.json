@@ -4,18 +4,5 @@
     "Name": "TouchBlindNeedleBallTouchSlidePartsE",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "GuideBalloonType": "Int32",
-        "IsConnectToCollision": "Boolean",
-        "IsEmitAtCollision": "Boolean",
-        "MoveAxis": "Int32",
-        "MoveDistance": "Single",
-        "MoveSpeed": "Single",
-        "MoveTime": "Int32",
-        "MoveType": "Int32",
-        "OnWaitTime": "Int32"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

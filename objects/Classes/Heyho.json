@@ -1,0 +1,18 @@
+{
+    "ClassName": "Heyho",
+    "Links": [
+        "ChaseArea",
+        "GroupClipping",
+        "HeyhoWatchPoint",
+        "SwitchStart",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsOnMovingGround": "Boolean",
+        "IsReactToLight": "Boolean",
+        "MemoryDist": "Single",
+        "MemoryNum": "Int32",
+        "WatchType": "Int32"
+    }
+}

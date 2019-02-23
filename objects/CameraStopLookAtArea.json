@@ -4,18 +4,5 @@
     "Name": "CameraStopLookAtArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "IsValidSingleMode": "Boolean",
-        "Priority": "Int32"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "TargetPos"
-    ]
+    "Description": ""
 }

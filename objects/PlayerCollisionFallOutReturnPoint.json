@@ -4,12 +4,5 @@
     "Name": "PlayerCollisionFallOutReturnPoint",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsConnectToCollision": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "PlayerCollisionFallOutObserveArea"
-    ]
+    "Description": ""
 }

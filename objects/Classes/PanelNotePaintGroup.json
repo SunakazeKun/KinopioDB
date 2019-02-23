@@ -1,0 +1,11 @@
+{
+    "ClassName": "PanelNotePaintGroup",
+    "Links": [
+        "PanelNotePaint",
+        "SwitchTrampleOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "SeType": "Int32"
+    }
+}

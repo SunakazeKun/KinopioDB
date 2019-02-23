@@ -4,17 +4,5 @@
     "Name": "Peepa",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A Boo subspecies. These ghostly enemies move on specified paths.",
-    "Properties": {
-        "IsInvalidSilhouette": "Boolean",
-        "ShadowLength": "Int32",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": "A Boo subspecies. These ghostly enemies move on specified paths."
 }

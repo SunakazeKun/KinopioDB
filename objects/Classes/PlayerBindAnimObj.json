@@ -1,0 +1,14 @@
+{
+    "ClassName": "PlayerBindAnimObj",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [
+        "AreaSphere"
+    ],
+    "Properties": {
+        "KillIfPlayerBind": "Boolean",
+        "PlayerAnimName": "String",
+        "UseAreaBoundsCheck": "Boolean"
+    }
+}

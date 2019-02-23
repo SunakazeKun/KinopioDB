@@ -1,0 +1,19 @@
+{
+    "ClassName": "Nukkun",
+    "Links": [
+        "GroupClipping",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "FixedAngle": "Int32",
+        "HideFrame": "Int32",
+        "IsHideShadowMaskUntilThrown": "Boolean",
+        "IsSearch": "Boolean",
+        "MoveType": "Int32",
+        "OnColliderForce": "Boolean",
+        "ShadowMaskDropLength": "Single",
+        "WetType": "Int32"
+    }
+}

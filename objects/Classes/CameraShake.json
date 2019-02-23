@@ -1,0 +1,17 @@
+{
+    "ClassName": "CameraShake",
+    "Links": [
+        "SwitchKill",
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "Delay": "Int32",
+        "EffectName": "String",
+        "LoopNum": "Int32",
+        "Power": "Int32",
+        "ShakeFrameNum": "Int32",
+        "SoundName": "String",
+        "StopFrameNum": "Int32"
+    }
+}

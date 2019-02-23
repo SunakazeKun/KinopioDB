@@ -1,0 +1,13 @@
+{
+    "ClassName": "Bird",
+    "Links": [
+        "GroupClipping",
+        "SwitchStart",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsPerch": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    }
+}

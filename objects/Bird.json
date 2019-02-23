@@ -4,15 +4,5 @@
     "Name": "Bird",
     "List": "ObjectList",
     "Category": "decoration",
-    "Description": "A decorative bird as seen in the scenery of some levels.",
-    "Properties": {
-        "IsPerch": "Boolean",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchStart",
-        "ViewGroup"
-    ]
+    "Description": "A decorative bird as seen in the scenery of some levels."
 }

@@ -1,0 +1,14 @@
+{
+    "ClassName": "Dokan",
+    "Links": [
+        "DestDokan"
+    ],
+    "Models": [],
+    "Properties": {
+        "CameraInterpolate": "Boolean",
+        "IsBreakGiantMario": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "OutCameraPlayStep": "Int32",
+        "Type": "Int32"
+    }
+}

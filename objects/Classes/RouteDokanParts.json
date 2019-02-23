@@ -1,0 +1,31 @@
+{
+    "ClassName": "RouteDokanParts",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [
+        "DokanBranch",
+        "DokanCorner",
+        "DokanCornerAir",
+        "DokanStraight16M",
+        "DokanStraight1M",
+        "DokanStraight2M",
+        "DokanStraight4M",
+        "DokanStraight50CM",
+        "DokanStraight8M",
+        "RouteDokanBranch",
+        "RouteDokanCorner",
+        "RouteDokanCornerAir",
+        "RouteDokanCross",
+        "RouteDokanStraight16M",
+        "RouteDokanStraight1M",
+        "RouteDokanStraight2M",
+        "RouteDokanStraight4M",
+        "RouteDokanStraight50CM",
+        "RouteDokanStraight8M"
+    ],
+    "Properties": {
+        "ModelSuffix": "String"
+    }
+}

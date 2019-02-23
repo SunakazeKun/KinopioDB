@@ -1,0 +1,19 @@
+{
+    "ClassName": "SwitchKeepOnArea",
+    "Links": [
+        "NoDelete_FollowMtxTarget",
+        "SwitchAppear",
+        "SwitchAreaOn",
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "OnCondition": "Int32",
+        "Priority": "Int32"
+    }
+}

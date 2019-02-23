@@ -1,0 +1,8 @@
+{
+    "ClassName": "DebugWarpPoint",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

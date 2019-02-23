@@ -4,14 +4,5 @@
     "Name": "Super Mushroom",
     "List": "ObjectList",
     "Category": "item",
-    "Description": "Restores the player's health when collected. If no health is replenished, some coins are collected instead.",
-    "Properties": {
-        "IsConnectToCollision": "Boolean",
-        "IsKillByDamageCode": "Boolean",
-        "WetType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "ViewGroup"
-    ]
+    "Description": "Restores the player's health when collected. If no health is replenished, some coins are collected instead."
 }

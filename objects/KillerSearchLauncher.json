@@ -4,28 +4,5 @@
     "Name": "Bull's-Eye Bill Blaster",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "Unlike normal Bullet Bills, these have the ability to home at the player.",
-    "Properties": {
-        "AccelFly": "Single",
-        "CubeMapUnitName": "String",
-        "IsConnectCollision": "Boolean",
-        "IsHideModel": "Boolean",
-        "IsKillerCollideOff": "Boolean",
-        "IsPlacedKinopioBrigade": "Boolean",
-        "IsShadowMaskLong": "Boolean",
-        "IsShootImmediatelySwitchOn": "Boolean",
-        "IsValidateCollision": "Boolean",
-        "ShockWaveRadius": "Single",
-        "StepDelay": "Int32",
-        "StepDisappear": "Int32",
-        "StepWait": "Int32",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [
-        "KillerLauncher"
-    ],
-    "Links": [
-        "GroupClipping",
-        "SwitchStart"
-    ]
+    "Description": "Unlike normal Bullet Bills, these have the ability to home at the player."
 }

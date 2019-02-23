@@ -1,10 +1,8 @@
 AutoSwitchActivateArea
 AutoSwitchBlockWatcherArea
 BlockHardWatchArea
-BlockRail
 BlockSolid
 BossBirdDoubleWatcher
-ConveyerMapParts
 ConveyorMapParts
 EffectObjBossBirdRainArea
 FixedMapParts
@@ -16,5 +14,4 @@ MoleMaze
 PlayerForceBubbleArea
 PullOutObjMultiP
 PullOutObjRotatable
-SkyProjection
 SwitchUnClippingDirector

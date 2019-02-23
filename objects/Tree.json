@@ -4,21 +4,5 @@
     "Name": "Tree",
     "List": "ObjectList",
     "Category": "decoration",
-    "Description": "A decorative tree as seen in Cat Bell Hill.",
-    "Properties": {
-        "IsRotateY": "Boolean",
-        "IsUseZPP": "Boolean",
-        "ItemType": "String",
-        "LightType": "Int32"
-    },
-    "Models": [
-        "TreeLongA",
-        "TreeLongC",
-        "TreePalm"
-    ],
-    "Links": [
-        "ClippingExpander",
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": "A decorative tree as seen in Cat Bell Hill."
 }

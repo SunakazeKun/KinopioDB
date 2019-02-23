@@ -1,0 +1,21 @@
+{
+    "ClassName": "BlockBrick",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [
+        "BlockBrick"
+    ],
+    "Properties": {
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsPlacedDarkStageBoxCoin": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ItemAppearAction": "String",
+        "ItemType": "String",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32"
+    }
+}

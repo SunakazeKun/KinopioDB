@@ -4,13 +4,5 @@
     "Name": "DemoCamera",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {
-        "Action1": "String",
-        "Action2": "String",
-        "Action3": "String",
-        "ArcName": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

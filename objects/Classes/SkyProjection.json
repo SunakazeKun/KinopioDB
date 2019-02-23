@@ -1,0 +1,17 @@
+{
+    "ClassName": "SkyProjection",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [],
+    "Properties": {
+        "CloudTexMtxV": "Single",
+        "CloudTexMtxVUnder": "Single",
+        "IsEnableTexMtxSet": "Boolean",
+        "IsEnableTexMtxSetUnder": "Boolean",
+        "IsOnlyCubeMap": "Boolean",
+        "IsUseDemo": "Boolean",
+        "SkyTexMtxV": "Single",
+        "SkyTexMtxVUnder": "Single"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "ClassName": "GateMapParts",
+    "Links": [
+        "GroupClipping",
+        "MoveNext",
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchStart",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "BoundRate": "Single",
+        "HitReactionCount": "Int32",
+        "OpenTime": "Int32"
+    }
+}

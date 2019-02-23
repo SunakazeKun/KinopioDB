@@ -4,17 +4,5 @@
     "Name": "WheelMapPartsRotateWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "PermitDegree": "Single",
-        "RotateDegree1": "Single",
-        "RotateDegree2": "Single",
-        "RotateDegree3": "Single"
-    },
-    "Models": [],
-    "Links": [
-        "WheelMapParts1",
-        "WheelMapParts2",
-        "WheelMapParts3"
-    ]
+    "Description": ""
 }

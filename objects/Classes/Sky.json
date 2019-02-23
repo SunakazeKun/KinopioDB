@@ -1,0 +1,44 @@
+{
+    "ClassName": "Sky",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [
+        "SkyAnotherWorld",
+        "SkyAnotherWorldDark",
+        "SkyBlack",
+        "SkyBlueSunny",
+        "SkyBlueThunderhead",
+        "SkyBlueUnderground",
+        "SkyBossBird2",
+        "SkyBrownUnderground",
+        "SkyCityWorld",
+        "SkyClockDisc",
+        "SkyCloudy",
+        "SkyCloudyDark",
+        "SkyDesertBlue",
+        "SkyDesertOrangeTwilight",
+        "SkyEnterCatMario",
+        "SkyForest",
+        "SkyFullMoon",
+        "SkyGettonForest",
+        "SkyGhost",
+        "SkyLavaBlue",
+        "SkyLavaRed",
+        "SkyLavaWorld",
+        "SkyMorningGlow",
+        "SkyNightStardust",
+        "SkyOrangeTwilight",
+        "SkyPoison",
+        "SkyRouteDokanTour",
+        "SkySandWorld",
+        "SkySandWorldNight",
+        "SkySpace",
+        "SkyStorm",
+        "SkyTwoSide",
+        "SkyWaterfallWorld"
+    ],
+    "Properties": {
+        "IsOnlyCubeMap": "Boolean"
+    }
+}

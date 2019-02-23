@@ -4,16 +4,5 @@
     "Name": "ManeckInvalidArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {},
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

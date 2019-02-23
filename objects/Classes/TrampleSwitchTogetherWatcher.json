@@ -1,0 +1,9 @@
+{
+    "ClassName": "TrampleSwitchTogetherWatcher",
+    "Links": [
+        "SwitchTrampleAllOn",
+        "TrampleSwitchTogetherList"
+    ],
+    "Models": [],
+    "Properties": {}
+}

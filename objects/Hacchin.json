@@ -4,13 +4,5 @@
     "Name": "Stingby",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A small bee-like enemy with a large stinger on its face. Albeit being unused in the ported versions, it functions as expected.",
-    "Properties": {
-        "IsAlwaysChase": "Boolean",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "ViewGroup"
-    ]
+    "Description": "A small bee-like enemy with a large stinger on its face. Albeit being unused in the ported versions, it functions as expected."
 }

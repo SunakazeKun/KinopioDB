@@ -1,0 +1,15 @@
+{
+    "ClassName": "ViewCtrlArea",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

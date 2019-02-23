@@ -1,0 +1,18 @@
+{
+    "ClassName": "BgmChangeArea",
+    "Links": [
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "FadeOutFrame": "Int32",
+        "IsOneTime": "Boolean",
+        "Kind": "String",
+        "Priority": "Int32"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "ClassName": "GraphicsObjShadowMaskSphere",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "ColorAlpha": "Single",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "Radius": "Single",
+        "ShadowMaskDrawCategory": "Int32",
+        "ShadowMaskPow": "Single"
+    }
+}

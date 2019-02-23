@@ -1,0 +1,21 @@
+{
+    "ClassName": "PrePassSpotLight",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [],
+    "Properties": {
+        "AfterCollisionCheckOffset": "Single",
+        "AppearFrame": "Int32",
+        "ColorBlue": "Single",
+        "ColorGreen": "Single",
+        "ColorRed": "Single",
+        "IsEnableCollisionCheck": "Boolean",
+        "IsEnableSpecular": "Boolean",
+        "KillFrame": "Int32",
+        "SpotLightAngleDamp": "Single",
+        "SpotLightDegree": "Single",
+        "SpotLightLength": "Single",
+        "UseShadow": "Int32"
+    }
+}

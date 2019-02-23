@@ -1,0 +1,14 @@
+{
+    "ClassName": "RouteDokanLauncher",
+    "Links": [
+        "Parts",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsUseHostUpDir": "Boolean",
+        "IsUseObjectCamera": "Boolean",
+        "ModelSuffix": "String",
+        "MoveSpeed": "Single"
+    }
+}

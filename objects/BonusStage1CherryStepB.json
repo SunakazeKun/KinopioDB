@@ -4,11 +4,5 @@
     "Name": "BonusStage1CherryStepB",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "RotateAxis": "Int32",
-        "RotateSpeed": "Single"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

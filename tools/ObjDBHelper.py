@@ -15,9 +15,6 @@ def init_object(directory, internalName, className):
     data.update({"List": "ObjectList"})
     data.update({"Category": "unknown"})
     data.update({"Description": ""})
-    data.update({"Properties": {}})
-    data.update({"Models": []})
-    data.update({"Links": []})
         
     outf = open(directory + "/" + internalName + ".json", "w")
     outf.write(json.dumps(data, indent=4))
@@ -56,39 +53,59 @@ def init_objects(filepath):
 def build_objects(dirpath, destpath):
     data = {
         "Statistics": {},                # some statistics on the object database
+        "Classes": {},                   # each available object class
         "Objects": {},                   # contains every object structure
         "Categories": {}                 # categorizes every object alphabetically
-        }
-    
+    }
+
     statistics = data["Statistics"]
+    classes = data["Classes"]
     objects = data["Objects"]
     categories = data["Categories"]
+
+    classpath = dirpath + "/Classes"
     
     # Populate and initialize categories
-    with open(dirpath + "/_Categories.json", "r") as catsfile:
-        cats = json.load(catsfile)
-    cats = cats["Categories"]
+    cats = json.load(open(dirpath + "/_Categories.json", "r"))
     
     for catname, catdict in cats.items():
         print("-- Processing category " + catname + " ...")
         
-        categories.update({catname: catdict})
+        categories[catname] = catdict
         
-        if not "Objects" in catdict:
-            catdict.update({"Objects": []})
-    
+        if "Objects" not in catdict:
+            catdict["Objects"] = []
+
+    # Process classes
+    for classdir in os.listdir(classpath):
+        classfile = classpath + "/" + classdir
+        if not os.path.isfile(classfile):
+            continue
+
+        clazz = json.load(open(classfile, "r"))
+
+        if not "ClassName" in clazz:  # make sure we load classes
+            continue
+
+        classname = clazz["ClassName"]
+        print("-- Processing class " + classname + " ...")
+        classes[classname] = clazz
+
     # Now, add each object
     for objdir in os.listdir(dirpath):
-        with open(dirpath + "/" + objdir, "r") as objfile:
-            obj = json.load(objfile)
+        objfile = dirpath + "/" + objdir
+        if not os.path.isfile(objfile):
+            continue
+
+        obj = json.load(open(objfile, "r"))
         
-        if not "InternalName" in obj:    # make sure we load objects
+        if not "InternalName" in obj:  # make sure we load objects
             continue
         
         internalName = obj["InternalName"]
         category = obj["Category"]
 
-        objects.update({internalName: obj})
+        objects[internalName] = obj
         print("-- Processing object " + internalName + " ...")
         
         if category in categories:
@@ -98,9 +115,10 @@ def build_objects(dirpath, destpath):
     for catname, catdict in categories.items():
         catdict["Objects"].sort()
     
-    statistics.update({"BuildDate": strftime("%Y-%m-%d %H:%M:%S", gmtime())})
-    statistics.update({"NumObjects": len(objects)})
-    statistics.update({"NumCategories": len(categories)})
+    statistics["BuildDate"] = strftime("%Y-%m-%d %H:%M:%S", gmtime())
+    statistics["NumClasses"] = len(classes)
+    statistics["NumObjects"] = len(objects)
+    statistics["NumCategories"] = len(categories)
     
     # Finally, store all the data
     outf = open(destpath, "w")

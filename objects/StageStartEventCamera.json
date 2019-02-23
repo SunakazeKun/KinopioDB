@@ -4,11 +4,5 @@
     "Name": "StageStartEventCamera",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {
-        "Action1": "String",
-        "ArcName": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

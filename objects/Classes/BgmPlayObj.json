@@ -1,0 +1,13 @@
+{
+    "ClassName": "BgmPlayObj",
+    "Links": [
+        "SwitchStart"
+    ],
+    "Models": [],
+    "Properties": {
+        "BgmPlayName": "String",
+        "CurBgmFadeOutFrameNum": "Int32",
+        "FadeInFrameNum": "Int32",
+        "StartDelayFrameNum": "Int32"
+    }
+}

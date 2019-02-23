@@ -4,26 +4,5 @@
     "Name": "Draggadon",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A dragon that resides in a volcano. Attacks by spitting fire balls.",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "Lv": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "EndDemoPlayerReturnPos",
-        "LinkBossFireDown",
-        "LinkBossFireSyncMap",
-        "LinkBossFireToppleParts",
-        "PlayerPos",
-        "StartDemoStartArea",
-        "SwitchDemoEndOn",
-        "SwitchEndDemoEndOn",
-        "SwitchRoarEndOn",
-        "SwitchStartDemoEndOn",
-        "SwitchStartDemoStartOn",
-        "SwitchStartPressDownSign",
-        "SwitchStartRoar",
-        "UpperLimit"
-    ]
+    "Description": "A dragon that resides in a volcano. Attacks by spitting fire balls."
 }

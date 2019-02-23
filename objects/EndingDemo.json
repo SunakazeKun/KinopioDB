@@ -4,11 +4,5 @@
     "Name": "EndingDemo",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {},
-    "Models": [
-        "DemoEndingSeason1Stage",
-        "DemoEndingSeason3Stage"
-    ],
-    "Links": []
+    "Description": ""
 }

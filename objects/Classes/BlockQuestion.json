@@ -1,0 +1,19 @@
+{
+    "ClassName": "BlockQuestion",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsForceChangeItem": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsSnowCover": "Boolean",
+        "IsValidLightPrePass": "Boolean",
+        "ItemAppearAction": "String",
+        "ItemType": "String",
+        "ShadowLength": "Single",
+        "ShadowMaskSetting": "Int32"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "ClassName": "Candlestand",
+    "Links": [],
+    "Models": [
+        "Candlestand"
+    ],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsEnableLightPrePass": "Boolean",
+        "IsLightFire": "Boolean",
+        "WetType": "Int32"
+    }
+}

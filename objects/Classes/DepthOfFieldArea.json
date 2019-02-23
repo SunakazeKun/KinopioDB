@@ -1,0 +1,18 @@
+{
+    "ClassName": "DepthOfFieldArea",
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "IndirectScrollSpeed": "Single",
+        "Priority": "Int32",
+        "sStepInterpolation": "Int32"
+    }
+}

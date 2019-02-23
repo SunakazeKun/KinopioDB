@@ -1,0 +1,15 @@
+{
+    "ClassName": "GraphicsArea",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

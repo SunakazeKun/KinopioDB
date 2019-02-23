@@ -1,0 +1,11 @@
+{
+    "ClassName": "Rail",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "IsClosed": "Boolean",
+        "IsLadder": "Boolean",
+        "RailPoints": "list",
+        "RailType": "String"
+    }
+}

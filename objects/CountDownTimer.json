@@ -4,13 +4,5 @@
     "Name": "CountDownTimer",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "Count": "Int32",
-        "IsShowLayout": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchStart"
-    ]
+    "Description": ""
 }

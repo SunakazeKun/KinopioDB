@@ -1,0 +1,9 @@
+{
+    "ClassName": "TransparentWall",
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {}
+}

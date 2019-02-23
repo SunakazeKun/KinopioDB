@@ -1,0 +1,11 @@
+{
+    "ClassName": "PlayerCeilingCheckOffArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

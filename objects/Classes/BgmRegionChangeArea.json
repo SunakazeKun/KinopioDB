@@ -1,0 +1,14 @@
+{
+    "ClassName": "BgmRegionChangeArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "BgmSituationName": "String",
+        "Priority": "Int32"
+    }
+}

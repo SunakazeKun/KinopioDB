@@ -1,0 +1,28 @@
+{
+    "ClassName": "TentenGenerator",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SupportFreezeSyncGroup",
+        "SwitchAllDeadOn",
+        "SwitchAnyDeadOn",
+        "SwitchKill",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "AttachItemWidthNum": "Int32",
+        "GreenStarId": "Int32",
+        "HeightNum": "Int32",
+        "IsInvalidTurn": "Boolean",
+        "IsSetSameColorAll": "Boolean",
+        "ItemType": "String",
+        "MoveSpeed": "Int32",
+        "OffsetHeight": "Single",
+        "OffsetWidth": "Single",
+        "ShadowMaskLength": "Int32",
+        "TentenColor": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32"
+    }
+}

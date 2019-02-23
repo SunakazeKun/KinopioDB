@@ -1,0 +1,11 @@
+{
+    "ClassName": "PlayerInvinciblePickaxeNoCollisionCheckArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

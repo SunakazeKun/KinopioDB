@@ -4,13 +4,5 @@
     "Name": "Cookatiel",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "The gigantic bird boss of the Luncheon Kingdom. Requires a couple of links and other objects in order to function.",
-    "Properties": {
-        "AppearOnStart": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "RailBossMagma",
-        "SwitchAppear"
-    ]
+    "Description": "The gigantic bird boss of the Luncheon Kingdom. Requires a couple of links and other objects in order to function."
 }

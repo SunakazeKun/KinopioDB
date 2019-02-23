@@ -4,14 +4,5 @@
     "Name": "WheelCageWheelB",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "MoveEndDegree": "Single",
-        "RotateAccel": "Single",
-        "RotateAxis": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "Rail"
-    ]
+    "Description": ""
 }

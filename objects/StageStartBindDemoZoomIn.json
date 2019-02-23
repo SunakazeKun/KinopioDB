@@ -4,12 +4,5 @@
     "Name": "StageStartBindDemoZoomIn",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {
-        "StartAnimation": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchDeadOn"
-    ]
+    "Description": ""
 }

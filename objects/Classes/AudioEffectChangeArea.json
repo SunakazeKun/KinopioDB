@@ -1,0 +1,16 @@
+{
+    "ClassName": "AudioEffectChangeArea",
+    "Links": [
+        "NoDelete_FollowMtxTarget"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "AudioEffectName": "String",
+        "Priority": "Int32"
+    }
+}

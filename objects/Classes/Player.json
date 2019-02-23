@@ -1,0 +1,13 @@
+{
+    "ClassName": "Player",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsDisableTouchCursor": "Boolean",
+        "IsEnableRope": "Boolean",
+        "IsNarrowPlace": "Boolean",
+        "MultiPlayerOn": "Boolean"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "ClassName": "FallDurianGenerator",
+    "Links": [
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayAppearFrame": "Int32",
+        "Distance": "Single",
+        "GenerateFrame": "Int32"
+    }
+}

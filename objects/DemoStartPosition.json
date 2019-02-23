@@ -4,10 +4,5 @@
     "Name": "DemoStartPosition",
     "List": "DemoObjList",
     "Category": "cutscene",
-    "Description": "",
-    "Properties": {
-        "IsConnectToCollision": "Boolean"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

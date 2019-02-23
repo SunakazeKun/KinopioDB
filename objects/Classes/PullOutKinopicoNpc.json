@@ -1,0 +1,10 @@
+{
+    "ClassName": "PullOutKinopicoNpc",
+    "Links": [
+        "DemoAppearLastPosTarget",
+        "PlayerPos",
+        "SwitchPullOutSuccessOn"
+    ],
+    "Models": [],
+    "Properties": {}
+}

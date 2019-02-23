@@ -1,0 +1,11 @@
+{
+    "ClassName": "Crab",
+    "Links": [
+        "MoveNext",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "ItemType": "String"
+    }
+}

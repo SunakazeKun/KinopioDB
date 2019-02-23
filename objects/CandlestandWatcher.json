@@ -4,11 +4,5 @@
     "Name": "CandlestandWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "LinkCandlestand",
-        "SwitchFireAllOn"
-    ]
+    "Description": ""
 }

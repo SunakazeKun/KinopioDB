@@ -1,0 +1,16 @@
+{
+    "ClassName": "KuriboClimbRail",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsBodyAttackImmediately": "Boolean",
+        "IsControlShadowLength": "Boolean",
+        "IsPlacementSlope": "Boolean",
+        "ItemType": "String",
+        "UsingDepthShadow": "Boolean"
+    }
+}

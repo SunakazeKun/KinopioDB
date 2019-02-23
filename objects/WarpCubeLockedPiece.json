@@ -4,13 +4,5 @@
     "Name": "WarpCubeLockedPiece",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsAppearRise": "Boolean",
-        "ShadowLength": "Single"
-    },
-    "Models": [],
-    "Links": [
-        "ViewGroup"
-    ]
+    "Description": ""
 }

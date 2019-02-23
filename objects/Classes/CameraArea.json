@@ -1,0 +1,20 @@
+{
+    "ClassName": "CameraArea",
+    "Links": [
+        "NoDelete_RootArea",
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Is2PHighPriority": "Boolean",
+        "Is2POnly": "Boolean",
+        "Priority": "Int32",
+        "RequiresOnePlayer": "Boolean"
+    }
+}

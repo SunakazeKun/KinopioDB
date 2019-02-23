@@ -1,0 +1,18 @@
+{
+    "ClassName": "ChorobonHolder",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "GreenStarId": "Int32",
+        "ItemInsertPosition": "Int32",
+        "ItemType": "String",
+        "MoveSpeed": "Int32",
+        "UsingDepthShadow": "Boolean",
+        "WidthNum": "Int32",
+        "isSetGuide": "Boolean"
+    }
+}

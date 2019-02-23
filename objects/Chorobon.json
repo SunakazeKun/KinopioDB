@@ -4,20 +4,5 @@
     "Name": "Fuzzy",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A black creature that is usually found in groups moving on a path.",
-    "Properties": {
-        "GreenStarId": "Int32",
-        "ItemInsertPosition": "Int32",
-        "ItemType": "String",
-        "MoveSpeed": "Int32",
-        "UsingDepthShadow": "Boolean",
-        "WidthNum": "Int32",
-        "isSetGuide": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "ViewGroup"
-    ]
+    "Description": "A black creature that is usually found in groups moving on a path."
 }

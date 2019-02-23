@@ -4,13 +4,5 @@
     "Name": "PlayerBindAnimObj",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "KillIfPlayerBind": "Boolean",
-        "PlayerAnimName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear"
-    ]
+    "Description": ""
 }

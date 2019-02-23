@@ -1,0 +1,17 @@
+{
+    "ClassName": "SlideMapParts",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayTime": "Int32",
+        "MoveAxis": "Int32",
+        "MoveDistance": "Single",
+        "MoveSpeed": "Single",
+        "MoveTime": "Int32",
+        "SurfaceHeight": "Single",
+        "WaitTime": "Int32"
+    }
+}

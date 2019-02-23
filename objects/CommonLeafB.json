@@ -4,12 +4,5 @@
     "Name": "CommonLeafB",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping"
-    ]
+    "Description": ""
 }

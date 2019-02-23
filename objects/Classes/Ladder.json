@@ -1,0 +1,20 @@
+{
+    "ClassName": "Ladder",
+    "Links": [
+        "GroupClipping",
+        "LadderLink",
+        "SwitchKill",
+        "SwitchValidate",
+        "ViewGroup"
+    ],
+    "Models": [
+        "Normal50CM"
+    ],
+    "Properties": {
+        "IsEnablePlayerVoice": "Boolean",
+        "IsForbiddenAtMove": "Boolean",
+        "IsHideModel": "Boolean",
+        "LadderColor": "Int32",
+        "MtxConnectType": "Int32"
+    }
+}

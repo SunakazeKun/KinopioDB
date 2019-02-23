@@ -4,15 +4,5 @@
     "Name": "SwitchRotateWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ClockAngle": "Single",
-        "RotateAxis": "Int32",
-        "RotateTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "RotateObjectLink",
-        "RotateSwitchLink"
-    ]
+    "Description": ""
 }

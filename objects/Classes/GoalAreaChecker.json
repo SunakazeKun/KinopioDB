@@ -1,0 +1,8 @@
+{
+    "ClassName": "GoalAreaChecker",
+    "Links": [
+        "GoalArea"
+    ],
+    "Models": [],
+    "Properties": {}
+}

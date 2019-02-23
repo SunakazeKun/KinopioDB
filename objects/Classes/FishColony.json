@@ -1,0 +1,14 @@
+{
+    "ClassName": "FishColony",
+    "Links": [
+        "Rail",
+        "SwimArea"
+    ],
+    "Models": [
+        "FishA"
+    ],
+    "Properties": {
+        "AvoidDist": "Single",
+        "FishNum": "Int32"
+    }
+}

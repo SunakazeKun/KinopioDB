@@ -1,0 +1,15 @@
+{
+    "ClassName": "BossBird",
+    "Links": [
+        "BossBirdThunderboltGenerator",
+        "DemoBattleEndPosTarget",
+        "PlayerPos",
+        "PullOutKinopicoNpc",
+        "Rail",
+        "SwitchAppear",
+        "SwitchDeadOn",
+        "SwitchLastAttackHitOn"
+    ],
+    "Models": [],
+    "Properties": {}
+}

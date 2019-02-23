@@ -1,0 +1,10 @@
+{
+    "ClassName": "BreakMapPartsSwitchOnly",
+    "Links": [
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "DelayFrame": "Int32"
+    }
+}

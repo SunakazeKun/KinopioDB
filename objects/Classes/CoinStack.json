@@ -1,0 +1,15 @@
+{
+    "ClassName": "CoinStack",
+    "Links": [
+        "GroupClipping",
+        "SwitchKill",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "CoinStackNum": "Int32",
+        "IsNoShadow": "Boolean",
+        "IsOnDrawClipping": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    }
+}

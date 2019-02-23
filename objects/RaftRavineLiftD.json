@@ -4,15 +4,5 @@
     "Name": "RaftRavineLiftD",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "BoundRate": "Single",
-        "HitReactionCount": "Int32",
-        "OpenTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "MoveNext",
-        "SwitchStart"
-    ]
+    "Description": ""
 }

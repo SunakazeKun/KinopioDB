@@ -4,15 +4,5 @@
     "Name": "Mummy-Me",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "Mummified Toads that follow the player around in certain levels. Can be defeated using a Super Pickax.",
-    "Properties": {
-        "DelayTime": "Single",
-        "IsForceInvalid": "Boolean",
-        "IsSpeedArrange": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": "Mummified Toads that follow the player around in certain levels. Can be defeated using a Super Pickax."
 }

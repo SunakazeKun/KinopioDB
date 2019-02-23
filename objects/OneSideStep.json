@@ -4,24 +4,5 @@
     "Name": "OneSideStep",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "IsLimitJointMove": "Boolean",
-        "IsShowShadowMask": "Boolean",
-        "IsUseSmallClippingRadius": "Boolean",
-        "MoveType": "Int32",
-        "Speed": "Single",
-        "SpeedByTime": "Int32",
-        "WaitTime": "Int32"
-    },
-    "Models": [
-        "OneSideStep6x6M",
-        "OneSideStep4x4M",
-        "WheelPlanetOneSideStep"
-    ],
-    "Links": [
-        "GroupClipping",
-        "KeyMoveNext",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,20 @@
+{
+    "ClassName": "Zombie",
+    "Links": [
+        "GroupClipping",
+        "KillArea",
+        "SwitchAllKillOn",
+        "SwitchAppear",
+        "SwitchKill",
+        "SwitchKillForce",
+        "ViewGroup",
+        "ZombiePoint"
+    ],
+    "Models": [],
+    "Properties": {
+        "InvalidateDepthShadow": "Boolean",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableLightSensor": "Boolean",
+        "checkStrikeLight": "Boolean"
+    }
+}

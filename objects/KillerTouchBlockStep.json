@@ -4,10 +4,5 @@
     "Name": "KillerTouchBlockStep",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

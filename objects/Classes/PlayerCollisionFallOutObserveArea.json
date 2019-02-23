@@ -1,0 +1,14 @@
+{
+    "ClassName": "PlayerCollisionFallOutObserveArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "Priority": "Int32"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "ClassName": "AudioListenerParamArea",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "InteriorSize": "Single",
+        "InterpolateFrame": "Int32",
+        "MaxVolumeDistance": "Single",
+        "PoserName": "String",
+        "Priority": "Int32",
+        "UnitDistance": "Single"
+    }
+}

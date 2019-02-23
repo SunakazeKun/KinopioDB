@@ -1,0 +1,11 @@
+{
+    "ClassName": "BossMagma",
+    "Links": [
+        "RailBossMagma",
+        "SwitchAppear"
+    ],
+    "Models": [],
+    "Properties": {
+        "AppearOnStart": "Boolean"
+    }
+}

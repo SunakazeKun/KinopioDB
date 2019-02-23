@@ -1,0 +1,15 @@
+{
+    "ClassName": "Tuccondor",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsSearchCircle": "Boolean",
+        "IsTuccondorAttackShort": "Boolean",
+        "SearchAngleDegreeLeft": "Single",
+        "SearchAngleDegreeRight": "Single",
+        "UsingDepthShadow": "Boolean"
+    }
+}

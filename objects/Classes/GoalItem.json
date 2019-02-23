@@ -1,0 +1,26 @@
+{
+    "ClassName": "GoalItem",
+    "Links": [
+        "SwitchAppear",
+        "SwitchGotOn",
+        "ViewGroup"
+    ],
+    "Models": [
+        "GoalItem",
+        "GoalItemCrown",
+        "GoalItemCrownDLC",
+        "GreenStarGoalItem",
+        "ShineGoalItem"
+    ],
+    "Properties": {
+        "AppearAnimName": "String",
+        "ColorType": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsDisableGetAtMove": "Boolean",
+        "IsExpandClippingShadowLength": "Boolean",
+        "IsInvalidClipping": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "ShadowLength": "Single",
+        "UsingOccludedEffect": "Boolean"
+    }
+}

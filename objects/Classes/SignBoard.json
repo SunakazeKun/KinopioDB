@@ -1,0 +1,22 @@
+{
+    "ClassName": "SignBoard",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [
+        "SignBoardNormalDown",
+        "SignBoardNormalLeft",
+        "SignBoardNormalRight",
+        "SignBoardWoodDown",
+        "SignBoardWoodLeft",
+        "SignBoardWoodRight",
+        "SignBoardWoodRightDown",
+        "SignBoardWoodWallRight"
+    ],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsSnowCover": "Boolean",
+        "WetType": "Int32"
+    }
+}

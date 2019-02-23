@@ -4,13 +4,5 @@
     "Name": "Path",
     "List": "ObjectList",
     "Category": "other",
-    "Description": "The predetermined path for an object to move on. Add this as a link object.",
-    "Properties": {
-        "IsClosed": "Boolean",
-        "IsLadder": "Boolean",
-        "RailPoints": "List",
-        "RailType": "String"
-    },
-    "Models": [],
-    "Links": []
+    "Description": "The predetermined path for an object to move on. Add this as a link object."
 }

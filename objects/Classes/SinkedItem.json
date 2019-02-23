@@ -1,0 +1,9 @@
+{
+    "ClassName": "SinkedItem",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "IsEffectOn": "Boolean",
+        "ItemType": "String"
+    }
+}

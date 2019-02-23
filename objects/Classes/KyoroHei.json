@@ -1,0 +1,15 @@
+{
+    "ClassName": "KyoroHei",
+    "Links": [
+        "GroupClipping",
+        "MoveNext",
+        "SwitchKill"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsMovePlus": "Boolean",
+        "IsNoHide": "Boolean",
+        "StartPosRate": "Single",
+        "UsingDepthShadow": "Boolean"
+    }
+}

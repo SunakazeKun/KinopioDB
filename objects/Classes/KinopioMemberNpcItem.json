@@ -1,0 +1,8 @@
+{
+    "ClassName": "KinopioMemberNpcItem",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "KinopioMemberNpcItemColor": "Int32"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "ClassName": "Mole",
+    "Links": [
+        "CollectItem",
+        "MoleControlArea",
+        "StartPoint"
+    ],
+    "Models": [],
+    "Properties": {
+        "CollectItemId": "Int32",
+        "ItemType": "String",
+        "MoveEndDistanceOffset": "Single",
+        "MoveSpeed": "Int32",
+        "MoveStartDistance": "Single",
+        "isEnableCheckStrikeArrow": "Boolean",
+        "isEnablePulloutCheckStrikeArrow": "Boolean"
+    }
+}

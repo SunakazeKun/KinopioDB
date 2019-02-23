@@ -4,18 +4,5 @@
     "Name": "Coin Stack",
     "List": "ObjectList",
     "Category": "item",
-    "Description": "A stack of coins. Each single stack consists of five coins.",
-    "Properties": {
-        "CoinStackNum": "Int32",
-        "CubeMapUnitName": "String",
-        "IsNoShadow": "Boolean",
-        "IsOnDrawClipping": "Boolean",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchKill",
-        "ViewGroup"
-    ]
+    "Description": "A stack of coins. Each single stack consists of five coins."
 }

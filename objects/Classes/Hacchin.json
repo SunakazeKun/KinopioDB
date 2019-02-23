@@ -1,0 +1,11 @@
+{
+    "ClassName": "Hacchin",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsAlwaysChase": "Boolean",
+        "UsingDepthShadow": "Boolean"
+    }
+}

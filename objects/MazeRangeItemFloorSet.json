@@ -4,14 +4,5 @@
     "Name": "MazeRangeItemFloorSet",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "Value": "Int32",
-        "Value2": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "RareItem",
-        "ShuffleItem"
-    ]
+    "Description": ""
 }

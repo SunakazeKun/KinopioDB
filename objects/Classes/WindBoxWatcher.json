@@ -1,0 +1,9 @@
+{
+    "ClassName": "WindBoxWatcher",
+    "Links": [
+        "SwitchKill",
+        "WindBox"
+    ],
+    "Models": [],
+    "Properties": {}
+}

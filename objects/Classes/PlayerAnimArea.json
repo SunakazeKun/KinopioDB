@@ -1,0 +1,20 @@
+{
+    "ClassName": "PlayerAnimArea",
+    "Links": [
+        "NoDelete_FollowMtxTarget",
+        "SwitchAppear",
+        "SwitchKill"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "AnimStartFrame": "Int32",
+        "IntervalFrame": "Int32",
+        "PlayerAnimName": "String",
+        "Priority": "Int32"
+    }
+}

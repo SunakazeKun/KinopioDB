@@ -4,15 +4,5 @@
     "Name": "FallDurianGenerator",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "DelayAppearFrame": "Int32",
-        "Distance": "Single",
-        "GenerateFrame": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

@@ -4,17 +4,5 @@
     "Name": "Charvaargh",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "Charvaargh are large magma fish that attack by jumping out of lava.",
-    "Properties": {
-        "AppearSignTime": "Int32",
-        "IsKillOnce": "Boolean",
-        "Speed": "Single",
-        "WaitTime": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "SwitchStart"
-    ]
+    "Description": "Charvaargh are large magma fish that attack by jumping out of lava."
 }

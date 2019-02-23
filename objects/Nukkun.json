@@ -4,19 +4,5 @@
     "Name": "Piranha Sprout",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "These small orange Piranha Plants sprout out of the ground and spit rocks at Toad. Can be plucked if buried out.",
-    "Properties": {
-        "DelayTime": "Int32",
-        "FixedAngle": "Int32",
-        "HideFrame": "Int32",
-        "IsSearch": "Boolean",
-        "MoveType": "Int32",
-        "OnColliderForce": "Boolean",
-        "WetType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "SwitchStart"
-    ]
+    "Description": "These small orange Piranha Plants sprout out of the ground and spit rocks at Toad. Can be plucked if buried out."
 }

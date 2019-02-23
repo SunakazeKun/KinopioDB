@@ -4,15 +4,5 @@
     "Name": "SePlayObj",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ClippingRadius": "Single",
-        "IsValidClipping": "Boolean",
-        "SePlayName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchKill",
-        "SwitchStart"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,17 @@
+{
+    "ClassName": "KinopioBrigadeChecker",
+    "Links": [
+        "DemoStartPosition",
+        "GoalItem",
+        "PlayerNpc",
+        "SwitchGoalDemoStartOn",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "Clipping": "Boolean",
+        "Is2PPairWhenAlive": "Boolean",
+        "IsClearAfterDemo": "Boolean",
+        "IsLastBeforeDemo": "Boolean"
+    }
+}

@@ -4,20 +4,5 @@
     "Name": "SwitchKeepOnArea",
     "List": "AreaList",
     "Category": "area",
-    "Description": "",
-    "Properties": {
-        "OnCondition": "Int32",
-        "Priority": "Int32"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "SwitchAppear",
-        "SwitchAreaOn",
-        "SwitchKill"
-    ]
+    "Description": ""
 }

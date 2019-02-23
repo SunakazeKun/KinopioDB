@@ -4,12 +4,5 @@
     "Name": "SwitchWallMazeSwitchWallA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "MoveType": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "KeyMoveNext"
-    ]
+    "Description": ""
 }

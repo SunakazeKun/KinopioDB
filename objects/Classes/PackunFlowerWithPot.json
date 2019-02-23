@@ -1,0 +1,10 @@
+{
+    "ClassName": "PackunFlowerWithPot",
+    "Links": [
+        "GroupClipping"
+    ],
+    "Models": [],
+    "Properties": {
+        "UsingDepthShadow": "Boolean"
+    }
+}

@@ -4,13 +4,5 @@
     "Name": "CoinBlowGenerator",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CoinBlowSpeed": "Single",
-        "CoinNum": "Int32"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchAppear"
-    ]
+    "Description": ""
 }

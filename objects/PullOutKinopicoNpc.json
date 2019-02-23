@@ -4,12 +4,5 @@
     "Name": "PullOutKinopicoNpc",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "DemoAppearLastPosTarget",
-        "PlayerPos",
-        "SwitchPullOutSuccessOn"
-    ]
+    "Description": ""
 }

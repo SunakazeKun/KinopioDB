@@ -1,0 +1,8 @@
+{
+    "ClassName": "DeadSyncWatcher",
+    "Links": [
+        "WatchTargetObj"
+    ],
+    "Models": [],
+    "Properties": {}
+}

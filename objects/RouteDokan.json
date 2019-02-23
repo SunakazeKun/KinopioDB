@@ -4,13 +4,5 @@
     "Name": "RouteDokan",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "ColorVariation": "Int32",
-        "MoveSpeed": "Single"
-    },
-    "Models": [],
-    "Links": [
-        "Parts"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,10 @@
+{
+    "ClassName": "SePlayRail",
+    "Links": [
+        "Rail"
+    ],
+    "Models": [],
+    "Properties": {
+        "SePlayName": "String"
+    }
+}

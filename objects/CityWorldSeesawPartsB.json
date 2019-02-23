@@ -4,13 +4,5 @@
     "Name": "CityWorldSeesawPartsB",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CubeMapUnitName": "String",
-        "MaxDegree": "Single",
-        "RotateAccelOff": "Single",
-        "RotateAccelOn": "Single"
-    },
-    "Models": [],
-    "Links": []
+    "Description": ""
 }

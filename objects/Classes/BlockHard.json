@@ -1,0 +1,16 @@
+{
+    "ClassName": "BlockHard",
+    "Links": [
+        "GroupClipping",
+        "SwitchBreakOn",
+        "SwitchValidSensorOn",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "IsNoDepthShadow": "Boolean",
+        "IsUseZPrePass": "Boolean",
+        "ShadowMaskSetting": "Int32"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ClassName": "CoinCirclePlacement",
+    "Links": [
+        "GroupClipping",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "CoinNum": "Int32",
+        "Speed": "Single"
+    }
+}

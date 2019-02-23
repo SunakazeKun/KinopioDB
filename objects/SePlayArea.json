@@ -4,20 +4,5 @@
     "Name": "SFX Play Area",
     "List": "AreaList",
     "Category": "area",
-    "Description": "Plays the specified sound effect when entered.",
-    "Properties": {
-        "IsDisableSeStop": "Boolean",
-        "IsOneTime": "Boolean",
-        "Priority": "Int32",
-        "SePlayName": "String"
-    },
-    "Models": [
-        "AreaCubeBase",
-        "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
-    ],
-    "Links": [
-        "SwitchKill"
-    ]
+    "Description": "Plays the specified sound effect when entered."
 }

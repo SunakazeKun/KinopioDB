@@ -1,0 +1,9 @@
+{
+    "ClassName": "TruckGetOffPoint",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "JumpFrame": "Int32",
+        "JumpHeight": "Single"
+    }
+}

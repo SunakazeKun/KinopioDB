@@ -4,31 +4,5 @@
     "Name": "TruckRail",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "RailColor": "Int32"
-    },
-    "Models": [
-        "BlockRailSlope8x4M",
-        "BlockRailStraight8M",
-        "BlockRailCurve8x8M",
-        "BlockRailStraight1M",
-        "BlockRailStraight4M",
-        "BlockRailTerminater",
-        "BlockRailCurve4x4MNoModel",
-        "BlockRailSlope4x2MNoModel",
-        "BlockRailCurve8x8MNoModel",
-        "BlockRailSlope8x4MNoModel",
-        "BlockRailStraight1MNoModel",
-        "BlockRailStraight4MNoModel",
-        "BlockRailStraight8MNoModel",
-        "BlockRailTerminaterNoModel",
-        "BlockRailCurve12x12MNoModel",
-        "BlockRailSlope4x2M",
-        "BlockRailCurve12x12M"
-    ],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": ""
 }

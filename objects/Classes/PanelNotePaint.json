@@ -1,0 +1,14 @@
+{
+    "ClassName": "PanelNotePaint",
+    "Links": [
+        "ViewGroup"
+    ],
+    "Models": [
+        "PanelNote000"
+    ],
+    "Properties": {
+        "Color": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsPush": "Boolean"
+    }
+}

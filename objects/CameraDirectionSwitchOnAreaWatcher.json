@@ -4,11 +4,5 @@
     "Name": "CameraDirectionSwitchOnAreaWatcher",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "CameraDirectionSwitchOnArea",
-        "SwitchCameraDirectionOnOff"
-    ]
+    "Description": ""
 }

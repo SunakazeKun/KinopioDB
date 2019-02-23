@@ -1,0 +1,8 @@
+{
+    "ClassName": "TruckWarpPoint",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "WarpOrder": "Int32"
+    }
+}

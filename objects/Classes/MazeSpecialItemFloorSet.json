@@ -1,0 +1,11 @@
+{
+    "ClassName": "MazeSpecialItemFloorSet",
+    "Links": [
+        "RareItem",
+        "ShuffleItem"
+    ],
+    "Models": [],
+    "Properties": {
+        "Value": "Int32"
+    }
+}

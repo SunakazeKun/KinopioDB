@@ -1,0 +1,18 @@
+{
+    "ClassName": "CoinLine",
+    "Links": [
+        "GroupClipping",
+        "Rail",
+        "SwitchAppear"
+    ],
+    "Models": [],
+    "Properties": {
+        "CoinNum": "Int32",
+        "DelayStep": "Int32",
+        "InvalidateClipping": "Boolean",
+        "IsInvalidPopUp": "Boolean",
+        "IsPlacementPoint": "Boolean",
+        "IsPlayCompleteSe": "Boolean",
+        "PlacementOffset": "Single"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "ClassName": "TrampleSwitch",
+    "Links": [
+        "GroupClipping",
+        "SwitchTrampleOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean"
+    }
+}

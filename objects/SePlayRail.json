@@ -4,12 +4,5 @@
     "Name": "SePlayRail",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "SePlayName": "String"
-    },
-    "Models": [],
-    "Links": [
-        "Rail"
-    ]
+    "Description": ""
 }

@@ -1,0 +1,20 @@
+{
+    "ClassName": "EdgeDrawArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "BoundDepth": "Single",
+        "ColorOffsetB": "Single",
+        "ColorOffsetG": "Single",
+        "ColorOffsetR": "Single",
+        "EndDepth": "Single",
+        "IsConstColor": "Boolean",
+        "PowerMin": "Single",
+        "Priority": "Int32"
+    }
+}

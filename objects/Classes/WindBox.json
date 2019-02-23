@@ -1,0 +1,13 @@
+{
+    "ClassName": "WindBox",
+    "Links": [
+        "GroupClipping",
+        "KeyMoveNext"
+    ],
+    "Models": [],
+    "Properties": {
+        "InterpolateType": "Int32",
+        "MoveType": "Int32",
+        "Speed": "Single"
+    }
+}

@@ -4,16 +4,5 @@
     "Name": "Cheep Cheep",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A common fish enemy found in most Mario games. They are rather passive and don't attack the player.",
-    "Properties": {
-        "MoveType": "Int32",
-        "SwimSpeed": "Single",
-        "UsingDepthShadow": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "Rail",
-        "SupportFreezeSyncGroup"
-    ]
+    "Description": "A common fish enemy found in most Mario games. They are rather passive and don't attack the player."
 }

@@ -4,10 +4,5 @@
     "Name": "MazeItemGroup",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {},
-    "Models": [],
-    "Links": [
-        "Member"
-    ]
+    "Description": ""
 }

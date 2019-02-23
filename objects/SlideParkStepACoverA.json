@@ -4,16 +4,5 @@
     "Name": "SlideParkStepACoverA",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "BeatOffset": "Int32",
-        "CubeMapUnitName": "String",
-        "IsSyncBgmForMclAnime": "Boolean",
-        "IsSyncBgmForMtsAnime": "Boolean",
-        "IsSyncBgmForSklAnime": "Boolean"
-    },
-    "Models": [],
-    "Links": [
-        "SwitchDisappear"
-    ]
+    "Description": ""
 }

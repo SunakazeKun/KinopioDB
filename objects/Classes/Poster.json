@@ -1,0 +1,11 @@
+{
+    "ClassName": "Poster",
+    "Links": [
+        "SwitchDeadOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectToCollision": "Boolean",
+        "PosterType": "Int32"
+    }
+}

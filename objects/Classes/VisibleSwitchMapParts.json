@@ -1,0 +1,10 @@
+{
+    "ClassName": "VisibleSwitchMapParts",
+    "Links": [
+        "SwitchAppear",
+        "SwitchDisappear",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {}
+}

@@ -4,15 +4,5 @@
     "Name": "CoinCirclePlacement",
     "List": "ObjectList",
     "Category": "unknown",
-    "Description": "",
-    "Properties": {
-        "CoinNum": "Int32",
-        "CubeMapUnitName": "String",
-        "Speed": "Single"
-    },
-    "Models": [],
-    "Links": [
-        "GroupClipping",
-        "ViewGroup"
-    ]
+    "Description": ""
 }
