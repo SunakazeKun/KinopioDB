@@ -6,6 +6,7 @@ The tools require **Python 3**.
 
 # Objects
 Each object's information is stored in a corresponding JSON file. The format for these files is kept very simple and it should consist of these fields:
+
 | Field | Description |
 | ----- | ----------- |
 | InternalName | Internal object name (*UnitConfigName*) |
@@ -66,6 +67,7 @@ Object categories are defined in **objects/_Categories.json**. The key is refere
 | Properties | Dictionary of additional object properties |
 | Models | List of usable models |
 | Links | List of compatible links |
+
 Here's an example of GoalItem:
 ```
 {
