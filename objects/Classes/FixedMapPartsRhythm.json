@@ -1,0 +1,11 @@
+{
+    "ClassName": "FixedMapPartsRhythm",
+    "Links": [],
+    "Models": [],
+    "Properties": {
+        "BeatOffset": "Int32",
+        "IsSyncBgmForMclAnime": "Boolean",
+        "IsSyncBgmForMtsAnime": "Boolean",
+        "IsSyncBgmForSklAnime": "Boolean"
+    }
+}

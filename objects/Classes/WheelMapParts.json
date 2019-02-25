@@ -1,12 +1,16 @@
 {
     "ClassName": "WheelMapParts",
     "Links": [
-        "Rail"
+        "Rail",
+        "WheelWatcher"
     ],
     "Models": [],
     "Properties": {
         "MoveEndDegree": "Single",
+        "NoRotateWidth": "Single",
         "RotateAccel": "Single",
-        "RotateAxis": "Int32"
+        "RotateAxis": "Int32",
+        "SwitchOffPlayAnimName": "String",
+        "SwitchOnPlayAnimName": "String"
     }
 }

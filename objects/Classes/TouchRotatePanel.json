@@ -2,6 +2,8 @@
     "ClassName": "TouchRotatePanel",
     "Links": [
         "RotateParts",
+        "RotateWatch",
+        "SwitchStopForceOn",
         "TransParts",
         "ViewGroup"
     ],

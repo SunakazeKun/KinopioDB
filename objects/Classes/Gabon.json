@@ -1,7 +1,8 @@
 {
     "ClassName": "Gabon",
     "Links": [
-        "GroupClipping"
+        "GroupClipping",
+        "WatchDeath"
     ],
     "Models": [],
     "Properties": {
@@ -9,6 +10,7 @@
         "GenerateInterval": "Int32",
         "MoveAccel": "Single",
         "ThrowModel": "String",
+        "ThrowModelSuffixName": "String",
         "UsingDepthShadow": "Boolean"
     }
 }

@@ -2,5 +2,7 @@
     "ClassName": "DoubleMario",
     "Links": [],
     "Models": [],
-    "Properties": {}
+    "Properties": {
+        "IsConnectToCollision": "Boolean"
+    }
 }

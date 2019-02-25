@@ -2,6 +2,7 @@ Internal name             Name            References
 ----------------------------------------------------------------------------------------------------
 * 100% confirmed thanks to StageList and GraphicsQualityStageParam
 
+BigWheelStage             n/a             SeDataBase, LightPreset, EffectObjDataBase, main executable
 DockingDioramaStage       Shifty Shrine   StageList, ObjectData, LocalizeData, SeDataBase, LightPreset, EffectObjDataBase
 DoubleBossBirdStage       n/a             EffectObjDataBase, main executable
 RisingDangerStage         n/a             GraphicsQualityStageParam, SeDataBase, LightPreset
@@ -14,7 +15,6 @@ TruckNukkunSinkTowerStage n/a             GraphicsQualityStageParam, EffectObjDa
 "SwitchDoorDarkStage"     n/a             SeDataBase
 "SeesawWheelClimbStage"   n/a             SeDataBase
 "ShoppingMallStage"       n/a             SeDataBase
-"BigWheelStage"           n/a             SeDataBase, LightPreset, EffectObjDataBase
 "HeyhoGardenGhostStage"   n/a             LightPreset
 "MoleMazeStage"           n/a             LightPreset
 "MokingGhostStage"        n/a             LightPreset

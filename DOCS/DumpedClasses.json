@@ -27,8 +27,7 @@
             "SwitchAppear"
         ],
         "Models": [
-            "AreaCubeBase",
-            "AreaCylinder"
+            "AreaCubeBase"
         ],
         "Properties": {
             "Priority": "Int32"
@@ -117,6 +116,34 @@
             "Priority": "Int32",
             "SituationName": "String",
             "SituationType": "Int32"
+        }
+    },
+    "AutoSwitchActivateArea": {
+        "ClassName": "AutoSwitchActivateArea",
+        "Links": [
+            "AutoSwitch1On",
+            "AutoSwitch2On",
+            "AutoSwitch3On",
+            "AutoSwitch4On",
+            "AutoSwitch5On",
+            "AutoSwitch6On",
+            "AutoSwitch7On"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
+    },
+    "AutoSwitchBlockWatcherArea": {
+        "ClassName": "AutoSwitchBlockWatcherArea",
+        "Links": [
+            "WatchSwitchBlock"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "TriggerOnEven": "Boolean"
         }
     },
     "BackHideMapParts": {
@@ -323,11 +350,22 @@
         ],
         "Models": [],
         "Properties": {
+            "IsBigWheelStage": "Boolean",
             "IsConnectToCollision": "Boolean",
             "IsNoDepthShadow": "Boolean",
             "IsUseZPrePass": "Boolean",
             "ShadowMaskSetting": "Int32"
         }
+    },
+    "BlockHardWatchArea": {
+        "ClassName": "BlockHardWatchArea",
+        "Links": [
+            "DestroyBlock"
+        ],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {}
     },
     "BlockPow": {
         "ClassName": "BlockPow",
@@ -337,6 +375,7 @@
         ],
         "Models": [],
         "Properties": {
+            "ExplosionRadius": "Single",
             "IsAppearBlockEmpty": "Boolean",
             "IsConnectToCollision": "Boolean",
             "IsExpandClippingShadowLength": "Boolean",
@@ -451,7 +490,8 @@
             "BossBirdSand",
             "DemoBossBirdPosition",
             "SwitchBossBirdUp",
-            "SwitchDrawClipping"
+            "SwitchDrawClipping",
+            "SwitchForceEndBlow"
         ],
         "Models": [],
         "Properties": {}
@@ -600,18 +640,6 @@
             "UsingDepthShadow": "Boolean"
         }
     },
-    "Bush": {
-        "ClassName": "Bush",
-        "Links": [
-            "GroupClipping",
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "Color": "Int32",
-            "ItemType": "String"
-        }
-    },
     "CameraArea": {
         "ClassName": "CameraArea",
         "Links": [
@@ -653,22 +681,6 @@
         "Models": [],
         "Properties": {}
     },
-    "CameraIconDisplayArea": {
-        "ClassName": "CameraIconDisplayArea",
-        "Links": [],
-        "Models": [
-            "AreaCubeBase"
-        ],
-        "Properties": {}
-    },
-    "CameraRestrictedArea": {
-        "ClassName": "CameraRestrictedArea",
-        "Links": [],
-        "Models": [
-            "AreaCubeBase"
-        ],
-        "Properties": {}
-    },
     "CameraShake": {
         "ClassName": "CameraShake",
         "Links": [
@@ -702,19 +714,6 @@
             "SoundName": "String",
             "StopFrameMax": "Int32",
             "StopFrameMin": "Int32"
-        }
-    },
-    "CameraStopLookAtArea": {
-        "ClassName": "CameraStopLookAtArea",
-        "Links": [
-            "TargetPos"
-        ],
-        "Models": [
-            "AreaCubeBase"
-        ],
-        "Properties": {
-            "IsValidSingleMode": "Boolean",
-            "Priority": "Int32"
         }
     },
     "Candlestand": {
@@ -777,8 +776,7 @@
         "ClassName": "ChorobonHolder",
         "Links": [
             "GroupClipping",
-            "Rail",
-            "ViewGroup"
+            "Rail"
         ],
         "Models": [],
         "Properties": {
@@ -786,7 +784,9 @@
             "ItemInsertPosition": "Int32",
             "ItemType": "String",
             "MoveSpeed": "Int32",
+            "UseShadowMaskCollisionCheck": "Boolean",
             "UsingDepthShadow": "Boolean",
+            "UsingSilhouette": "Boolean",
             "WidthNum": "Int32",
             "isSetGuide": "Boolean"
         }
@@ -797,12 +797,6 @@
             "SwitchAppear",
             "SwitchStart"
         ],
-        "Models": [],
-        "Properties": {}
-    },
-    "ClippingExpander": {
-        "ClassName": "ClippingExpander",
-        "Links": [],
         "Models": [],
         "Properties": {}
     },
@@ -843,17 +837,6 @@
             "ShadowType": "Int32"
         }
     },
-    "CoinBlowGenerator": {
-        "ClassName": "CoinBlowGenerator",
-        "Links": [
-            "SwitchAppear"
-        ],
-        "Models": [],
-        "Properties": {
-            "CoinBlowSpeed": "Single",
-            "CoinNum": "Int32"
-        }
-    },
     "CoinChameleon": {
         "ClassName": "CoinChameleon",
         "Links": [
@@ -868,10 +851,7 @@
     },
     "CoinCirclePlacement": {
         "ClassName": "CoinCirclePlacement",
-        "Links": [
-            "GroupClipping",
-            "ViewGroup"
-        ],
+        "Links": [],
         "Models": [],
         "Properties": {
             "CoinNum": "Int32",
@@ -899,9 +879,7 @@
     "CoinRail": {
         "ClassName": "CoinRail",
         "Links": [
-            "GroupClipping",
-            "Rail",
-            "ViewGroup"
+            "Rail"
         ],
         "Models": [],
         "Properties": {
@@ -951,8 +929,8 @@
             "TouchPointRadius": "Single"
         }
     },
-    "ConveyerMapParts": {
-        "ClassName": "ConveyerMapParts",
+    "ConveyorMapParts": {
+        "ClassName": "ConveyorMapParts",
         "Links": [
             "KeyMoveNext",
             "ViewGroup"
@@ -983,8 +961,7 @@
     "Crab": {
         "ClassName": "Crab",
         "Links": [
-            "MoveNext",
-            "ViewGroup"
+            "MoveNext"
         ],
         "Models": [],
         "Properties": {
@@ -1114,21 +1091,15 @@
         "Links": [],
         "Models": [
             "BossBird",
-            "BottleOuter",
             "Bull",
             "Chorobon",
             "Crawler",
             "DemoBook",
             "DemoEndingBossBirdFat",
             "DemoEndingBossFire",
-            "DemoObjectDemoOpening3DWorld",
-            "DemoObjectDemoOpening3DWorldGround",
-            "DemoObjectDemoOpeningBalloon",
-            "DemoObjectDemoOpeningItem",
             "DemoObjectEndingCutObjectA",
             "DemoObjectEndingCutObjectB",
             "DemoObjectEndingCutObjectC",
-            "DemoObjectRouteDokan",
             "DemoOpeningSeason1AStep",
             "DemoSeason3EndingStepB",
             "DemoSeason3EndingStepBParts",
@@ -1136,7 +1107,6 @@
             "DemoSeason3EndingStepD",
             "DemoSeason3EndingStepEOdyssey",
             "DemoSeason3EndingStepF",
-            "FairyPrincess01",
             "FireBros",
             "Gabon",
             "GettonBody",
@@ -1151,14 +1121,9 @@
             "KillerSearch",
             "Kinopico",
             "KinopioMemberNPC",
-            "KoopaDemoOpening",
             "Kuribo",
             "KyoroHei",
-            "LuigiHummer",
-            "LuigiWrench",
             "MagmaFish",
-            "MarioHummer",
-            "MarioWrench",
             "Moking",
             "Nukkun",
             "NukkunHole",
@@ -1197,11 +1162,7 @@
         "Links": [],
         "Models": [
             "Kinopico",
-            "Kinopio",
-            "KinopioBlue",
-            "Luigi",
-            "Mario",
-            "Peach"
+            "Kinopio"
         ],
         "Properties": {
             "Action1": "String",
@@ -1243,8 +1204,7 @@
             "SwitchKill"
         ],
         "Models": [
-            "AreaCubeBase",
-            "AreaCylinder"
+            "AreaCubeBase"
         ],
         "Properties": {
             "IndirectScrollSpeed": "Single",
@@ -1315,6 +1275,16 @@
     "DoubleMario": {
         "ClassName": "DoubleMario",
         "Links": [],
+        "Models": [],
+        "Properties": {
+            "IsConnectToCollision": "Boolean"
+        }
+    },
+    "DoubleMarioWatcher": {
+        "ClassName": "DoubleMarioWatcher",
+        "Links": [
+            "Something"
+        ],
         "Models": [],
         "Properties": {}
     },
@@ -1391,6 +1361,16 @@
     },
     "EnemyChaseArea": {
         "ClassName": "EnemyChaseArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "Priority": "Int32"
+        }
+    },
+    "EnemyDeathWatchArea": {
+        "ClassName": "EnemyDeathWatchArea",
         "Links": [],
         "Models": [
             "AreaCubeBase"
@@ -1493,9 +1473,46 @@
             "ViewGroup"
         ],
         "Models": [
+            "CloudCotton",
+            "CloudGhost",
+            "CloudHighPlace",
+            "CloudLong",
+            "CloudNightFullMoon",
+            "CloudNightThunderhead",
+            "CloudRefresh",
+            "CloudSpaceNebula",
+            "CloudStorm",
+            "CloudWaterfallWorld",
+            "CommonLeafA",
+            "DistantViewWaterfallWorld",
+            "GroundGridBlue",
+            "GroundGridDarkBlue",
+            "GroundGridDarkGreen",
+            "GroundGridDesert",
+            "GroundGridForest",
+            "GroundGridLavaBlue",
+            "GroundGridPurple",
+            "GroundGridRock"
+        ],
+        "Properties": {}
+    },
+    "FixMapPartsCarpet": {
+        "ClassName": "FixMapPartsCarpet",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "FixedMapParts": {
+        "ClassName": "FixedMapParts",
+        "Links": [
+            "GroupClipping",
+            "SwitchAppear",
+            "SwitchKill",
+            "ViewGroup"
+        ],
+        "Models": [
             "CloudCityWorld",
             "CloudCotton",
-            "CloudEnterCatMario",
             "CloudGhost",
             "CloudHighPlace",
             "CloudLavaWorld",
@@ -1507,35 +1524,34 @@
             "CloudSpaceNebula",
             "CloudStorm",
             "CloudThunderhead",
-            "CloudWaterfallWorld",
             "CommonLeafA",
             "DistantViewCityWorld",
-            "DistantViewWaterfallWorld",
             "GroundGridBlue",
             "GroundGridDarkBlue",
             "GroundGridDarkGreen",
             "GroundGridDesert",
             "GroundGridDesertRed",
             "GroundGridForest",
-            "GroundGridLavaBlue",
             "GroundGridLavaRed",
             "GroundGridPurple",
             "GroundGridRock",
             "GroundGridRouteDokanJet",
             "GroundGridSea"
         ],
-        "Properties": {}
+        "Properties": {
+            "PlayAnimName": "String"
+        }
     },
-    "FixMapPartsCarpet": {
-        "ClassName": "FixMapPartsCarpet",
+    "FixedMapPartsCarpet": {
+        "ClassName": "FixedMapPartsCarpet",
         "Links": [
             "SwitchAppear"
         ],
         "Models": [],
         "Properties": {}
     },
-    "FixMapPartsRhythm": {
-        "ClassName": "FixMapPartsRhythm",
+    "FixedMapPartsRhythm": {
+        "ClassName": "FixedMapPartsRhythm",
         "Links": [],
         "Models": [],
         "Properties": {
@@ -1545,34 +1561,13 @@
             "IsSyncBgmForSklAnime": "Boolean"
         }
     },
-    "FixedMapParts": {
-        "ClassName": "FixedMapParts",
-        "Links": [],
-        "Models": [
-            "CloudRefresh",
-            "GroundGridForest"
-        ],
-        "Properties": {
-            "PlayAnimName": "String"
-        }
-    },
-    "FlowerCactus": {
-        "ClassName": "FlowerCactus",
-        "Links": [],
-        "Models": [],
-        "Properties": {
-            "Color": "Int32"
-        }
-    },
     "FlowerRhythm": {
         "ClassName": "FlowerRhythm",
         "Links": [
-            "GroupClipping",
-            "ViewGroup"
+            "GroupClipping"
         ],
         "Models": [
-            "FlowerDandelion",
-            "FlowerRhythm"
+            "FlowerDandelion"
         ],
         "Properties": {
             "FlowerPoinsettiaColor": "Int32",
@@ -1619,22 +1614,11 @@
             "YFogShadowIntensity": "Single"
         }
     },
-    "FrameOutCtrlArea": {
-        "ClassName": "FrameOutCtrlArea",
-        "Links": [],
-        "Models": [
-            "AreaCubeBase"
-        ],
-        "Properties": {
-            "EnableHorizontalCheck": "Boolean",
-            "EnableVerticalCheck": "Boolean",
-            "ShowIconAtDisable": "Boolean"
-        }
-    },
     "Gabon": {
         "ClassName": "Gabon",
         "Links": [
-            "GroupClipping"
+            "GroupClipping",
+            "WatchDeath"
         ],
         "Models": [],
         "Properties": {
@@ -1642,6 +1626,7 @@
             "GenerateInterval": "Int32",
             "MoveAccel": "Single",
             "ThrowModel": "String",
+            "ThrowModelSuffixName": "String",
             "UsingDepthShadow": "Boolean"
         }
     },
@@ -1717,7 +1702,6 @@
             "GoalItem",
             "GoalItemCrown",
             "GoalItemCrownDLC",
-            "GreenStarGoalItem",
             "ShineGoalItem"
         ],
         "Properties": {
@@ -1780,20 +1764,6 @@
             "UseTex2nd": "Boolean"
         }
     },
-    "GraphicsObjShadowMaskSphere": {
-        "ClassName": "GraphicsObjShadowMaskSphere",
-        "Links": [],
-        "Models": [],
-        "Properties": {
-            "ColorAlpha": "Single",
-            "ColorBlue": "Single",
-            "ColorGreen": "Single",
-            "ColorRed": "Single",
-            "Radius": "Single",
-            "ShadowMaskDrawCategory": "Int32",
-            "ShadowMaskPow": "Single"
-        }
-    },
     "GrassControl": {
         "ClassName": "GrassControl",
         "Links": [
@@ -1849,8 +1819,7 @@
     "GuideAppearPoint": {
         "ClassName": "GuideAppearPoint",
         "Links": [
-            "GuideAppearArea",
-            "SwitchKill"
+            "GuideAppearArea"
         ],
         "Models": [],
         "Properties": {
@@ -1876,19 +1845,9 @@
             "DegreeYZBottom": "Single",
             "DegreeYZUp": "Single",
             "HideStartCamera": "Boolean",
+            "MessageType": "Int32",
             "isDisplayOnce": "Boolean",
             "isJudgeDegreeYZ": "Boolean"
-        }
-    },
-    "Hacchin": {
-        "ClassName": "Hacchin",
-        "Links": [
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "IsAlwaysChase": "Boolean",
-            "UsingDepthShadow": "Boolean"
         }
     },
     "HammerBros": {
@@ -2019,8 +1978,11 @@
             "EffectFramePart2": "Int32",
             "EffectName": "String",
             "InterpolateType": "Int32",
+            "IsCancelWithinWaitTime": "Boolean",
             "IsFloorTouchStart": "Boolean",
+            "IsIgnoreFirstWaitTime": "Boolean",
             "IsPlaySign": "Boolean",
+            "IsReverseWhenSwitchOff": "Boolean",
             "IsStopKill": "Boolean",
             "MoveType": "Int32",
             "PlayEffect": "Boolean",
@@ -2043,8 +2005,10 @@
             "EffectFramePart2": "Int32",
             "EffectName": "String",
             "InterpolateType": "Int32",
+            "IsCancelWithinWaitTime": "Boolean",
             "IsFloorTouchStart": "Boolean",
             "IsPlaySign": "Boolean",
+            "IsReverseWhenSwitchOff": "Boolean",
             "IsStopKill": "Boolean",
             "MoveType": "Int32",
             "PlayEffect": "Boolean",
@@ -2085,7 +2049,6 @@
     "KinokoOneUp": {
         "ClassName": "KinokoOneUp",
         "Links": [
-            "GroupClipping",
             "SwitchAppear"
         ],
         "Models": [],
@@ -2150,6 +2113,7 @@
         "Models": [],
         "Properties": {
             "CollectItemId": "Int32",
+            "Is2ndCollectItem": "Boolean",
             "IsConnectToCollision": "Boolean",
             "IsEnableTurn": "Boolean",
             "IsPutGlass": "Boolean",
@@ -2206,42 +2170,17 @@
             "Priority": "Int32"
         }
     },
-    "KoopaSignBoard": {
-        "ClassName": "KoopaSignBoard",
-        "Links": [
-            "GroupClipping"
-        ],
-        "Models": [],
-        "Properties": {}
-    },
     "Kuribo": {
         "ClassName": "Kuribo",
         "Links": [
             "GroupClipping",
-            "SwitchWait",
-            "ViewGroup"
+            "SwitchWait"
         ],
         "Models": [],
         "Properties": {
             "IsChangeBoxKuribo": "Boolean",
             "IsEnableCliffCheck": "Boolean",
             "IsNoUseShadowMask": "Boolean",
-            "UsingDepthShadow": "Boolean"
-        }
-    },
-    "KuriboClimbRail": {
-        "ClassName": "KuriboClimbRail",
-        "Links": [
-            "GroupClipping",
-            "Rail",
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "IsBodyAttackImmediately": "Boolean",
-            "IsControlShadowLength": "Boolean",
-            "IsPlacementSlope": "Boolean",
-            "ItemType": "String",
             "UsingDepthShadow": "Boolean"
         }
     },
@@ -2284,8 +2223,7 @@
             "GroupClipping",
             "LadderLink",
             "SwitchKill",
-            "SwitchValidate",
-            "ViewGroup"
+            "SwitchValidate"
         ],
         "Models": [
             "Normal50CM"
@@ -2305,7 +2243,9 @@
             "ViewGroup"
         ],
         "Models": [],
-        "Properties": {}
+        "Properties": {
+            "PlayAnimName": "String"
+        }
     },
     "Lift": {
         "ClassName": "Lift",
@@ -2325,8 +2265,12 @@
             "EffectFramePart2": "Int32",
             "EffectName": "String",
             "InterpolateType": "Int32",
+            "IsCancelWithinWaitTime": "Boolean",
+            "IsDisableStaticTouchEffects": "Boolean",
             "IsFloorTouchStart": "Boolean",
+            "IsIgnoreFirstWaitTime": "Boolean",
             "IsPlaySign": "Boolean",
+            "IsReverseWhenSwitchOff": "Boolean",
             "IsStopKill": "Boolean",
             "LiftColor": "Int32",
             "MoveType": "Int32",
@@ -2372,7 +2316,19 @@
         "Models": [],
         "Properties": {
             "AppearSignTime": "Int32",
+            "CollectItemId": "Int32",
+            "Is2ndCollectItem": "Boolean",
             "IsKillOnce": "Boolean",
+            "ItemOffset_0": "Single",
+            "ItemOffset_1": "Single",
+            "ItemOffset_2": "Single",
+            "ItemOffset_3": "Single",
+            "ItemOffset_4": "Single",
+            "ItemType_0": "String",
+            "ItemType_1": "String",
+            "ItemType_2": "String",
+            "ItemType_3": "String",
+            "ItemType_4": "String",
             "Speed": "Single",
             "WaitTime": "Int32"
         }
@@ -2451,19 +2407,6 @@
             "Value": "Int32"
         }
     },
-    "MoamoaHolder": {
-        "ClassName": "MoamoaHolder",
-        "Links": [],
-        "Models": [],
-        "Properties": {
-            "DepthNum": "Int32",
-            "HeightNum": "Int32",
-            "IsHideShadow": "Boolean",
-            "UsingDepthShadow": "Boolean",
-            "WeakWaitStep": "Int32",
-            "WidthNum": "Int32"
-        }
-    },
     "Moking": {
         "ClassName": "Moking",
         "Links": [
@@ -2473,6 +2416,7 @@
         "Models": [],
         "Properties": {
             "GroundCheckLength": "Single",
+            "IsDisableGroundSlam": "Boolean",
             "IsForbiddenSideSlide": "Boolean",
             "IsOffColliderAtRail": "Boolean",
             "ShadowMaskDropLength": "Single"
@@ -2561,10 +2505,7 @@
     },
     "NeedleSeed": {
         "ClassName": "NeedleSeed",
-        "Links": [
-            "GroupClipping",
-            "ViewGroup"
-        ],
+        "Links": [],
         "Models": [],
         "Properties": {
             "ItemType": "String",
@@ -2624,13 +2565,10 @@
     "OneSideStep": {
         "ClassName": "OneSideStep",
         "Links": [
-            "GroupClipping",
-            "KeyMoveNext",
-            "ViewGroup"
+            "GroupClipping"
         ],
         "Models": [
             "OneSideStep4x4M",
-            "OneSideStep6x6M",
             "WheelPlanetOneSideStep"
         ],
         "Properties": {
@@ -2646,7 +2584,6 @@
     "PackunFire": {
         "ClassName": "PackunFire",
         "Links": [
-            "GroupClipping",
             "SwitchStart"
         ],
         "Models": [],
@@ -2666,16 +2603,6 @@
         "Properties": {
             "IsBlowBackDir": "Boolean",
             "IsRemainTrace": "Boolean",
-            "UsingDepthShadow": "Boolean"
-        }
-    },
-    "PackunFlowerWithPot": {
-        "ClassName": "PackunFlowerWithPot",
-        "Links": [
-            "GroupClipping"
-        ],
-        "Models": [],
-        "Properties": {
             "UsingDepthShadow": "Boolean"
         }
     },
@@ -2729,9 +2656,7 @@
     },
     "PickaxeItem": {
         "ClassName": "PickaxeItem",
-        "Links": [
-            "ViewGroup"
-        ],
+        "Links": [],
         "Models": [],
         "Properties": {}
     },
@@ -2795,6 +2720,7 @@
             "SwitchAppear"
         ],
         "Models": [
+            "AreaCubeBase",
             "AreaSphere"
         ],
         "Properties": {
@@ -2834,14 +2760,6 @@
             "IsConnectToCollision": "Boolean"
         }
     },
-    "PlayerCollisionPartsGatherArea": {
-        "ClassName": "PlayerCollisionPartsGatherArea",
-        "Links": [],
-        "Models": [
-            "AreaCubeBase"
-        ],
-        "Properties": {}
-    },
     "PlayerFallActionControlArea": {
         "ClassName": "PlayerFallActionControlArea",
         "Links": [
@@ -2855,14 +2773,18 @@
             "IsEnableCollisionHeightCheck": "Boolean"
         }
     },
-    "PlayerFurOffArea": {
-        "ClassName": "PlayerFurOffArea",
-        "Links": [],
+    "PlayerForceBubbleArea": {
+        "ClassName": "PlayerForceBubbleArea",
+        "Links": [
+            "SwitchAppear"
+        ],
         "Models": [
             "AreaCubeBase"
         ],
         "Properties": {
-            "Priority": "Int32"
+            "IsAffectOtherPlayer": "Boolean",
+            "IsAllowBubbleInAir": "Boolean",
+            "IsNoBubbleArea": "Boolean"
         }
     },
     "PlayerInvinciblePickaxeNoCollisionCheckArea": {
@@ -3172,6 +3094,7 @@
         ],
         "Models": [],
         "Properties": {
+            "AllowBubble": "Boolean",
             "ColorVariation": "Int32",
             "MoveSpeed": "Single"
         }
@@ -3181,6 +3104,7 @@
         "Links": [
             "GroupClipping",
             "Parts",
+            "Target2PPos",
             "TargetPos",
             "ViewGroup"
         ],
@@ -3195,20 +3119,6 @@
             "ShootAngle": "Single",
             "ShootSpeed": "Single",
             "ShootType": "Int32"
-        }
-    },
-    "RouteDokanLauncher": {
-        "ClassName": "RouteDokanLauncher",
-        "Links": [
-            "Parts",
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "IsUseHostUpDir": "Boolean",
-            "IsUseObjectCamera": "Boolean",
-            "ModelSuffix": "String",
-            "MoveSpeed": "Single"
         }
     },
     "RouteDokanParts": {
@@ -3240,6 +3150,19 @@
         ],
         "Properties": {
             "ModelSuffix": "String"
+        }
+    },
+    "SafeBubbleArea": {
+        "ClassName": "SafeBubbleArea",
+        "Links": [
+            "NoDelete_FollowMtxTarget"
+        ],
+        "Models": [
+            "AreaCubeBase",
+            "AreaCylinder"
+        ],
+        "Properties": {
+            "Priority": "Int32"
         }
     },
     "SePlayArea": {
@@ -3323,32 +3246,19 @@
     "SignBoard": {
         "ClassName": "SignBoard",
         "Links": [
-            "GroupClipping",
-            "ViewGroup"
+            "GroupClipping"
         ],
         "Models": [
             "SignBoardNormalDown",
             "SignBoardNormalLeft",
             "SignBoardNormalRight",
             "SignBoardWoodDown",
-            "SignBoardWoodLeft",
-            "SignBoardWoodRight",
-            "SignBoardWoodRightDown",
-            "SignBoardWoodWallRight"
+            "SignBoardWoodLeft"
         ],
         "Properties": {
             "IsConnectToCollision": "Boolean",
             "IsSnowCover": "Boolean",
             "WetType": "Int32"
-        }
-    },
-    "SinkedItem": {
-        "ClassName": "SinkedItem",
-        "Links": [],
-        "Models": [],
-        "Properties": {
-            "IsEffectOn": "Boolean",
-            "ItemType": "String"
         }
     },
     "Sky": {
@@ -3383,7 +3293,6 @@
             "SkyNightStardust",
             "SkyOrangeTwilight",
             "SkyPoison",
-            "SkyRouteDokanTour",
             "SkySandWorld",
             "SkySandWorldNight",
             "SkySpace",
@@ -3397,9 +3306,7 @@
     },
     "SkyProjection": {
         "ClassName": "SkyProjection",
-        "Links": [
-            "SwitchAppear"
-        ],
+        "Links": [],
         "Models": [],
         "Properties": {
             "CloudTexMtxV": "Single",
@@ -3410,23 +3317,6 @@
             "IsUseDemo": "Boolean",
             "SkyTexMtxV": "Single",
             "SkyTexMtxVUnder": "Single"
-        }
-    },
-    "SlideMapParts": {
-        "ClassName": "SlideMapParts",
-        "Links": [
-            "GroupClipping",
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "DelayTime": "Int32",
-            "MoveAxis": "Int32",
-            "MoveDistance": "Single",
-            "MoveSpeed": "Single",
-            "MoveTime": "Int32",
-            "SurfaceHeight": "Single",
-            "WaitTime": "Int32"
         }
     },
     "StageEndEventSeasonHalfDemo": {
@@ -3457,15 +3347,6 @@
             "StartAnimation": "String"
         }
     },
-    "StageStartEventCamera": {
-        "ClassName": "StageStartEventCamera",
-        "Links": [],
-        "Models": [],
-        "Properties": {
-            "Action1": "String",
-            "ArcName": "String"
-        }
-    },
     "StageStartEventDemo": {
         "ClassName": "StageStartEventDemo",
         "Links": [],
@@ -3474,14 +3355,6 @@
             "DemoEndingSeason3Stage"
         ],
         "Properties": {}
-    },
-    "StageStartEventSound": {
-        "ClassName": "StageStartEventSound",
-        "Links": [],
-        "Models": [],
-        "Properties": {
-            "SoundName": "String"
-        }
     },
     "StageSwitch": {
         "ClassName": "StageSwitch",
@@ -3582,6 +3455,7 @@
         "Links": [
             "GroupClipping",
             "GuideAppearPoint",
+            "SwitchPrePullOn",
             "SwitchPullOn",
             "ViewGroup"
         ],
@@ -3593,7 +3467,9 @@
     },
     "SwitchRotateSwitch": {
         "ClassName": "SwitchRotateSwitch",
-        "Links": [],
+        "Links": [
+            "SwitchRotateOn"
+        ],
         "Models": [],
         "Properties": {}
     },
@@ -3610,6 +3486,15 @@
             "RotateTime": "Int32"
         }
     },
+    "SwitchUnClippingDirector": {
+        "ClassName": "SwitchUnClippingDirector",
+        "Links": [
+            "ClippingTarget",
+            "SwitchAppear"
+        ],
+        "Models": [],
+        "Properties": {}
+    },
     "TargetPos": {
         "ClassName": "TargetPos",
         "Links": [
@@ -3617,7 +3502,8 @@
         ],
         "Models": [],
         "Properties": {
-            "Action": "Int32"
+            "Action": "Int32",
+            "Is2PPos": "Boolean"
         }
     },
     "TentenGenerator": {
@@ -3719,6 +3605,8 @@
         "ClassName": "TouchRotatePanel",
         "Links": [
             "RotateParts",
+            "RotateWatch",
+            "SwitchStopForceOn",
             "TransParts",
             "ViewGroup"
         ],
@@ -3742,9 +3630,27 @@
             "RotateAxis": "Int32"
         }
     },
+    "TouchRotateWatchArea": {
+        "ClassName": "TouchRotateWatchArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "ForcePositiveDirection": "Boolean",
+            "ForceValidDegree": "Int32",
+            "IsInvalidDegree_0": "Boolean",
+            "IsInvalidDegree_180": "Boolean",
+            "IsInvalidDegree_270": "Boolean",
+            "IsInvalidDegree_90": "Boolean",
+            "OnlyCheckOnDegree": "Int32",
+            "Priority": "Int32"
+        }
+    },
     "TouchTransParts": {
         "ClassName": "TouchTransParts",
         "Links": [
+            "SwitchStopForceOn",
             "TouchTransParts"
         ],
         "Models": [],
@@ -3787,25 +3693,6 @@
         "Models": [],
         "Properties": {}
     },
-    "Tree": {
-        "ClassName": "Tree",
-        "Links": [
-            "ClippingExpander",
-            "GroupClipping",
-            "ViewGroup"
-        ],
-        "Models": [
-            "TreeLongA",
-            "TreeLongC",
-            "TreePalm"
-        ],
-        "Properties": {
-            "IsRotateY": "Boolean",
-            "IsUseZPP": "Boolean",
-            "ItemType": "String",
-            "LightType": "Int32"
-        }
-    },
     "Truck": {
         "ClassName": "Truck",
         "Links": [
@@ -3844,26 +3731,9 @@
             "WarpOrder": "Int32"
         }
     },
-    "Tuccondor": {
-        "ClassName": "Tuccondor",
-        "Links": [
-            "GroupClipping",
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "IsSearchCircle": "Boolean",
-            "IsTuccondorAttackShort": "Boolean",
-            "SearchAngleDegreeLeft": "Single",
-            "SearchAngleDegreeRight": "Single",
-            "UsingDepthShadow": "Boolean"
-        }
-    },
     "TuccondorTrap": {
         "ClassName": "TuccondorTrap",
-        "Links": [
-            "ViewGroup"
-        ],
+        "Links": [],
         "Models": [],
         "Properties": {
             "InvalidateBodyAttackSensor": "Boolean",
@@ -3877,7 +3747,10 @@
         "Links": [],
         "Models": [],
         "Properties": {
+            "CollectItemId": "Int32",
+            "Is2ndCollectItem": "Boolean",
             "IsOffCollide": "Boolean",
+            "ItemType": "String",
             "UsingDepthShadow": "Boolean"
         }
     },
@@ -3896,7 +3769,6 @@
     "VisibleSwitchMapParts": {
         "ClassName": "VisibleSwitchMapParts",
         "Links": [
-            "SwitchAppear",
             "SwitchDisappear",
             "ViewGroup"
         ],
@@ -3922,9 +3794,7 @@
             "DestCube",
             "SwitchAppear",
             "SwitchKill",
-            "SwitchObjectCameraKeepOn",
-            "ViewGroup",
-            "WarpCubeLockedPiece"
+            "SwitchObjectCameraKeepOn"
         ],
         "Models": [],
         "Properties": {
@@ -3941,25 +3811,12 @@
             "WetType": "Int32"
         }
     },
-    "WarpCubeLockedPiece": {
-        "ClassName": "WarpCubeLockedPiece",
-        "Links": [
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "IsAppearRise": "Boolean",
-            "ShadowLength": "Single"
-        }
-    },
     "WarpDoor": {
         "ClassName": "WarpDoor",
         "Links": [
-            "DestDoor",
-            "GroupClipping"
+            "DestDoor"
         ],
         "Models": [
-            "WarpDoor",
             "WarpDoorTeresaFrameOff"
         ],
         "Properties": {
@@ -3971,13 +3828,17 @@
     "WheelMapParts": {
         "ClassName": "WheelMapParts",
         "Links": [
-            "Rail"
+            "Rail",
+            "WheelWatcher"
         ],
         "Models": [],
         "Properties": {
             "MoveEndDegree": "Single",
+            "NoRotateWidth": "Single",
             "RotateAccel": "Single",
-            "RotateAxis": "Int32"
+            "RotateAxis": "Int32",
+            "SwitchOffPlayAnimName": "String",
+            "SwitchOnPlayAnimName": "String"
         }
     },
     "WheelMapPartsEffectObjAtCollision": {
@@ -4004,6 +3865,17 @@
             "RotateDegree1": "Single",
             "RotateDegree2": "Single",
             "RotateDegree3": "Single"
+        }
+    },
+    "WheelPartWatchArea": {
+        "ClassName": "WheelPartWatchArea",
+        "Links": [],
+        "Models": [
+            "AreaCubeBase"
+        ],
+        "Properties": {
+            "ForceMoveRailPoint": "Int32",
+            "Priority": "Int32"
         }
     },
     "WindBox": {
@@ -4036,21 +3908,6 @@
             "SpinFrame": "Int32",
             "SpinFrameRate": "Single",
             "SpinSpeedDownFrame": "Int32"
-        }
-    },
-    "WoodBox": {
-        "ClassName": "WoodBox",
-        "Links": [
-            "SwitchDeadOn",
-            "ViewGroup"
-        ],
-        "Models": [],
-        "Properties": {
-            "IsSetTraceModel": "Boolean",
-            "IsUseBreakModel": "Boolean",
-            "IsUseZPrePass": "Boolean",
-            "ItemType": "String",
-            "UsingDepthShadow": "Boolean"
         }
     },
     "Zombie": {

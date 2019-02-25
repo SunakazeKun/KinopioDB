@@ -1,0 +1,17 @@
+{
+    "ClassName": "PlayerForceBubbleArea",
+    "Links": [
+        "SwitchAppear"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "IsAffectOtherPlayer": "Boolean",
+        "IsAllowBubbleInAir": "Boolean",
+        "IsNoBubbleArea": "Boolean"
+    }
+}

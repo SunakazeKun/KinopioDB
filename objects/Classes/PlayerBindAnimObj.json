@@ -4,6 +4,7 @@
         "SwitchAppear"
     ],
     "Models": [
+        "AreaCubeBase",
         "AreaSphere"
     ],
     "Properties": {

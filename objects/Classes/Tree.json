@@ -6,6 +6,10 @@
         "ViewGroup"
     ],
     "Models": [
+        "Tree",
+		"TreeBroadLeaf",
+		"TreeBroadLeafRed",
+		"TreeConifer",
         "TreeLongA",
         "TreeLongC",
         "TreePalm"

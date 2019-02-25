@@ -6,6 +6,7 @@
     ],
     "Models": [
         "FlowerDandelion",
+		"FlowerPoinsettia",
         "FlowerRhythm"
     ],
     "Properties": {

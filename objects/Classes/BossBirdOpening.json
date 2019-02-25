@@ -6,7 +6,8 @@
         "BossBirdSand",
         "DemoBossBirdPosition",
         "SwitchBossBirdUp",
-        "SwitchDrawClipping"
+        "SwitchDrawClipping",
+        "SwitchForceEndBlow"
     ],
     "Models": [],
     "Properties": {}

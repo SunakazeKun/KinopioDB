@@ -1,17 +1,22 @@
-AutoSwitchActivateArea
-AutoSwitchBlockWatcherArea
-BlockHardWatchArea
+AutoSwitchActivateArea     used
+AutoSwitchBlockWatcherArea used
+BlockHardWatchArea         used
 BlockSolid
 BossBirdDoubleWatcher
-ConveyorMapParts
+ConveyorMapParts           used
+DoubleMarioWatcher         used
 EffectObjBossBirdRainArea
-FixedMapParts
-FixedMapPartsCarpet
-FixedMapPartsRhythm
+EnemyDeathWatchArea        used
+FixedMapParts              used
+FixedMapPartsCarpet        used
+FixedMapPartsRhythm        used
 GatherItemWatcher
 KinopioNpcWatcher
 MoleMaze
-PlayerForceBubbleArea
+PlayerForceBubbleArea      used
 PullOutObjMultiP
 PullOutObjRotatable
-SwitchUnClippingDirector
+SafeBubbleArea             used
+SwitchUnClippingDirector   used
+TouchRotateWatchArea       used
+WheelPartWatchArea         used

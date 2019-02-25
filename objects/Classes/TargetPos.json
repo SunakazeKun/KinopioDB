@@ -5,6 +5,7 @@
     ],
     "Models": [],
     "Properties": {
-        "Action": "Int32"
+        "Action": "Int32",
+        "Is2PPos": "Boolean"
     }
 }

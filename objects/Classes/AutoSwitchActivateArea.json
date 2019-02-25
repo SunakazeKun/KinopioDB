@@ -1,0 +1,19 @@
+{
+    "ClassName": "AutoSwitchActivateArea",
+    "Links": [
+        "AutoSwitch1On",
+        "AutoSwitch2On",
+        "AutoSwitch3On",
+        "AutoSwitch4On",
+        "AutoSwitch5On",
+        "AutoSwitch6On",
+        "AutoSwitch7On"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

@@ -9,6 +9,7 @@
         "DegreeYZBottom": "Single",
         "DegreeYZUp": "Single",
         "HideStartCamera": "Boolean",
+        "MessageType": "Int32",
         "isDisplayOnce": "Boolean",
         "isJudgeDegreeYZ": "Boolean"
     }

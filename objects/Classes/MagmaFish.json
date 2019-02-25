@@ -8,7 +8,19 @@
     "Models": [],
     "Properties": {
         "AppearSignTime": "Int32",
+        "CollectItemId": "Int32",
+        "Is2ndCollectItem": "Boolean",
         "IsKillOnce": "Boolean",
+        "ItemOffset_0": "Single",
+        "ItemOffset_1": "Single",
+        "ItemOffset_2": "Single",
+        "ItemOffset_3": "Single",
+        "ItemOffset_4": "Single",
+        "ItemType_0": "String",
+        "ItemType_1": "String",
+        "ItemType_2": "String",
+        "ItemType_3": "String",
+        "ItemType_4": "String",
         "Speed": "Single",
         "WaitTime": "Int32"
     }

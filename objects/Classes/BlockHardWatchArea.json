@@ -1,0 +1,13 @@
+{
+    "ClassName": "BlockHardWatchArea",
+    "Links": [
+        "DestroyBlock"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {}
+}

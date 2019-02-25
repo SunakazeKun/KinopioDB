@@ -1,0 +1,18 @@
+{
+    "ClassName": "ConveyorMapParts",
+    "Links": [
+        "KeyMoveNext",
+        "ViewGroup"
+    ],
+    "Models": [],
+    "Properties": {
+        "ActionName": "String",
+        "InterpolateType": "Int32",
+        "IsRideOnlyMove": "Boolean",
+        "KeyHitReactionName": "String",
+        "MoveAxis": "Int32",
+        "MoveSpeed": "Single",
+        "PartsInterval": "Single",
+        "StartRate": "Single"
+    }
+}

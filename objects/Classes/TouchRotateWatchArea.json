@@ -1,0 +1,20 @@
+{
+    "ClassName": "TouchRotateWatchArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "ForcePositiveDirection": "Boolean",
+        "ForceValidDegree": "Int32",
+        "IsInvalidDegree_0": "Boolean",
+        "IsInvalidDegree_180": "Boolean",
+        "IsInvalidDegree_270": "Boolean",
+        "IsInvalidDegree_90": "Boolean",
+        "OnlyCheckOnDegree": "Int32",
+        "Priority": "Int32"
+    }
+}

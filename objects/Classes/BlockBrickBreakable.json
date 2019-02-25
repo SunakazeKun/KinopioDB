@@ -5,7 +5,8 @@
         "ViewGroup"
     ],
     "Models": [
-        "BlockBrick"
+        "BlockBrick",
+		"BlockBrickPurple"
     ],
     "Properties": {
         "IsAppearBreakModel": "Boolean",

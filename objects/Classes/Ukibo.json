@@ -3,7 +3,10 @@
     "Links": [],
     "Models": [],
     "Properties": {
+        "CollectItemId": "Int32",
+        "Is2ndCollectItem": "Boolean",
         "IsOffCollide": "Boolean",
+        "ItemType": "String",
         "UsingDepthShadow": "Boolean"
     }
 }

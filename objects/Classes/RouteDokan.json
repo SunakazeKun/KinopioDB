@@ -5,6 +5,7 @@
     ],
     "Models": [],
     "Properties": {
+        "AllowBubble": "Boolean",
         "ColorVariation": "Int32",
         "MoveSpeed": "Single"
     }

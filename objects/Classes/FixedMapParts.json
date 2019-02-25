@@ -1,9 +1,38 @@
 {
     "ClassName": "FixedMapParts",
-    "Links": [],
+    "Links": [
+        "GroupClipping",
+        "SwitchAppear",
+        "SwitchKill",
+        "ViewGroup"
+    ],
     "Models": [
+        "CloudCityWorld",
+        "CloudCotton",
+        "CloudGhost",
+        "CloudHighPlace",
+        "CloudLavaWorld",
+        "CloudLong",
+        "CloudNightFullMoon",
+        "CloudNightThunderhead",
         "CloudRefresh",
-        "GroundGridForest"
+        "CloudSandWorld",
+        "CloudSpaceNebula",
+        "CloudStorm",
+        "CloudThunderhead",
+        "CommonLeafA",
+        "DistantViewCityWorld",
+        "GroundGridBlue",
+        "GroundGridDarkBlue",
+        "GroundGridDarkGreen",
+        "GroundGridDesert",
+        "GroundGridDesertRed",
+        "GroundGridForest",
+        "GroundGridLavaRed",
+        "GroundGridPurple",
+        "GroundGridRock",
+        "GroundGridRouteDokanJet",
+        "GroundGridSea"
     ],
     "Properties": {
         "PlayAnimName": "String"

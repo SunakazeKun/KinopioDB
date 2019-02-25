@@ -1,0 +1,15 @@
+{
+    "ClassName": "AutoSwitchBlockWatcherArea",
+    "Links": [
+        "WatchSwitchBlock"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "TriggerOnEven": "Boolean"
+    }
+}

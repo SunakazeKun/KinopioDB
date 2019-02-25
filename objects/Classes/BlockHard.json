@@ -8,6 +8,7 @@
     ],
     "Models": [],
     "Properties": {
+        "IsBigWheelStage": "Boolean",
         "IsConnectToCollision": "Boolean",
         "IsNoDepthShadow": "Boolean",
         "IsUseZPrePass": "Boolean",

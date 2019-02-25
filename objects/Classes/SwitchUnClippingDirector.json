@@ -1,0 +1,9 @@
+{
+    "ClassName": "SwitchUnClippingDirector",
+    "Links": [
+        "ClippingTarget",
+        "SwitchAppear"
+    ],
+    "Models": [],
+    "Properties": {}
+}

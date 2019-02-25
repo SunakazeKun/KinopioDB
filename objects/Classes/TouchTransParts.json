@@ -1,6 +1,7 @@
 {
     "ClassName": "TouchTransParts",
     "Links": [
+        "SwitchStopForceOn",
         "TouchTransParts"
     ],
     "Models": [],

@@ -7,6 +7,7 @@
     "Models": [],
     "Properties": {
         "CollectItemId": "Int32",
+        "Is2ndCollectItem": "Boolean",
         "IsConnectToCollision": "Boolean",
         "IsEnableTurn": "Boolean",
         "IsPutGlass": "Boolean",

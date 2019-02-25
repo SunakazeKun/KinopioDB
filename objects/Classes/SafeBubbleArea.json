@@ -1,0 +1,15 @@
+{
+    "ClassName": "SafeBubbleArea",
+    "Links": [
+        "NoDelete_FollowMtxTarget"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

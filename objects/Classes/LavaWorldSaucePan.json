@@ -5,5 +5,7 @@
         "ViewGroup"
     ],
     "Models": [],
-    "Properties": {}
+    "Properties": {
+        "PlayAnimName": "String"
+    }
 }

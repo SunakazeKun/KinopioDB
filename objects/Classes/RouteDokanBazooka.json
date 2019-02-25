@@ -3,6 +3,7 @@
     "Links": [
         "GroupClipping",
         "Parts",
+        "Target2PPos",
         "TargetPos",
         "ViewGroup"
     ],

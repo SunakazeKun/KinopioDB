@@ -1,6 +1,9 @@
 {
     "ClassName": "StageStartEventDemo",
-    "Properties": {},
-    "Models": [],
-    "Links": []
+    "Links": [],
+    "Models": [
+        "DemoEndingSeason1Stage",
+        "DemoEndingSeason3Stage"
+    ],
+    "Properties": {}
 }

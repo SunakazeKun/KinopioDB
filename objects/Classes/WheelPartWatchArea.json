@@ -1,0 +1,14 @@
+{
+    "ClassName": "WheelPartWatchArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaSphere",
+        "AreaCylinder"
+    ],
+    "Properties": {
+        "ForceMoveRailPoint": "Int32",
+        "Priority": "Int32"
+    }
+}

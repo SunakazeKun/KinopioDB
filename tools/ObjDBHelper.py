@@ -2,29 +2,32 @@ from time import gmtime, strftime
 import os
 import json
 
+
 #----------------------------------------------------------------------------------
 #
 # This sets up the basic JSON file for an object.
 #
 #----------------------------------------------------------------------------------
-def init_object(directory, internalName, className):
+def init_object(internalName, className):
     data = {}
-    data.update({"InternalName": internalName})
-    data.update({"ClassName": className})
-    data.update({"Name": internalName})
-    data.update({"List": "ObjectList"})
-    data.update({"Category": "unknown"})
-    data.update({"Description": ""})
-        
-    outf = open(directory + "/" + internalName + ".json", "w")
+    data["InternalName"] = internalName
+    data["ClassName"] = className
+    data["Name"] = internalName
+    data["List"] = "ObjectList"
+    data["Category"] = "unknown"
+    data["Description"] = ""
+
+    outf = open(internalName + ".json", "w")
     outf.write(json.dumps(data, indent=4))
+    outf.flush()
     outf.close()
+
 
 #----------------------------------------------------------------------------------
 #
 # This sets up the basic JSON file for each element in the given file of object
 # names. The strings in the input file should be structured like this:
-#  "UnitConfigName" ("ParameterConfigName")
+#  "UnitConfigName" "ParameterConfigName"
 #
 #----------------------------------------------------------------------------------
 def init_objects(filepath):
@@ -32,18 +35,15 @@ def init_objects(filepath):
         objs = f.readlines()
     objs = [x.strip() for x in objs]
     
-    directory = "/objects"
-    if not os.path.isdir(directory):
-        os.makedirs(directory)
-    
     for obj in objs:
-        splitName = obj.split(" (")
+        splitName = obj.split(" ")
         
         unitConfigName = splitName[0]
-        parameterConfigName = splitName[1][:-1]    # last character is ')'
+        parameterConfigName = splitName[1]
         
-        init_object(directory, unitConfigName, parameterConfigName)
-    
+        init_object(unitConfigName, parameterConfigName)
+
+
 #----------------------------------------------------------------------------------
 #
 # This will compile all single object files in the given directory into a huge list

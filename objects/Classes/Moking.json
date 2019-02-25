@@ -7,6 +7,7 @@
     "Models": [],
     "Properties": {
         "GroundCheckLength": "Single",
+        "IsDisableGroundSlam": "Boolean",
         "IsForbiddenSideSlide": "Boolean",
         "IsOffColliderAtRail": "Boolean",
         "ShadowMaskDropLength": "Single"
