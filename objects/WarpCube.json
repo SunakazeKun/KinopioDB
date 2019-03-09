@@ -1,8 +1,8 @@
 {
     "InternalName": "WarpCube",
     "ClassName": "WarpCube",
-    "Name": "WarpCube",
+    "Name": "Warp Box",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "item",
+    "Notes": ""
 }

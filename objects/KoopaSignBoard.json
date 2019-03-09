@@ -1,8 +1,8 @@
 {
     "InternalName": "KoopaSignBoard",
     "ClassName": "KoopaSignBoard",
-    "Name": "KoopaSignBoard",
+    "Name": "Bowser Cutout",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "obstacle",
+    "Notes": ""
 }

@@ -1,8 +1,8 @@
 {
     "InternalName": "FallRockGenerator",
     "ClassName": "FallRockGenerator",
-    "Name": "FallRockGenerator",
+    "Name": "Falling Debris Spawner",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "enemy",
+    "Notes": ""
 }

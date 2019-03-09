@@ -1,8 +1,8 @@
 {
     "InternalName": "ClimbTowerPillar",
     "ClassName": "GateMapParts",
-    "Name": "ClimbTowerPillar",
+    "Name": "No Sleep at Magikoopa Keep: Lower Tower",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

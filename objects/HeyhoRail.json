@@ -1,8 +1,8 @@
 {
     "InternalName": "HeyhoRail",
     "ClassName": "HeyhoRail",
-    "Name": "HeyhoRail",
+    "Name": "Shy Guy (Red)",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "enemy",
+    "Notes": ""
 }

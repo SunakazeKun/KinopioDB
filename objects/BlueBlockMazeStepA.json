@@ -1,8 +1,8 @@
 {
     "InternalName": "BlueBlockMazeStepA",
     "ClassName": "FixMapParts",
-    "Name": "BlueBlockMazeStepA",
+    "Name": "Up 'n' Down Desert: Main",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

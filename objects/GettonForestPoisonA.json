@@ -1,8 +1,8 @@
 {
     "InternalName": "GettonForestPoisonA",
     "ClassName": "FixMapParts",
-    "Name": "GettonForestPoisonA",
+    "Name": "Midnight in the Wandering Woods: Poison",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

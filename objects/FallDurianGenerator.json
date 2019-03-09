@@ -1,8 +1,8 @@
 {
     "InternalName": "FallDurianGenerator",
     "ClassName": "FallDurianGenerator",
-    "Name": "FallDurianGenerator",
+    "Name": "Falling Durian Spawner",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "enemy",
+    "Notes": ""
 }

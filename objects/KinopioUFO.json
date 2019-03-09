@@ -1,8 +1,8 @@
 {
     "InternalName": "KinopioUFO",
     "ClassName": "FixMapParts",
-    "Name": "KinopioUFO",
+    "Name": "Starshroom",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

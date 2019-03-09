@@ -1,8 +1,8 @@
 {
     "InternalName": "WoodBox",
     "ClassName": "WoodBox",
-    "Name": "WoodBox",
+    "Name": "Crate",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "obstacle",
+    "Notes": ""
 }

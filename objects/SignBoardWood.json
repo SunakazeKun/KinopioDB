@@ -1,8 +1,8 @@
 {
     "InternalName": "SignBoardWood",
     "ClassName": "SignBoard",
-    "Name": "SignBoardWood",
+    "Name": "Wooden Signboard",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "decoration",
+    "Notes": ""
 }

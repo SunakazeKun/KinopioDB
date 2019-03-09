@@ -1,8 +1,8 @@
 {
     "InternalName": "DockingDioramaMoveStepA",
     "ClassName": "KeyMoveMapParts",
-    "Name": "DockingDioramaMoveStepA",
+    "Name": "Shifty Shrine: Left Half",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

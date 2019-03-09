@@ -1,8 +1,8 @@
 {
     "InternalName": "WarpCubeLockedPiece",
     "ClassName": "WarpCubeLockedPiece",
-    "Name": "WarpCubeLockedPiece",
+    "Name": "Key Coin",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "item",
+    "Notes": ""
 }

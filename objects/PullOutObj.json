@@ -4,5 +4,5 @@
     "Name": "Pluck Patch",
     "List": "ObjectList",
     "Category": "obstacle",
-    "Description": "Plant patches that the player can pull out to obtain its contents. Can contain all sorts of items."
+    "Notes": ""
 }

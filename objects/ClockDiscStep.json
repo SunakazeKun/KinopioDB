@@ -1,8 +1,8 @@
 {
     "InternalName": "ClockDiscStep",
     "ClassName": "FixMapParts",
-    "Name": "ClockDiscStep",
+    "Name": "Color Crate Carousel: Main",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

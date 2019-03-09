@@ -1,8 +1,8 @@
 {
     "InternalName": "BossBird",
     "ClassName": "BossBird",
-    "Name": "BossBird",
+    "Name": "Wingo",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "enemy",
+    "Notes": ""
 }

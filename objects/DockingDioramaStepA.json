@@ -1,8 +1,8 @@
 {
     "InternalName": "DockingDioramaStepA",
     "ClassName": "FixedMapParts",
-    "Name": "DockingDioramaStepA",
+    "Name": "Shifty Shrine: Main",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

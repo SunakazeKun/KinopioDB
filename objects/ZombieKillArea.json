@@ -1,8 +1,8 @@
 {
     "InternalName": "ZombieKillArea",
     "ClassName": "ZombieKillArea",
-    "Name": "ZombieKillArea",
+    "Name": "Kill Mud Trooper Area",
     "List": "AreaList",
     "Category": "area",
-    "Description": ""
+    "Notes": ""
 }

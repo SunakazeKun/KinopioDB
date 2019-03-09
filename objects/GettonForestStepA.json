@@ -1,8 +1,8 @@
 {
     "InternalName": "GettonForestStepA",
     "ClassName": "FixMapParts",
-    "Name": "GettonForestStepA",
+    "Name": "Midnight in the Wandering Woods: Main",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

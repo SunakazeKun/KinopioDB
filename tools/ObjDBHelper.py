@@ -15,7 +15,7 @@ def init_object(internalName, className):
     data["Name"] = internalName
     data["List"] = "ObjectList"
     data["Category"] = "unknown"
-    data["Description"] = ""
+    data["Notes"] = ""
 
     outf = open(internalName + ".json", "w")
     outf.write(json.dumps(data, indent=4))
@@ -63,10 +63,11 @@ def build_objects(dirpath, destpath):
     objects = data["Objects"]
     categories = data["Categories"]
 
+    objpath = dirpath + "/Objects"
     classpath = dirpath + "/Classes"
     
     # Populate and initialize categories
-    cats = json.load(open(dirpath + "/_Categories.json", "r"))
+    cats = json.load(open(dirpath + "/Categories.json", "r"))
     
     for catname, catdict in cats.items():
         print("-- Processing category " + catname + " ...")
@@ -92,8 +93,8 @@ def build_objects(dirpath, destpath):
         classes[classname] = clazz
 
     # Now, add each object
-    for objdir in os.listdir(dirpath):
-        objfile = dirpath + "/" + objdir
+    for objdir in os.listdir(objpath):
+        objfile = objpath + "/" + objdir
         if not os.path.isfile(objfile):
             continue
 

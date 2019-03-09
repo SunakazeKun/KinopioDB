@@ -1,8 +1,8 @@
 {
     "InternalName": "FreshRuinsStep",
     "ClassName": "FixMapParts",
-    "Name": "FreshRuinsStep",
+    "Name": "Mushroom Mesa: Main",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

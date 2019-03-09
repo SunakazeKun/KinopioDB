@@ -29,6 +29,7 @@ KinopioBrigadeWaterStepA: FixMapParts
 KinopioBrigadeZMask: FixMapParts
 KoopaSignBoard: KoopaSignBoard
 KuriboClimbRail: KuriboClimbRail
+LiftKeyMove: Lift
 Moamoa: MoamoaHolder
 PackunFlowerBig: PackunFlower
 PackunFlowerWithPot: PackunFlowerWithPot
@@ -37,6 +38,8 @@ SampleStepB: FixMapParts
 SampleStepE: FixMapParts
 SignBoardNormalWall: SignBoard
 SignBoardWoodWall: SignBoard
+StageStartEventCamera: StageStartEventCamera
+StageStartEventSound: StageStartEventSound
 ThreeDWorldSlopeA: FixMapParts
 ThreeDWorldSlopeB: FixMapParts
 ThreeDWorldSlopeC: FixMapParts
@@ -57,13 +60,10 @@ WoodBox: WoodBox
 
 # Uncertain: used in Wii U stages
 FrameOutCtrlArea: FrameOutCtrlArea
-LiftKeyMove: Lift
 RouteDokanLauncher: RouteDokanLauncher
 ShadowMaskSphere: GraphicsObjShadowMaskSphere
 SinkSandArea: Area
 SinkedItem: SinkedItem
-StageStartEventCamera: StageStartEventCamera
-StageStartEventSound: StageStartEventSound
 
 # Uncertain: used in unused levels
 CameraRailParallelArea: CameraRailParallelArea

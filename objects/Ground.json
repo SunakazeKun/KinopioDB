@@ -1,8 +1,8 @@
 {
     "InternalName": "Ground",
     "ClassName": "FixMapParts",
-    "Name": "Ground",
+    "Name": "Background Grid",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "decoration",
+    "Notes": ""
 }

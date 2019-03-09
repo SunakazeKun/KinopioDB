@@ -1,8 +1,8 @@
 {
     "InternalName": "FlowerRhythm",
     "ClassName": "FlowerRhythm",
-    "Name": "FlowerRhythm",
+    "Name": "Flower",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "decoration",
+    "Notes": ""
 }

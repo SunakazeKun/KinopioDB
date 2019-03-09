@@ -1,8 +1,8 @@
 {
     "InternalName": "DoorLock",
     "ClassName": "DoorLock",
-    "Name": "DoorLock",
+    "Name": "Door Lock",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "obstacle",
+    "Notes": ""
 }

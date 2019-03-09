@@ -1,8 +1,8 @@
 {
     "InternalName": "Truck",
     "ClassName": "Truck",
-    "Name": "Truck",
+    "Name": "Mine Cart",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "other",
+    "Notes": ""
 }

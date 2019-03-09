@@ -1,8 +1,8 @@
 {
     "InternalName": "ChikaChikaBlock",
     "ClassName": "ChikaChikaBlock",
-    "Name": "ChikaChikaBlock",
+    "Name": "Beep Block",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

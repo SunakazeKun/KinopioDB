@@ -1,8 +1,8 @@
 {
     "InternalName": "BlueBlockMazeBlockE",
     "ClassName": "SwitchBlock",
-    "Name": "BlueBlockMazeBlockE",
+    "Name": "Up 'n' Down Desert: Stone Platform E",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

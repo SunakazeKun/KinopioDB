@@ -1,8 +1,8 @@
 {
     "InternalName": "GoalPedestral",
     "ClassName": "GoalPedestral",
-    "Name": "GoalPedestral",
+    "Name": "Power Star Pedestral",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

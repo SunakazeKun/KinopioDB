@@ -1,8 +1,8 @@
 {
     "InternalName": "ChikuwaBlock",
     "ClassName": "ChikuwaBlock",
-    "Name": "ChikuwaBlock",
+    "Name": "Donut Lift",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

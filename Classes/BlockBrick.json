@@ -1,22 +1,22 @@
 {
-    "ClassName": "BlockBrickBreakable",
+    "ClassName": "BlockBrick",
     "Links": [
         "GroupClipping",
         "ViewGroup"
     ],
     "Models": [
         "BlockBrick",
-		"BlockBrickPurple"
+        "BlockBrickPurple"
     ],
     "Properties": {
-        "IsAppearBreakModel": "Boolean",
-        "IsConnectToCollision": "Boolean",
         "IsExpandClippingShadowLength": "Boolean",
         "IsNoDepthShadow": "Boolean",
+        "IsPlacedDarkStageBoxCoin": "Boolean",
         "IsSnowCover": "Boolean",
         "IsValidLightPrePass": "Boolean",
+        "ItemAppearAction": "String",
+        "ItemType": "String",
         "ShadowLength": "Single",
-        "ShadowMaskSetting": "Int32",
-        "sendMsgNextBlock": "Boolean"
+        "ShadowMaskSetting": "Int32"
     }
 }

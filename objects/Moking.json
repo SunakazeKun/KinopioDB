@@ -4,5 +4,5 @@
     "Name": "Flaptor Member",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A single Flaptor which should be linked to \"MokingLeader\". Look at that object for reference. This object needs a path to move on."
+    "Notes": ""
 }

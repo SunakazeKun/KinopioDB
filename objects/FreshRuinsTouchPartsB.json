@@ -1,8 +1,8 @@
 {
     "InternalName": "FreshRuinsTouchPartsB",
     "ClassName": "AssistSlideMapParts",
-    "Name": "FreshRuinsTouchPartsB",
+    "Name": "Mushroom Mesa: Touchstone B",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagepart",
+    "Notes": ""
 }

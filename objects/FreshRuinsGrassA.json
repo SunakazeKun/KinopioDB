@@ -1,8 +1,8 @@
 {
     "InternalName": "FreshRuinsGrassA",
     "ClassName": "FixMapParts",
-    "Name": "FreshRuinsGrassA",
+    "Name": "Mushroom Mesa: Grass",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

@@ -4,5 +4,5 @@
     "Name": "Mud Trooper Group",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A group of Mud Troopers, undead zombie-like creatures. The coordinates of each Mud Trooper is linked in \"ZombiePoint\". It also needs an appearance switch."
+    "Notes": ""
 }

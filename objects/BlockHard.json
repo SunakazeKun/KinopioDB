@@ -4,5 +4,5 @@
     "Name": "Solid Brick Block",
     "List": "ObjectList",
     "Category": "obstacle",
-    "Description": "This is a bigger gray variation of brick blocks. It can only be destroyed using Pickaxes, Bullet Bills, etc."
+    "Notes": ""
 }

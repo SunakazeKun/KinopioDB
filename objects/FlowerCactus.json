@@ -1,8 +1,8 @@
 {
     "InternalName": "FlowerCactus",
     "ClassName": "FlowerCactus",
-    "Name": "FlowerCactus",
+    "Name": "Cactus",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "decoration",
+    "Notes": ""
 }

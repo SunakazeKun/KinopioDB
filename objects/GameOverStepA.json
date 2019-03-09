@@ -1,8 +1,8 @@
 {
     "InternalName": "GameOverStepA",
     "ClassName": "FixMapParts",
-    "Name": "GameOverStepA",
+    "Name": "Game Over Cave: Main",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

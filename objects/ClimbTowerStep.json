@@ -1,8 +1,8 @@
 {
     "InternalName": "ClimbTowerStep",
     "ClassName": "FixMapParts",
-    "Name": "ClimbTowerStep",
+    "Name": "No Sleep at Magikoopa Keep: Main",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

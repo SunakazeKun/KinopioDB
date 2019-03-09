@@ -1,8 +1,8 @@
 {
     "InternalName": "BazookaTouchLiftPoisonA",
     "ClassName": "FixMapParts",
-    "Name": "BazookaTouchLiftPoisonA",
+    "Name": "Poison Canal Cannon Run: Poison",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

@@ -1,8 +1,8 @@
 {
     "InternalName": "NeedleTrap",
     "ClassName": "NeedleTrap",
-    "Name": "NeedleTrap",
+    "Name": "Spike Trap",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "obstacle",
+    "Notes": ""
 }

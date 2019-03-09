@@ -1,8 +1,8 @@
 {
     "InternalName": "NeedleSeed",
     "ClassName": "NeedleSeed",
-    "Name": "NeedleSeed",
+    "Name": "Spiked Mine",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "obstacle",
+    "Notes": ""
 }

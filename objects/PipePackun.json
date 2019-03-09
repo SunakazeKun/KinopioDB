@@ -1,8 +1,8 @@
 {
     "InternalName": "PipePackun",
     "ClassName": "PipePackun",
-    "Name": "PipePackun",
+    "Name": "Piranha Creeper",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "enemy",
+    "Notes": ""
 }

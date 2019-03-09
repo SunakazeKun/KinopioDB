@@ -4,5 +4,5 @@
     "Name": "SFX Play Area",
     "List": "AreaList",
     "Category": "area",
-    "Description": "Plays the specified sound effect when entered."
+    "Notes": ""
 }

@@ -1,8 +1,8 @@
 {
     "InternalName": "SignBoardNormalWall",
     "ClassName": "SignBoard",
-    "Name": "SignBoardNormalWall",
+    "Name": "Signboard (Wall)",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "decoration",
+    "Notes": ""
 }

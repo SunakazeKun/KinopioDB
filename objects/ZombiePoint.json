@@ -1,8 +1,8 @@
 {
     "InternalName": "ZombiePoint",
     "ClassName": "ZombiePoint",
-    "Name": "Mud Trooper Member",
+    "Name": "Mud Trooper",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "The actual spawn point for one Mud Trooper. See \"Zombie\" for more information."
+    "Notes": ""
 }

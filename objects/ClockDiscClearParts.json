@@ -1,8 +1,8 @@
 {
     "InternalName": "ClockDiscClearParts",
     "ClassName": "ClockMapParts",
-    "Name": "ClockDiscClearParts",
+    "Name": "Color Crate Carousel: Rotating Glass",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "stagemodel",
+    "Notes": ""
 }

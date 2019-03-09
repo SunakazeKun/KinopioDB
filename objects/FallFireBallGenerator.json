@@ -1,8 +1,8 @@
 {
     "InternalName": "FallFireBallGenerator",
     "ClassName": "FallFireBallGenerator",
-    "Name": "FallFireBallGenerator",
+    "Name": "Falling Fireball Spawner",
     "List": "ObjectList",
-    "Category": "unknown",
-    "Description": ""
+    "Category": "enemy",
+    "Notes": ""
 }
