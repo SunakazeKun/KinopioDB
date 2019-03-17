@@ -13,6 +13,7 @@
     "Properties": {
         "AccelFly": "Single",
         "IsConnectCollision": "Boolean",
+        "IsForceCubeMapOnChildren": "Boolean",
         "IsHideModel": "Boolean",
         "IsKillerCollideOff": "Boolean",
         "IsPlacedKinopioBrigade": "Boolean",

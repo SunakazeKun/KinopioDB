@@ -1,0 +1,8 @@
+{
+    "InternalName": "BubblePlayerDisableItemGetFallArea",
+    "ClassName": "Area",
+    "Name": "BubblePlayerDisableItemGetFallArea",
+    "List": "AreaList",
+    "Category": "area",
+    "Notes": ""
+}

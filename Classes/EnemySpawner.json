@@ -1,0 +1,24 @@
+{
+    "ClassName": "EnemySpawner",
+    "Links": [
+        "ChaseArea",
+        "GroupClipping",
+        "SpawnerPoint",
+        "SwitchAppear",
+        "SwitchDeadOn",
+        "SwitchDisappear",
+        "SwitchKill",
+        "SwitchStandby"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsBig": "Boolean",
+        "OnDeadDelay": "Int32",
+        "ResetTime": "Int32",
+        "SpawnNumber": "Int32",
+        "SpawnRadius": "Int32",
+        "SpawnWaves": "Int32",
+        "Type": "Int32",
+        "WaitTime": "Int32"
+    }
+}

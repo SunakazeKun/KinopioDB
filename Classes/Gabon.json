@@ -2,6 +2,8 @@
     "ClassName": "Gabon",
     "Links": [
         "GroupClipping",
+        "SwitchStart",
+        "ViewGroup",
         "WatchDeath"
     ],
     "Models": [],

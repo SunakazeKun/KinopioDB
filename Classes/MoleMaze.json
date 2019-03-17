@@ -1,0 +1,22 @@
+{
+    "ClassName": "MoleMaze",
+    "Links": [
+        "ArrivalCube",
+        "ChildMaze",
+        "DestCube",
+        "MoleRangeFloorSet",
+        "RangeFloorSet",
+        "RecreateSwitch"
+    ],
+    "Models": [],
+    "Properties": {
+        "BlockClippingRadius": "Single",
+        "Depth": "Int32",
+        "IsUseZPrePass": "Boolean",
+        "MaxCorner": "Int32",
+        "MaxWall": "Int32",
+        "RestAreaInterval": "Int32",
+        "TopFloorNum": "Int32",
+        "Width": "Int32"
+    }
+}

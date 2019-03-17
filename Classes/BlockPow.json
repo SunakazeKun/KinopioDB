@@ -2,6 +2,7 @@
     "ClassName": "BlockPow",
     "Links": [
         "GroupClipping",
+        "SwitchKockOn",
         "ViewGroup"
     ],
     "Models": [],

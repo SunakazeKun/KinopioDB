@@ -18,6 +18,7 @@
         "CloudNightThunderhead",
         "CloudRefresh",
         "CloudSandWorld",
+        "CloudShipwreck",
         "CloudSpaceNebula",
         "CloudStorm",
         "CloudThunderhead",
@@ -35,10 +36,13 @@
         "GroundGridLavaBlue",
         "GroundGridLavaRed",
         "GroundGridOrange",
+        "GroundGridPatan",
         "GroundGridPurple",
+        "GroundGridRisingDanger",
         "GroundGridRock",
         "GroundGridRouteDokanJet",
-        "GroundGridSea"
+        "GroundGridSea",
+        "GroundGridShipwreck"
     ],
     "Properties": {}
 }

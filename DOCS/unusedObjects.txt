@@ -29,7 +29,6 @@ KinopioBrigadeWaterStepA: FixMapParts
 KinopioBrigadeZMask: FixMapParts
 KoopaSignBoard: KoopaSignBoard
 KuriboClimbRail: KuriboClimbRail
-LiftKeyMove: Lift
 Moamoa: MoamoaHolder
 PackunFlowerBig: PackunFlower
 PackunFlowerWithPot: PackunFlowerWithPot
@@ -38,6 +37,7 @@ SampleStepB: FixMapParts
 SampleStepE: FixMapParts
 SignBoardNormalWall: SignBoard
 SignBoardWoodWall: SignBoard
+StageStartBindDemoKinopioBrigade: StageStartBindDemoKinopioBrigade
 StageStartEventCamera: StageStartEventCamera
 StageStartEventSound: StageStartEventSound
 ThreeDWorldSlopeA: FixMapParts
@@ -68,6 +68,9 @@ SinkedItem: SinkedItem
 # Uncertain: used in unused levels
 CameraRailParallelArea: CameraRailParallelArea
 GuideEnableArea: GuideEnableArea
+
+# Reused for DLC
+LiftKeyMove: Lift
 
 # Removed ObjectData
 ArayaClockMapParts: ClockMapParts

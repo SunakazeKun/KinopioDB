@@ -1,0 +1,21 @@
+{
+    "ClassName": "CheckPoint",
+    "Links": [
+        "CollectItem",
+        "Goal",
+        "Next",
+        "SwitchAppearOn",
+        "SwitchDeadOn",
+        "SwitchKillOn"
+    ],
+    "Models": [],
+    "Properties": {
+        "ArcHeight": "Single",
+        "FramesAlive": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsUseDarkLevelEffects": "Boolean",
+        "MoveInAnArc": "Boolean",
+        "NeverDie": "Boolean",
+        "ShadowMaskDropLength": "Single"
+    }
+}

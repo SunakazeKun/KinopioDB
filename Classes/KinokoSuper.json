@@ -1,6 +1,7 @@
 {
     "ClassName": "KinokoSuper",
     "Links": [
+        "GroupClipping",
         "ViewGroup"
     ],
     "Models": [],

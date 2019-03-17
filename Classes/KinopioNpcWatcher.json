@@ -1,0 +1,11 @@
+{
+    "ClassName": "KinopioNpcWatcher",
+    "Links": [
+        "SwitchAppear",
+        "Watcher"
+    ],
+    "Models": [],
+    "Properties": {
+        "SwitchOnDelayStep": "Int32"
+    }
+}

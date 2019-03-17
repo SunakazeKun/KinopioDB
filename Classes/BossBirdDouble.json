@@ -1,0 +1,21 @@
+{
+    "ClassName": "BossBirdDouble",
+    "Links": [
+        "DemoBattleEndPosTarget",
+        "PlayerPos",
+        "PullOutKinopicoNpc",
+        "Rail",
+        "SwitchAppear",
+        "SwitchAppearAfterDemoOn",
+        "SwitchDeadOn",
+        "SwitchKillWallsOn"
+    ],
+    "Models": [
+        "BossBird",
+        "BossBirdDouble"
+    ],
+    "Properties": {
+        "IsCopycatBird": "Boolean",
+        "IsLightningBird": "Boolean"
+    }
+}

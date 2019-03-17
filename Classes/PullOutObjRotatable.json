@@ -1,0 +1,23 @@
+{
+    "ClassName": "PullOutObjRotatable",
+    "Links": [
+        "GroupClipping"
+    ],
+    "Models": [],
+    "Properties": {
+        "AppearNum": "Int32",
+        "CollectItemId": "Int32",
+        "ColorAnim": "Int32",
+        "IsConnectToCollision": "Boolean",
+        "IsEnableDepthShadow": "Boolean",
+        "IsInvalidSensorAndStopAnimAfterEmpty": "Boolean",
+        "IsKillByMaterialCode": "Boolean",
+        "IsPickaxeRotateWheel": "Boolean",
+        "IsPullOutInfinite": "Boolean",
+        "IsRestartAssist": "Boolean",
+        "IsSyncSwitchClipping": "Boolean",
+        "ItemType": "String",
+        "ToleranceAngle": "Single",
+        "WetType": "Int32"
+    }
+}

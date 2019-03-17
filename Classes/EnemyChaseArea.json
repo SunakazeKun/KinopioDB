@@ -1,11 +1,13 @@
 {
     "ClassName": "EnemyChaseArea",
-    "Links": [],
+    "Links": [
+        "SwitchAppear"
+    ],
     "Models": [
         "AreaCubeBase",
         "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
+        "AreaCylinder",
+        "AreaSphere"
     ],
     "Properties": {
         "Priority": "Int32"

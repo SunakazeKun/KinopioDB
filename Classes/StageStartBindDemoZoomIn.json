@@ -5,6 +5,7 @@
     ],
     "Models": [],
     "Properties": {
+        "CameraInterpoleFrames": "Single",
         "StartAnimation": "String"
     }
 }

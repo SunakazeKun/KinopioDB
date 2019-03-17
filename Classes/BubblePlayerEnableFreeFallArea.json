@@ -1,0 +1,13 @@
+{
+    "ClassName": "BubblePlayerEnableFreeFallArea",
+    "Links": [],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaCylinder",
+        "AreaSphere"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

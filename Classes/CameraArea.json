@@ -1,6 +1,7 @@
 {
     "ClassName": "CameraArea",
     "Links": [
+        "NoDelete_FollowMtxTarget",
         "NoDelete_RootArea",
         "SwitchAppear",
         "SwitchKill"
@@ -8,8 +9,8 @@
     "Models": [
         "AreaCubeBase",
         "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
+        "AreaCylinder",
+        "AreaSphere"
     ],
     "Properties": {
         "Is2PHighPriority": "Boolean",

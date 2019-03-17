@@ -1,0 +1,8 @@
+{
+    "InternalName": "EffectObjWaterBubblesArea",
+    "ClassName": "EffectObjAreaCube",
+    "Name": "EffectObjWaterBubblesArea",
+    "List": "ObjectList",
+    "Category": "decoration",
+    "Notes": ""
+}

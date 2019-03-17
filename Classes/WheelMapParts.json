@@ -2,6 +2,7 @@
     "ClassName": "WheelMapParts",
     "Links": [
         "Rail",
+        "SwitchPlayAnim",
         "WheelWatcher"
     ],
     "Models": [],

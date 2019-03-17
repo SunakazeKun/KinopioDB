@@ -1,11 +1,13 @@
 {
     "ClassName": "PlayerCollisionFallOutObserveArea",
-    "Links": [],
+    "Links": [
+        "NoDelete_FollowMtxTarget"
+    ],
     "Models": [
         "AreaCubeBase",
         "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
+        "AreaCylinder",
+        "AreaSphere"
     ],
     "Properties": {
         "IsConnectToCollision": "Boolean",

@@ -1,0 +1,8 @@
+{
+    "ClassName": "BossBirdDoubleWatcher",
+    "Links": [
+        "BossBirdDouble"
+    ],
+    "Models": [],
+    "Properties": {}
+}

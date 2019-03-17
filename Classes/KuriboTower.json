@@ -1,6 +1,7 @@
 {
     "ClassName": "KuriboTower",
     "Links": [
+        "ChaseArea",
         "GroupClipping",
         "SwitchDrawClippingOnOff"
     ],

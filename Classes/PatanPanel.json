@@ -6,7 +6,9 @@
     ],
     "Models": [
         "PatanPanel",
-        "PatanPanelSlope"
+        "PatanPanelShadow",
+        "PatanPanelSlope",
+        "PatanPanelSlopeShadow"
     ],
     "Properties": {
         "CloseFrame": "Int32",

@@ -1,0 +1,11 @@
+{
+    "ClassName": "EffectObjChorobonCollide",
+    "Links": [
+        "OnKillOffAppearSwitch"
+    ],
+    "Models": [],
+    "Properties": {
+        "IsConnectCollision": "Boolean",
+        "IsConnectToCollision": "Boolean"
+    }
+}

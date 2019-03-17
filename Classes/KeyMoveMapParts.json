@@ -4,6 +4,7 @@
         "FollowMtx",
         "GroupClipping",
         "KeyMoveNext",
+        "KillPrePassLights",
         "SwitchAppear",
         "SwitchKill",
         "SwitchStart",

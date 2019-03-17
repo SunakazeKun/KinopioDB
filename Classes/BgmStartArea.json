@@ -4,8 +4,8 @@
     "Models": [
         "AreaCubeBase",
         "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
+        "AreaCylinder",
+        "AreaSphere"
     ],
     "Properties": {
         "FadeInFrame": "Int32",

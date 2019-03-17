@@ -1,7 +1,8 @@
 {
     "ClassName": "EffectObjAreaCube",
     "Links": [
-        "SwitchKill"
+        "SwitchKill",
+        "ViewGroup"
     ],
     "Models": [],
     "Properties": {

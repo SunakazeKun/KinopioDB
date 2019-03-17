@@ -4,5 +4,7 @@
         "Something"
     ],
     "Models": [],
-    "Properties": {}
+    "Properties": {
+        "DisableAutoDoubleKill": "Boolean"
+    }
 }

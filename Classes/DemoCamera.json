@@ -1,7 +1,9 @@
 {
     "ClassName": "DemoCamera",
     "Links": [],
-    "Models": [],
+    "Models": [
+        "KoopaDemoOpening"
+    ],
     "Properties": {
         "Action1": "String",
         "Action2": "String",

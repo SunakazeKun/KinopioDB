@@ -1,0 +1,8 @@
+{
+    "InternalName": "WaterAreaNoSwim",
+    "ClassName": "Area",
+    "Name": "WaterAreaNoSwim",
+    "List": "AreaList",
+    "Category": "area",
+    "Notes": ""
+}

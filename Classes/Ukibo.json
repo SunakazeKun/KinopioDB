@@ -1,6 +1,8 @@
 {
     "ClassName": "Ukibo",
-    "Links": [],
+    "Links": [
+        "ChaseArea"
+    ],
     "Models": [],
     "Properties": {
         "CollectItemId": "Int32",

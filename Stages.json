@@ -102,11 +102,23 @@
 		"Name": "Special Episode",
 		"Stages": {
 			"DockingDioramaStage": "Shifty Shrine",
-			"BigWheelStage": "BigWheelStage",
-			"DoubleBossBirdStage": "DoubleBossBirdStage",
-			"RisingDangerStage": "RisingDangerStage",
-			"ShipwreckStage": "ShipwreckStage",
-			"TruckNukkunSinkTowerStage": "TruckNukkunSinkTowerStage"
+			"Season1OpeningCheckpointStage": "Crown Capture at Mushroom Ruins",
+			"Season3OpeningGhostStage": "Boo Spotting at Darkly Cove",
+			"ShipwreckStage": "Goomba Galleon",
+			"TouchPuzzleMiniCheckpointStage": "Crown Capture on the Touchstone",
+			"HeyhoDarknessGhostStage": "Boo Spotting at Shadow Den",
+			"TruckNukkunSinkTowerStage": "Mine Cart Scalding Scaffold",
+			"RisingDangerStage": "Cocoa Meltdown",
+			"SwitchWallMazeCheckpointStage": "Crown Capture at Up 'n' Down Terrace",
+			"HeyhoGardenGhostStage": "Boo Spotting at Shy Guy Heights",
+			"PatanGabonStage": "Flip Panel Panic",
+			"PullUpHeyhoCheckpointStage": "Crown Capture at Pop-Up Prairie Town",
+			"FreightTrainGhostStage": "Boo Spotting on the Fright Train",
+			"BigWheelStage": "Spinning Starmaze",
+			"MokingDoubleCherryGhostStage": "Boo Spotting at Multi-Vator Mayhem",
+			"DoubleBossBirdStage": "Wingo's Double Trouble",
+			"GettonForestCheckpointStage": "Crown Capture in Wandering Woods",
+			"MoleMazeStage": "Chaos in the Grand Labyrinth"
 		}
 	},
 	{
@@ -115,6 +127,7 @@
 			"BonusStage1": "Coins Galore",
 			"BonusStage2": "More Coins Galore",
 			"BonusStage3": "Even More Coins Galore",
+			"BonusDragonRideStage": "Draggadon's Gold Rush",
 			"GhostPlayerMaze1Stage": "Mummy-Me Maze",
 			"GhostPlayerMaze2Stage": "Mummy-Me Maze Returns",
 			"GameOverStage": "Game Over Cave",
@@ -136,7 +149,9 @@
 			"DemoSeason2HalfStage": "DemoSeason2HalfStage",
 			"DemoSeason3HalfStage": "DemoSeason3HalfStage",
 			"Season3EndingDemoStage": "Episode 3 Ending",
-			"DemoEndingSeason3Stage": "Episode 3 Ending Cutscene"
+			"DemoEndingSeason3Stage": "Episode 3 Ending Cutscene",
+			"Season5EndingDemoStage": "Special Episode Ending",
+			"DemoEndingSeason5Stage": "Special Episode Ending Cutscene"
 		}
 	},
 	{

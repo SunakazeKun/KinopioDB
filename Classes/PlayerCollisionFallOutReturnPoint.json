@@ -4,7 +4,8 @@
         "PlayerCollisionFallOutObserveArea"
     ],
     "Models": [
-        "AreaCubeBase"
+        "AreaCubeBase",
+        "SkyBlueSunny"
     ],
     "Properties": {
         "IsConnectToCollision": "Boolean"

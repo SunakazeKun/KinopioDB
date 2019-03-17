@@ -7,8 +7,8 @@
     "Models": [
         "AreaCubeBase",
         "AreaCubeCenter",
-        "AreaSphere",
-        "AreaCylinder"
+        "AreaCylinder",
+        "AreaSphere"
     ],
     "Properties": {
         "IndirectScrollSpeed": "Single",

@@ -1,0 +1,16 @@
+{
+    "ClassName": "SwitchEnemyOffOnArea",
+    "Links": [
+        "NoDelete_FollowMtxTarget",
+        "SwitchAreaOn"
+    ],
+    "Models": [
+        "AreaCubeBase",
+        "AreaCubeCenter",
+        "AreaCylinder",
+        "AreaSphere"
+    ],
+    "Properties": {
+        "Priority": "Int32"
+    }
+}

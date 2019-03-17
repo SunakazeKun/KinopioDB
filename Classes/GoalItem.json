@@ -9,12 +9,14 @@
         "GoalItem",
         "GoalItemCrown",
         "GoalItemCrownDLC",
+        "GoalItemSuperCrown",
         "GreenStarGoalItem",
         "ShineGoalItem"
     ],
     "Properties": {
         "AppearAnimName": "String",
         "ColorType": "Int32",
+        "DisableGetCount": "Int32",
         "IsConnectToCollision": "Boolean",
         "IsDisableGetAtMove": "Boolean",
         "IsExpandClippingShadowLength": "Boolean",

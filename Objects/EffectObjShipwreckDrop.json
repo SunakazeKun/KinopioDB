@@ -1,0 +1,8 @@
+{
+    "InternalName": "EffectObjShipwreckDrop",
+    "ClassName": "EffectObjAreaCube",
+    "Name": "EffectObjShipwreckDrop",
+    "List": "ObjectList",
+    "Category": "decoration",
+    "Notes": ""
+}
