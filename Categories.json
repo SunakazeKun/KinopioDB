@@ -15,7 +15,10 @@
 		"Name": "Decoration, Effects"
 	},
 	"enemy": {
-		"Name": "Enemies, Bosses"
+		"Name": "Enemies"
+	},
+	"boss": {
+		"Name": "Bosses"
 	},
 	"item": {
 		"Name": "Items"

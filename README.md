@@ -1,11 +1,9 @@
-
-
 # KinopioDB
 **KinopioDB** is a public modding database for **Captain Toad Treasure Tracker** (Switch and 3DS ports). Here you can find any information regarding every object, stage and more in the game. You may contribute to this database by sharing your findings.
 The tools require **Python 3**.
 
 # Objects
-Each object's information is stored in a corresponding JSON file. The format for these files is kept very simple and it should consist of these fields:
+Each object's information is stored in a corresponding JSON file which consists of these properties:
 
 | Field | Description |
 | ----- | ----------- |
@@ -14,7 +12,7 @@ Each object's information is stored in a corresponding JSON file. The format for
 | Name | Descriptive name |
 | List | Preferred object list (*ObjectList*, *AreaList*, ...) |
 | Category | Category the object belongs in (for browsing purposes) |
-| Description | Description of the object's functionality and usage |
+| Notes | Notes on the object's functionality and usage |
 
 Here's an example of *Moamoa*:
 ```
@@ -24,7 +22,7 @@ Here's an example of *Moamoa*:
     "Name": "Blurker",
     "List": "ObjectList",
     "Category": "enemy",
-    "Description": "A rare pink block-like enemy. It will temporarily disappear when pointed at. While exclusive to the Wii U version, it works just as fine in the ports."
+    "Notes": ""
 }
 ```
 
@@ -37,15 +35,17 @@ Here's an example of *Moamoa*:
 | SkyList | Level backdrops |
 | AreaList | Area controllers |
 | PlayerList | Player spawn points, etc. |
+| PlayerPlacementList | Player 2 placement |
+| PlayerMPPlacementList | Player 1 placement(?) |
 | CheckPointList | Player respawn controllers |
 | GoalList | Power stars and related objects |
 | DemoObjList | Cutscene objects |
 | ZoneList | Locations of level chunks |
-| Objs | Unknown; always empty |
+| Objs | Generic objects; always empty |
 | Rails | Paths; always empty |
 
 ### Categories
-Object categories are defined in **objects/_Categories.json**. The key is referenced in the object's *Category* field. When creating the object database it is also assigned the list *Objects* which stores the name of every object it categorizes. As usual, the format is self-explanatory; here are some examples:
+Object categories are defined in **Categories.json**. The key is referenced in an object's *Category* field. When creating the object database it is also assigned the list *Objects* which stores the name of every object it categorizes. As usual, the format is self-explanatory; here are some examples:
 ```
 ...
 	"enemy": {
@@ -81,12 +81,14 @@ Here's an example of GoalItem:
         "GoalItem",
         "GoalItemCrown",
         "GoalItemCrownDLC",
+        "GoalItemSuperCrown",
         "GreenStarGoalItem",
         "ShineGoalItem"
     ],
     "Properties": {
         "AppearAnimName": "String",
         "ColorType": "Int32",
+        "DisableGetCount": "Int32",
         "IsConnectToCollision": "Boolean",
         "IsDisableGetAtMove": "Boolean",
         "IsExpandClippingShadowLength": "Boolean",
@@ -111,10 +113,9 @@ Properties can be of the following supported value types:
 * **List**
 * **Dictionary**
 
-## Common properties & links
-A handful of properties and link types are shared by every object and may not be included as part of class definitions. Some properties don't appear to be used and may be useless.
+## Common properties
+A handful of properties are shared by all objects and should not be included as part of class definitions. Some properties don't appear to be used anyway and may be useless.
 
-### Properties
 | Property | Type | Used |
 | -------- | ---- | ---- |
 | Comment | String | ? |
@@ -137,7 +138,3 @@ A handful of properties and link types are shared by every object and may not be
 | UnitConfig:PlacementTargetFile | String | yes |
 | UnitConfigName | String | yes |
 
-### Links
-* **GroupClipping**
-* **Rail**
-* **ViewGroup**

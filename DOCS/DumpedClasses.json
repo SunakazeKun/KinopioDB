@@ -2772,6 +2772,18 @@
             "WaitTime": "Int32"
         }
     },
+    "P1MPPosition": {
+        "ClassName": "P1MPPosition",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
+    "P2Position": {
+        "ClassName": "P2Position",
+        "Links": [],
+        "Models": [],
+        "Properties": {}
+    },
     "PackunFire": {
         "ClassName": "PackunFire",
         "Links": [

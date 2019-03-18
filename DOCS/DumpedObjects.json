@@ -620,6 +620,8 @@
     "OccludedEffectRequester": "OccludedEffectRequester",
     "OneSideStep": "OneSideStep",
     "OpeningGrass": "FixedMapParts",
+    "P1MPPosition": "P1MPPosition",
+    "P2Position": "P2Position",
     "PackunFire": "PackunFire",
     "PackunFlower": "PackunFlower",
     "PanelNotePaint": "PanelNotePaint",

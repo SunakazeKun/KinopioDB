@@ -3,6 +3,6 @@
     "ClassName": "BossBird",
     "Name": "Wingo",
     "List": "ObjectList",
-    "Category": "enemy",
+    "Category": "boss",
     "Notes": ""
 }

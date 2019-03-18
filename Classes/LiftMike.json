@@ -1,0 +1,12 @@
+{
+	"ClassName": "LiftMike",
+	"Links": [
+		"GuideEnableArea",
+		"KeyMoveNext"
+	],
+	"Models": [],
+	"Properties": {
+		"GuideBalloonType": "Int32",
+		"UsingDepthShadow": "Boolean"
+	}
+}
